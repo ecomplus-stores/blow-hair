@@ -13,7 +13,7 @@ body {}
 .item4 {}
 .item5 {}
 
-.page--home .custom-html:nth-child(1) {
+.page--home .custom-html:nth-child(3) {
 	background: url(/img/uploads/porque.png) no-repeat center top;
     min-height: 598px;
 }
