@@ -1,3 +1,3 @@
 {
-  "css": "body {}\n\n.container {max-width: 1280px;}\n\n.page--home .custom-html:nth-child(1) {}\n\n.page--home .custom-html:nth-child(2) {}\n\n.box-bg-gummie {}\n\n.text-gummie {}\n\n.oque-sao {}\n\n.text-gummie {}\n\n.box-bg-porque {}\n\n.text-porque {}\n\n.box-gummie {}\n\n.item1 {}\n.item2 {}\n.item3 {}\n.item4 {}\n.item5 {}"
+  "css": "body {}\n.container {max-width: 1280px;}\n.box-bg-gummie {}\n.text-gummie {display: flex;}\n.oque-sao {}\n.text-gummie {}\n.box-bg-porque {}\n.text-porque {}\n.box-gummie {}\n.item1 {}\n.item2 {}\n.item3 {}\n.item4 {}\n.item5 {}\n\n.page--home .custom-html:nth-child(1) {\n\tbackground: url(/img/uploads/porque.png) no-repeat center top;\n    min-height: 598px;\n}\n\n.page--home .custom-html:nth-child(2) {}"
 }
