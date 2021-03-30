@@ -6,12 +6,17 @@
   "contacts_stripe": {
     "pages": [
       {
-        "title": "Sobre nós",
-        "link": "/pages/sobre-nos"
+        "title": "Porque Blow Gummies?"
       },
       {
-        "title": "Esta loja é um PWA",
-        "link": "/posts/esta-loja-e-um-pwa"
+        "title": "Composição",
+        "link": ""
+      },
+      {
+        "title": "Resultados Reais"
+      },
+      {
+        "title": "Contato"
       }
     ],
     "phone_wpp": false,
