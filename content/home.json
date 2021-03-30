@@ -7,23 +7,12 @@
       "autoplay": 9000,
       "slides": [
         {
-          "img": "/img/uploads/rect89.webp",
-          "link": "/headset",
-          "alt": "Headset banner",
-          "start": "2020-04-11T05:54:06.750Z",
-          "end": "2020-12-31T03:00:00.000Z"
-        },
-        {
-          "img": "/img/uploads/banner2.webp",
-          "alt": "Banner sample two",
-          "start": "",
-          "end": ""
+          "start": "2021-03-30T19:04:27.978Z",
+          "end": "2021-11-11T19:04:57.959Z",
+          "img": "/img/uploads/bg-banner.jpg",
+          "mobile_img": "/img/uploads/bg-banner.jpg"
         }
       ]
-    },
-    {
-      "type": "info-bar",
-      "enabled": true
     },
     {
       "type": "collection-shelf",
@@ -33,9 +22,8 @@
       "page": 1
     },
     {
-      "type": "page-title",
-      "title": "Loja demo da E-Com Plus",
-      "description": "Loja de demonstração e testes da plataforma E-Com Plus e Storefront. Todos os produtos, preços e informações são meramente ilustrativos."
+      "type": "custom-html",
+      "html": "<div class=\"box-bg-gummie\">\n  <div class=\"text-gummie\">\n    <div class=\"oque-sao\">O que são as</div>\n    <div class=\"text-gummie\">\n      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi quis nibh metus. Morbi maximus, lectus a pharetra aliquet, ligula urna vestibulum lorem, vel laoreet felis lacus eu leo. Quisque id augue turpis. Sed efficitur gravida ante, non pellentesque ipsum. Integer eget dictum nisi. Aliquam vu lputate quam sollicitudin, efficitur nisl eu, maximus metus. Vivamus volutpat est at dolor congue, et suscipit leo iaculis. Integer eget consequat risus, at auctor ipsum. Quisque lectus elit, scelerisque ac luctus et, suscipit at urna. Sed posuere arcu a lacus dapibus, at finibus ex lacinia. Donec aliquet dolor nec urna dignissim, consectetur vulputate erat maximus.\n    </div>\n  </div>\n</div>"
     }
   ]
 }
