@@ -1,5 +1,5 @@
 {
   "css": "",
-  "html_head": "",
+  "html_head": "<link rel=\"preload\" href=\"https://github.com/ecomplus-stores/blow-hair/blob/master/template/scss/custom-css/_fwragencia.css\" as=\"style\">\n<link rel=\"stylesheet\" href=\"https://github.com/ecomplus-stores/blow-hair/blob/master/template/scss/custom-css/_fwragencia.css\">",
   "html_body": ""
 }
