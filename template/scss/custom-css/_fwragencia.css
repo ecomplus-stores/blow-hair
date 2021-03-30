@@ -1,1 +1,16 @@
-body {background: #000 !important;}
+body {}
+.container {max-width: 1280px;}
+.page--home .custom-html:nth-child(1) {}
+.page--home .custom-html:nth-child(2) {}
+.box-bg-gummie {}
+.text-gummie {}
+.oque-sao {}
+.text-gummie {}
+.box-bg-porque {}
+.text-porque {}
+.box-gummie {}
+.item1 {}
+.item2 {}
+.item3 {}
+.item4 {}
+.item5 {}
