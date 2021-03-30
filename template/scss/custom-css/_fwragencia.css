@@ -1,9 +1,7 @@
 body {}
 .container {max-width: 1280px;}
-.page--home .custom-html:nth-child(1) {}
-.page--home .custom-html:nth-child(2) {}
 .box-bg-gummie {}
-.text-gummie {}
+.text-gummie {display: flex;}
 .oque-sao {}
 .text-gummie {}
 .box-bg-porque {}
@@ -14,3 +12,10 @@ body {}
 .item3 {}
 .item4 {}
 .item5 {}
+
+.page--home .custom-html:nth-child(1) {
+	background: url(/img/uploads/porque.png) no-repeat center top;
+    min-height: 598px;
+}
+
+.page--home .custom-html:nth-child(2) {}
