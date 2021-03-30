@@ -1,22 +1,23 @@
 {
-  "store_id": 1032,
-  "name": "blow-hair",
   "domain": "blow-hair.netlify.app",
-  "short_name": "blow-hair",
-  "description": "blow-hair",
+  "currency_symbol": "R$",
   "primary_color": "#313131",
-  "secondary_color": "#e36159",
-  "bg_color": "#fff",
   "theme": {
-    "bootswatch": "_"
+    "bootswatch": "_",
+    "custom": "_"
   },
-  "logo": "/img/uploads/logo.png",
-  "mini_logo": "",
-  "icon": "/img/icon.png",
-  "large_icon": "/img/large-icon.png",
-  "favicon": "/img/uploads/favicon.png",
+  "bg_color": "#fff",
+  "logo": "/img/uploads/logo-top.png",
+  "name": "blow-hair",
+  "short_name": "blow-hair",
   "lang": "pt_br",
   "currency": "BRL",
-  "currency_symbol": "R$",
-  "country_code": "BR"
+  "mini_logo": "",
+  "favicon": "/img/uploads/favicon.png",
+  "country_code": "BR",
+  "secondary_color": "#e36159",
+  "icon": "/img/icon.png",
+  "store_id": 1032,
+  "description": "blow-hair",
+  "large_icon": "/img/large-icon.png"
 }
