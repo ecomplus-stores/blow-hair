@@ -1,5 +1,5 @@
 {
   "css": "",
-  "html_head": "<link rel=\"preload\" href=\"https://blow-hair.netlify.app/template/scss/custom-css/_fwragencia.css\" as=\"style\">\n<link rel=\"stylesheet\" href=\"https://blow-hair.netlify.app/template/scss/custom-css/_fwragencia.css\">",
+  "html_head": "<link rel=\"preload\" href=\"../scss/custom-css/_fwragencia.css\" as=\"style\">\n<link rel=\"stylesheet\" href=\"https://blow-hair.netlify.app/template/scss/custom-css/_fwragencia.css\">",
   "html_body": ""
 }
