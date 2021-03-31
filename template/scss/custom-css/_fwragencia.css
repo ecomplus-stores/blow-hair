@@ -137,6 +137,10 @@ body {}
     box-shadow: 0px 8px 0px #f3237f;
 }
 
+.banner-slider {
+    max-width: 100%;
+}
+
 .page--home .collection-shelf .box-bg-porque {}
 
 .products-carousel .products-carousel__item {
