@@ -7,8 +7,6 @@ body {}
 }
 
 #user-button {
-    background: url(img/uploads/login.png) no-repeat center top;
-    color: transparent;
     line-height: 0;
 }
 
@@ -17,8 +15,6 @@ body {}
 }
 
 #cart-button {
-    color: transparent;
-    background: url(img/uploads/cart.png) no-repeat left top;
     line-height: 0;
 }
 
