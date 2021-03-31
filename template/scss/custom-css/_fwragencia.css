@@ -105,6 +105,7 @@ body {}
 
 .page--home .collection-shelf {
     background: url(/img/uploads/onda.png) no-repeat center top;
+    padding-top: 40px;
 }
 
 .page--home .collection-shelf .products-carousel__title {
@@ -141,7 +142,7 @@ body {}
 
 .product-card__prices {
     border-bottom: solid 2px #f3237f;
-    padding-bottom: 7px;
+    padding: 7px;
 }
 
 .prices__value {
