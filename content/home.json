@@ -8,7 +8,7 @@
       "slides": [
         {
           "start": "2021-03-30T19:04:27.978Z",
-          "end": "2021-11-11T19:04:57.959Z",
+          "end": "",
           "img": "/img/uploads/bg-banner.jpg",
           "mobile_img": "/img/uploads/bg-banner.jpg"
         }
@@ -23,11 +23,11 @@
     },
     {
       "type": "custom-html",
-      "html": "<div class=\"box-bg-gummie\">\n  <div class=\"text-gummie\">\n    <div class=\"oque-sao\">O que são as</div>\n    <div class=\"text-gummie\">\n      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi quis nibh metus. Morbi maximus, lectus a pharetra aliquet, ligula urna vestibulum lorem, vel laoreet felis lacus eu leo. Quisque id augue turpis. Sed efficitur gravida ante, non pellentesque ipsum. Integer eget dictum nisi. Aliquam vu lputate quam sollicitudin, efficitur nisl eu, maximus metus. Vivamus volutpat est at dolor congue, et suscipit leo iaculis. Integer eget consequat risus, at auctor ipsum. Quisque lectus elit, scelerisque ac luctus et, suscipit at urna. Sed posuere arcu a lacus dapibus, at finibus ex lacinia. Donec aliquet dolor nec urna dignissim, consectetur vulputate erat maximus.\n    </div>\n  </div>\n</div>"
+      "html": "<div class=\"box-bg-gummie\"><div class=\"text-gummie\"><div class=\"oque-sao\"><h2>O que são as</h2><div class=\"title-blow\"></div></div><div class=\"text-sobre\">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi quis nibh metus. Morbi maximus, lectus a pharetra aliquet, ligula urna vestibulum lorem, vel laoreet felis lacus eu leo. Quisque id augue turpis. Sed efficitur gravida ante, non pellentesque ipsum. Integer eget dictum nisi. Aliquam vu lputate quam sollicitudin, efficitur nisl eu, maximus metus. Vivamus volutpat est at dolor congue, et suscipit leo iaculis. Integer eget consequat risus, at auctor ipsum. Quisque lectus elit, scelerisque ac luctus et, suscipit at urna. Sed posuere arcu a lacus dapibus, at finibus ex lacinia. Donec aliquet dolor nec urna dignissim, consectetur vulputate erat maximus.et suscipit leo iaculis. Integer eget consequat risus, at auctor ipsum. Quisque lectus elit, scelerisque ac luctus et, suscipit at urna. Sed posuere arcu a lacus dapibus, at finibus ex lacinia. Donec aliquet dolor nec urna dignissim, consectetur vulputate erat maximus</div></div></div>"
     },
     {
       "type": "custom-html",
-      "html": "<div class=\"box-bg-porque\">\n  <div class=\"text-porque\">\n    <div class=\"box-gummie item1\">Divertida de Mastigar</div>\n    <div class=\"box-gummie item2\">Sabores Incríveis</div>\n    <div class=\"box-gummie item3\">Produto Cruelty Free</div>\n    <div class=\"box-gummie item4\">Feitos com Pectina</div>\n    <div class=\"box-gummie item5\">Tratamento de 60 dias</div>\n  </div>\n</div>"
+      "html": "<div class=\"box-bg-porque\"><div class=\"title-box\"><div class=\"title\"><h2>Ok, mas<span>porquê escolher</span></h2></div><div class=\"title-blow\"></div></div><div class=\"text-porque\"><div class=\"box-gummie item1\">Divertida de Mastigar</div><div class=\"box-gummie item2\">Sabores Incríveis</div><div class=\"box-gummie item3\">Produto Cruelty Free</div><div class=\"box-gummie item4\">Feitos com Pectina</div><div class=\"box-gummie item5\">Tratamento de 60 dias</div></div></div>"
     }
   ]
 }
