@@ -32,6 +32,13 @@
     {
       "type": "custom-html",
       "html": "<div class=\"box-bg-porque\"><div class=\"title-box\"><div class=\"title\"><h2>Ok, mas<span>porquê escolher</span></h2></div><div class=\"title-blow\"></div></div><div class=\"text-porque\"><div class=\"box-gummie item1\">Divertida de Mastigar</div><div class=\"box-gummie item2\">Sabores Incríveis</div><div class=\"box-gummie item3\">Produto Cruelty Free</div><div class=\"box-gummie item4\">Feitos com Pectina</div><div class=\"box-gummie item5\">Tratamento de 60 dias</div></div></div>"
+    },
+    {
+      "type": "brands-carousel",
+      "limit": 5,
+      "offset": 0,
+      "autoplay": 5000,
+      "sort": null
     }
   ]
 }
