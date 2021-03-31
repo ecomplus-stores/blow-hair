@@ -1,4 +1,3 @@
-
 body {}
 .container {max-width: 1280px;}
 
@@ -27,6 +26,7 @@ body {}
     background: url(/img/uploads/bg-beneficios.jpg) no-repeat top;
     min-height: 930px;
     display: flex;
+    padding-top: 70px;
 }
 
 .box-bg-porque {}
