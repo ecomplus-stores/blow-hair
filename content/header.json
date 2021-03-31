@@ -4,6 +4,8 @@
     "link": ""
   },
   "contacts_stripe": {
+    "phone_wpp": false,
+    "socials": true,
     "pages": [
       {
         "title": "Porque Blow Gummies?"
@@ -18,9 +20,7 @@
       {
         "title": "Contato"
       }
-    ],
-    "phone_wpp": false,
-    "socials": true
+    ]
   },
   "categories_list": {
     "featured": [],
