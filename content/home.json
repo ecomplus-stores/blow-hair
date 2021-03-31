@@ -23,6 +23,10 @@
     },
     {
       "type": "custom-html",
+      "html": "<div class=\"bg-home\">"
+    },
+    {
+      "type": "custom-html",
       "html": "<div class=\"box-bg-gummie\"><div class=\"text-gummie\"><div class=\"oque-sao\"><h2>O que são as</h2><div class=\"title-blow\"></div></div><div class=\"text-sobre\">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi quis nibh metus. Morbi maximus, lectus a pharetra aliquet, ligula urna vestibulum lorem, vel laoreet felis lacus eu leo. Quisque id augue turpis. Sed efficitur gravida ante, non pellentesque ipsum. Integer eget dictum nisi. Aliquam vu lputate quam sollicitudin, efficitur nisl eu, maximus metus. Vivamus volutpat est at dolor congue, et suscipit leo iaculis. Integer eget consequat risus, at auctor ipsum. Quisque lectus elit, scelerisque ac luctus et, suscipit at urna. Sed posuere arcu a lacus dapibus, at finibus ex lacinia. Donec aliquet dolor nec urna dignissim, consectetur vulputate erat maximus.et suscipit leo iaculis. Integer eget consequat risus, at auctor ipsum. Quisque lectus elit, scelerisque ac luctus et, suscipit at urna. Sed posuere arcu a lacus dapibus, at finibus ex lacinia. Donec aliquet dolor nec urna dignissim, consectetur vulputate erat maximus</div></div></div>"
     },
     {
