@@ -29,7 +29,9 @@ body {}
     padding-top: 70px;
 }
 
-.box-bg-porque {}
+.product-card {
+    padding:0px;
+}
 
 .text-porque {
     flex-direction: row;
@@ -99,4 +101,51 @@ body {}
     text-align: right;
     margin-right: 14px;
     color: #f3237f;
+}
+
+.page--home .collection-shelf {
+    background: url(/img/uploads/onda.png) no-repeat center top;
+}
+
+.page--home .collection-shelf .products-carousel__title {
+    display:none;
+}
+
+.page--home .collection-shelf .products-carousel {
+    background: transparent;
+}
+
+
+.page--home .collection-shelf .product-item {
+    background: #fff;
+    border-radius: 20px;
+    padding: 10px 0;
+    text-align: center;
+    box-shadow: 0px 8px 0px #f3237f;
+}
+
+.page--home .collection-shelf .box-bg-porque {}
+
+.products-carousel .products-carousel__item {
+    padding: 10px 5px;
+}
+
+.product-card__name {
+    font-size: 16px;
+    --max-lines: 3;
+    border-top: solid 2px #f3237f;
+    margin: 0px 5px;
+    color: #000;
+    padding: 10px 0px;
+}
+
+.product-card__prices {
+    border-bottom: solid 2px #f3237f;
+    padding-bottom: 7px;
+}
+
+.prices__value {
+    color: #f3237f;
+    font-weight: bold;
+    font-size: 26px;
 }
