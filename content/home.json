@@ -39,6 +39,14 @@
       "offset": 0,
       "autoplay": 5000,
       "sort": null
+    },
+    {
+      "type": "custom-html",
+      "html": "<div class=\"box-bg-falam\"><div class=\"title-box\"><div class=\"title\"><h2>É possivel notar<span>resultados usando as</span></h2></div><div class=\"title-blow\"></div></div><div class=\"text-resultados\"></div></div>"
+    },
+    {
+      "type": "custom-html",
+      "html": "<div class=\"box-bg-resultados\"><div class=\"title-box\"><div class=\"title\"><h2>É possivel notar<span>resultados usando as</span></h2></div><div class=\"title-blow\"></div></div><div class=\"text-resultados\"></div></div>"
     }
   ]
 }
