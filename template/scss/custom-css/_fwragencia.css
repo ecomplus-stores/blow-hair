@@ -1,21 +1,43 @@
 body {}
 .container {max-width: 1280px;}
-.box-bg-gummie {}
-.text-gummie {display: flex;}
-.oque-sao {}
-.text-gummie {}
-.box-bg-porque {}
-.text-porque {}
-.box-gummie {}
-.item1 {}
-.item2 {}
-.item3 {}
-.item4 {}
-.item5 {}
 
-.page--home .custom-html:nth-child(1) {
+.page--home .custom-html:nth-child(3) {
 	background: url(/img/uploads/porque.png) no-repeat center top;
     min-height: 598px;
 }
 
-.page--home .custom-html:nth-child(2) {}
+.page--home .custom-html:nth-child(4) {
+    background: url(/img/uploads/bg-beneficios.jpg) no-repeat top;
+    min-height: 930px;
+    display: flex;
+}
+
+.box-bg-porque {}
+
+.text-porque {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-left: 26%;
+}
+
+.item1 {
+    background: url(/img/uploads/bloco1.png) no-repeat top;
+}
+
+.item2 {
+    background: url(/img/uploads/bloco1.png) no-repeat top;
+}
+
+.item3 {
+    background: url(/img/uploads/bloco1.png) no-repeat top;
+}
+
+.item4 {
+    background: url(/img/uploads/bloco1.png) no-repeat top;
+}
+
+.item5 {
+    background: url(/img/uploads/bloco1.png) no-repeat top;
+}
