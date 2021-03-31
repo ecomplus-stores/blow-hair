@@ -39,6 +39,10 @@
       "offset": 0,
       "autoplay": 5000,
       "sort": null
+    },
+    {
+      "type": "custom-html",
+      "html": "<div class=\"box-bg-falam\">\n  <div class=\"title-box\">\n    <div class=\"title\"><h2>O que falam<span>sobre as</span></h2></div>\n    <div class=\"title-blow\"></div>\n  </div>\n  <div class=\"smartphone\"></div>\n  <div class=\"depoimento\"><img srg=\"/img/uploads/depoimentos.jpg\"></div>\n</div>"
     }
   ]
 }
