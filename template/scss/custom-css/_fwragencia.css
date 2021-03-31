@@ -1,9 +1,17 @@
+
 body {}
 .container {max-width: 1280px;}
 
-.box-bg-gummie {}
-.text-gummie {display: flex;}
-.oque-sao {}
+.box-bg-gummie {
+    padding-left: 28%;
+    padding-top: 270px;
+}
+
+.text-gummie {}
+.oque-sao {color: #f3237f;font-weight: bold;float: left;margin-right: 3%;}
+
+.oque-sao h2 {font-size: 46px;margin-left: -30px;}
+
 .text-gummie {}
 .box-bg-porque {}
 .text-porque {}
@@ -12,7 +20,7 @@ body {}
 
 .page--home .custom-html:nth-child(3) {
 	background: url(/img/uploads/porque.png) no-repeat center top;
-    min-height: 598px;
+	min-height: 598px;
 }
 
 .page--home .custom-html:nth-child(4) {
@@ -24,11 +32,10 @@ body {}
 .box-bg-porque {}
 
 .text-porque {
-    display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding-left: 26%;
+    padding-left: 19%;
 }
 
 .item1 {
@@ -36,18 +43,60 @@ body {}
 }
 
 .item2 {
-    background: url(/img/uploads/bloco1.png) no-repeat top;
+    background: url(/img/uploads/bloco2.png) no-repeat top;
+}
+
+.text-sobre {
+    display: flex;
+    text-align: justify;
+    padding-top: 15px;
 }
 
 .item3 {
-    background: url(/img/uploads/bloco1.png) no-repeat top;
+    background: url(/img/uploads/bloco3.png) no-repeat top;
 }
 
 .item4 {
-    background: url(/img/uploads/bloco1.png) no-repeat top;
+    background: url(/img/uploads/bloco4.png) no-repeat top;
 }
 
 .item5 {
-    background: url(/img/uploads/bloco1.png) no-repeat top;
+    background: url(/img/uploads/bloco5.png) no-repeat top;
 }
 
+.box-gummie {
+    color: #f11879;
+    font-weight: bold;
+    padding: 122px 0px 20px;
+    width: 33%;
+    float: left;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.title-box {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 40px;
+    margin-bottom: 70px;
+    background: url(/img/uploads/wave.png) no-repeat center bottom;
+}
+
+.title-blow {
+    background: url(/img/uploads/blow-gummies.png) no-repeat left center;
+    width: 240px;
+    height: 108px;
+}
+
+.title span {
+    display: block;
+}
+
+.title {
+    text-align: right;
+    margin-right: 14px;
+    color: #f3237f;
+}
