@@ -223,3 +223,8 @@ body {}
 .header__logo {
     max-height: 84px;
 }
+
+#user-button:after {
+    content: "Seja bem vindo(a)!";
+    color: #db2563;
+}
