@@ -293,6 +293,11 @@ body {}
     max-height: 84px;
 }
 
+.footer {
+    background: #fac8d0;
+    border: none !important;
+}
+
 .header__toggler, .top-bar {
     display:none;
 }
