@@ -23,10 +23,10 @@
     },
     {
       "type": "carousel-influencers",
-      "autoplay" : 5000,
+      "autoplay": 5000,
       "banners": [
         {
-          "img": "/img/uploads/gabi-busnello.png",
+          "img": "/img/uploads/barbara-evans.png",
           "alt": "Gabi Busnello",
           "link": "/"
         },
