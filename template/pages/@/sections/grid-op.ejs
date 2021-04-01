@@ -1,12 +1,26 @@
 <% if(Array.isArray(opt.banners) && opt.banners.length) { %>
-  <section id="influencers" class="brands-carousel">
+  <div class="box-bg-falam">
+    <div class="title-box">
+      <div class="title">
+        <div class="html-clearfix">
+          <%- opt.html %>
+        </div>
+      </div>
+      <div class="title-blow"></div>
+    </div>
+    <div class="smartphone"></div>
+    <div class="depoimento">
+      <img srg="/img/uploads/depoimentos.jpg">
+    </div>
+  </div>
+  <section id="opinioes" class="brands-carousel">
     <div
       class="glide"
       data-autoplay="<%= opt.autoplay %>"
-      data-per-view="4"
-      data-per-view-md="4"
+      data-per-view="3"
+      data-per-view-md="3"
       data-per-view-sm="2"
-      data-per-view-xs="2"
+      data-per-view-xs="1"
     >
       <div class="glide__track" data-glide-el="track">
         <ul class="glide__slides brands-carousel__list">
@@ -23,7 +37,7 @@
           <% }) %>
         </ul>
 
-        <% if (opt.banners.length > 3) { %>
+        <% if (opt.banners.length) { %>
           <div
             class="glide__arrows glide__arrows--outer"
             data-glide-el="controls"

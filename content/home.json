@@ -70,12 +70,11 @@
       ]
     },
     {
-      "type": "custom-html",
-      "html": "<div class=\"box-bg-falam\">\n  <div class=\"title-box\">\n    <div class=\"title\"><h2>O que falam<span>sobre as</span></h2></div>\n    <div class=\"title-blow\"></div>\n  </div>\n  <div class=\"smartphone\"></div>\n  <div class=\"depoimento\"><img srg=\"/img/uploads/depoimentos.jpg\"></div>\n</div>"
-    },
-    {
-      "type": "carousel-influencers",
+      "type": "grid-op",
       "banners": [
+        {
+          "img": "/img/uploads/depoimentos.jpg"
+        },
         {
           "img": "/img/uploads/depoimentos.jpg"
         },
@@ -86,7 +85,8 @@
           "img": "/img/uploads/depoimentos.jpg"
         }
       ],
-      "autoplay": 5000
+      "autoplay": 5000,
+      "html": "<h2>O que falam<span>sobre as</span></h2>"
     },
     {
       "type": "resultados",
