@@ -90,11 +90,15 @@
     },
     {
       "type": "resultados",
-      "html": "<div class=\"box-bg-resultados\">\n  <div class=\"title-box\">\n    <div class=\"title\"><h2>É possivel notar<span>resultados usando as</span></h2></div>\n    <div class=\"title-blow\"></div>\n  </div>\n  <div class=\"resultados\"><div id=\"instafeed\"></div>\n</div>"
+      "html": "<div class=\"box-bg-resultados\">\n  <div class=\"title-box\">\n    <div class=\"title\"><h2>É possivel notar<span>resultados usando as</span></h2></div>\n    <div class=\"title-blow\"></div>\n  </div>\n  <div class=\"resultados\"><div id=\"instafeed\"></div></div>\n</div>"
     },
     {
       "type": "famosos",
       "html": "<div class=\"eu-quero\">\n  <div class=\"title-box\">\n    <a href=\"#\">\n    <div class=\"title\"><h2>Agora eu<span>queroooo!</span></h2></div>\n    <div class=\"title-blow-comprar\"></div>\n    </a>\n  </div>\n</div>"
+    },
+    {
+      "type": "custom-html",
+      "html": "<div class=\"instafeed-footer\">\n  <div id=\"instafeed1\"></div>\n</div>"
     }
   ]
 }
