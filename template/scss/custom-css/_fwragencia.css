@@ -293,9 +293,15 @@ body {}
     max-height: 84px;
 }
 
+.header__toggler {
+    display:none;
+}
+
 #user-button:after {
     content: "Seja bem vindo(a)!";
-    color: #db2563;
+    font-family: GoldplayAltBold;
+    color: #f21b7a;
+    font-size: 14px;
 }
 
 
