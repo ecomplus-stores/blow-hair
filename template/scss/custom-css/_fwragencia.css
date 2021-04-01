@@ -284,10 +284,6 @@ body {}
     margin:1%
 }
 
-.header__row div:nth-child(1) {
-    display:none;
-}
-
 .header__logo {
     max-height: 84px;
 }
