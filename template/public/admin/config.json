@@ -4,5 +4,58 @@
     "branch": "master",
     "identity_url": "https://gotrue.ecomplus.biz/1032/.netlify/identity",
     "gateway_url": "https://gitgateway.ecomplus.biz/1032/.netlify/git"
-  }
+  },
+  {
+  "collections": [
+    {},
+    {},
+    {
+      "name": "pages",
+      "files": [
+        {
+          "name": "home",
+          "label": "Página inicial",
+          "file": "content/home.json",
+          "fields": [
+            {
+              "label": "Meta title",
+              "name": "meta_title",
+              "widget": "string",
+              "hint": "Título exibido na aba do navegador e nos resultados de motores de busca, relevante para SEO",
+              "required": false
+            },
+            {
+              "label": "Meta description",
+              "name": "meta_description",
+              "widget": "string",
+              "hint": "Descrição exibida nos resultados de motores de busca, relevante para SEO",
+              "required": false
+            },
+            {
+              "label": "Seções",
+              "name": "sections",
+              "widget": "list",
+              "types": [
+                {
+                  "label": "Código HTML Famosos",
+                  "name": "famosos",
+                  "widget": "object",
+                  "fields": [
+                    {
+                      "label": "Conteúdo HTML customizado Famosos",
+                      "name": "html",
+                      "widget": "code",
+                      "default_language": "html",
+                      "output_code_only": true
+                    }
+                  ]
+                }
+              ]
+
+          ]
+        }
+      ]
+    }
+  ]
+}
 }
