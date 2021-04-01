@@ -191,3 +191,8 @@ body {}
     background: #c2eaf3;
     border: none;
 }
+
+#influencers {
+    background: url(/img/uploads/famosos.jpg) no-repeat left center #c1eaf2;
+    max-width: 100%;
+}
