@@ -293,7 +293,7 @@ body {}
     max-height: 84px;
 }
 
-.header__toggler {
+.header__toggler, .top-bar {
     display:none;
 }
 
