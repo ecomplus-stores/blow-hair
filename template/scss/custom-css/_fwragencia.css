@@ -304,6 +304,10 @@ body {}
     font-size: 14px;
 }
 
+.header__nav a:hover {
+    background: #ffffff;
+}
+
 
 .page--home .custom-html:nth-child(7) {
     background: url(/img/uploads/bg-rosa.jpg) no-repeat top;
