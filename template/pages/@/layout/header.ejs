@@ -100,17 +100,6 @@ if (header.categories_list) {
             <% } %>
           <% } %>
         </div>
-        <% if (header.contacts_stripe.socials) { %>
-          <div class="col-auto">
-            <% networks.forEach(network => { %>
-              <% if (contacts[network]) { %>
-                <a href="<%= contacts[network] %>" target="_blank" rel="noopener">
-                  <i class="fab fa-<%= network %>"></i>
-                </a>
-              <% } %>
-            <% }) %>
-          </div>
-        <% } %>
       </div>
     </div>
   </div>
@@ -260,13 +249,26 @@ if (header.categories_list) {
 
       <% if (categories && categories.length) { %>
         <div class="d-none d-lg-block <%= isCategoriesNavFull ? 'col-12 order-lg-last' : 'col' %>">
-          <nav class="header__nav<%= isCategoriesNavFull ? ' header__nav--full' : '' %>">
-            <% if (header.contacts_stripe.pages) { %>
-              <% header.contacts_stripe.pages.forEach(({ link, title }) => { %>
-                <a href="<%= link %>"><%= title %></a>
-              <% }) %>
+          <div class="menu-desk">
+            <% if (header.contacts_stripe.socials) { %>
+              <div class="sociais">
+                <% networks.forEach(network => { %>
+                  <% if (contacts[network]) { %>
+                    <a href="<%= contacts[network] %>" target="_blank" rel="noopener">
+                      <i class="fab fa-<%= network %>"></i>
+                    </a>
+                  <% } %>
+                <% }) %>
+                </div>
             <% } %>
-          </nav>
+            <nav class="header__nav<%= isCategoriesNavFull ? ' header__nav--full' : '' %>">
+              <% if (header.contacts_stripe.pages) { %>
+                <% header.contacts_stripe.pages.forEach(({ link, title }) => { %>
+                  <a href="<%= link %>"><%= title %></a>
+                <% }) %>
+              <% } %>
+            </nav>
+          </div>
         </div>
       <% } %>
     </div>
