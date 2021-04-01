@@ -58,6 +58,28 @@ body {
     line-height: 0;
 }
 
+#page-products .variations__grid-title {
+    text-transform: uppercase;
+    font-family: 'GoldplayAltBold';
+    color: #f397da;
+}
+
+.product__buy button {
+    background: #f3237f;
+    border: none;
+    font-family: 'GoldplayAltBold';
+}
+
+.product-card:hover .product-card__buy button, .product-card .product-card__buy button {
+    background: #c2eaf3 !important;
+    border: none;
+    border-radius: 25px;
+    width: 95%;
+    margin: 0px 3%;
+    color: #f21b7a !important;
+    font-family: 'GoldplayAltBold';
+}
+
 #cart-count {
     background: #f21b7a;
 }
