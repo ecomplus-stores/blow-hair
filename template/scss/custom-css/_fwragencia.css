@@ -196,3 +196,16 @@ body {}
     background: url(/img/uploads/famosos.jpg) no-repeat left center #c1eaf2;
     max-width: 100%;
 }
+
+.resultados #instafeed img {
+    width:23%;
+    margin:1%
+}
+
+.header__row div:nth-child(1) {
+    display:none;
+}
+
+.header__logo {
+    max-height: 84px;
+}
