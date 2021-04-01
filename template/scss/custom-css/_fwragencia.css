@@ -70,7 +70,7 @@ body {}
 .text-gummie {}
 .oque-sao {color: #f3237f;font-weight: bold;float: left;margin-right: 3%;}
 
-.oque-sao h2 {font-size: 46px;margin-left: -30px;}
+.oque-sao h2 {font-size: 46px;margin-left: -30px;    font-family: GoldplayAltBold;}
 
 .text-gummie {}
 .box-bg-porque {}
@@ -187,6 +187,15 @@ body {}
     color: #f3237f;
         font-family: 'GoldplayAltBold';
     font-size:32px;
+        display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.oque-sao h2 {
+            font-family: 'GoldplayAltBold';
+    font-size:32px;
 }
 
 .page--home .collection-shelf {
@@ -261,11 +270,12 @@ body {}
 }
 
 #influencers .glide {
-    max-width: 1200px;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    max-width: 1200px;
+    margin-left: 4%;
 }
 
 
@@ -285,4 +295,8 @@ body {}
 #user-button:after {
     content: "Seja bem vindo(a)!";
     color: #db2563;
+}
+
+.title h2 {
+    font-size: 32px;
 }
