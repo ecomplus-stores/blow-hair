@@ -1,3 +1,48 @@
+@font-face {
+  font-family: 'GoldplayRegular';
+  src: url(/img/uploads/GoldplayRegular.eot);
+  src: url(/img/uploads/GoldplayRegular.eot?#iefix) format('embedded-opentype'),
+       url(/img/uploads/GoldplayRegular.woff2) format('woff2'),
+       url(/img/uploads/GoldplayRegular.woff) format('woff'),
+       url(/img/uploads/GoldplayRegular.ttf) format('truetype'),
+       url(/img/uploads/GoldplayRegular.svg#GoldplayRegular) format('svg'),
+       url(/img/uploads/GoldplayRegular.otf) format('otf');
+}
+
+@font-face {
+  font-family: 'GoldplayAltBlack';
+  src: url(/img/uploads/GoldplayAltBlack.eot);
+  src: url(/img/uploads/GoldplayAltBlack.eot?#iefix) format('embedded-opentype'),
+       url(/img/uploads/GoldplayAltBlack.woff2) format('woff2'),
+       url(/img/uploads/GoldplayAltBlack.woff) format('woff'),
+       url(/img/uploads/GoldplayAltBlack.ttf) format('truetype'),
+       url(/img/uploads/GoldplayAltBlack.svg#GoldplayRegular) format('svg'),
+       url(/img/uploads/GoldplayAltBlack.otf) format('otf');
+}
+
+@font-face {
+  font-family: 'GoldplayAltBold';
+  src: url(/img/uploads/GoldplayAltBold.eot);
+  src: url(/img/uploads/GoldplayAltBold.eot?#iefix) format('embedded-opentype'),
+       url(/img/uploads/GoldplayAltBold.woff2) format('woff2'),
+       url(/img/uploads/GoldplayAltBold.woff) format('woff'),
+       url(/img/uploads/GoldplayAltBold.ttf) format('truetype'),
+       url(/img/uploads/GoldplayAltBold.svg#GoldplayRegular) format('svg'),
+       url(/img/uploads/GoldplayAltBold.otf) format('otf');
+}
+
+@font-face {
+  font-family: 'GoldplayMedium';
+  src: url(/img/uploads/GoldplayMedium.eot);
+  src: url(/img/uploads/GoldplayMedium.eot?#iefix) format('embedded-opentype'),
+       url(/img/uploads/GoldplayMedium.woff2) format('woff2'),
+       url(/img/uploads/GoldplayMedium.woff) format('woff'),
+       url(/img/uploads/GoldplayMedium.ttf) format('truetype'),
+       url(/img/uploads/GoldplayMedium.svg#GoldplayRegular) format('svg'),
+       url(/img/uploads/GoldplayMedium.otf) format('otf');
+}
+
+
 body {}
 .container {max-width: 1280px;}
 
@@ -129,6 +174,8 @@ body {}
     text-align: right;
     margin-right: 14px;
     color: #f3237f;
+        font-family: 'GoldplayAltBold';
+    font-size:32px;
 }
 
 .page--home .collection-shelf {
