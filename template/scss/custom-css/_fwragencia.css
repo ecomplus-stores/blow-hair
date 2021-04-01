@@ -297,6 +297,22 @@ body {}
     display:none;
 }
 
+.smartphone {
+    background: url(/img/uploads/phone.png) no-repeat center top;
+    width: 100%;
+    height: 587px;
+    position: absolute;
+    left: 0;
+}
+
+.depoimento {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 133px;
+}
+
 #user-button:after {
     content: "Seja bem vindo(a)!";
     font-family: GoldplayAltBold;
