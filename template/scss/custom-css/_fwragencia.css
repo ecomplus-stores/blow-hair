@@ -293,6 +293,14 @@ body {}
     color: #db2563;
 }
 
+
+.page--home .custom-html:nth-child(7) {
+    background: url(/img/uploads/bg-rosa.jpg) no-repeat top;
+    min-height: 930px;
+    display: flex;
+    padding-top: 70px;
+}
+
 .title h2 {
     font-size: 32px;
 }
