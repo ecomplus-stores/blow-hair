@@ -1,1 +1,13 @@
 // Add your custom CSS here.
+.menu-desk {
+  display: flex;
+  a {
+    color: #F51879;
+  }
+}
+.header__toggler i,  {
+  color: #F51879;
+}
+#mobile-search-btn {
+  display: none;
+}
