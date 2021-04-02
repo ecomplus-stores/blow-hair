@@ -5,13 +5,29 @@
   },
   "links_1": {
     "list_pages": true,
-    "title": "Páginas",
+    "title": "Institucional",
     "list": []
   },
   "links_2": {
-    "list_categories": true,
-    "title": "Categorias",
-    "list": []
+    "list_categories": false,
+    "title": "Precisa de Ajuda?",
+    "list": [
+      {
+        "text": "Por que Blow Gummies?"
+      },
+      {
+        "text": "Composição"
+      },
+      {
+        "text": "Resultados Reais"
+      },
+      {
+        "text": "Dúvidas Frequentes"
+      },
+      {
+        "text": "Trocas e Devoluções"
+      }
+    ]
   },
   "contacts": {
     "title": "Contatos",
