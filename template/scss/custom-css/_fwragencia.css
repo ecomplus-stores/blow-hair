@@ -54,10 +54,6 @@ body {
     padding-top: 270px;
 }
 
-#user-button {
-    line-height: 0;
-}
-
 #page-products .variations__grid-title {
     text-transform: uppercase;
     font-family: 'GoldplayAltBold';
@@ -382,5 +378,75 @@ body {
     color: #f21b7a;
     text-transform: none !important;
     font-size: 16px;
-    margin: 0px 5px;
+    margin: 0px 16px;
     }
+
+.falam-html {
+    margin-bottom: -40px;
+    background: url(/img/uploads/bg-newsletter.jpg) no-repeat center top #fac8d0;
+    padding-top: 80px;
+    padding-bottom: 10px;
+    margin-top: -80px;
+}
+
+.box-bg-falam {
+    background: rgb(255,255,255);
+    background: linear-gradient(
+180deg
+, rgba(255,255,255,1) 0%, rgba(247,210,222,1) 50%, rgba(255,255,255,1) 100%);
+    height: 960px;
+    margin-bottom: -654px;
+}
+
+.falam-html .container {
+    max-width: 95%;
+}
+
+.sociais {
+    margin: 0px 30px 0px 10px;
+}
+
+#user-button:before {
+    content: "Seja bem vindo(a)!";
+    font-family: GoldplayAltBold;
+    color: #f21b7a;
+    font-size: 14px;
+    position: absolute;
+    right: 8px;
+    bottom: 25px;
+}
+
+#user-button:after {
+    content: "Entrar ou Cadastrar-se";
+    color: #f21b7a;
+    font-size: 12.6px;
+    font-family: 'GoldplayRegular';
+}
+
+.title a:hover {
+    text-decoration:none;
+}
+
+#user-button {margin-top: 7px;}
+
+.resultados-html {
+    margin: 150px 0px 0px;
+}
+
+.resultados-html .container {
+    max-width: 80%;
+}
+
+.falam-html img {
+    width: 12.5%;
+}
+
+#user-button img {margin-top: -9px;}
+
+#opinioes .glide__arrow--left {
+    left: 565px;
+}
+
+#opinioes .glide__arrow--right {
+    right: 565px;
+}
