@@ -295,6 +295,17 @@ body {
     margin-bottom: 100px;
 }
 
+.product__sku {
+    display: :none;
+}
+
+
+.products-carousel__title {
+    font-size: 30px;
+    color: #f3237f;
+    font-family: GoldplayAltBold;
+}
+
 .card-footer .minicart__btn-checkout {
     background: #6ec065;
     border: none;
