@@ -295,6 +295,20 @@ body {
     margin-bottom: 100px;
 }
 
+.card-footer .minicart__btn-checkout {
+    background: #6ec065;
+    border: none;
+    font-weight: bold;
+    color: #000;
+}
+
+.card-header {
+    background: #f3237f;
+    border: none !important;
+    color: #fff;
+    font-family: 'GoldplayAltBold';
+}
+
 #influencers .glide {
     display: flex;
     flex-direction: row;
