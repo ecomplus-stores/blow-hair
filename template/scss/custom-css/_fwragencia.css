@@ -296,7 +296,7 @@ body {
 }
 
 .product__sku {
-    display: :none;
+    display: none;
 }
 
 
@@ -346,7 +346,7 @@ body {
 @media(min-width: 767px) {
   .header__toggler, .top-bar {
       display:none;
-  }  
+  }
 }
 
 
