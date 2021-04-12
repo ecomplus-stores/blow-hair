@@ -23,7 +23,7 @@
     },
     {
       "type": "custom-html",
-      "html": "<div class=\"bg-home\">"
+      "html": "<div class=\"bg-home\"></div>"
     },
     {
       "type": "custom-html",
