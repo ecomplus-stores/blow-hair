@@ -715,4 +715,31 @@ address {
 .title {width: 100%;text-align: center;}
 
     .page--home .collection-shelf {}
+
+    #influencers .glide {
+    max-width: 100%;
+    margin: 0;
+    padding-left: 2%;
+}
+#influencers {
+    background: url(/img/uploads/famosos.jpg) no-repeat center top #c1eaf2;
+    padding-top: 370px;
+}
+.glide__arrows--outer .glide__arrow--right {
+    border-radius: 50px;
+    width: 32px;
+    padding: 6px;
+    right: 0px;
+    background: #fff;
+}
+.glide__arrows--outer .glide__arrow--left {
+    left: 0;
+    border-radius: 50px;
+    width: 32px;
+    padding: 6px;
+    background: #fff;
+}
+
+
+    
 }
