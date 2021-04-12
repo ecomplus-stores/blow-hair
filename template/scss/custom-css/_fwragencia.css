@@ -1,3 +1,4 @@
+
 @font-face {
   font-family: 'GoldplayRegular';
   src: url(/img/uploads/GoldplayRegular.eot);
@@ -293,6 +294,7 @@ body {
     align-items: center;
     min-height: 403px;
     margin-bottom: 100px;
+    margin-top: -50px;
 }
 
 .product__sku {
@@ -506,7 +508,7 @@ body {
         font-family: 'GoldplayAltBold';
         color: #f21b7a;
         text-transform: none!important;
-        font-size: 20px;
+        font-size: 17px;
 }
 
 .footer__credits span {
@@ -526,3 +528,67 @@ address {
 }
 
 .footer__list-icon {color: #f21b7a;font-size: 19px;}
+
+@media (min-width: 1281px) and (max-width: 1366px) {
+   #influencers .glide {
+    max-width: 58%;
+    margin-left: 28%;
+}
+}
+
+@media (min-width: 1100px) and (max-width: 1280px) {
+   #influencers .glide {
+    max-width: 58%;
+    margin-left: 28%;
+}
+.resultados-html .container {
+    max-width: 100%;
+}
+.sociais {
+    margin: 0;
+}
+}
+
+@media (min-width: 993px) and (max-width: 1099px) {
+   #influencers .glide {
+    max-width: 58%;
+    margin-left: 38%;
+}
+.resultados-html .container {
+    max-width: 100%;
+}
+.sociais {
+    margin: 0;
+}
+
+.page--home .custom-html:nth-child(4) {
+    background: url(/img/uploads/porque.png) no-repeat left top;
+    min-height: 598px;
+}
+
+.box-bg-gummie {
+    padding-left: 63%;
+    padding-top: 211px;
+}
+
+.oque-sao {
+    margin-top: -170px;
+}
+
+.page--home .custom-html:nth-child(5) {
+    background: url(/img/uploads/bg-beneficios.jpg) no-repeat left;
+}
+
+.container {
+    max-width: 100%;
+}
+
+.footer .container .row .col-12 {flex: 0 0 25%;max-width: 25%;}
+
+.footer .container .footer__credits .col-12 {flex: 0 0 50%;max-width: 50%;}
+
+.ecom-credits {
+    margin-top: -20px;
+}
+
+}
