@@ -10,7 +10,7 @@
           "start": "2021-03-30T19:04:27.978Z",
           "end": "",
           "img": "/img/uploads/bg-banner.jpg",
-          "mobile_img": "/img/uploads/mobile.jpg"
+          "mobile_img": "/img/uploads/bg-banner.jpg"
         }
       ]
     },
@@ -73,16 +73,19 @@
       "type": "grid-op",
       "banners": [
         {
-          "img": "/img/uploads/depoimentos.jpg"
+          "img": "/img/uploads/ADS-de Depoimento---Thainá-Fernandes---Story.png"
         },
         {
-          "img": "/img/uploads/depoimentos.jpg"
+          "img": "/img/uploads/ADS-de-Depoimento---Bia-Siqueira---Story.png"
         },
         {
-          "img": "/img/uploads/depoimentos.jpg"
+          "img": "/img/uploads/ADS-de-Depoimento---Farkile---Story.png"
         },
         {
-          "img": "/img/uploads/depoimentos.jpg"
+          "img": "/img/uploads/ADS-de-Depoimento---Nicole-Bahls---Story.png"
+        },
+        {
+          "img": "/img/uploads/ADS-de-Depoimento---Vivian-Amorim---Story.png"
         }
       ],
       "autoplay": 5000,
