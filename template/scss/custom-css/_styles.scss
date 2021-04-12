@@ -5,9 +5,19 @@
     color: #F51879;
   }
 }
-.header__toggler i,  {
+.header__toggler i  {
   color: #F51879;
 }
 #mobile-search-btn {
   display: none;
+}
+@media(min-width: 767px) {
+  #selos {
+    #go-to-top {
+      float: right;
+    }
+  }
+  #pagamentos {
+    float: left;
+  }
 }
