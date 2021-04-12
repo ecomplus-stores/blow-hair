@@ -1,4 +1,3 @@
-
 @font-face {
   font-family: 'GoldplayRegular';
   src: url(/img/uploads/GoldplayRegular.eot);
@@ -589,6 +588,11 @@ address {
 
 .ecom-credits {
     margin-top: -20px;
+}
+
+.header__nav a {
+    font-size: 12px;
+    margin: 0px 3px;
 }
 
 }
