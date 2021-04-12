@@ -1,3 +1,4 @@
+
 @font-face {
   font-family: 'GoldplayRegular';
   src: url(/img/uploads/GoldplayRegular.eot);
@@ -575,7 +576,9 @@ address {
 }
 
 .page--home .custom-html:nth-child(5) {
-    background: url(/img/uploads/bg-beneficios-reduzido.jpg) no-repeat left;
+    background: url(/img/uploads/bg-beneficios-reduzido.jpg) no-repeat left bottom;
+    min-height: 660px;
+    padding-top: 0;
 }
 
 .container {
@@ -593,6 +596,28 @@ address {
 .header__nav a {
     font-size: 12px;
     margin: 0px 3px;
+}
+
+.page--home .collection-shelf {
+    padding-top: 40px;
+    margin-top: -100px;
+}
+
+.text-porque {
+    padding-left: 31%;
+}
+
+.box-gummie {
+    margin-bottom: 0px;
+    font-size: 20px;
+}
+
+#opinioes .glide__arrow--right {
+    right: 315px;
+}
+
+#opinioes .glide__arrow--left {
+    left: 315px;
 }
 
 }
