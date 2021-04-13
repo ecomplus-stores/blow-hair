@@ -60,6 +60,10 @@ body {
     color: #f397da;
 }
 
+.box-gumm-mob {
+    display: none;
+}
+
 .product__buy button {
     background: #f3237f;
     border: none;
@@ -637,9 +641,14 @@ address {
     font-size: 0;
 }
 
+.box-gumm-mob {
+    display: block;
+}
+
 .page--home .custom-html:nth-child(4) {
     background: url(/img/uploads/mob-nicole-bahls.jpg) no-repeat center top #c2eaf3;
-    min-height: 598px;
+    
+        margin-top: 260px;
 }
 .box-bg-gummie {
     padding-left: 0;
@@ -675,6 +684,13 @@ address {
 
 .resultados-html .container {
     max-width: 100%;
+}
+
+.box-gumm-mob {
+    display: block;
+    position: absolute;
+    margin-top: -226px;
+    z-index: 99;
 }
 
 .title-box {
@@ -796,6 +812,10 @@ address {
 
 .prices__value {
     font-size: 22px;
+}
+
+.box-gummie:last-child {
+    width: 100%;
 }
     
 }
