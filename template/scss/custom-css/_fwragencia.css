@@ -746,5 +746,18 @@ address {
     margin-top: -122px;
     padding-top: 120px;
 }
+
+.resultados-html {
+    margin: 30px 0 0;
+}
+
+.ecom-credits a:nth-child(2) {
+    margin: 0px 20px;
+    color: #000;
+}
+
+.ecom-credits img {
+    height: 1.4rem;
+}
     
 }
