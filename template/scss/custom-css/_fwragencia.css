@@ -780,6 +780,23 @@ address {
 .ecom-credits a {
     color:#000;
 }
+
+.product-card__prices {
+    border-bottom: none !important;
+}
+
+.product-card .product-card__buy button, .product-card:hover .product-card__buy button {
+    display: none;
+}
+
+.product-card__name {
+    font-size: 14px;
+        --max-lines: 2;
+    }
+
+.prices__value {
+    font-size: 22px;
+}
     
 }
 
