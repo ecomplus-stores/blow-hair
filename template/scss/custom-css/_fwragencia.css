@@ -748,12 +748,20 @@ address {
 }
 
 .resultados-html {
-    margin: 30px 0 0;
+    margin: 120px 0 0;
 }
 
 .ecom-credits a:nth-child(2) {
     margin: 0px 20px;
     color: #000;
+}
+
+#opinioes .glide__arrow--left {
+    left: 0px;
+}
+
+#opinioes .glide__arrow--right {
+    right:0px
 }
 
 .ecom-credits img {
