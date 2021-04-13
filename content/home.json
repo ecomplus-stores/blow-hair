@@ -85,7 +85,7 @@
           "img": "/img/uploads/3.png"
         },
         {
-          "img": "/img/uploads/3.png"
+          "img": "template/public/img/uploads/3.png"
         }
       ],
       "autoplay": 5000,
