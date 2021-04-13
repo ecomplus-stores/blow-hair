@@ -782,3 +782,12 @@ address {
 }
     
 }
+
+
+@media (min-width: 992px){
+.app__credits>div {
+    padding-top: var(--spacer-3);
+    background: transparent;
+    margin: 0;
+}
+}
