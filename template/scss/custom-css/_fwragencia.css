@@ -817,6 +817,12 @@ address {
 .box-gummie:last-child {
     width: 100%;
 }
+
+.menu__item {
+    color: #f21b7a;
+    border-bottom: var(--border-width) solid #f21b7e;
+        font-family: GoldplayAltBold;
+}
     
 }
 
