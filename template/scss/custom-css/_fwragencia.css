@@ -771,5 +771,14 @@ address {
 .breadcrumb {
     display:none;
 }
+
+.ecom-credits {
+    display: grid;
+    line-height: 30px;
+}
+
+.ecom-credits a {
+    color:#000;
+}
     
 }
