@@ -93,7 +93,7 @@
     },
     {
       "type": "resultados",
-      "html": "<div class=\"box-bg-resultados\">\n  <div class=\"title-box\">\n    <div class=\"title\"><h2>É possivel notar<span>resultados usando as</span></h2></div>\n    <div class=\"title-blow\"></div>\n  </div>\n  <div class=\"resultados\"><div id=\"instafeed\"></div></div>\n</div>"
+      "html": "<div class=\"box-bg-resultados\">\n  <div class=\"title-box\">\n    <div class=\"title\"><h2>É possivel notar<span>resultados usando as</span></h2></div>\n    <div class=\"title-blow\"></div>\n  </div>\n  <div class=\"resultados\"><!-- LightWidget WIDGET --><script src=\"https://cdn.lightwidget.com/widgets/lightwidget.js\"></script><iframe src=\"https://cdn.lightwidget.com/widgets/6592bb8fa32254f288a889bd88893228.html\" scrolling=\"no\" allowtransparency=\"true\" class=\"lightwidget-widget\" style=\"width:100%;border:0;overflow:hidden;\"></iframe></div>\n</div>"
     },
     {
       "type": "famosos",
