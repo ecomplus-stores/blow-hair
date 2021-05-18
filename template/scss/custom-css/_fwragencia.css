@@ -526,7 +526,7 @@ body {
     margin-bottom: -30px;
 }
 
-address {
+.footer__contacts address {
     display:none;
 }
 
@@ -647,7 +647,7 @@ address {
 
 .page--home .custom-html:nth-child(4) {
     background: url(/img/uploads/mob-nicole-bahls.jpg) no-repeat center top #c2eaf3;
-    
+
         margin-top: 260px;
 }
 .box-bg-gummie {
@@ -823,7 +823,7 @@ address {
     border-bottom: var(--border-width) solid #f21b7e;
         font-family: GoldplayAltBold;
 }
-    
+
 }
 
 
