@@ -48,15 +48,16 @@
     "boleto": true,
     "aura": false,
     "banrisul": false,
-    "elo": true,
-    "hipercard": false,
+    "elo": false,
+    "hipercard": true,
     "hsbc": false,
     "bradesco": true,
     "santander": false,
     "mastercard": true,
+    "paypal": true,
     "citibank": false,
     "mais": false,
     "itau": true
   },
-  "credits": "® 2020 - blow hair. CNPJ 14.900.786/0001-08 - Todos os direitos reservados. É vetada a reprodução, total ou parcial das fotos e informações aqui veiculadas, sem a expressa autorização da administração do site."
+  "credits": "® 2021. Blow Suplementos Alimentares -  CNPJ 14.900.786/0001-08 - Todos os direitos reservados. É vetada a reprodução, total ou parcial das fotos e informações aqui veiculadas, sem a expressa autorização da administração do site."
 }
