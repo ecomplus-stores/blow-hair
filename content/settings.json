@@ -1,5 +1,4 @@
 {
-  "repository": "ecomplus-stores/blow-hair",
   "domain": "blow-hair.netlify.app",
   "currency_symbol": "R$",
   "primary_color": "#313131",
@@ -8,9 +7,10 @@
     "custom": "_"
   },
   "bg_color": "#fff",
-  "logo": "/img/uploads/logo-top.png",
-  "name": "blow-hair",
-  "short_name": "blow-hair",
+  "repository": "ecomplus-stores/blow-hair",
+  "logo": "/img/uploads/logo.png",
+  "name": "Blow Gummies",
+  "short_name": "App Blow Gummies",
   "lang": "pt_br",
   "currency": "BRL",
   "mini_logo": "",
