@@ -249,10 +249,6 @@ body {
     box-shadow: 0px 8px 0px #f3237f;
 }
 
-.banner-slider {
-    max-width: 100%;
-    max-height: calc(100rem*var(--banner-aspect-ratio));
-}
 
 .page--home .collection-shelf .box-bg-porque {}
 
@@ -532,11 +528,6 @@ body {
 
 .footer__list-icon {color: #f21b7a;font-size: 19px;}
 
-@media (min-width: 1281px) and (max-width: 1600px) {
-.page--home .collection-shelf {
-    margin-top: -120px;
-}
-}
 
 @media (min-width: 1281px) and (max-width: 1366px) {
    #influencers .glide {

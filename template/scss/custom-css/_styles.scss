@@ -30,3 +30,10 @@
 .order-info__financial-status--paid {
   color: #86e9fe
 }
+@media(min-width: 768px) {
+  .banner-slider {
+      max-width: 100%;
+      --banner-aspect-ratio: 1!important;
+      height: auto;
+  }
+}
