@@ -825,3 +825,10 @@ body {
     margin: 0;
 }
 }
+
+
+@media (max-width:767px){
+#user-button img {
+    margin-top: 5px;
+}
+}
