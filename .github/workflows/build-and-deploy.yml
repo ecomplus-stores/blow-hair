@@ -110,7 +110,7 @@ jobs:
         run: |
           git config --local user.email 'action@github.com'
           git config --local user.name 'GitHub Action'
-          git add .isg .bundles.json content template
+          git add .isg .bundles.json content template .ecom.json
           (git diff-index --quiet HEAD && echo "::set-output name=diff::0") || echo "::set-output name=diff::1"
         id: git_diff
 
