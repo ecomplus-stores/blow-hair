@@ -1,5 +1,5 @@
 {
   "css": "",
   "html_head": "<!--Start of Zendesk Chat Script-->\n<script type=\"text/javascript\">\nwindow.$zopim||(function(d,s){var z=$zopim=function(c){z._.push(c)},$=z.s=\nd.createElement(s),e=d.getElementsByTagName(s)[0];z.set=function(o){z.set.\n_.push(o)};z._=[];z.set._=[];$.async=!0;$.setAttribute(\"charset\",\"utf-8\");\n$.src=\"https://v2.zopim.com/?5a43qD3oeIpnWGfgyCRbdvgaw5wJzJEu\";z.t=+new Date;$.\ntype=\"text/javascript\";e.parentNode.insertBefore($,e)})(document,\"script\");\n</script>\n<!--End of Zendesk Chat Script-->",
-  "html_body": ""
+  "html_body": "<script src=\"https://apis.google.com/js/platform.js?onload=renderOptIn\" async defer></script>\n\n<script>\n  window.renderOptIn = function() {\n    window.gapi.load('surveyoptin', function() {\n      window.gapi.surveyoptin.render(\n        {\n          // REQUIRED FIELDS\n          \"merchant_id\": 120845072,\n          \"order_id\": \"ORDER_ID\",\n          \"email\": \"CUSTOMER_EMAIL\",\n          \"delivery_country\": \"COUNTRY_CODE\",\n          \"estimated_delivery_date\": \"YYYY-MM-DD\",\n\n          // OPTIONAL FIELDS\n          \"products\": [{\"gtin\":\"GTIN1\"}, {\"gtin\":\"GTIN2\"}]\n        });\n    });\n  }\n</script>"
 }
