@@ -37,6 +37,15 @@
       height: auto;
   }
 }
+@media(min-width: 767px) {
+.shipping-calculator__option .shipping-line {
+  max-width: 50%
+
+}
 .shipping-calculator__option small {
-  width: 40%;
+  display: flex;
+  justify-content: flex-end;
+  max-width: 50%;
+  line-height: 2
+}  
 }
