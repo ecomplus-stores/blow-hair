@@ -13,16 +13,16 @@
     "app-confirmation": "chunk.34672c06ccb6e80eadab.js",
     "app-order": "chunk.a61226705d79f1d0bbe2.js",
     "checkout": [
-      "checkout.55a0d221ea12fe6b670a.js",
-      "checkout.55a0d221ea12fe6b670a.js.map"
+      "checkout.5bace500454b0c7ad562.js",
+      "checkout.5bace500454b0c7ad562.js.map"
     ],
     "storefront": [
       "storefront.9fa34f425f3d0c154e77.css",
-      "storefront.9976613d5d76059a3a7e.js",
+      "storefront.69b3f69e31d30144108c.js",
       "storefront.9fa34f425f3d0c154e77.css.map",
-      "storefront.9976613d5d76059a3a7e.js.map"
+      "storefront.69b3f69e31d30144108c.js.map"
     ],
     "vendors~app-cart": "chunk.a35b4f8fbc28957113ec.js",
-    "vendors~app-checkout": "chunk.06388d7de2fdf3555332.js"
+    "vendors~app-checkout": "chunk.5fdab2b016cb6ff8adcd.js"
   }
 }
