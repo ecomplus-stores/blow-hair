@@ -22,6 +22,10 @@
       {
         "title": "Contato",
         "link": "https://blow-hair.netlify.app/pages/contato"
+      },
+      {
+        "title": "Comprar",
+        "link": "https://blow-hair.netlify.app/compre-agora/"
       }
     ]
   },
