@@ -16,9 +16,11 @@
     {
       "type": "collection-shelf",
       "shuffle": true,
-      "limit": 12,
-      "page": 1,
-      "sort": "sales"
+      "limit": 4,
+      "page": "",
+      "sort": "sales",
+      "collection_id": null,
+      "headless": false
     },
     {
       "type": "custom-html",
