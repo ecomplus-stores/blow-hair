@@ -8,6 +8,10 @@
     "socials": true,
     "pages": [
       {
+        "title": "Comprar",
+        "link": "https://blow-hair.netlify.app/compre-agora/"
+      },
+      {
         "title": "Porque Blow Gummies?",
         "link": "https://blow-hair.netlify.app/pages/porque-blow-gummies"
       },
@@ -22,10 +26,6 @@
       {
         "title": "Contato",
         "link": "https://blow-hair.netlify.app/pages/contato"
-      },
-      {
-        "title": "Comprar",
-        "link": "https://blow-hair.netlify.app/compre-agora/"
       }
     ]
   },
