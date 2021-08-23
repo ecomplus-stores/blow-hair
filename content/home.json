@@ -17,7 +17,7 @@
       "type": "collection-shelf",
       "shuffle": true,
       "limit": "",
-      "page": "",
+      "page": 1,
       "sort": "sales",
       "collection_id": null,
       "headless": false
