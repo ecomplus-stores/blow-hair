@@ -22,6 +22,12 @@
       "sort": "sales"
     },
     {
+      "type": "collection-shelf",
+      "shuffle": false,
+      "limit": 12,
+      "page": 1
+    },
+    {
       "type": "custom-html",
       "html": "<div class=\"bg-home\"></div>"
     },
