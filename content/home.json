@@ -23,12 +23,6 @@
       "headless": false
     },
     {
-      "type": "collection-shelf",
-      "shuffle": false,
-      "limit": 12,
-      "page": 1
-    },
-    {
       "type": "custom-html",
       "html": "<div class=\"bg-home\"></div>"
     },
@@ -109,6 +103,11 @@
     {
       "type": "falam",
       "html": "<div class=\"instafeed-footer\">\n  <!-- LightWidget WIDGET --><script src=\"https://cdn.lightwidget.com/widgets/lightwidget.js\"></script><iframe src=\"https://cdn.lightwidget.com/widgets/ef70a8b393a358f88c0679e84a75a20d.html\" scrolling=\"no\" allowtransparency=\"true\" class=\"lightwidget-widget\" style=\"width:100%;border:0;overflow:hidden;\"></iframe>\n</div>"
+    },
+    {
+      "type": "dynamic-showcase",
+      "load_more": true,
+      "sort": "views"
     }
   ]
 }
