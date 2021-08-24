@@ -14,13 +14,9 @@
       ]
     },
     {
-      "type": "collection-shelf",
-      "shuffle": true,
-      "limit": "",
-      "page": 1,
-      "sort": "sales",
-      "collection_id": null,
-      "headless": false
+      "type": "dynamic-showcase",
+      "load_more": true,
+      "sort": "sales"
     },
     {
       "type": "custom-html",
@@ -103,11 +99,6 @@
     {
       "type": "falam",
       "html": "<div class=\"instafeed-footer\">\n  <!-- LightWidget WIDGET --><script src=\"https://cdn.lightwidget.com/widgets/lightwidget.js\"></script><iframe src=\"https://cdn.lightwidget.com/widgets/ef70a8b393a358f88c0679e84a75a20d.html\" scrolling=\"no\" allowtransparency=\"true\" class=\"lightwidget-widget\" style=\"width:100%;border:0;overflow:hidden;\"></iframe>\n</div>"
-    },
-    {
-      "type": "dynamic-showcase",
-      "load_more": true,
-      "sort": "views"
     }
   ]
 }
