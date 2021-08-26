@@ -224,7 +224,7 @@ body {
     font-size:32px;
 }
 
-.page--home .collection-shelf {
+.page--home {
     background: url(/img/uploads/onda.png) no-repeat center top;
     /*padding-top: 40px;*/
     margin-top: -20px;
@@ -232,16 +232,16 @@ body {
     position: relative;
 }
 
-.page--home .collection-shelf .products-carousel__title {
+.page--home .products-carousel__title {
     display:none;
 }
 
-.page--home .collection-shelf .products-carousel {
+.page--home .products-carousel {
     background: transparent;
 }
 
 
-.page--home .collection-shelf .product-item {
+.page--home .product-item {
     background: #fff;
     border-radius: 20px;
     padding: 10px 0;
@@ -250,9 +250,9 @@ body {
 }
 
 
-.page--home .collection-shelf .box-bg-porque {}
+.page--home .box-bg-porque {}
 
-.products-carousel .products-carousel__item {
+.products-carousel .products-carousel__item, .dynamic-showcase .col-6.col-md-4.col-lg-3 {
     padding: 10px 5px;
 }
 
@@ -405,7 +405,7 @@ body {
     color: #f21b7a;
     text-transform: none !important;
     font-size: 16px;
-    margin: 0px 16px;
+    margin: 0px 5px;
     }
 
 .falam-html {
@@ -548,9 +548,6 @@ body {
 .sociais {
     margin: 0;
 }
-.page--home .collection-shelf {
-    margin-top: -120px;
-}
 }
 
 @media (min-width: 993px) and (max-width: 1099px) {
@@ -600,11 +597,6 @@ body {
 .header__nav a {
     font-size: 12px;
     margin: 0px 3px;
-}
-
-.page--home .collection-shelf {
-    padding-top: 40px;
-    margin-top: -100px;
 }
 
 .text-porque {
@@ -749,10 +741,7 @@ body {
     background: #fff;
 }
 
-.page--home .collection-shelf {
-    margin-top: -122px;
-    padding-top: 120px;
-}
+
 
 .resultados-html {
     margin: 120px 0 0;
@@ -798,7 +787,7 @@ body {
 
 .product-card__name {
     font-size: 14px;
-        --max-lines: 2;
+        --max-lines: 4;
     }
 
 .prices__value {
