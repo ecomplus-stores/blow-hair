@@ -6,7 +6,7 @@
     },
     {
       "type": "page-title",
-      "title": "Compre Blow Gummies"
+      "title": ""
     },
     {
       "type": "document-banner",
@@ -15,7 +15,7 @@
     {
       "type": "collection-retail",
       "enabled": true,
-      "sort": "news"
+      "sort": "views"
     },
     {
       "type": "document-description",
