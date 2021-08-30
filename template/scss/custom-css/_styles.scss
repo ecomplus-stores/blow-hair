@@ -86,9 +86,9 @@
 .sociais {
   display: flex;
   align-items: center; 
-  & a {
-  padding: 0 1px !important;
-}
+  a {
+    padding: 0 1px !important;
+  }
 }
 
 .header__nav a:first-child {
