@@ -83,3 +83,18 @@
   background-size: 100% 100%;
   padding-top: 5px
 }
+.sociais {
+  display: flex;
+  align-items: center; 
+  & a {
+  padding: 0 1px !important;
+}
+}
+
+.header__nav a:first-child {
+  text-transform: uppercase !important;
+  background-color: #f51879
+}
+.header__nav a:first-child::hover {
+  background-color: ##CB348B
+}
