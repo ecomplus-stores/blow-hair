@@ -85,7 +85,8 @@
 }
 .sociais {
   display: flex;
-  align-items: center; 
+  align-items: center;
+  padding: 0px 10px;
   a {
     padding: 0 1px !important;
   }
@@ -93,7 +94,8 @@
 
 .header__nav a:first-child {
   text-transform: uppercase !important;
-  background-color: #f51879
+  background-color: #f51879;
+  color: #fff !important;
 }
 .header__nav a:first-child::hover {
   background-color: #CB348B
