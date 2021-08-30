@@ -74,3 +74,12 @@
 #c-6047fc686d50911b6059f55f {
   display: none;
 }
+.wp:before {
+  content: " ";
+  background: url(/img/uploads/WordPress-pink-24x24.png);
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background-size: 100% 100%;
+  padding-top: 5px
+}
