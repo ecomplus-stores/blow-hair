@@ -404,8 +404,8 @@ body {
     font-family: 'GoldplayAltBold';
     color: #f21b7a;
     text-transform: none !important;
-    font-size: 16px;
-    margin: 0px 5px;
+    font-size: 15px;
+    margin: 0px 4px;
     }
 
 .falam-html {
@@ -454,7 +454,10 @@ body {
     text-decoration:none;
 }
 
-#user-button {margin-top: 7px;}
+@media(min-width: 767px) {
+    #user-button {margin-top: 7px;}
+}
+
 
 .resultados-html {
     margin: 150px 0px 0px;
@@ -596,7 +599,7 @@ body {
 
 .header__nav a {
     font-size: 12px;
-    margin: 0px 3px;
+    margin: 0px 2px;
 }
 
 .text-porque {
@@ -801,7 +804,7 @@ body {
 .menu__item {
     color: #f21b7a;
     border-bottom: var(--border-width) solid #f21b7e;
-        font-family: GoldplayAltBold;
+        font-family: GoldplayRegular;
 }
 
 }

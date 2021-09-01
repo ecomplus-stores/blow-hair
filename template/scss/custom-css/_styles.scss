@@ -86,9 +86,9 @@
 .sociais {
   display: flex;
   align-items: center;
-  padding: 0px 10px !important;
+  margin: 0px 5px !important;
   a {
-    padding: 0 1px !important;
+    padding: 0 2px !important;
   }
 }
 
@@ -97,6 +97,22 @@
   background-color: #f51879;
   color: #fff !important;
 }
-.header__nav a:first-child::hover {
+.header__nav a:first-child:hover {
   background-color: #CB348B
+}
+.cart__back a, .discount-applier__coupon-btn, .checkout__back a {
+  border: 1px solid
+}
+.checkout__steps a:first-child::after {
+  content: ' Voltar ao Carrinho';
+}
+@media(min-width: 767px) {
+  .share-network-sms {
+    display: none;
+  }
+}
+@media(max-width: 767px) {
+  body {
+    overflow-x: hidden;
+  }
 }
