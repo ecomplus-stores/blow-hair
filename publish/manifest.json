@@ -1,0 +1,37 @@
+{
+  "icons": [
+    {
+      "src": "/icon_512x512.056af3f346f788bc62096e91ef3d01c6.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon_384x384.347e51d7f76020a949f172a2202ad5e6.png",
+      "sizes": "384x384",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon_192x192.2baafb24836fe15ec11ddcbfec5cfabc.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon_128x128.c74eea7ca6e9f97fb7799f7ac05664cb.png",
+      "sizes": "128x128",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon_96x96.ca8e26a07b859407e1870c4534155b8a.png",
+      "sizes": "96x96",
+      "type": "image/png"
+    }
+  ],
+  "name": "Blow Gummies",
+  "short_name": "App Blow Gummies",
+  "orientation": "portrait",
+  "display": "standalone",
+  "start_url": ".",
+  "description": "<iframe src=\"https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FBlowGummies%2F&tabs&width=260&height=130&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId=348301289312384\" width=\"260\" height=\"130\" style=\"border:none;overflow:hidden\" scrolling=\"no\" frameborder=\"0\" allowfullscreen=\"true\" allow=\"autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share\"></iframe>",
+  "background_color": "#fff",
+  "theme_color": "#313131"
+}
