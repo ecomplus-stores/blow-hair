@@ -25,6 +25,50 @@
     {{ formatMoney(price) }}
   </strong>
 
+  <div
+    key="installments"
+    v-if="installmentsNumber > 1 && installmentValue"
+    class="prices__installments"
+  >
+    <small v-if="isLiteral">
+      {{ i19upTo }}
+    </small>
+    {{ installmentsNumber }}x
+    <small v-if="isLiteral">
+      {{ i19of }}
+    </small>
+    <span>
+      {{ formatMoney(installmentValue) }}
+    </span>
+    <small v-if="!monthlyInterest && isLiteral">
+      {{ i19interestFree }}
+    </small>
+  </div>
+
+  <div
+    key="discount"
+    v-if="typeof priceWithDiscount === 'number' && priceWithDiscount < price"
+    class="prices__discount"
+  >
+    <template v-if="typeof discountLabel === 'string' && discountLabel">
+      <span>
+        {{ formatMoney(priceWithDiscount) }}
+      </span>
+      <small class="prices__discount-label">
+        {{ discountLabel }}
+      </small>
+    </template>
+
+    <template v-else>
+      <small>
+        {{ i19asOf }}
+      </small>
+      <span>
+        {{ formatMoney(priceWithDiscount) }}
+      </span>
+    </template>
+  </div>
+
   <transition-group enter-active-class="animated slideInDown">
     <div
       key="points"
@@ -39,48 +83,6 @@
       <em>{{ pointsProgramName }}</em>
     </div>
 
-    <div
-      key="installments"
-      v-if="installmentsNumber > 1 && installmentValue"
-      class="prices__installments"
-    >
-      <small v-if="isLiteral">
-        {{ i19upTo }}
-      </small>
-      {{ installmentsNumber }}x
-      <small v-if="isLiteral">
-        {{ i19of }}
-      </small>
-      <span>
-        {{ formatMoney(installmentValue) }}
-      </span>
-      <small v-if="!monthlyInterest && isLiteral">
-        {{ i19interestFree }}
-      </small>
-    </div>
 
-    <div
-      key="discount"
-      v-if="typeof priceWithDiscount === 'number' && priceWithDiscount < price"
-      class="prices__discount"
-    >
-      <template v-if="typeof discountLabel === 'string' && discountLabel">
-        <span>
-          {{ formatMoney(priceWithDiscount) }}
-        </span>
-        <small class="prices__discount-label">
-          {{ discountLabel }}
-        </small>
-      </template>
-
-      <template v-else>
-        <small>
-          {{ i19asOf }}
-        </small>
-        <span>
-          {{ formatMoney(priceWithDiscount) }}
-        </span>
-      </template>
-    </div>
   </transition-group>
 </div>

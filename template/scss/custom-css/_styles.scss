@@ -116,3 +116,43 @@
     overflow-x: hidden;
   }
 }
+.product-item {
+  text-align: center;
+}
+.product-card__prices {
+  text-align: center;
+  display: flex;
+  .prices__installments {
+    small {
+      font-weight: 700 !important;
+    }
+    span:before {
+      content: 'de '
+    }
+    order: -1;
+    color: #ed2a56;
+    font-size: 25px;
+    font-weight: 700 !important;
+    font-family: GoldplayAltBold;
+  }
+  .prices__value {
+    color: #848484;
+    text-align: center;
+    font-size: 23px!important;
+    font-weight: 600 !important;
+    &::after {
+      content: " à vista"
+    }
+  }
+  .prices__discount {
+    &-label {
+      display: none;
+    }
+    font-size: 20px;
+    font-weight: 700 !important;
+    font-family: GoldplayAltBold;
+    background-color: #ED2A56;
+    color: #fff;
+    padding: 5px;
+  }
+}
