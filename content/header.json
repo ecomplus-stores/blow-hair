@@ -9,23 +9,23 @@
     "pages": [
       {
         "title": "Comprar",
-        "link": "https://blow-hair.netlify.app/compre-agora/"
+        "link": "/compre-agora/"
       },
       {
         "title": "Por que Blow Gummies?",
-        "link": "https://blow-hair.netlify.app/pages/por-que-blow-gummies"
+        "link": "/pages/por-que-blow-gummies"
       },
       {
         "title": "Composição",
-        "link": "https://blow-hair.netlify.app/pages/ingredientes-que-contem-blow-gummies"
+        "link": "/pages/ingredientes-que-contem-blow-gummies"
       },
       {
         "title": "Resultados Reais",
-        "link": "https://blow-hair.netlify.app/pages/resultados-reais-blow-gummies"
+        "link": "/pages/resultados-reais-blow-gummies"
       },
       {
         "title": "Contato",
-        "link": "https://blow-hair.netlify.app/pages/contato"
+        "link": "/pages/contato"
       }
     ]
   },
