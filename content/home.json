@@ -43,29 +43,42 @@
           "link": "/compre-agora/"
         },
         {
-          "img": "/img/uploads/bruna-griphao.png",
-          "alt": "Bruna Griphao",
-          "link": "/compre-agora/"
-        },
-        {
-          "img": "/img/uploads/barbara-evans.png",
-          "alt": "Bárbara Evans",
-          "link": "/compre-agora/"
-        },
-        {
-          "img": "/img/uploads/bia-sequeira.png",
+          "img": "/img/uploads/template-site-aba-famosos-que-ja-usaram-bia-siqueira.png",
           "alt": "Bia Siqueira",
           "link": "/compre-agora/"
         },
         {
-          "img": "/img/uploads/barbara-evans.png",
-          "alt": "Bárbara Evans",
+          "img": "/img/uploads/template-site-aba-famosos-que-ja-usaram-julia-doorman.png",
+          "alt": "Júlia Doorman",
           "link": "/compre-agora/"
         },
         {
-          "img": "/img/uploads/famoso1.png",
-          "alt": "Gabi Busnello",
+          "img": "/img/uploads/template-site-aba-famosos-que-ja-usaram-farkile.png",
+          "alt": "Farkile",
           "link": "/compre-agora/"
+        },
+        {
+          "img": "/img/uploads/template-site-aba-famosos-que-ja-usaram-maluzinha.png",
+          "alt": "Maluzinha",
+          "link": "/compre-agora/"
+        },
+        {
+          "img": "/img/uploads/template-site-aba-famosos-que-ja-usaram-leydi-paranhos.png",
+          "alt": "Leidy Paranhos",
+          "link": "/compre-agora/"
+        },
+        {
+          "img": "/img/uploads/template-site-aba-famosos-que-ja-usaram-mirela-janis.png",
+          "link": "",
+          "alt": "Mirela Janis"
+        },
+        {
+          "img": "/img/uploads/template-site-aba-famosos-que-ja-usaram-pamela-drudi.png",
+          "alt": "Pamela Drudi"
+        },
+        {
+          "img": "/img/uploads/template-site-aba-famosos-que-ja-usaram-vivian-amorim.png",
+          "alt": "Vivian Amorim"
         }
       ]
     },
