@@ -4,13 +4,14 @@
   "sections": [
     {
       "type": "banner-slider",
-      "autoplay": 9000,
+      "autoplay": 4000,
       "slides": [
         {
           "start": "2021-09-22T20:02:08.962Z",
           "end": "2021-09-22T20:02:08.990Z",
           "img": "/img/uploads/banner-site-campanha-semana-da-independencia.png",
-          "link": "#search-engine"
+          "link": "#search-engine",
+          "mobile_img": "/img/uploads/banner-mobile-campanha-semana-da-independencia-frete.png"
         }
       ]
     },
