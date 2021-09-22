@@ -42,49 +42,53 @@
       "autoplay": 5000,
       "banners": [
         {
-          "img": "/img/uploads/template-site-aba-famosos-que-ja-usaram-carol-kyoko.png",
+          "img": "/img/uploads/carol-kyoko-blow-gummies.png",
           "alt": "Carol Kyoko",
           "link": "https://blow-gummies.web.app/compre-agora/"
         },
         {
-          "img": "/img/uploads/template-site-aba-famosos-que-ja-usaram-bia-siqueira.png",
+          "img": "/img/uploads/bia-siqueira-blow-gummies.png",
           "alt": "Bia Siqueira",
           "link": "https://blow-gummies.web.app/compre-agora/"
         },
         {
-          "img": "/img/uploads/template-site-aba-famosos-que-ja-usaram-julia-doorman.png",
+          "img": "/img/uploads/julia-doorman-blow-gummies.png",
           "alt": "Júlia Doorman",
           "link": "https://blow-gummies.web.app/compre-agora/"
         },
         {
-          "img": "/img/uploads/template-site-aba-famosos-que-ja-usaram-farkile.png",
+          "img": "/img/uploads/farkile-blow-gummies.png",
           "alt": "Farkile",
           "link": "https://blow-gummies.web.app/compre-agora/"
         },
         {
-          "img": "/img/uploads/maluzinha-usa-blow-gummies.png",
+          "img": "/img/uploads/maluzinha-blow-gummies.png",
           "alt": "Maluzinha",
           "link": "https://blow-gummies.web.app/compre-agora/"
         },
         {
-          "img": "/img/uploads/leydi-paranhos-usa-blow-gummies.png",
+          "img": "/img/uploads/leydi-paranhos-blow-gummies.png",
           "alt": "Leidy Paranhos",
           "link": "https://blow-gummies.web.app/compre-agora/"
         },
         {
-          "img": "/img/uploads/template-site-aba-famosos-que-ja-usaram-mirela-janis.png",
+          "img": "/img/uploads/mirela-janis-blow-gummies.png",
           "link": "https://blow-gummies.web.app/compre-agora/",
           "alt": "Mirela Janis"
         },
         {
-          "img": "/img/uploads/template-site-aba-famosos-que-ja-usaram-pamela-drudi.png",
+          "img": "/img/uploads/pamela-drudi-blow-gummies.png",
           "alt": "Pamela Drudi",
           "link": "https://blow-gummies.web.app/compre-agora/"
         },
         {
-          "img": "/img/uploads/template-site-aba-famosos-que-ja-usaram-vivian-amorim.png",
+          "img": "/img/uploads/vivian-amorim-blow-gummies.png",
           "alt": "Vivian Amorim",
           "link": "https://blow-gummies.web.app/compre-agora/"
+        },
+        {
+          "alt": "Evelyn Regly",
+          "img": "/img/uploads/evelyn-regly-blow-gummies.png"
         }
       ]
     },
@@ -92,13 +96,13 @@
       "type": "grid-op",
       "banners": [
         {
-          "img": "/img/uploads/3.png"
+          "img": "/img/uploads/blow-gummies-funciona-harin.png"
         },
         {
           "img": "/img/uploads/blow-gummies-funciona-harin.png"
         },
         {
-          "img": "/img/uploads/3.png"
+          "img": "/img/uploads/blow-gummies-funciona-harin.png"
         },
         {
           "img": "/img/uploads/3.png"
