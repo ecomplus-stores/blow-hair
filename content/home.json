@@ -17,6 +17,11 @@
       ]
     },
     {
+      "type": "page-title",
+      "title": " Blow Gummies",
+      "description": ""
+    },
+    {
       "type": "dynamic-showcase",
       "load_more": false,
       "sort": "sales"
