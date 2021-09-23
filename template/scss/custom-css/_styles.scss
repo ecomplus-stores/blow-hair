@@ -1,4 +1,11 @@
 // Add your custom CSS here.
+.extra-page .container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-content: center;
+  align-items: center
+}
 #cta {
   font-family: GoldplayAltBold;
   color: #f21b7a;
