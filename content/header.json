@@ -12,10 +12,6 @@
         "link": "/compre-agora/"
       },
       {
-        "title": "Por que Blow Gummies?",
-        "link": "/pages/por-que-blow-gummies"
-      },
-      {
         "title": "Composição",
         "link": "/pages/ingredientes-que-contem-blow-gummies"
       },
@@ -24,11 +20,11 @@
         "link": "/pages/resultados-reais-blow-gummies"
       },
       {
-        "title": "Contato",
-        "link": "/pages/contato"
+        "title": "Blog"
       },
       {
-        "title": "Blog"
+        "title": "Contato",
+        "link": "/pages/contato"
       }
     ]
   },
