@@ -26,6 +26,9 @@
       {
         "title": "Contato",
         "link": "/pages/contato"
+      },
+      {
+        "title": "Blog"
       }
     ]
   },
