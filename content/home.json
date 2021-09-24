@@ -54,41 +54,42 @@
         {
           "img": "/img/uploads/julia-doorman-blow-gummies.png",
           "alt": "Júlia Doorman",
-          "link": "https://blow-gummies.web.app/compre-agora/"
+          "link": "#search-engine"
         },
         {
           "img": "/img/uploads/farkile-blow-gummies.png",
           "alt": "Farkile",
-          "link": "https://blow-gummies.web.app/compre-agora/"
+          "link": "#search-engine"
         },
         {
           "img": "/img/uploads/maluzinha-blow-gummies.png",
           "alt": "Maluzinha",
-          "link": "https://blow-gummies.web.app/compre-agora/"
+          "link": "#search-engine"
         },
         {
           "img": "/img/uploads/leydi-paranhos-blow-gummies.png",
           "alt": "Leidy Paranhos",
-          "link": "https://blow-gummies.web.app/compre-agora/"
+          "link": "#search-engine"
         },
         {
           "img": "/img/uploads/mirela-janis-blow-gummies.png",
-          "link": "https://blow-gummies.web.app/compre-agora/",
+          "link": "#search-engine",
           "alt": "Mirela Janis"
         },
         {
           "img": "/img/uploads/pamela-drudi-blow-gummies.png",
           "alt": "Pamela Drudi",
-          "link": "https://blow-gummies.web.app/compre-agora/"
+          "link": "#search-engine"
         },
         {
           "img": "/img/uploads/vivian-amorim-blow-gummies.png",
           "alt": "Vivian Amorim",
-          "link": "https://blow-gummies.web.app/compre-agora/"
+          "link": "#search-engine"
         },
         {
           "alt": "Evelyn Regly",
-          "img": "/img/uploads/evelyn-regly-blow-gummies.png"
+          "img": "/img/uploads/evelyn-regly-blow-gummies.png",
+          "link": "#search-engine"
         }
       ]
     },
