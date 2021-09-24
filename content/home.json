@@ -97,19 +97,24 @@
       "type": "grid-op",
       "banners": [
         {
-          "img": "/img/uploads/blow-gummies-funciona-harin.png"
+          "img": "/img/uploads/blow-gummies-funciona-harin.png",
+          "link": "#search-engine"
         },
         {
-          "img": "/img/uploads/blow-gummies-funciona-leticia-silva.png"
+          "img": "/img/uploads/blow-gummies-funciona-leticia-silva.png",
+          "link": "#search-engine"
         },
         {
-          "img": "/img/uploads/blow-gummies-funciona-thaynara-lorenzi.png"
+          "img": "/img/uploads/blow-gummies-funciona-thaynara-lorenzi.png",
+          "link": "#search-engine"
         },
         {
-          "img": "/img/uploads/blow-gummies-funciona-paula-theixeira.png"
+          "img": "/img/uploads/blow-gummies-funciona-paula-theixeira.png",
+          "link": "#search-engine"
         },
         {
-          "img": "/img/uploads/blow-gummies-funciona-isa-fortunatto.png"
+          "img": "/img/uploads/blow-gummies-funciona-isa-fortunatto.png",
+          "link": "#search-engine"
         }
       ],
       "autoplay": 5000,
