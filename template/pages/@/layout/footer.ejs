@@ -176,8 +176,33 @@ const { path } = _.route
               </ul>
             <% } %>
           </div>
+          <% if (footer.links_3.list.find(({ url }) => url)) { %>
+            <a
+              class="footer__title"
+              data-toggle="collapse"
+              href="#footer-pages"
+              role="button"
+              aria-expanded="false"
+              aria-controls="footer-pages"
+            >
+              <%= footer.links_3.title || _.dictionary('pages') %>
+            </a>
+            <div class="collapse" id="footer-pages">
+                <ul class="footer__links">
+                  <% footer.links_3.list.forEach(({ url, text }) => { %>
+                    <li>
+                      <i class="fas fa-angle-right"></i>
+                      <a href="<%= url %>">
+                        <%= text %>
+                      </a>
+                    </li>
+                  <% }) %>
+                </ul>
+            </div>
+        <% } %>
         </div>
       <% } %>
+
 
       <div class="col-12 col-xl order-lg-first">
         <span class="footer__title footer__store">

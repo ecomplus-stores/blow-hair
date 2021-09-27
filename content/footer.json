@@ -33,6 +33,31 @@
       }
     ]
   },
+  "links_3": {
+    "title": "Produtos",
+    "list": [
+      {
+        "text": "Tratamento Capilar 60 dias",
+        "url": "/blow-gummies-crescimento-capilar-60-dias-tratamento"
+      },
+      {
+        "text": "Tratamento Capilar 120 dias",
+        "url": "/blow-gummies-120-dias-tratamento"
+      },
+      {
+        "text": "Tratamento Capilar 180 dias",
+        "url": "/blow-gummies-180-dias-de-tratamento"
+      },
+      {
+        "text": "Tratamento Capilar 240 dias",
+        "url": "/blow-gummies-240-dias-de-tratamento-capilar"
+      },
+      {
+        "text": "Tratamento Capilar 360 dias",
+        "url": "/blow-gummies-box-360-dias-de-tratamento"
+      }
+    ]
+  },
   "contacts": {
     "title": "Contatos",
     "phone_wpp": true,
