@@ -69,7 +69,8 @@
   "stamps": [
     {
       "src": "/img/uploads/ssl-safe.png",
-      "alt": "Secure connection"
+      "alt": "Secure connection",
+      "link": "#search-engine"
     },
     {
       "src": "/img/uploads/reclame-aqui-blow-gummies.png",
