@@ -13,7 +13,8 @@
     "title": "Precisa de Ajuda?",
     "list": [
       {
-        "text": "Por que Blow Gummies?"
+        "text": "Por que Blow Gummies?",
+        "url": "https://blow-gummies.web.app/pages\\por-que-blow-gummies"
       },
       {
         "text": "Composição",
@@ -69,6 +70,11 @@
     {
       "src": "/img/uploads/ssl-safe.png",
       "alt": "Secure connection"
+    },
+    {
+      "src": "/img/uploads/reclame-aqui-blow-gummies.png",
+      "alt": "Reclame Aqui Blow Gummies",
+      "link": "https://www.reclameaqui.com.br/empresa/blow-hair/"
     }
   ],
   "payment_methods": {
