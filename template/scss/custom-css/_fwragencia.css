@@ -103,7 +103,7 @@ body {
 .box-gummie {}
 
 
-.page--home .custom-html:nth-child(3) {
+.page--home .custom-html:nth-child(4) {
     z-index: -1;
     background: #d2c1de;
     width: 100%;
@@ -113,12 +113,12 @@ body {
     height: 830px;
 }
 
-.page--home .custom-html:nth-child(4) {
+.page--home .custom-html:nth-child(5) {
     background: url(/img/uploads/porque.png) no-repeat center top;
     min-height: 598px;
 }
 
-.page--home .custom-html:nth-child(5) {
+.page--home .custom-html:nth-child(6) {
     background: url(/img/uploads/bg-beneficios.jpg) no-repeat top;
     min-height: 930px;
     display: flex;
@@ -532,7 +532,7 @@ body {
 .footer__list-icon {color: #f21b7a;font-size: 19px;}
 
 
-@media (min-width: 1281px) and (max-width: 1366px) {
+@media (min-width: 1281px) {
    #influencers .glide {
     max-width: 58%;
     margin-left: 28%;
