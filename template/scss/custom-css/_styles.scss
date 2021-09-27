@@ -195,7 +195,7 @@
   background: #f3f3f3;
   padding: 1rem;
 }
-.discount-applier span:before {
+.discount-applier > span:before {
   content: "Se possuir um cupom, clique e digite no campo abaixo!"
 }
 .discount-applier__form {
