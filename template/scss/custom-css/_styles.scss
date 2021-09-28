@@ -182,11 +182,7 @@
     font-family: GoldplayAltBold;
   }
 }
-@media(min-width: 1365px) {
-  #influencers li {
-    
-  }
-}
+
 //checkout 
 .cart__info {
   background: #f1f1f1 !important;
@@ -194,12 +190,6 @@
 .discount-applier.cart__discount {
   background: #f3f3f3;
   padding: 1rem;
-}
-.discount-applier > span:before {
-  content: "Se possuir um cupom, clique e digite no campo abaixo!"
-}
-.discount-applier__form {
-  display: block !important;
 }
 .recommended-items .product-card--small .product-card__name {
   --max-lines: 3 !important;
