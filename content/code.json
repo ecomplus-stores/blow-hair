@@ -1,5 +1,5 @@
 {
-  "css": "@media (min-width:993px){\n  .page--home .custom-html:nth-child(4) {\n      background: url(/img/uploads/bg-new-blow.jpg) no-repeat top;\n  }\n  \n}",
+  "css": "@media (min-width:993px){\n  .page--home .custom-html:nth-child(4) {\n      background: url(/img/uploads/bg-new-blow.jpg) no-repeat top;\n  }\n.page--home .custom-html:nth-child(5) {\n    background: url(/img/uploads/neww-blo-box.jpg) no-repeat top;\n}\n  \n}",
   "html_head": "<!--Start of Zendesk Chat Script-->\n<script type=\"text/javascript\">\nwindow.$zopim||(function(d,s){var z=$zopim=function(c){z._.push(c)},$=z.s=\nd.createElement(s),e=d.getElementsByTagName(s)[0];z.set=function(o){z.set.\n_.push(o)};z._=[];z.set._=[];$.async=!0;$.setAttribute(\"charset\",\"utf-8\");\n$.src=\"https://v2.zopim.com/?5a43qD3oeIpnWGfgyCRbdvgaw5wJzJEu\";z.t=+new Date;$.\ntype=\"text/javascript\";e.parentNode.insertBefore($,e)})(document,\"script\");\n</script>\n<!--End of Zendesk Chat Script-->",
   "html_body": ""
 }
