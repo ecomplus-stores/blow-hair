@@ -77,11 +77,6 @@
         "type": 301
       },
       {
-        "source": "/pagina/termos",
-        "destination": "/pages/ingredientes-que-contem-blow-gummies",
-        "type": 301
-      },
-      {
         "source": "/pagina/desafio-blow-gummies",
         "destination": "/pages/desafio-blow-gummies",
         "type": 301
