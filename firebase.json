@@ -7,6 +7,11 @@
         "type": 301
       },
       {
+        "source": "/pagina/termos",
+        "destination": "/pages/ingredientes-que-contem-blow-gummies",
+        "type": 301
+      },
+      {
         "source": "/sitemaps/pages",
         "destination": "/sitemap.xml",
         "type": 301
