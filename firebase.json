@@ -20,6 +20,26 @@
         "source": "/cadastrar",
         "destination": "/",
         "type": 301
+      },
+      {
+        "source": "/pagina/duvidas",
+        "destination": "/pages/duvidas-frequentes",
+        "type": 301
+      },
+      {
+        "source": "/carrinho",
+        "destination": "/app/#/cart",
+        "type": 301
+      },
+      {
+        "source": "/entrar",
+        "destination": "/",
+        "type": 301
+      },
+      {
+        "source": "/pagina/termos",
+        "destination": "/pages/ingredientes-que-contem-blow-gummies",
+        "type": 301
       }
     ],
     "public": "dist",
