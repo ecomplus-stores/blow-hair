@@ -10,6 +10,16 @@
         "source": "/pagina/sobre",
         "destination": "/pages/sobre-nos",
         "type": 301
+      },
+      {
+        "source": "/pagina/pagamento",
+        "destination": "/pages/pagamentos",
+        "type": 301
+      },
+      {
+        "source": "/cadastrar",
+        "destination": "/",
+        "type": 301
       }
     ],
     "public": "dist",
