@@ -7,7 +7,32 @@
         "type": 301
       },
       {
-        "source": "/sitemap/pages",
+        "source": "/sitemaps/pages",
+        "destination": "/sitemap.xml",
+        "type": 301
+      },
+      {
+        "source": "/sitemaps/searches",
+        "destination": "/sitemap.xml",
+        "type": 301
+      },
+      {
+        "source": "/sitemaps/grids",
+        "destination": "/sitemap.xml",
+        "type": 301
+      },
+            {
+        "source": "/sitemaps/categories",
+        "destination": "/sitemap.xml",
+        "type": 301
+      },
+      {
+        "source": "/sitemaps/brands",
+        "destination": "/sitemap.xml",
+        "type": 301
+      },
+      {
+        "source": "/sitemaps/products",
         "destination": "/sitemap.xml",
         "type": 301
       },
