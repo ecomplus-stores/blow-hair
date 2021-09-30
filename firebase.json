@@ -1,6 +1,16 @@
 {
   "hosting": {
     "redirects": [
+      {
+        "source": "/contato",
+        "destination": "/pages/contato",
+        "type": 301
+      },
+      {
+        "source": "/pagina/sobre",
+        "destination": "/pages/sobre-nos",
+        "type": 301
+      }
     ],
     "public": "dist",
     "ignore": [
