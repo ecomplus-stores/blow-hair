@@ -40,6 +40,46 @@
         "source": "/pagina/termos",
         "destination": "/pages/ingredientes-que-contem-blow-gummies",
         "type": 301
+      },
+      {
+        "source": "/pagina/desafio-blow-gummies",
+        "destination": "/pages/desafio-blow-gummies",
+        "type": 301
+      },
+      {
+        "source": "/marca/blow-hair",
+        "destination": "/compre-agora/",
+        "type": 301
+      },
+      {
+        "source": "/pagina/entrega",
+        "destination": "/pages/entrega",
+        "type": 301
+      },
+      {
+        "source": "/pagina/resultados-reais-blow-gummies",
+        "destination": "/pages/resultados-reais-blow-gummies",
+        "type": 301
+      },
+      {
+        "source": "/pagina/duvidas",
+        "destination": "/pages/duvidas-frequentes",
+        "type": 301
+      },
+      {
+        "source": "/carrinho",
+        "destination": "/app/#/cart",
+        "type": 301
+      },
+      {
+        "source": "/entrar",
+        "destination": "/",
+        "type": 301
+      },
+      {
+        "source": "/pagina/termos",
+        "destination": "/pages/ingredientes-que-contem-blow-gummies",
+        "type": 301
       }
     ],
     "public": "dist",
