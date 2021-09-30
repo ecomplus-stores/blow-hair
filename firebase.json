@@ -2,8 +2,38 @@
   "hosting": {
     "redirects": [
       {
+        "source": "/sitemap",
+        "destination": "/sitemap.xml",
+        "type": 301
+      },
+      {
+        "source": "/sitemap/pages",
+        "destination": "/sitemap.xml",
+        "type": 301
+      },
+      {
+        "source": "/entrar",
+        "destination": "/app/#/account/",
+        "type": 301
+      },
+      {
         "source": "/contato",
         "destination": "/pages/contato",
+        "type": 301
+      },
+      {
+        "source": "/conta",
+        "destination": "/app/#/account/",
+        "type": 301
+      },
+      {
+        "source": "/cadastrar",
+        "destination": "/",
+        "type": 301
+      },
+      {
+        "source": "/carrinho",
+        "destination": "/app/#/cart",
         "type": 301
       },
       {
@@ -17,23 +47,8 @@
         "type": 301
       },
       {
-        "source": "/cadastrar",
-        "destination": "/",
-        "type": 301
-      },
-      {
         "source": "/pagina/duvidas",
         "destination": "/pages/duvidas-frequentes",
-        "type": 301
-      },
-      {
-        "source": "/carrinho",
-        "destination": "/app/#/cart",
-        "type": 301
-      },
-      {
-        "source": "/entrar",
-        "destination": "/",
         "type": 301
       },
       {
@@ -62,23 +77,18 @@
         "type": 301
       },
       {
-        "source": "/pagina/duvidas",
-        "destination": "/pages/duvidas-frequentes",
+        "source": "/pagina/privacidade",
+        "destination": "/pages/privacidade",
         "type": 301
       },
       {
-        "source": "/carrinho",
-        "destination": "/app/#/cart",
+        "source": "/pagina/frete-gratis",
+        "destination": "/pages/frete-gratis",
         "type": 301
       },
       {
-        "source": "/entrar",
-        "destination": "/",
-        "type": 301
-      },
-      {
-        "source": "/pagina/termos",
-        "destination": "/pages/ingredientes-que-contem-blow-gummies",
+        "source": "/pagina/trocas",
+        "destination": "/pages/trocas",
         "type": 301
       }
     ],
