@@ -1,4 +1,7 @@
 // Add your custom CSS here.
+#main {
+  overflow-x: hidden !important;
+}
 .extra-page .container {
   display: flex;
   justify-content: center;
