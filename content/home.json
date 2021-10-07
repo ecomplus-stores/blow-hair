@@ -7,23 +7,16 @@
       "autoplay": 4000,
       "slides": [
         {
-          "start": "2021-10-01T16:58:54.471Z",
-          "end": "2021-10-06T02:59:10.714Z",
-          "img": "/img/uploads/banner-site-frete-amoblow.png",
-          "mobile_img": "/img/uploads/banner-mobile-campanha-frete-amoblow.png",
-          "link": "#search-engine"
-        },
-        {
-          "start": "2021-10-06T02:55:55.252Z",
+          "start": "2021-10-07T13:55:24.984Z",
           "end": "2021-10-10T02:59:55.289Z",
           "img": "/img/uploads/banner-site-campanha-sonhos-de-crianca.png",
-          "mobile_img": "/img/uploads/banner-mobile-campanha-sonhos-de-crianca.png"
+          "mobile_img": "/img/uploads/banner-mobile-campanha-sonhos-de-crianca-600x600-2-.png"
         },
         {
           "start": "2021-10-10T02:55:38.718Z",
           "end": "2021-10-13T02:59:38.753Z",
-          "img": "/img/uploads/banner-site-campanha-match-10.10.png",
-          "mobile_img": "/img/uploads/banner-mobile-match-10.10.png"
+          "img": "/img/uploads/banner-site-campanha-match-10.png",
+          "mobile_img": "/img/uploads/banner-mobile-match-10.png"
         }
       ]
     },
