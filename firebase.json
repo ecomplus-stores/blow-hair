@@ -115,6 +115,11 @@
         "source": "/pagina/trocas",
         "destination": "/pages/trocas",
         "type": 301
+      },
+      {
+        "source": "/blow-gummies-360-dias-de-tratamento",
+        "destination": "/blow-gummies-box-360-dias-de-tratamento",
+        "type": 301
       }
     ],
     "public": "dist",
