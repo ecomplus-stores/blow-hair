@@ -7,16 +7,28 @@
       "autoplay": 4000,
       "slides": [
         {
-          "start": "",
-          "end": "",
+          "start": "2021-10-17T21:27:44.356Z",
+          "end": "2021-10-18T12:00:33.464Z",
+          "img": "/img/uploads/banner-site-tudo-fica-blow.png",
+          "mobile_img": "/img/uploads/banner-mobile-tudo-fica-blow-star.png"
+        },
+        {
+          "start": "2021-10-18T11:54:01.093Z",
+          "end": "2021-10-18T21:00:01.149Z",
           "img": "/img/uploads/banner-site-campanha-pink-blow.png",
           "mobile_img": "/img/uploads/banner-mobile-campanha-pink-blow-brinde-surpresa.png"
         },
         {
-          "start": "2021-10-18T12:48:15.260Z",
-          "end": "2021-10-27T03:05:04.765Z",
-          "img": "/img/uploads/banner-site-campanha-pink-blow-frasqueira-de-21-a-26.10.png",
-          "mobile_img": "/img/uploads/banner-mobile-campanha-pink-blow-frasqueira-de-21-a-26.10.png"
+          "start": "2021-10-18T20:55:25.816Z",
+          "end": "2021-10-19T12:00:25.857Z",
+          "img": "/img/uploads/banner-site-tudo-fica-blow.png",
+          "mobile_img": "/img/uploads/banner-mobile-tudo-fica-blow-star.png"
+        },
+        {
+          "start": "2021-10-19T11:55:45.267Z",
+          "end": "2021-10-19T21:00:45.309Z",
+          "img": "/img/uploads/banner-site-campanha-pink-blow.png",
+          "mobile_img": "/img/uploads/banner-mobile-campanha-pink-blow-brinde-surpresa.png"
         }
       ]
     },
