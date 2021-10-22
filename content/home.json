@@ -8,9 +8,15 @@
       "slides": [
         {
           "start": "2021-10-21T12:06:01.264Z",
-          "end": "2021-10-26T11:58:39.532Z",
+          "end": "2021-10-22T18:00:39.532Z",
           "img": "/img/uploads/banner-site-campanha-pink-blow-frasqueira-de-21-a-26.10.png",
           "mobile_img": "/img/uploads/banner-mobile-campanha-pink-blow-frasqueira-de-21-a-26.10.png"
+        },
+        {
+          "start": "2021-10-22T18:00:50.791Z",
+          "end": "2021-10-25T12:00:50.824Z",
+          "img": "/img/uploads/banner-site-fashblow.png",
+          "mobile_img": "/img/uploads/banner-mobile-flashblow.png"
         }
       ]
     },
