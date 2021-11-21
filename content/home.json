@@ -4,13 +4,13 @@
   "sections": [
     {
       "type": "banner-slider",
-      "autoplay": 4000,
+      "autoplay": 9000,
       "slides": [
         {
-          "start": "2021-11-19T18:07:03.475Z",
-          "end": "2021-11-21T18:00:30.812Z",
-          "img": "/img/uploads/banner-site-campanha-esquenta-blow-friday-1-.png",
-          "mobile_img": "/img/uploads/banner-mobile-campanha-esquenta-black-friday-valendo.png",
+          "start": "2021-11-21T18:04:14.524Z",
+          "end": "2021-11-25T18:00:30.812Z",
+          "img": "/img/uploads/banner-site-campanha-esquenta-blow-friday.png",
+          "mobile_img": "/img/uploads/v-2-banner-mobile-campanha-esquenta-black-friday-.png",
           "link": "https://www.blowgummies.com.br/compre-agora/",
           "alt": "Black Friday Blow Gummies"
         }
