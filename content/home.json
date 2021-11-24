@@ -13,6 +13,14 @@
           "mobile_img": "/img/uploads/banner-mobile-campanha-black-blow.png",
           "link": "https://www.blowgummies.com.br/compre-agora/",
           "alt": "Black Friday Blow Gummies"
+        },
+        {
+          "start": "2021-11-25T02:55:31.014Z",
+          "end": "2021-11-29T02:59:02.029Z",
+          "img": "/img/uploads/banner-site-blow-friday-45-off-v2.png",
+          "link": "https://www.blowgummies.com.br/compre-agora/",
+          "alt": "O foguete aterrissou! A Blow Friday começou! ",
+          "mobile_img": "/img/uploads/banner-mobile-blow-friday.png"
         }
       ]
     },
