@@ -211,11 +211,6 @@ export default {
         if (isForceUpdate || !this.isCouponApplied) {
           this.submitCoupon(isForceUpdate)
         }
-      } else if (
-        isForceUpdate ||
-        (!this.isUpdateSheduled && this.amount && this.amount.total)
-      ) {
-        this.fetchDiscountOptions()
       }
     }
   },
