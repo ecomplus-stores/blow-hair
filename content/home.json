@@ -4,13 +4,15 @@
   "sections": [
     {
       "type": "banner-slider",
-      "autoplay": 4000,
+      "autoplay": 9000,
       "slides": [
         {
-          "start": "2021-10-22T17:56:35.158Z",
-          "end": "2021-10-25T12:00:50.824Z",
-          "img": "/img/uploads/banner-site-fashblow.png",
-          "mobile_img": "/img/uploads/banner-mobile-flashblow.png"
+          "start": "2021-11-25T02:45:47.919Z",
+          "end": "2021-11-29T02:59:02.029Z",
+          "img": "/img/uploads/banner-site-blow-friday-45-off-v2.png",
+          "link": "https://www.blowgummies.com.br/compre-agora/",
+          "alt": "O foguete aterrissou! A Blow Friday começou! ",
+          "mobile_img": "/img/uploads/banner-mobile-blow-friday.png"
         }
       ]
     },
@@ -89,6 +91,11 @@
           "alt": "Evelyn Regly",
           "img": "/img/uploads/evelyn-regly-blow-gummies.png",
           "link": "#search-engine"
+        },
+        {
+          "link": "#search-engine",
+          "alt": "Maria Lina",
+          "img": "/img/uploads/maria-lina-blow-gummies.png"
         }
       ]
     },
