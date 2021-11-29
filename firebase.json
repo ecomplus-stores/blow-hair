@@ -120,7 +120,48 @@
         "source": "/blow-gummies-360-dias-de-tratamento",
         "destination": "/blow-gummies-box-360-dias-de-tratamento",
         "type": 301
+      },
+      {
+        "source": "/necessaire-blow-hair-rosa-pink",
+        "destination": "/compre-agora/",
+        "type": 302
+      },
+      {
+        "source": "/blow-box-surpresa-c752-c920",
+        "destination": "/compre-agora/",
+        "type": 302
+      },
+      {
+        "source": "/blow-box-surpresa-c752-c168",
+        "destination": "/compre-agora/",
+        "type": 302
+      },
+      {
+        "source": "/blow-box-surpresa",
+        "destination": "/compre-agora/",
+        "type": 302
+      },
+      {
+        "source": "/frasqueira-candy-blow",
+        "destination": "/compre-agora/",
+        "type": 302
+      },
+      {
+        "source": "/blow-box-surpresa-c752",
+        "destination": "/compre-agora/",
+        "type": 302
+      },
+      {
+        "source": "/necessaire-pink-blow-gummies",
+        "destination": "/compre-agora/",
+        "type": 302
+      },
+      {
+        "source": "/brinde-blowzinha-laranja-60-dias-de-tratamento",
+        "destination": "/compre-agora/",
+        "type": 302
       }
+      
     ],
     "public": "dist",
     "ignore": [
