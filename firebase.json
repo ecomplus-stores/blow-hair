@@ -160,8 +160,12 @@
         "source": "/brinde-blowzinha-laranja-60-dias-de-tratamento",
         "destination": "/compre-agora/",
         "type": 302
+      },
+      {
+        "source": "/brindes-blow-gummies",
+        "destination": "/compre-agora/",
+        "type": 302
       }
-      
     ],
     "public": "dist",
     "ignore": [
