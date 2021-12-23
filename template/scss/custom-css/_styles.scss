@@ -198,7 +198,7 @@
 .recommended-items .product-card--small .product-card__name {
   --max-lines: 3 !important;
 }
-.account-points {
+.account-points, .cart-item--freebie .cart-item__quantity {
   display: none !important;
 }
 //description
