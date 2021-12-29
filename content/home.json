@@ -7,12 +7,20 @@
       "autoplay": 9000,
       "slides": [
         {
-          "start": "2021-12-27T12:04:43.647Z",
-          "end": "2022-01-05T12:00:00.000Z",
-          "img": "/img/uploads/banner-site-campanha-sua-blow-sua-sorte-1-.png",
-          "mobile_img": "/img/uploads/banner-mobile-campanha-sua-blow-sua-sorte-1-.png",
+          "start": "2021-12-29T19:17:25.206Z",
+          "end": "2021-12-29T21:00:00.000Z",
+          "img": "/img/uploads/banner-site-campanha-sua-blow-sua-sorte.png",
+          "mobile_img": "/img/uploads/banner-mobile-campanha-sua-blow-sua-sorte.png",
           "link": "https://www.blowgummies.com.br/compre-agora/",
-          "alt": "Blow Gummies a única com 60 dias de tratamento."
+          "alt": "Blow Gummies"
+        },
+        {
+          "start": "2021-12-29T21:00:41.326Z",
+          "end": "2021-12-30T12:00:41.443Z",
+          "img": "/img/uploads/campanha-projeto-cabelao-2022-banner-site.png",
+          "mobile_img": "/img/uploads/campanha-projeto-cabelao-2022-banner-mobile.png",
+          "link": "https://www.blowgummies.com.br/compre-agora/",
+          "alt": "Blow Gummies"
         }
       ]
     },
