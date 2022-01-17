@@ -7,12 +7,20 @@
       "autoplay": 9000,
       "slides": [
         {
-          "start": "2022-01-09T10:29:50.616Z",
-          "end": "2022-01-16T14:59:56.467Z",
-          "img": "/img/uploads/banner-site-happy-blow.png",
-          "mobile_img": "/img/uploads/banner-mobile-happy-blow.png",
+          "start": "",
+          "end": "",
+          "img": "/img/uploads/banner-site-cake-blow-30-.png",
+          "mobile_img": "/img/uploads/feed-cakeblow-esta-tico-30-.png",
           "link": "https://www.blowgummies.com.br/compre-agora/",
           "alt": "Blow Gummies Faz 3 anos "
+        },
+        {
+          "start": "",
+          "end": "",
+          "img": "/img/uploads/banner-site-necessaire-altamente-necessa-ria.png",
+          "link": "https://www.blowgummies.com.br/compre-agora/",
+          "alt": "Cake Blow",
+          "mobile_img": "/img/uploads/banner-mobile-necessaire-altamente-necessa-ria.png"
         }
       ],
       "full_width": true
