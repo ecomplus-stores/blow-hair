@@ -4,13 +4,13 @@
   "sections": [
     {
       "type": "banner-slider",
-      "autoplay": 4000,
+      "autoplay": 9000,
       "slides": [
         {
-          "start": "2022-01-21T15:03:31.138Z",
-          "end": "2022-01-26T15:00:00.000Z",
+          "start": "",
+          "end": "",
           "img": "/img/uploads/banner-site-happy-blow-surpresa-blow.png",
-          "mobile_img": "/img/uploads/banner-mobile-happy-blow-surpresa-blow-2-.png",
+          "mobile_img": "/img/uploads/banner-mobile-happy-blow-surpresa-blow-.png",
           "link": "https://www.blowgummies.com.br/compre-agora/",
           "alt": "Blow Gummies Faz 3 anos "
         }
