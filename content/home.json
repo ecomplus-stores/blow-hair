@@ -4,15 +4,15 @@
   "sections": [
     {
       "type": "banner-slider",
-      "autoplay": 9000,
+      "autoplay": 4000,
       "slides": [
         {
-          "start": "",
+          "start": "2022-01-21T15:13:10.494Z",
           "end": "2022-01-26T15:00:00.000Z",
           "img": "/img/uploads/banner-site-happy-blow-surpresa-blow.png",
-          "mobile_img": "/img/uploads/banner-mobile-happy-blow-surpresa-blow-.png",
+          "mobile_img": "/img/uploads/banner-mobile-happy-blow-surpresa-blow-2-.png",
           "link": "https://www.blowgummies.com.br/compre-agora/",
-          "alt": "Ganhou 60 Dias de Tratamento Sabor Laranja"
+          "alt": "Blow Gummies Faz 3 anos "
         }
       ],
       "full_width": true
