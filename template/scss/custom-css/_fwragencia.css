@@ -226,8 +226,6 @@ body {
 
 .page--home {
     background: url(/img/uploads/onda.png) no-repeat center top;
-    /*padding-top: 40px;*/
-    /* margin-top: -20px; */
     z-index: 1;
     position: relative;
 }

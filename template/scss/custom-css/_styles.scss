@@ -65,6 +65,12 @@
   .dynamic-showcase .product-card__name {
     height: 75.4px;
   }
+  .product-card__buy button {
+    display: block !important;
+  }
+  .product-card__buy.fade {
+    opacity: 1;
+  }
   
 }
 .title-valor li {
