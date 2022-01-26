@@ -45,13 +45,7 @@
 .order-info__financial-status--paid {
   color: #86e9fe
 }
-@media(min-width: 768px) {
-  .banner-slider {
-      max-width: 100%;
-      --banner-aspect-ratio: 1!important;
-      height: auto;
-  }
-}
+
 @media(min-width: 767px) {
 .shipping-calculator__option .shipping-line {
   max-width: 50%
