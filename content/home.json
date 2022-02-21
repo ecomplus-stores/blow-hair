@@ -8,11 +8,19 @@
       "slides": [
         {
           "start": "2022-02-19T14:54:54.063Z",
-          "end": "2022-02-23T15:00:35.008Z",
+          "end": "2022-02-21T21:00:35.008Z",
           "img": "/img/uploads/banner-site-bloco-da-blow-30-.png",
           "mobile_img": "/img/uploads/banner-mobile-bloco-da-blow-30-.png",
           "link": "https://www.blowgummies.com.br/compre-agora/",
           "alt": "Blow Gummies. Sua beleza de dentro para fora."
+        },
+        {
+          "start": "2022-02-21T21:00:53.103Z",
+          "end": "2022-02-22T12:00:53.117Z",
+          "img": "/img/uploads/banner-site-campanha-madruga-blow.png",
+          "mobile_img": "/img/uploads/feed-mobile-campanha-madruga-blow.png",
+          "link": "https://www.blowgummies.com.br/compre-agora/",
+          "alt": "Blow da Madrugada. Descontão por 14 horas. "
         }
       ],
       "full_width": true
