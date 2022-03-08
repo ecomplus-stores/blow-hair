@@ -7,12 +7,12 @@
       "autoplay": 4000,
       "slides": [
         {
-          "start": "",
-          "end": "",
-          "img": "/img/uploads/banner-site-campanha-match-2.png",
-          "mobile_img": "/img/uploads/banner-mobile-campanha-match-3.3-1-.png",
+          "start": "2022-03-08T14:57:07.312Z",
+          "end": "2022-03-14T14:59:00.000Z",
+          "img": "/img/uploads/banner-para-midia-campanha-diva-blow.png",
+          "mobile_img": "/img/uploads/banner-mobile-campanha-diva-blow.png",
           "link": "https://www.blowgummies.com.br/compre-agora/",
-          "alt": "Blow Gummies a maior folia de beleza e saúde"
+          "alt": "Blow Gummies. Desperte a diva em você!"
         }
       ],
       "full_width": true
