@@ -7,12 +7,12 @@
       "autoplay": 4000,
       "slides": [
         {
-          "start": "",
-          "end": "",
-          "img": "/img/uploads/banner-para-midia-campanha-diva-blow.png",
-          "mobile_img": "/img/uploads/banner-mobile-campanha-diva-blow.png",
+          "start": "2022-03-14T14:55:00.000Z",
+          "end": "2022-03-18T14:55:00.000Z",
+          "img": "/img/uploads/banner-site-semana-do-consumidor-40-.png",
+          "mobile_img": "/img/uploads/banner-mobile-campanha-semana-do-consumidor-40-.png",
           "link": "https://www.blowgummies.com.br/compre-agora/",
-          "alt": "Blow Gummies. Desperte a diva em você!"
+          "alt": "Semana do Consumidor Blow Gummies. Aqui você é a estrela do Show!"
         }
       ],
       "full_width": true
