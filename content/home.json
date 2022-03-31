@@ -9,10 +9,18 @@
         {
           "start": "2022-03-31T17:57:36.524Z",
           "end": "2022-04-01T11:55:00.000Z",
-          "img": "/img/uploads/banner-site-campanha-tardezinha.png",
-          "mobile_img": "/img/uploads/banner-mobile-campanha-tardezinha.png",
+          "img": "/img/uploads/02-07-campanha-de-outono-banner-site.png",
+          "mobile_img": "/img/uploads/banner-mobile-campanha-outono.png",
           "link": "https://www.blowgummies.com.br/compre-agora/",
           "alt": "Blow Gummies, controle a queda capilar em todas as estações!"
+        },
+        {
+          "start": "2022-04-01T11:55:59.673Z",
+          "end": "2022-04-07T14:55:29.235Z",
+          "img": "/img/uploads/post-mobile-campanha-match-4.4.png",
+          "mobile_img": "/img/uploads/banner-para-site-campanha-match-4.4.png",
+          "link": "https://www.blowgummies.com.br/compre-agora/",
+          "alt": "Blow Gummies é a única com 60 dias de tratamento por pote. "
         }
       ],
       "full_width": true
