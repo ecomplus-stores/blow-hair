@@ -8,19 +8,19 @@
   },
   "bg_color": "#fff",
   "repository": "ecomplus-stores/blow-hair",
-  "logo": "/img/uploads/blow-gummies-suplemento-alimentarpara-os-cabelos-unhas-logo.png",
+  "logo": "/img/uploads/logo-header-site.png",
   "name": "Blow Gummies",
   "short_name": "App Blow Gummies",
   "lang": "pt_br",
   "currency": "BRL",
   "mini_logo": "",
   "font_family": "_",
-  "favicon": "/img/uploads/favv.png",
+  "favicon": "/img/uploads/five-icon-logo-site-rebranding.png",
   "icons_font": "_",
   "country_code": "BR",
   "secondary_color": "#f21877",
-  "icon": "/img/uploads/favv.png",
+  "icon": "/img/uploads/five-icon-logo-site-rebranding.png",
   "store_id": 1032,
   "description": "<iframe src=\"https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FBlowGummies%2F&tabs&width=260&height=130&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId=348301289312384\" width=\"260\" height=\"130\" style=\"border:none;overflow:hidden\" scrolling=\"no\" frameborder=\"0\" allowfullscreen=\"true\" allow=\"autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share\"></iframe>",
-  "large_icon": "/img/uploads/logo-blow-gummies.png"
+  "large_icon": "/img/uploads/logo-header-site.png"
 }
