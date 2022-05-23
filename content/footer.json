@@ -6,7 +6,8 @@
   "links_1": {
     "list_pages": false,
     "title": "Institucional",
-    "list": [{
+    "list": [
+      {
         "text": "Blow Gummies Responsabilidade Ambiental",
         "url": "/pages/blow-gummies-responsabilidade-ambiental"
       },
@@ -35,7 +36,7 @@
         "url": "/pages/frete-gratis"
       },
       {
-        "text": "Ingredientes que contem blow gummies",
+        "text": "Ingredientes Blow Gummies",
         "url": "/pages/ingredientes-que-contem-blow-gummies"
       },
       {
