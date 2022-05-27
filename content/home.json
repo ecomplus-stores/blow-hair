@@ -9,16 +9,10 @@
         {
           "start": "",
           "end": "",
-          "img": "/img/uploads/banner-site-campanha-blow-coins.png",
-          "mobile_img": "/img/uploads/banner-mobile-campanha-blow-coins-.png",
+          "img": "/img/uploads/banner-site-campanha-pre-dia-dos-namorados.png",
+          "mobile_img": "/img/uploads/feed-campanha-pre-dia-dos-namorados.png",
           "link": "https://www.blowgummies.com.br/compre-agora/",
           "alt": "Blow Gummies. A única com 60 dias de tratamento."
-        },
-        {
-          "start": "",
-          "end": "",
-          "img": "/img/uploads/regulamento-banner-site-campanha-blow-coins.png",
-          "mobile_img": "/img/uploads/regulamento-banner-mobile-campanha-blow-coins.png"
         }
       ],
       "full_width": true
