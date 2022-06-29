@@ -240,12 +240,14 @@ body {
 }
 
 
-.page--home .product-item {
-    background: #fff;
-    border-radius: 20px;
-    padding: 10px 0;
-    text-align: center;
-    box-shadow: 0px 8px 0px #f3237f;
+.page--home {
+    .product-item, .product-card.search-engine__item section {
+        background: #fff;
+        border-radius: 20px;
+        padding: 10px 0;
+        text-align: center;
+        box-shadow: 0px 8px 0px #f3237f;
+    }
 }
 
 
