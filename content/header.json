@@ -12,6 +12,10 @@
         "link": "/compre-agora/"
       },
       {
+        "title": "Zero Açúcar",
+        "link": "/blow-gummies-zero-acucar"
+      },
+      {
         "title": "Composição",
         "link": "/pages/ingredientes-que-contem-blow-gummies"
       },
@@ -30,10 +34,6 @@
       {
         "title": "Contato",
         "link": "/pages/contato"
-      },
-      {
-        "title": "Zero Açúcar",
-        "link": "/blow-gummies-zero-acucar"
       }
     ]
   },
