@@ -13,6 +13,12 @@
           "mobile_img": "/img/uploads/banner-mobile-campanha-transborde-possibilidades.png",
           "link": "https://www.blowgummies.com.br/compre-agora/",
           "alt": "Blow Gummies. A única com 60 dias de tratamento."
+        },
+        {
+          "start": "",
+          "end": "",
+          "img": "/img/uploads/banner-site-campanha-transborde-possibilidades-bolsa-azul.png",
+          "mobile_img": "/img/uploads/banner-mobile-campanha-transborde-possibilidades-bolsa-azul.png"
         }
       ],
       "full_width": true
