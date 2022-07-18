@@ -30,6 +30,10 @@
       {
         "title": "Contato",
         "link": "/pages/contato"
+      },
+      {
+        "title": "ZERO AÇÚCAR",
+        "link": "/blow-gummies-zero-acucar"
       }
     ]
   },
@@ -38,5 +42,6 @@
     "random": 6,
     "full_width": false
   },
-  "search_input": false
+  "search_input": false,
+  "desktop_megamenu": false
 }
