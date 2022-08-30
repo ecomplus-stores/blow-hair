@@ -12,3 +12,5 @@ Disallow: /admin/cms/$
 Disallow: /admin/cms/index$
 Disallow: /admin/cms/index.html$
 Disallow: /brindes-blow-gummies$
+Disallow: /brindes-blow-gummies-c957$
+
