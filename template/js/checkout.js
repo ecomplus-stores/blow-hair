@@ -1,4 +1,4 @@
 import '#template/js/checkout'
 import './custom-js/checkout'
 
-window.ecomPaymentApps = [111223, 1250, 1251, 108091]
+window.ecomPaymentApps = [1250, 111223, 1251, 108091]
