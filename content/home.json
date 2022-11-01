@@ -9,9 +9,16 @@
         {
           "start": "",
           "end": "",
-          "img": "/img/uploads/banner-site-campanha-blow-ou-travessuras.png",
-          "mobile_img": "/img/uploads/banner-mobile-campanha-blow-ou-travessuras.png",
-          "link": ""
+          "img": "/img/uploads/banner-site-campanha-blow-na-area-camisa-azul.png",
+          "mobile_img": "/img/uploads/banner-mobile-campanha-blow-na-area-camisa-azul.png",
+          "link": "https://www.blowgummies.com.br/"
+        },
+        {
+          "start": "2022-11-01T03:22:00.871Z",
+          "end": "2022-11-05T03:00:00.000Z",
+          "img": "/img/uploads/banner-site-campanha-blow-na-area-camisa-amarela-.png",
+          "mobile_img": "/img/uploads/banner-mobile-campanha-blow-na-area-camisa-amarela-.png",
+          "link": "https://www.blowgummies.com.br/"
         },
         {
           "start": "",
