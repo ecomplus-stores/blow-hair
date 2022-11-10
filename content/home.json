@@ -29,17 +29,17 @@
         },
         {
           "start": "",
-          "end": "2022-12-14T02:59:00.000Z",
-          "img": "/img/uploads/banner-venda-va-lida-e-blow-gummies.png",
-          "mobile_img": "/img/uploads/banner-mobile-venda-va-lida-e-blow-gummies-copia-1-.png",
-          "link": "https://www.blowgummies.com.br/?utm_source=venda-valida&utm_campaign=banner&utm_medium=site"
-        },
-        {
-          "start": "",
           "end": "",
           "mobile_img": "/img/uploads/banner-mobile-blow-friday-benefi-cios-3-.png",
           "img": "/img/uploads/banner-site-blow-friday-beneficiospng-3-.png",
           "link": "https://www.blowgummies.com.br/compre-agora/"
+        },
+        {
+          "start": "",
+          "end": "2022-12-14T02:59:00.000Z",
+          "img": "/img/uploads/banner-venda-va-lida-e-blow-gummies.png",
+          "mobile_img": "/img/uploads/banner-mobile-venda-va-lida-e-blow-gummies-copia-1-.png",
+          "link": "https://www.blowgummies.com.br/?utm_source=venda-valida&utm_campaign=banner&utm_medium=site"
         }
       ],
       "full_width": true
