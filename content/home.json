@@ -19,6 +19,13 @@
           "img": "/img/uploads/banner-venda-va-lida-e-blow-gummies.png",
           "mobile_img": "/img/uploads/banner-mobile-venda-va-lida-e-blow-gummies-copia-1-.png",
           "link": "https://www.blowgummies.com.br/?utm_source=venda-valida&utm_campaign=banner&utm_medium=site"
+        },
+        {
+          "start": "",
+          "end": "",
+          "img": "/img/uploads/banner-site-kits.png",
+          "link": "https://www.blowgummies.com.br/?utm_source=site&utm_medium=banner&utm_campaign=bestblow",
+          "mobile_img": "/img/uploads/banner-mobile-kits-60_120.png"
         }
       ],
       "full_width": true
