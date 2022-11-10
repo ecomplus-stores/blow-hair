@@ -1,7 +1,7 @@
 {
   "marketing_stripe": {
     "text": "",
-    "link": ""
+    "link": "https://www.blowgummies.com.br/?utm_source=site&utm_medium=banner&utm_campaign=bestblow"
   },
   "contacts_stripe": {
     "phone_wpp": false,
@@ -39,5 +39,7 @@
     "full_width": false
   },
   "search_input": false,
-  "desktop_megamenu": false
+  "desktop_megamenu": false,
+  "alphabetical_order_submenu": false,
+  "full_width_submenu": false
 }
