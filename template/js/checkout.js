@@ -18,12 +18,12 @@ function initbvWidgetShared() {
                 const customer = ecomPassport.getCustomer()
                 const customerName = `${customer.name.given_name} ${customer.name.family_name}`
                 const $confirmDiv = document.querySelector('#confirmation')
-                $confirmDiv.insertAdjacentHTML('afterbegin','<div width="10px" height="10px" id="app_cw_widget"></div>')
+                $confirmDiv.insertAdjacentHTML('afterbegin','<div id="app_cw_widget"></div>')
                 var bvWidgetShared = new window.bvWidgetShared();
                 bvWidgetShared.Init({
                     host: "https://account.beeviral.app",
                     element: "app_cw_widget",
-                    campaign_token: "bW90eTc0ZEZyaE9vNVdaWjRAMGh2QT09",
+                    campaign_token: "",
                     name: customerName,
                     email: customer.main_email,
                     phone: "",
