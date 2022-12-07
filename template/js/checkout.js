@@ -23,7 +23,7 @@ function initbvWidgetShared() {
                 bvWidgetShared.Init({
                     host: "https://account.beeviral.app",
                     element: "app_cw_widget",
-                    campaign_token: "aipOcmlMVDhGTVZxcExVMFVJKkZKdGQwVkdYanNzRDlFWlRpVTdrQmxGRzhSS0xGclFQbjlJSlRLekxrekpqQA==",
+                    campaign_token: "bW90eTc0ZEZyaE9vNVdaWjRAMGh2QT09",
                     name: customerName,
                     email: customer.main_email,
                     phone: "",
