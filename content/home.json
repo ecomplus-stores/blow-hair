@@ -12,20 +12,6 @@
           "img": "/img/uploads/banner-site-campanha-natal-45-.png",
           "mobile_img": "/img/uploads/banner-mobile-campanha-natal-45-.jpg",
           "link": "https://www.blowgummies.com.br/"
-        },
-        {
-          "start": "",
-          "end": "",
-          "img": "/img/uploads/banner-site-kits.jpg",
-          "mobile_img": "/img/uploads/banner-mobile-kits-60_120.jpg",
-          "link": "https://www.blowgummies.com.br/compre-agora/"
-        },
-        {
-          "start": "",
-          "end": "",
-          "img": "/img/uploads/banner-site-kits.jpg",
-          "mobile_img": "/img/uploads/banner-mobile-kits-180_360.jpg",
-          "link": "https://www.blowgummies.com.br/compre-agora/"
         }
       ],
       "full_width": true
