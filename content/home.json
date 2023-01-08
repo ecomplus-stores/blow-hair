@@ -113,6 +113,10 @@
     {
       "type": "falam",
       "html": "<div class=\"instafeed-footer\">\n<!-- LightWidget WIDGET --><script src=\"https://cdn.lightwidget.com/widgets/lightwidget.js\"></script><iframe src=\"https://cdn.lightwidget.com/widgets/ef70a8b393a358f88c0679e84a75a20d.html\" scrolling=\"no\" allowtransparency=\"true\" class=\"lightwidget-widget\" style=\"width:100%;border:0;overflow:hidden;\"></iframe>\n</div>"
+    },
+    {
+      "type": "custom-html",
+      "html": "<meta name=\"p:domain_verify\" content=\"646bef620483d5f571e4897a77731938\"/>"
     }
   ]
 }
