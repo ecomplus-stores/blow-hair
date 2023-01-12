@@ -13,6 +13,18 @@
           "mobile_img": "/img/uploads/banner-mobile-campanha-niver-blow.png",
           "link": "https://www.blowgummies.com.br/",
           "alt": ""
+        },
+        {
+          "start": "",
+          "end": "",
+          "img": "/img/uploads/banner-site-kits-niver-blow-1-.png",
+          "mobile_img": "/img/uploads/banner-mobile-kits-60-e-120-blow-1-.png"
+        },
+        {
+          "start": "",
+          "end": "",
+          "img": "/img/uploads/banner-site-kits-niver-blow-1-.png",
+          "mobile_img": "/img/uploads/banner-mobile-kits-180-e-360-blow-1-.png"
         }
       ],
       "full_width": true
