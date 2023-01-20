@@ -1098,3 +1098,16 @@ body {
 }
 #app-blow_gummies .freebie-rule .freebie-item.already_selected select,
 #app-blow_gummies .freebie-rule .freebie-item.already_selected button{display:none}
+
+.err_brinde{}
+.err_brinde.plural:after{
+    content: "Selecione seus brindes para prosseguir";
+}
+.err_brinde:after{
+    content: "Selecione seu brinde para prosseguir";
+    color: #ff2f2f;
+    content: "Selecione seu brinde para prosseguir";
+    display: inline-block;
+    font-size: 14px;
+    width: 100%;
+}

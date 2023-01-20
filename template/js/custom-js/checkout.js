@@ -11,6 +11,30 @@ var localFreebies = {}
 if(sessionStorage.getItem('freebieData')){
     localFreebies = JSON.parse(sessionStorage.getItem('freebieData'))
 }
+$('body').on('click','.cart__btn-checkout', function(e){
+    e.preventDefault();
+    let block = false;
+    
+    $('.freebie-rule').each(function(){
+      let selectable = parseInt($(this).attr('selectable'));    
+      let actives = $(this).find('.btn.active').length;
+      if(selectable > actives){
+        block = true;
+        $(this).prev('.freebie-rule-name').addClass('err_brinde');
+        if(selectable > 1){
+            $(this).prev('.freebie-rule-name').addClass('plural');
+        }
+      }else{
+        $(this).prev('.freebie-rule-name').removeClass('err_brinde');
+        $(this).prev('.freebie-rule-name').removeClass('plural');
+      }
+    });
+
+    if(!block){
+        window.location.href = $(this).attr('href');
+    }
+});
+
 $('body').on('click', '.freebie-item button', function(oObj){
     let item = $(oObj.target).closest('.freebie-item')
     let _id = item.attr('product_id')
