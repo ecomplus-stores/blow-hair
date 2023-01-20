@@ -36,6 +36,8 @@ $('body').on('click','.cart__btn-checkout', function(e){
 });
 
 $('body').on('click', '.freebie-item button', function(oObj){
+    $(this).closest('.freebie-rule').prev('.freebie-rule-name').removeClass('err_brinde');
+    $(this).closest('.freebie-rule').prev('.freebie-rule-name').removeClass('plural');
     let item = $(oObj.target).closest('.freebie-item')
     let _id = item.attr('product_id')
     let offer = item.closest('.freebie-rule').attr('label')
