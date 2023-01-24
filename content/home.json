@@ -13,6 +13,12 @@
           "mobile_img": "/img/uploads/banner-mobile-campanha-bolsa-20-.png",
           "link": "https://www.blowgummies.com.br/",
           "alt": ""
+        },
+        {
+          "start": "",
+          "end": "",
+          "img": "/img/uploads/banner-site-kit-180-a-360-dias-bolsa-praiana-20-.png",
+          "mobile_img": "/img/uploads/banner-mobile-kit-60-e-120-dias-bolsa-praiana-20-.png"
         }
       ],
       "full_width": true
