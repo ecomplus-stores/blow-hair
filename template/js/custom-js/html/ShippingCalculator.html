@@ -30,9 +30,9 @@
         </div>
       </div>
     </form>
-    <div v-if="!isToCalculate" class="alert alert-danger" role="alert">
-      Necessário inserir o cep completo (8 dígitos) para cálculo
-    </div>
+    <small v-if="!isToCalculate" class="alert alert-danger py-2 d-inline-block" role="alert">
+      Necessário inserir o CEP completo (8 dígitos) para cálculo
+    </small>
     <div class="shipping-calculator__services">
       <transition-group
         enter-active-class="animated fadeInDown"
