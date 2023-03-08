@@ -24,6 +24,10 @@
       "full_width": true
     },
     {
+      "type": "custom-html",
+      "html": "<div class=\"\" id=\"apx_form\"> <div class=\"\" style=\"text-align: center;justify-content: center;align-items: center; display:flex;flex-wrap:wrap;\"> <div class=\"col-12  px-0 col-md-5\"> <b>Inscreva-se agora<small></small></b> <small>Seja a primeira a receber descontos e conteúdos exclusivos.</small> </div><div class=\"col-12  px-0 col-md-5\"> <form id=\"apx_replicateForm\"> <input type=\"email\" required name=\"mail\" placeholder=\"Digite seu e-mail\"> <button type=\"submit\" class=\"btn\">Cadastrar</button> </form> </div></div></div><style>#apx_form form{display: flex; align-items: center; margin: 0;}#apx_form form input{border: 1px solid #000; padding: 15px; height: 46px; border-radius: 3px 0 0 3px; width: 100%;}#apx_form form button{background:#000; color:#fff; font-weight: bold; border: 0; border-radius: 0px 3px 3px 0; height: 46px; padding: 0 30px;}#apx_form b{font-size:22px;color: #f51879;font-weight: bold;text-transform: uppercase;font-family: GoldplayAltBold;}#apx_form b small{line-height: initial;font-weight: normal;text-transform: initial;font-weight: 400;font-size: 14px;font-family: GoldplayMedium;margin: 0px 0 0 0;display: block;}@media(max-width:990px){#apx_form small{display:Block;margin-bottom:15px;font-size:12px;}#apx_form b{font-size:18px}}</style>"
+    },
+    {
       "type": "dynamic-showcase",
       "load_more": true,
       "sort": "views"
