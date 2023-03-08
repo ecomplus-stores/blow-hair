@@ -30,7 +30,7 @@
         </div>
       </div>
     </form>
-    <small v-if="!isToCalculate" class="alert alert-danger py-2 d-inline-block" role="alert">
+    <small v-if="isInvalidZip" class="alert alert-warning py-2 d-inline-block" role="alert">
       Necessário inserir o CEP completo (8 dígitos) para cálculo
     </small>
     <div class="shipping-calculator__services">

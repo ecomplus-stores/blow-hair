@@ -100,7 +100,8 @@ import {
         isScheduled: false,
         retryTimer: null,
         isWaiting: false,
-        hasCalculated: false
+        hasCalculated: false,
+        isInvalidZip: false
       }
     },
   
@@ -120,13 +121,6 @@ import {
         return this.hasPaidOption && this.amountSubtotal < this.freeFromValue
           ? Math.round(this.amountSubtotal * 100 / this.freeFromValue)
           : null
-      },
-
-      isToCalculate () {
-        if (this.localZipCode) {
-          return this.localZipCode.replace(/\D/g, '').length === 8
-        }
-        return true
       },
   
       productionDeadline () {
@@ -212,7 +206,12 @@ import {
       },
   
       fetchShippingServices (isRetry) {
-        if (!this.isScheduled && this.isToCalculate) {
+        if (this.countryCode === 'BR' && this.localZipCode.replace(/\D/g, '').length !== 8) {
+          this.isInvalidZip = true
+          return
+        }
+        this.isInvalidZip = false
+        if (!this.isScheduled) {
           this.isScheduled = true
           setTimeout(() => {
             this.isScheduled = false
@@ -284,9 +283,13 @@ import {
         deep: true,
         immediate: true
       },
-  
+
       localZipCode (zipCode) {
-        if (this.countryCode === 'BR' && zipCode.replace(/\D/g, '').length === 8) {
+        if (
+          this.countryCode === 'BR' &&
+          zipCode.replace(/\D/g, '').length === 8 &&
+          window.location.pathname.startsWith('/app/')
+        ) {
           this.submitZipCode()
         }
       },
