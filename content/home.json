@@ -9,16 +9,29 @@
         {
           "start": "2023-02-06T12:03:10.556Z",
           "end": "",
-          "img": "/img/uploads/banner-site-campanha-comprou-ganhou-carnaval.png",
-          "mobile_img": "/img/uploads/banner-mobile-campanha-comprou-ganhou-carnaval-1-.png",
+          "img": "/img/uploads/banner-site-campanha-maxi-bolsa.png",
+          "mobile_img": "/img/uploads/banner-mobile-campanha-max-bolsa.png",
           "link": "#search-engine"
         },
         {
           "start": "",
-          "end": "2023-02-13T16:03:07.386Z",
-          "img": "/img/uploads/banner-site-sorteio-iphone-14-carnaval.png",
-          "mobile_img": "/img/uploads/banner-mobile-sorteio-iphone-14-carnaval.png",
-          "link": "https://www.blowgummies.com.br/?=&utm_source=venda-valida&utm_campaign=banner&utm_medium=site"
+          "end": "",
+          "img": "/img/uploads/banner-site-campanha-maxi-bolsa.png",
+          "mobile_img": "/img/uploads/banner-mobile-campanha-maxi-bolsa-nathalie.png",
+          "link": "#search-engine"
+        },
+        {
+          "start": "",
+          "end": "",
+          "img": "/img/uploads/banner-site-campanha-maxi-bolsa-influ.png",
+          "mobile_img": "/img/uploads/banner-mobile-campanha-maxi-bolsa-bia-mustein.png",
+          "link": "#search-engine"
+        },
+        {
+          "start": "",
+          "end": "",
+          "img": "/img/uploads/banner-site-campanha-maxi-bolsa-influ.png",
+          "mobile_img": "/img/uploads/banner-mobile-campanha-maxi-bolsa-gabi-ramos.png"
         }
       ],
       "full_width": true
