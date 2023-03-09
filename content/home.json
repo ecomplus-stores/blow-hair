@@ -7,31 +7,18 @@
       "autoplay": 4000,
       "slides": [
         {
-          "start": "2023-02-06T12:03:10.556Z",
+          "start": "",
           "end": "",
-          "img": "/img/uploads/banner-site-campanha-maxi-bolsa.webp",
-          "mobile_img": "/img/uploads/banner-mobile-campanha-max-bolsa.webp",
+          "img": "/img/uploads/banner-site-semana-do-consumidor.png",
+          "mobile_img": "/img/uploads/banner-mobile-semana-do-consumidor-60-e-120-dias.png",
           "link": "#search-engine"
         },
         {
           "start": "",
           "end": "",
-          "img": "/img/uploads/banner-site-campanha-maxi-bolsa.webp",
-          "mobile_img": "/img/uploads/banner-mobile-campanha-maxi-bolsa-nathalie.webp",
-          "link": "#search-engine"
-        },
-        {
-          "start": "",
-          "end": "",
-          "img": "/img/uploads/banner-site-campanha-maxi-bolsa-influ.webp",
-          "mobile_img": "/img/uploads/banner-mobile-campanha-maxi-bolsa-bia-mustein.webp",
-          "link": "#search-engine"
-        },
-        {
-          "start": "",
-          "end": "",
-          "img": "/img/uploads/banner-site-campanha-maxi-bolsa-influ.webp",
-          "mobile_img": "/img/uploads/banner-mobile-campanha-maxi-bolsa-gabi-ramos.webp"
+          "img": "/img/uploads/banner-site-kits-semana-do-consumidor.png",
+          "link": "#search-engine",
+          "mobile_img": "/img/uploads/banner-mobile-semana-do-consumidor-180-e-360-dias.png"
         }
       ],
       "full_width": true
