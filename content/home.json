@@ -19,6 +19,13 @@
           "img": "/img/uploads/banner-site-kits-semana-do-consumidor.png",
           "link": "#search-engine",
           "mobile_img": "/img/uploads/banner-mobile-semana-do-consumidor-60-e-120-dias.png"
+        },
+        {
+          "start": "",
+          "end": "",
+          "img": "/img/uploads/banner-site-kits-semana-do-consumidor.png",
+          "link": "#search-console",
+          "mobile_img": "/img/uploads/banner-mobile-semana-do-consumidor-180-e-360-dias.png"
         }
       ],
       "full_width": true
