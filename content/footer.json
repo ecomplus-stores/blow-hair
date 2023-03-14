@@ -132,11 +132,6 @@
       "src": "/img/uploads/ssl-safe.png",
       "alt": "Secure connection",
       "link": "#search-engine"
-    },
-    {
-      "src": "/img/uploads/selo-bolacha-branco.png",
-      "link": "https://www.blowgummies.com.br/pages/blow-gummies-responsabilidade-ambiental",
-      "alt": "Blow Gummies Responsabilidade Ambiental"
     }
   ],
   "payment_methods": {
@@ -146,7 +141,7 @@
     "aura": false,
     "banrisul": false,
     "elo": true,
-    "hipercard": true,
+    "hipercard": false,
     "hsbc": false,
     "bradesco": false,
     "santander": false,
@@ -154,7 +149,8 @@
     "paypal": false,
     "citibank": false,
     "mais": false,
+    "pix": true,
     "itau": true
   },
-  "credits": "® 2022. M.AZEVEDO COMERCIO DE PRODUTOS ALIMENTICIOS E SUPLEMENTOS ALIMENTARES, CNPJ 14.900.786/0001-08 - Todos os direitos reservados. É vetada a reprodução, total ou parcial das fotos e informações aqui veiculadas, sem a expressa autorização da administração do site."
+  "credits": "® 2023. M.AZEVEDO COMERCIO DE PRODUTOS ALIMENTICIOS E SUPLEMENTOS ALIMENTARES, CNPJ 14.900.786/0001-08 - Todos os direitos reservados. É vetada a reprodução, total ou parcial das fotos e informações aqui veiculadas, sem a expressa autorização da administração do site."
 }
