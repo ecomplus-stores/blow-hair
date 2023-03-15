@@ -1029,6 +1029,9 @@ body {
 .account-points, .cart-item--freebie .cart-item__quantity, .product-card__offer-stamp {
   display: none !important;
 }
+.account__content .account-points {
+    display: block !important;
+}
 .stamps img {
   max-height: 220px !important;
 }
