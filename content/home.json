@@ -9,8 +9,8 @@
         {
           "start": "",
           "end": "",
-          "img": "/img/uploads/banner-site-tbt-semana-do-consumidor.png",
-          "mobile_img": "/img/uploads/captura-de-tela-2023-03-18-131211.jpg",
+          "img": "/img/uploads/banner-site-tbt-semana-do-consumidor.webp",
+          "mobile_img": "/img/uploads/captura-de-tela-2023-03-18-131211.webp",
           "link": "#search-engine"
         },
         {
@@ -25,14 +25,14 @@
           "end": "",
           "img": "/img/uploads/banner-site-kits-semana-do-consumidor.webp",
           "link": "#search-engine",
-          "mobile_img": "/img/uploads/banner-mobile-semana-do-consumidor-180-e-360-dias.png"
+          "mobile_img": "/img/uploads/banner-mobile-semana-do-consumidor-180-e-360-dias.webp"
         },
         {
           "start": "",
           "end": "",
           "img": "/img/uploads/banner-site-benefi-cios.webp",
           "link": "#search-engine",
-          "mobile_img": "/img/uploads/banner-mobile-benefi-cios-3-.png"
+          "mobile_img": "/img/uploads/banner-mobile-benefi-cios-3-.webp"
         }
       ],
       "full_width": true
@@ -63,12 +63,12 @@
       "autoplay": 5000,
       "banners": [
         {
-          "img": "/img/uploads/bia-siqueira-blow-gummies.png",
+          "img": "/img/uploads/bia-siqueira-blow-gummies.webp",
           "alt": "Bia Siqueira",
           "link": "#search-engine"
         },
         {
-          "img": "/img/uploads/julia-doorman-blow-gummies.png",
+          "img": "/img/uploads/julia-doorman-blow-gummies.webp",
           "alt": "Júlia Doorman",
           "link": "#search-engine"
         },
@@ -89,7 +89,7 @@
         },
         {
           "alt": "Evelyn Regly",
-          "img": "/img/uploads/evelyn-regly-blow-gummies.png",
+          "img": "/img/uploads/evelyn-regly-blow-gummies.webp",
           "link": "#search-engine"
         },
         {
@@ -103,7 +103,7 @@
       "type": "grid-op",
       "banners": [
         {
-          "img": "/img/uploads/blow-gummies-funciona-harin.png",
+          "img": "/img/uploads/blow-gummies-funciona-harin.webp",
           "link": "#search-engine"
         },
         {
