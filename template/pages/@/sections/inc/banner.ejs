@@ -22,10 +22,13 @@ if (opt.img) {
   %>
 
   <div class="banner">
+    <% if (opt.end && opt.timer) { %>
+      <%- await include('@/sections/inc/timer-banner', { _, opt }) %>
+    <% } %>
     <a
       href="<%= opt.link || 'javascript:;' %>"
       aria-label="<%= opt.alt %>"
-    >
+    > 
       <picture
         <% if (opt.sync_load) { %>
           class="img-fluid"

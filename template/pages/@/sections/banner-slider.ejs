@@ -36,13 +36,17 @@ if (slides && slides.length) {
   %>
 
   <div class="<%- className %>" style="<%- style %>">
-    <div class="glide" data-autoplay="<%= opt.autoplay %>">
+    <div class="glide" data-autoplay="1000000">
       <div class="glide__track" data-glide-el="track">
         <ul class="glide__slides banner-slider__slides">
           <% for (let i = 0; i < slides.length; i++) { %>
-            <li class="glide__slide">
+            <li 
+              class="glide__slide"
+              id="slider-<%= i %>"
+              date-end="<%= slides[i].end %>"
+            >
               <%- await include('@/sections/inc/banner', {
-                _, opt: { ...slides[i], height_auto: true, sync_load: i === 0 }
+                _, opt: { ...slides[i], height_auto: true, sync_load: i === 0, index: i, timer: true }
               }) %>
             </li>
           <% } %>
