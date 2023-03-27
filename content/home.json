@@ -4,7 +4,7 @@
   "sections": [
     {
       "type": "banner-slider",
-      "autoplay": 3000,
+      "autoplay": 2500,
       "slides": [
         {
           "start": "",
@@ -12,20 +12,6 @@
           "img": "/img/uploads/banner-site-campanhabolsa-simples-assim.png",
           "mobile_img": "/img/uploads/whatsapp-image-2023-03-27-at-07.46.01-1-.jpeg",
           "link": "#search-engine"
-        },
-        {
-          "start": "",
-          "end": "",
-          "img": "/img/uploads/banner-site-kits-semana-do-consumidor.webp",
-          "link": "#search-engine",
-          "mobile_img": "/img/uploads/banner-mobile-semana-do-consumidor-60-e-120-dias.webp"
-        },
-        {
-          "start": "",
-          "end": "",
-          "img": "/img/uploads/banner-site-kits-semana-do-consumidor.webp",
-          "link": "#search-engine",
-          "mobile_img": "/img/uploads/banner-mobile-semana-do-consumidor-180-e-360-dias.webp"
         },
         {
           "start": "",
