@@ -1131,7 +1131,7 @@ body {
     color: #f51879;
     top: 2%;
     font-size: 3.5rem;
-    width: 45px;
+    width: 65px;
   }
   
   .top,
@@ -1208,6 +1208,37 @@ body {
   @media(max-width: 767px) {
     .flip-card {
         font-size: 2.5rem;
-        width: 35px;
+        width: 45px;
     }
   }
+  // purchase button
+  .card-footer {
+    .minicart__btn-checkout {
+        display: none !important;
+    }
+    .minicart__btn-cart {
+        font-size: 0;
+        background: #6ec065;
+        border: none;
+        color: #000;
+        font-weight: 700;
+      }
+    .minicart__btn-cart:after {
+        content: 'Finalizar compra';
+        font-size: 1.1rem !important;
+        font-weight: bold
+    }
+    .minicart__btn-cart:before {
+        content: '\f00c';
+        font-size: 1rem;
+        font-family: Storefront Icons;
+        font-style: normal;
+        font-variant: normal;
+        font-weight: 400;
+        line-height: 1em;
+        text-transform: none;
+        padding-right: 7px
+    }
+    
+  }
+  
