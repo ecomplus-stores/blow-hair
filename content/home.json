@@ -11,14 +11,21 @@
           "end": "",
           "img": "/img/uploads/banner-site-tbt-semana-do-consumidor.webp",
           "mobile_img": "/img/uploads/captura-de-tela-2023-03-18-131211.webp",
-          "link": "#search-engine"
+          "link": "https://www.blowgummies.com.br/?utm_source=site&utm_medium=banner&utm_campaign=maisblow"
+        },
+        {
+          "start": "",
+          "end": "2023-03-30T22:00:00.000Z",
+          "img": "/img/uploads/banner-site-kits-semana-do-consumidor.webp",
+          "link": "https://www.blowgummies.com.br/?utm_source=site&utm_medium=banner&utm_campaign=maisblow",
+          "mobile_img": "/img/uploads/banner-mobile-semana-do-consumidor-60-e-120-dias.webp"
         },
         {
           "start": "",
           "end": "",
-          "img": "/img/uploads/banner-site-campanha-candy-blow-versa-o-1920x492-1-.webp",
-          "link": "https://blowgummies.com.br/?utm_source=site&utm_medium=banner&utm_campaign=surpresablow",
-          "mobile_img": "/img/uploads/banner-mobile-campanha-candy-blow-influenciadora-1-.webp"
+          "img": "/img/uploads/banner-site-kits-semana-do-consumidor.webp",
+          "link": "https://www.blowgummies.com.br/?utm_source=site&utm_medium=banner&utm_campaign=maisblow",
+          "mobile_img": "/img/uploads/banner-mobile-semana-do-consumidor-180-e-360-dias.webp"
         }
       ],
       "full_width": true
