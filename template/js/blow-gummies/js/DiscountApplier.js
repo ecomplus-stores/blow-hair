@@ -334,7 +334,6 @@ export default {
           data.customer.display_name = customer.display_name
         }
       }
-      
 
       modules({
         url: '/apply_discount.json',
@@ -434,14 +433,14 @@ export default {
   mounted () {
     this.fixAmount()
     this.updateDiscount(false)
-    
     this.freebieData = JSON.parse(sessionStorage.getItem('freebieData'))    
-    this.getFreebies()   
-    
-    
+    this.getFreebies()
   },
+
   created(){
-    window.frontFetchFreebies = this.fetchDiscountOptions
+    window.frontFetchFreebies = () => {
+      this.submitCoupon(true)
+    }
     window.removeFreebie = this.ecomCart.removeItem
     window.ecomCustomCart = this.ecomCart
   }
