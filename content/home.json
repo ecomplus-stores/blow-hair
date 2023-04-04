@@ -9,13 +9,27 @@
         {
           "start": "",
           "end": "",
+          "img": "/img/uploads/banner-site-campanha-maxi-bolsa-influ.webp",
+          "link": "#search-engine",
+          "mobile_img": "/img/uploads/banner-mobile-campanha-maxi-bolsa-gabi-ramos.webp"
+        },
+        {
+          "start": "",
+          "end": "2023-04-04T01:01:00.000Z",
+          "img": "/img/uploads/banner-site-campanhabolsa-simples-assim.webp",
+          "mobile_img": "/img/uploads/whatsapp-image-2023-03-27-at-07.46.01-1-.webp",
+          "link": "#search-engine"
+        },
+        {
+          "start": "",
+          "end": "2023-04-04T01:00:28.137Z",
           "img": "/img/uploads/banner-site-1-campanha-de-pa-scoa-de-brindes.webp",
           "mobile_img": "/img/uploads/banner-mobile-1-campanha-de-pa-scoa-de-brindes-1-.webp",
           "link": "#search-engine"
         },
         {
           "start": "",
-          "end": "",
+          "end": "2023-04-04T01:00:39.609Z",
           "img": "/img/uploads/banner-site-2-campanha-de-pa-scoa-de-brindes.webp",
           "mobile_img": "/img/uploads/banner-mobile-2-campanha-de-pa-scoa-de-brindes.webp",
           "link": "#search-engine"
