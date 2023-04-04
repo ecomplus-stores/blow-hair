@@ -228,7 +228,7 @@ export default {
                 _rule.append(freebie_item)        
               }
             })
-            .catch(console.error())           
+            .catch(console.error)           
           })          
           $('#app-blow_gummies').append(_rule)
         })  
