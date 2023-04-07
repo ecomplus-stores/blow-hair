@@ -1,8 +1,9 @@
 // Add your custom JavaScript for storefront pages here.
-
+if (storefront && storefront.context && storefront.context.resource === 'products') {
   ecomCart.on('addItem', (data) => { 
+    window.location = '/app/#/cart/'
     // Measure when a product is added to a shopping cart
-    let item = data.item
+    /* let item = data.item
     let specifications = item.specifications
     let variant = specifications ? window.ecomUtils.specTextValue(item, 'flavor') : undefined 
     window.dataLayer.push({ ecommerce: null });  // Clear the previous ecommerce object.
@@ -19,14 +20,12 @@
           quantity: item.quantity
         }]
       }
-    });
-
-    if (storefront && storefront.context && storefront.context.resource === 'products') {
-      window.location = '/app/#/cart/'
-    }
+    }); */
+    
   })
+}
 
-  if (storefront && storefront.context && storefront.context.resource === 'products') {
+  /* if (storefront && storefront.context && storefront.context.resource === 'products') {
     const pageProduct = storefront.context.body
     dataLayer.push({ ecommerce: null });  // Clear the previous ecommerce object.
     dataLayer.push({
@@ -43,7 +42,7 @@
       }
     });
 
-  }
+  } */
 
 // comente a linha abaixo para buscar regras de frete grátis
 window.modulesToFetch = [{ endpoint: 'list_payments' }]
