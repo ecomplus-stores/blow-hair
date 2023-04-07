@@ -9,16 +9,16 @@
         {
           "start": "",
           "end": "",
-          "img": "/img/uploads/banner-site-campanha-candy-blow-versa-o-1920x492.png",
-          "link": "#search-engine",
-          "mobile_img": "/img/uploads/banner-mobile-campanha-candy-blow-influenciadora.png"
+          "img": "/img/uploads/banner-site-campanha-candy-blow-1-.png",
+          "mobile_img": "/img/uploads/banner-mobile-campanha-candy-blow-1-.png",
+          "link": "#search-engine"
         },
         {
           "start": "",
           "end": "",
-          "img": "/img/uploads/banner-site-campanha-candy-blow-1-.png",
-          "mobile_img": "/img/uploads/banner-mobile-campanha-candy-blow-1-.png",
-          "link": "#search-engine"
+          "img": "/img/uploads/banner-site-campanha-candy-blow-versa-o-1920x492.png",
+          "link": "#search-engine",
+          "mobile_img": "/img/uploads/banner-mobile-campanha-candy-blow-influenciadora.png"
         }
       ],
       "full_width": true
