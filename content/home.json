@@ -9,23 +9,23 @@
         {
           "start": "",
           "end": "",
-          "img": "/img/uploads/banner-site-campanha-candy-blow-1-.png",
-          "mobile_img": "/img/uploads/banner-mobile-campanha-candy-blow-1-.png",
+          "img": "/img/uploads/banner-site-campanha-candy-blow-1-.webp",
+          "mobile_img": "/img/uploads/banner-mobile-campanha-candy-blow-1-.webp",
           "link": "#search-engine"
         },
         {
           "start": "",
           "end": "",
-          "img": "/img/uploads/banner-site-kits-semana-do-consumidor.png",
+          "img": "/img/uploads/banner-site-kits-semana-do-consumidor.webp",
           "link": "https://www.blowgummies.com.br/?utm_campaign=maisblow",
-          "mobile_img": "/img/uploads/banner-mobile-semana-do-consumidor60-120.png"
+          "mobile_img": "/img/uploads/banner-mobile-semana-do-consumidor60-120.webp"
         },
         {
           "start": "",
           "end": "",
-          "img": "/img/uploads/banner-site-kits-semana-do-consumidor.png",
+          "img": "/img/uploads/banner-site-kits-semana-do-consumidor.webp",
           "link": "https://www.blowgummies.com.br/?utm_campaign=maisblow",
-          "mobile_img": "/img/uploads/banner-mobile-semana-do-consumidor-120-360.png"
+          "mobile_img": "/img/uploads/banner-mobile-semana-do-consumidor-120-360.webp"
         }
       ],
       "full_width": true
