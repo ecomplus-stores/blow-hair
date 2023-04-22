@@ -1212,7 +1212,7 @@ body {
     }
   }
   // purchase button
-  .card-footer {
+  /* .card-footer {
     .minicart__btn-checkout {
         display: none !important;
     }
@@ -1240,5 +1240,16 @@ body {
         padding-right: 7px
     }
     
+  } */
+  .product-card__buy.fade {
+    opacity: 1;
+    button {
+        background-color: #3AB85C !important;
+        color: #fff !important;
+        border-radius: 5px;
+        text-transform: uppercase;
+    }
+    i {
+        display: none;
+    }
   }
-  
