@@ -113,16 +113,10 @@ body {
     height: 830px;
 }
 
-.page--home .custom-html:nth-child(4) {
-    background: url(/img/uploads/porque.png) no-repeat center top;
-    min-height: 598px;
-}
-
-.page--home .custom-html:nth-child(5) {
+.page--home .vantagens-html {
     background: url(/img/uploads/bg-beneficios.jpg) no-repeat top;
     min-height: 930px;
     display: flex;
-    padding-top: 70px;
 }
 
 .product-card {
@@ -565,11 +559,6 @@ body {
     margin: 0;
 }
 
-.page--home .custom-html:nth-child(4) {
-    background: url(/img/uploads/porque.png) no-repeat left top;
-    min-height: 598px;
-}
-
 .box-bg-gummie {
     padding-left: 63%;
     padding-top: 211px;
@@ -630,12 +619,6 @@ body {
 .box-gumm-mob {
     display: block;
 }
-
-.page--home .custom-html:nth-child(4) {
-    background: url(/img/uploads/mob-nicole-bahls.jpg) no-repeat center top #c2eaf3;
-
-        margin-top: 260px;
-}
 .box-bg-gummie {
     padding-left: 0;
     padding-top: 377px;
@@ -675,7 +658,6 @@ body {
 .box-gumm-mob {
     display: block;
     position: absolute;
-    margin-top: -226px;
     z-index: 99;
 }
 
@@ -1255,3 +1237,7 @@ body {
   .product-card.search-engine__item {
     margin-bottom: var(--spacer-2);
   }
+  .product-card__favorite {
+    left: 0;
+  }
+  
