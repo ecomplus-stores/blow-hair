@@ -71,13 +71,12 @@ body {
     font-family: 'GoldplayAltBold';
 }
 
-.product-card:hover .product-card__buy button, .product-card .product-card__buy button {
-    background: #c2eaf3 !important;
+.product-card .product-card__buy button:hover, .product-card .product-card__buy button {
+    background: #f21b7a !important;
     border: none;
-    border-radius: 25px;
     width: 95%;
     margin: 0px 3%;
-    color: #f21b7a !important;
+    color: #fff !important;
     font-family: 'GoldplayAltBold';
 }
 
@@ -241,10 +240,10 @@ body {
 
 
 .page--home {
-    .product-item, .product-card.search-engine__item section {
+    .product-item, .product-card.search-engine__item {
         background: #fff;
         border-radius: 20px;
-        padding: 10px 0;
+        padding: 10px 0 0 0;
         text-align: center;
         box-shadow: 0px 8px 0px #f3237f;
     }
@@ -1252,4 +1251,7 @@ body {
     i {
         display: none;
     }
+  }
+  .product-card.search-engine__item {
+    margin-bottom: var(--spacer-2);
   }
