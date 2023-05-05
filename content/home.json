@@ -12,6 +12,13 @@
           "img": "/img/uploads/banner-site-campanha-dia-das-ma-es.webp",
           "mobile_img": "/img/uploads/banner-mobile-campanha-dia-das-ma-es.webp",
           "link": "https://www.blowgummies.com.br/?utm_source=site&utm_medium=banner&utm_campaign=mamisblow"
+        },
+        {
+          "start": "",
+          "end": "",
+          "img": "/img/uploads/banner-site-campanha-candy-blow-versa-o-1920x492.webp",
+          "mobile_img": "/img/uploads/banner-site-campanha-candy-blow-versa-o-1920x492.webp",
+          "link": "https://www.blowgummies.com.br/?utm_source=site&utm_medium=banner&utm_campaign=mamisblow"
         }
       ],
       "full_width": true
