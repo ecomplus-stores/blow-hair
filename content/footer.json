@@ -131,7 +131,9 @@
     {
       "src": "/img/uploads/ssl-safe.png",
       "alt": "Secure connection",
-      "link": "#search-engine"
+      "link": "#search-engine",
+      "width": 150,
+      "height": 62
     }
   ],
   "payment_methods": {
