@@ -9,30 +9,16 @@
         {
           "start": "",
           "end": "",
-          "img": "/img/uploads/banner-site-campanha-dia-das-ma-es.webp",
-          "mobile_img": "/img/uploads/banner-mobile-campanha-dia-das-ma-es-50-.webp",
-          "link": "https://www.blowgummies.com.br/?utm_source=site&utm_medium=banner&utm_campaign=mamisblow"
+          "img": "/img/uploads/banner-site-campanha-emergencial-baseada-no-dia-das-ma-es-v2.webp",
+          "mobile_img": "/img/uploads/banner-mobile-campanha-emergencial-baseada-no-dia-das-ma-es.webp",
+          "link": "https://www.blowgummies.com.br/?utm_source=site&utm_medium=banner&utm_campaign=maisblow"
         },
         {
           "start": "",
           "end": "",
-          "img": "/img/uploads/banner-site-kits-dia-das-ma-es.png",
-          "mobile_img": "/img/uploads/banner-mobile-kits-60-e-120-dias-dia-das-ma-es.png",
-          "link": "https://www.blowgummies.com.br/?utm_source=site&utm_medium=banner&utm_campaign=mamisblow"
-        },
-        {
-          "start": "",
-          "end": "",
-          "img": "/img/uploads/banner-site-kits-dia-das-ma-es.png",
-          "mobile_img": "/img/uploads/banner-mobile-kits-180-e-360-dias-dia-das-ma-es.png",
-          "link": "https://www.blowgummies.com.br/?utm_source=site&utm_medium=banner&utm_campaign=mamisblow"
-        },
-        {
-          "start": "",
-          "end": "",
-          "img": "/img/uploads/banner-site-influenciadora-vivian-versa-o-50off.webp",
-          "mobile_img": "/img/uploads/banner-mobile-influenciadora-vivian-50off.webp",
-          "link": "https://www.blowgummies.com.br/?utm_source=site&utm_medium=banner&utm_campaign=mamisblow"
+          "img": "/img/uploads/banner-site-influenciadora-vivian-versa-o-50-off.webp",
+          "mobile_img": "/img/uploads/banner-mobile-influenciadora-vivian-50-off.webp",
+          "link": "https://www.blowgummies.com.br/?utm_source=site&utm_medium=banner&utm_campaign=maisblow"
         }
       ],
       "full_width": true
