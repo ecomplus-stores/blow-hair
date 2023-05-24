@@ -189,48 +189,50 @@ export default {
         $('.cart__list').after('<div id="app-blow_gummies"></div>');
         let selected_ids = []
         $.each(response.data.rules, function(k, rule){
-          $('#app-blow_gummies').append('<p class="freebie-rule-name">Selecione até <b>'+ rule.selectable +' brinde(s)</b> para a campanha: <b>'+ rule.label +'</b></p>')
-          let _rule = $('<div class="freebie-rule" selectable="'+ rule.selectable +'" rule="rule_'+ k +'" label="'+ rule.label +'"></div>')
-          _rule.append('<input type="hidden" name="rule_'+ k +'"/>')
-          $.each(rule.product_ids, function(k2, product_id){
-            store({ url: `/products/${product_id}.json` })
-            .then(({ data }) => {
-              //console.log(data)
-              if ((!data.variations || !data.variations.length)) {
-                if(data.quantity > 0){
-                  let is_selected = freebieData != null ? (typeof freebieData[rule.label] !== 'undefined' ? (freebieData[rule.label]._id.find(el => el == data._id) ? true : false) : false ) : false;
+          if (Array.isArray(rule.product_ids) && rule.product_ids.length) {
+            $('#app-blow_gummies').append('<p class="freebie-rule-name">Selecione até <b>'+ rule.selectable +' brinde(s)</b> para a campanha: <b>'+ rule.label +'</b></p>')
+            let _rule = $('<div class="freebie-rule" selectable="'+ rule.selectable +'" rule="rule_'+ k +'" label="'+ rule.label +'"></div>')
+            _rule.append('<input type="hidden" name="rule_'+ k +'"/>')
+            $.each(rule.product_ids, function(k2, product_id){
+              store({ url: `/products/${product_id}.json` })
+              .then(({ data }) => {
+                //console.log(data)
+                if ((!data.variations || !data.variations.length)) {
+                  if(data.quantity > 0){
+                    let is_selected = freebieData != null ? (typeof freebieData[rule.label] !== 'undefined' ? (freebieData[rule.label]._id.find(el => el == data._id) ? true : false) : false ) : false;
+                    
+                    let already_selected = selected_ids.includes(data._id) ? true : false;
+                    
+                    if(!selected_ids.includes(data._id) && is_selected){
+                      selected_ids.push(data._id)                    
+                    }
+                    
+                    _rule.append('<div class="freebie-item '+ (already_selected == true ? 'already_selected' : '') +'" product_id="'+ data._id +'">'+ (already_selected ? '<span>Brinde já adicionado</span>' : '') +'<img src="'+ data.pictures[0].normal.url +'"/><label>' + data.name + '</label><button class="btn '+ (is_selected ? 'active' : '') +'" type="button">'+ (is_selected ? 'Selecionado' : 'Selecionar') +'</button></div>')        
+                  }
+                }else{
+                  let is_selected = freebieData != null ? (typeof freebieData[rule.label] !== 'undefined' ? (freebieData[rule.label]._id.find(el => el .includes(data._id)) ? true : false) : false ) : false;
+                  let variant_selected = freebieData != null ? (typeof freebieData[rule.label] !== 'undefined' ? (freebieData[rule.label]._id.find(el => el .includes(data._id)) ? freebieData[rule.label]._id.find(el => el .includes(data._id)).split('|')[1] : false) : false ) : false;
                   
                   let already_selected = selected_ids.includes(data._id) ? true : false;
-                  
                   if(!selected_ids.includes(data._id) && is_selected){
                     selected_ids.push(data._id)                    
                   }
-                  
-                  _rule.append('<div class="freebie-item '+ (already_selected == true ? 'already_selected' : '') +'" product_id="'+ data._id +'">'+ (already_selected ? '<span>Brinde já adicionado</span>' : '') +'<img src="'+ data.pictures[0].normal.url +'"/><label>' + data.name + '</label><button class="btn '+ (is_selected ? 'active' : '') +'" type="button">'+ (is_selected ? 'Selecionado' : 'Selecionar') +'</button></div>')        
-                }
-              }else{
-                let is_selected = freebieData != null ? (typeof freebieData[rule.label] !== 'undefined' ? (freebieData[rule.label]._id.find(el => el .includes(data._id)) ? true : false) : false ) : false;
-                let variant_selected = freebieData != null ? (typeof freebieData[rule.label] !== 'undefined' ? (freebieData[rule.label]._id.find(el => el .includes(data._id)) ? freebieData[rule.label]._id.find(el => el .includes(data._id)).split('|')[1] : false) : false ) : false;
-                
-                let already_selected = selected_ids.includes(data._id) ? true : false;
-                if(!selected_ids.includes(data._id) && is_selected){
-                  selected_ids.push(data._id)                    
-                }
 
-                let freebie_item = $('<div class="freebie-item '+ (already_selected == true ? 'already_selected' : '') +'" product_id="'+ data._id +'">'+ (already_selected ? '<span>Brinde já adicionado</span>' : '') +'<img src="'+ data.pictures[0].normal.url +'"/><label>' + data.name + '</label><select attr="variant_id" '+ (variant_selected != false ? "class=\"readonly\"" : '') + '></select><button class="btn '+ (is_selected ? 'active' : '') +'" type="button">'+ (is_selected ? 'Selecionado' : 'Selecionar') +'</button></div>');
-                let select = freebie_item.find('select');
-                $.each(data.variations, function(k3, variant){
-                  if(variant.quantity > 0){
-                    //console.log(variant._id + ' --- ' + variant_selected)
-                    select.append('<option value="'+ variant._id+'" '+ (variant_selected == variant._id ? "selected" : '') +'>'+ variant.name.replace(data.name + ' / ','') +'</option>');
-                  }
-                })  
-                _rule.append(freebie_item)        
-              }
-            })
-            .catch(console.error)           
-          })          
-          $('#app-blow_gummies').append(_rule)
+                  let freebie_item = $('<div class="freebie-item '+ (already_selected == true ? 'already_selected' : '') +'" product_id="'+ data._id +'">'+ (already_selected ? '<span>Brinde já adicionado</span>' : '') +'<img src="'+ data.pictures[0].normal.url +'"/><label>' + data.name + '</label><select attr="variant_id" '+ (variant_selected != false ? "class=\"readonly\"" : '') + '></select><button class="btn '+ (is_selected ? 'active' : '') +'" type="button">'+ (is_selected ? 'Selecionado' : 'Selecionar') +'</button></div>');
+                  let select = freebie_item.find('select');
+                  $.each(data.variations, function(k3, variant){
+                    if(variant.quantity > 0){
+                      //console.log(variant._id + ' --- ' + variant_selected)
+                      select.append('<option value="'+ variant._id+'" '+ (variant_selected == variant._id ? "selected" : '') +'>'+ variant.name.replace(data.name + ' / ','') +'</option>');
+                    }
+                  })  
+                  _rule.append(freebie_item)        
+                }
+              })
+              .catch(console.error)           
+            })          
+            $('#app-blow_gummies').append(_rule)
+          }
         })  
         $('body').on('click','',function(){
           

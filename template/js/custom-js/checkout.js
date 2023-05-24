@@ -8,9 +8,11 @@ $('body').on('click','.cart__btn-checkout', function(e){
     let block = false;
     
     $('.freebie-rule').each(function(){
+      let freebieLength = $(this).find('.freebie-item').length
       let selectable = parseInt($(this).attr('selectable'));    
       let actives = $(this).find('.btn.active').length;
-      if(selectable > actives){
+      console.log(actives)
+      if(selectable > actives && freebieLength){
         block = true;
         $(this).prev('.freebie-rule-name').addClass('err_brinde');
         if(selectable > 1){
