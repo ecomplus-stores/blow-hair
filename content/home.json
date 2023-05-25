@@ -9,17 +9,18 @@
         {
           "start": "",
           "end": "",
-          "img": "/img/uploads/banner-site-1-campanha-de-brindes.webp",
-          "mobile_img": "/img/uploads/banner-mobile-1-campanha-de-brindes.webp",
-          "link": "#search-engine",
-          "alt": "Blow Gummies Vitaminas Para Crescer Cabelo"
+          "img": "/img/uploads/banner-site-influenciadora-vivian-versao-25-off.webp",
+          "mobile_img": "/img/uploads/banner-mobile-influenciadora-vivian-25-.webp",
+          "link": "https://www.blowgummies.com.br/?utm_source=site&utm_medium=banner_beneficios&utm_campaign=mimoblow",
+          "alt": "Vivian Amorim"
         },
         {
           "start": "",
           "end": "",
-          "img": "/img/uploads/banner-site-influenciadora-vivian-versao-25-off.webp",
-          "mobile_img": "/img/uploads/banner-mobile-influenciadora-vivian-25-.webp",
-          "link": "#search-engine"
+          "img": "/img/uploads/banner-site-1-campanha-de-brindes.webp",
+          "mobile_img": "/img/uploads/banner-mobile-1-campanha-de-brindes.webp",
+          "link": "#search-engine",
+          "alt": "Blow Gummies Vitaminas Para Crescer Cabelo"
         }
       ],
       "full_width": true
