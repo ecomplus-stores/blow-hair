@@ -9,13 +9,6 @@
         {
           "start": "",
           "end": "",
-          "img": "/img/uploads/banner-site-influenciadora-vivian-versao-25-off.webp",
-          "mobile_img": "/img/uploads/banner-mobile-influenciadora-vivian-25-.webp",
-          "link": "#search-engine"
-        },
-        {
-          "start": "",
-          "end": "",
           "img": "/img/uploads/banner-site-1-campanha-de-brindes.webp",
           "mobile_img": "/img/uploads/banner-mobile-1-campanha-de-brindes.webp",
           "link": "#search-engine",
@@ -24,10 +17,9 @@
         {
           "start": "",
           "end": "",
-          "img": "/img/uploads/banner-site-campanha-de-brindes-2.png",
-          "mobile_img": "/img/uploads/banner-mobile-campanha-de-brindes-2.png",
-          "link": "#search-engine",
-          "alt": ""
+          "img": "/img/uploads/banner-site-influenciadora-vivian-versao-25-off.webp",
+          "mobile_img": "/img/uploads/banner-mobile-influenciadora-vivian-25-.webp",
+          "link": "#search-engine"
         }
       ],
       "full_width": true
