@@ -1007,7 +1007,7 @@ body {
 .recommended-items .product-card--small .product-card__name {
   --max-lines: 3 !important;
 }
-.account-points, .cart-item--freebie .cart-item__quantity, .product-card__offer-stamp {
+.account-points, .cart-item--freebie .cart-item__quantity {
   display: none !important;
 }
 .account__content .account-points {
@@ -1240,4 +1240,15 @@ body {
   .product-card__favorite {
     left: 0;
   }
-  
+.product-card__offer-stamp {
+    background-color: #ff0;
+    color: #222;
+    font-size: 16px;
+    .i-arrow-down {
+        color: #222 !important; 
+    }
+    &::after {
+        content: ' OFF'
+    }
+    font-weight: bold;
+}
