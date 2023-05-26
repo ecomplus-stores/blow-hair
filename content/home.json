@@ -9,32 +9,18 @@
         {
           "start": "",
           "end": "",
-          "img": "/img/uploads/banner-site-campanha-blow-week-40-off.webp",
-          "mobile_img": "/img/uploads/banner-mobile-campanha-blow-week-40-off.webp",
+          "img": "/img/uploads/banner-site-campanha-emergencial-baseada-no-dia-das-ma-es-v2.webp",
+          "mobile_img": "/img/uploads/banner-mobile-campanha-emergencial-baseada-no-dia-das-ma-es.webp",
           "link": "https://www.blowgummies.com.br/?utm_source=site&utm_medium=banner_beneficios&utm_campaign=blowday",
           "alt": "Vivian Amorim"
         },
         {
           "start": "",
           "end": "",
-          "img": "/img/uploads/banner-site-influenciadora-vivian-blow-week-40-off.webp",
-          "mobile_img": "/img/uploads/banner-mobile-influenciadora-vivian-blow-week-40-off.webp",
+          "img": "/img/uploads/banner-site-influenciadora-vivian-versa-o-50-off.webp",
+          "mobile_img": "/img/uploads/banner-mobile-influenciadora-vivian-50-off.webp",
           "link": "https://www.blowgummies.com.br/?utm_source=site&utm_medium=banner_beneficios&utm_campaign=blowday",
           "alt": "Blow Gummies Vitaminas Para Crescer Cabelo"
-        },
-        {
-          "start": "",
-          "end": "",
-          "img": "/img/uploads/banner-site-kits-blow-week-16-off-1-.webp",
-          "mobile_img": "/img/uploads/banner-kit-sites-mobile-60-e-120-dias-16-off-blow-week-1-.webp",
-          "link": "https://www.blowgummies.com.br/?utm_source=site&utm_medium=banner_beneficios&utm_campaign=blowday"
-        },
-        {
-          "start": "",
-          "end": "",
-          "link": "https://www.blowgummies.com.br/?utm_source=site&utm_medium=banner_beneficios&utm_campaign=blowday",
-          "img": "/img/uploads/banner-site-kits-blow-week-16-off-1-.webp",
-          "mobile_img": "/img/uploads/banner-kit-sites-mobile-180-e-360-dias-blow-week.webp"
         }
       ],
       "full_width": true
