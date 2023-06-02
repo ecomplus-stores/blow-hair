@@ -13,6 +13,20 @@
           "mobile_img": "/img/uploads/banner-mobile-campanha-pre-dia-dos-namorados.webp",
           "link": "https://www.blowgummies.com.br/?utm_source=site&utm_medium=banner_beneficios&utm_campaign=amoblow",
           "alt": "Blow Gummies Vitaminas Para Crescer Cabelo"
+        },
+        {
+          "start": "",
+          "end": "",
+          "img": "/img/uploads/banner-site-kits-blow-week.png",
+          "link": "https://www.blowgummies.com.br/?utm_source=site&utm_medium=banner_beneficios&utm_campaign=amoblow",
+          "mobile_img": "/img/uploads/banner-kit-sites-mobile-blow-week60-120-1-.png"
+        },
+        {
+          "start": "",
+          "end": "",
+          "img": "/img/uploads/banner-site-kits-blow-week.png",
+          "mobile_img": "/img/uploads/banner-kit-sites-mobile-blow-week180-360-1-.png",
+          "link": "https://www.blowgummies.com.br/?utm_source=site&utm_medium=banner_beneficios&utm_campaign=amoblow"
         }
       ],
       "full_width": true
