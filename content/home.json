@@ -9,9 +9,16 @@
         {
           "start": "",
           "end": "",
-          "img": "/img/uploads/banner-site-campanha-arraia-da-blow.webp",
+          "img": "/img/uploads/banner-site-kits-padrao-45-off.webp",
+          "mobile_img": "/img/uploads/banner-kit-sites-mobile-padrao-45-off-60-120.webp",
+          "link": "https://www.blowgummies.com.br/?utm_source=site&utm_medium=banner_beneficios&utm_campaign=amoblow"
+        },
+        {
+          "start": "",
+          "end": "",
+          "img": "/img/uploads/banner-site-kits-padrao-45-off.webp",
           "link": "https://www.blowgummies.com.br/?utm_source=site&utm_medium=banner_beneficios&utm_campaign=amoblow",
-          "mobile_img": "/img/uploads/banner-mobile-campanha-arraia-da-blow.webp"
+          "mobile_img": "/img/uploads/banner-kit-sites-mobile-padrao-45-off-180-360.webp"
         },
         {
           "start": "",
@@ -23,16 +30,9 @@
         {
           "start": "",
           "end": "",
-          "img": "/img/uploads/banner-site-kits-padrao-45-off.webp",
-          "mobile_img": "/img/uploads/banner-kit-sites-mobile-padrao-45-off-60-120.webp",
-          "link": "https://www.blowgummies.com.br/?utm_source=site&utm_medium=banner_beneficios&utm_campaign=amoblow"
-        },
-        {
-          "start": "",
-          "end": "",
-          "img": "/img/uploads/banner-site-kits-padrao-45-off.webp",
+          "img": "/img/uploads/banner-site-campanha-arraia-da-blow.webp",
           "link": "https://www.blowgummies.com.br/?utm_source=site&utm_medium=banner_beneficios&utm_campaign=amoblow",
-          "mobile_img": "/img/uploads/banner-kit-sites-mobile-padrao-45-off-180-360.webp"
+          "mobile_img": "/img/uploads/banner-mobile-campanha-arraia-da-blow.webp"
         }
       ],
       "full_width": true
