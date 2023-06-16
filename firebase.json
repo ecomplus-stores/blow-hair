@@ -170,7 +170,122 @@
         "source": "/brindes-blow-gummies",
         "destination": "/compre-agora/",
         "type": 302
-      }
+      },
+        {
+          "source": "/blow-gummies-120-dias-de-tratamento-laranja-kit-bem-praiano",
+          "destination": "/blow-gummies-120-dias-tratamento",
+          "type": 301
+        },
+        {
+          "source": "/blow-gummies-120-dias-de-tratamento-laranja-zero-hair-copa",
+          "destination": "/blow-gummies-120-dias-tratamento",
+          "type": 301
+        },
+        {
+          "source": "/blow-gummies-120-dias-de-tratamento-melancia-copa",
+          "destination": "/blow-gummies-120-dias-tratamento",
+          "type": 301
+        },
+        {
+          "source": "/blow-gummies-120-dias-de-tratamento-sabores",
+          "destination": "/blow-gummies-120-dias-tratamento",
+          "type": 301
+        },
+        {
+          "source": "/blow-gummies-120-dias-de-tratamento-sabores-laranja-melancia",
+          "destination": "/blow-gummies-120-dias-tratamento",
+          "type": 301
+        },
+        {
+          "source": "/blow-gummies-120-dias-de-tratamento-sabores-morango-melancia-antigo",
+          "destination": "/blow-gummies-120-dias-tratamento",
+          "type": 301
+        },
+        {
+          "source": "/blow-gummies-120-dias-de-tratamento-sabores-morango-uva",
+          "destination": "/blow-gummies-120-dias-tratamento",
+          "type": 301
+        },
+        {
+          "source": "/blow-gummies-120-dias-de-tratamento-sabores-uva-melancia",
+          "destination": "/blow-gummies-120-dias-tratamento",
+          "type": 301
+        },
+        {
+          "source": "/blow-gummies-120-dias-de-tratamento-sabores?mprice=314",
+          "destination": "/blow-gummies-120-dias-tratamento",
+          "type": 301
+        },
+        {
+          "source": "/blow-gummies-120-dias-tratamento-copa",
+          "destination": "/blow-gummies-120-dias-tratamento",
+          "type": 301
+        },
+        {
+          "source": "/blow-gummies-180-dias-de-tratamento-antigo",
+          "destination": "/blow-gummies-180-dias-de-tratamento",
+          "type": 301
+        },
+        {
+          "source": "/blow-gummies-180-dias-de-tratamento-banana-copa",
+          "destination": "/blow-gummies-180-dias-de-tratamento",
+          "type": 301
+        },
+        {
+          "source": "/blow-gummies-180-dias-de-tratamento-laranja-uva-morango",
+          "destination": "/blow-gummies-180-dias-de-tratamento",
+          "type": 301
+        },
+        {
+          "source": "/blow-gummies-180-dias-de-tratamento-laranja-zero-copa",
+          "destination": "/blow-gummies-180-dias-de-tratamento",
+          "type": 301
+        },
+        {
+          "source": "/blow-gummies-180-dias-de-tratamento-melancia-copa",
+          "destination": "/blow-gummies-180-dias-de-tratamento",
+          "type": 301
+        },
+        {
+          "source": "/blow-gummies-360-dias-de-tratamento-brinde-frasqueira",
+          "destination": "/blow-gummies-360-dias-de-tratamento",
+          "type": 301
+        },
+        {
+          "source": "/blow-gummies-360-dias-de-tratamento-morango-kit-bem-praiano",
+          "destination": "/blow-gummies-360-dias-de-tratamento",
+          "type": 301
+        },
+        {
+          "source": "/blow-gummies-360-dias-de-tratamento-morango-kit-bem-praiano-antigo",
+          "destination": "/blow-gummies-360-dias-de-tratamento",
+          "type": 301
+        },
+        {
+          "source": "/blow-gummies-360-dias-de-tratamento-todos-hair-n",
+          "destination": "/blow-gummies-360-dias-de-tratamento",
+          "type": 301
+        },
+        {
+          "source": "/blow-gummies-60-dias-de-tratamento-morango-kit-bem-praiano",
+          "destination": "/blow-gummies-crescimento-capilar-60-dias-tratamento",
+          "type": 301
+        },
+        {
+          "source": "/blow-gummies-box-360-dias-de-tratamento-cabeca-urso",
+          "destination": "/blow-gummies-360-dias-de-tratamento",
+          "type": 301
+        },
+        {
+          "source": "/blow-gummies-box-360-dias-de-tratamento-cabeca-urso-mala-lilas-melancia-antigo",
+          "destination": "/blow-gummies-360-dias-de-tratamento",
+          "type": 301
+        },
+        {
+          "source": "/utm_",
+          "destination": "/",
+          "type": 301
+        }
     ],
     "public": "dist",
     "ignore": [
