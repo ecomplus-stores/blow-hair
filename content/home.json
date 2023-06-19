@@ -9,30 +9,9 @@
         {
           "start": "",
           "end": "",
-          "img": "/img/uploads/45-off-oferta-relampago.jpg",
-          "link": "https://www.blowgummies.com.br/?utm_source=site&utm_medium=banner_beneficios&utm_campaign=amoblow",
-          "mobile_img": "/img/uploads/oferta-relampago-feed-45-.jpg"
-        },
-        {
-          "start": "",
-          "end": "",
-          "img": "/img/uploads/banner-site-influenciadora-vivian-padrao-45-off.webp",
-          "link": "https://www.blowgummies.com.br/?utm_source=site&utm_medium=banner_beneficios&utm_campaign=amoblow",
-          "mobile_img": "/img/uploads/banner-mobile-influenciadora-vivian-padrao-45-off.webp"
-        },
-        {
-          "start": "",
-          "end": "",
-          "img": "/img/uploads/banner-site-kits-padrao-45-off.webp",
-          "mobile_img": "/img/uploads/banner-kit-sites-mobile-padrao-45-off-60-120.webp",
-          "link": "https://www.blowgummies.com.br/?utm_source=site&utm_medium=banner_beneficios&utm_campaign=amoblow"
-        },
-        {
-          "start": "",
-          "end": "",
-          "img": "/img/uploads/banner-site-kits-padrao-45-off.webp",
-          "link": "https://www.blowgummies.com.br/?utm_source=site&utm_medium=banner_beneficios&utm_campaign=amoblow",
-          "mobile_img": "/img/uploads/banner-kit-sites-mobile-padrao-45-off-180-360.webp"
+          "img": "/img/uploads/banner-site-campanha-comprou-ganhou-mochila.webp",
+          "mobile_img": "/img/uploads/banner-mobile-campanha-comprou-ganhou-mochila.webp",
+          "link": "#search-engine"
         }
       ],
       "full_width": true
