@@ -1,7 +1,7 @@
 <%
 let items
 if (!opt.items) {
-  const search = opt.search || new _.EcomSearch()
+  const search = new _.EcomSearch().setCategoryIds(['6047fc686d50911b6059f55f'])
   if (opt.sort) {
     search.setSortOrder(opt.sort)
   }
