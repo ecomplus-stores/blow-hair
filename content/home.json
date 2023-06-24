@@ -9,8 +9,29 @@
         {
           "start": "2023-06-23T19:34:19.062Z",
           "end": "2023-06-24T02:59:00.000Z",
-          "img": "/img/uploads/45-banner-site-campanha-piscou-perdeu-1-.webp",
-          "mobile_img": "/img/uploads/45-feed-campanha-piscou-perdeu-2-.webp",
+          "img": "/img/uploads/banner-site-pote-extra-semana-do-consumidor.webp",
+          "mobile_img": "/img/uploads/feed-pote-extra-semana-do-consumidor.webp",
+          "link": "https://www.blowgummies.com.br/?utm_source=site&utm_medium=banner_site&utm_campaign=queroblow"
+        },
+        {
+          "start": "",
+          "end": "",
+          "img": "/img/uploads/banner-site-influenciadora-vivian-padrao-45-off.webp",
+          "mobile_img": "/img/uploads/banner-mobile-influenciadora-vivian-padrao-45-off.webp",
+          "link": "https://www.blowgummies.com.br/?utm_source=site&utm_medium=banner_site&utm_campaign=queroblow"
+        },
+        {
+          "start": "",
+          "end": "",
+          "img": "/img/uploads/banner-site-kits-padrao-45-off.webp",
+          "mobile_img": "/img/uploads/banner-kit-sites-mobile-padrao-45-off-60-120.webp",
+          "link": "https://www.blowgummies.com.br/?utm_source=site&utm_medium=banner_site&utm_campaign=queroblow"
+        },
+        {
+          "start": "",
+          "end": "",
+          "img": "/img/uploads/banner-site-kits-padrao-45-off.webp",
+          "mobile_img": "/img/uploads/banner-kit-sites-mobile-padrao-45-off-180-360.webp",
           "link": "https://www.blowgummies.com.br/?utm_source=site&utm_medium=banner_site&utm_campaign=queroblow"
         }
       ],
