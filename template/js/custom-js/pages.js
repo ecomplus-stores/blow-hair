@@ -1,4 +1,5 @@
 // Add your custom JavaScript for storefront pages here.
+import EcomSearch from '@ecomplus/search-engine'
 if (storefront && storefront.context && storefront.context.resource === 'products') {
   ecomCart.on('addItem', (data) => { 
     window.location = '/app/#/cart/'
@@ -59,5 +60,21 @@ $('#apx_form').submit(function(e){
   $('#conversion-form-am-formulario-de-newsletter [name="email"]').val($(this).find('[name="mail"]').val());
   $('#conversion-form-am-formulario-de-newsletter').submit();
 });
-
-
+if (window.location.pathname === '/') {
+  EcomSearch.dslMiddlewares.push((dsl) => {
+    dsl.query.bool.filter = [
+      {
+        term: {
+          visible: true
+        }
+      },
+      {
+          "terms": {
+              "categories.name": [
+                  "comprar-agora"
+              ]
+          }
+      }
+    ]
+  })
+}
