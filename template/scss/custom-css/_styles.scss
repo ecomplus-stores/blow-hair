@@ -1269,3 +1269,8 @@ body {
 #page-home div:has(+ [data-product-id="649593345e60690370464463"]) {
   display: none !important;
 }
+
+#app_cw_widget {
+    max-width: 600px;
+    margin: 10px auto;
+}
