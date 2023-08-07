@@ -90,6 +90,21 @@ window.timerFunction = (endDate, $div) => {
   }
 }
   </script>
+  <% if (_.pageName === 'home') { %>
+    <script>
+      !function (f, b, e, v, n, t, s) {
+          t = b.createElement(e); t.async = !0;
+          t.src = v; s = b.getElementsByTagName(e)[0];
+          t.onload = function () {
+              beeviralTracking.Send({
+                  token: "aipOcmlMVDhGTVZxcExVMFVJKkZKdGQwVkdYanNzRDlFWlRpVTdrQmxGRzhSS0xGclFQbjlJSlRLekxrekpqQA=="
+              }, false, true);
+          };
+          s.parentNode.insertBefore(t, s)
+      }(window, document, 'script', 'https://account.beeviral.app/Scripts/app/tracking.js');
+   </script>
+                          
+  <% } %>
 </body>
 
 </html>
