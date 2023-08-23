@@ -5,6 +5,8 @@ const path = require('path')
 module.exports = () => ({
   resolve: {
     alias: {
+      './html/CartQuickview.html': path.resolve(__dirname, 'template/js/custom-js/html/CartQuickview.html'),
+      './js/CartQuickview.js': path.resolve(__dirname, 'template/js/custom-js/js/CartQuickview.js'),
       './html/APrices.html': path.resolve(__dirname, 'template/js/custom-js/html/APrices.html'),
       './html/AccountPoints.html': path.resolve(__dirname, 'template/js/custom-js/html/AccountPoints.html'),
       './html/ProductCard.html': path.resolve(__dirname, 'template/js/custom-js/html/ProductCard.html'),
