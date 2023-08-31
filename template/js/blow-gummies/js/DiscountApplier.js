@@ -25,6 +25,14 @@ const addFreebieItems = (ecomCart, productIds) => {
     productIds.forEach(productId => {
       // if (!ecomCart.data.items.find(item => item.product_id === productId.slice(0,20) + '000f')) {
         if (!ecomCart.data.items.find(item => item.product_id === productId)) {
+          const freebieCart = ecomCart.data.items.filter(item => item.flags && item.flags.length && item.flags.includes('freebie'))
+          if (freebieCart && freebieCart.length) {
+            ecomCart.data.items.forEach(({ _id, flags }) => {
+              if (flags && flags.length && flags.includes('freebie')) {
+                ecomCart.removeItem(_id)
+              }
+            })
+          }
         store({ url: `/products/${productId}.json` })
           .then(({ data }) => {
             if((!data.variations || !data.variations.length)){
