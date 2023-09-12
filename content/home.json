@@ -9,23 +9,30 @@
         {
           "start": "",
           "end": "",
-          "img": "/img/uploads/banner-site-kits-padra-o-50-off-pote-extra-1-.webp",
-          "mobile_img": "/img/uploads/feed-u-ltimas-horas-1-.png",
-          "link": "https://www.blowgummies.com.br/?utm_source=banner&utm_medium=site&utm_campaign=maisblow"
+          "img": "/img/uploads/banner-site-campanha-semana-do-cliente.webp",
+          "mobile_img": "/img/uploads/banner-mobile-campanha-semana-do-cliente.webp",
+          "link": "https://www.blowgummies.com.br/?utm_source=banner&utm_medium=site&utm_campaign=manablow"
         },
         {
           "start": "",
           "end": "",
-          "img": "/img/uploads/banner-site-kits-padra-o-50-off-pote-extra-1-.webp",
-          "mobile_img": "/img/uploads/banner-mobile-kits-60-e-120-padra-o-50-off-pote-extra-1-.webp",
-          "link": "https://www.blowgummies.com.br/?utm_source=banner&utm_medium=site&utm_campaign=maisblow"
+          "img": "/img/uploads/banner-site-influenciadora-vivian-padra-o-45-off-1-.webp",
+          "mobile_img": "/img/uploads/banner-mobile-influenciadora-vivian-padra-o-45-off-1-.webp",
+          "link": "https://www.blowgummies.com.br/?utm_source=banner&utm_medium=site&utm_campaign=manablow"
         },
         {
           "start": "",
           "end": "",
-          "img": "/img/uploads/banner-site-kits-padra-o-50-off-pote-extra-1-.webp",
-          "link": "https://www.blowgummies.com.br/?utm_source=banner&utm_medium=site&utm_campaign=maisblow",
-          "mobile_img": "/img/uploads/banner-mobile-kits-180-e-360-padra-o-50-off-pote-extra-1-.webp"
+          "img": "/img/uploads/banner-site-kits-padrao-45-off.png",
+          "link": "https://www.blowgummies.com.br/?utm_source=banner&utm_medium=site&utm_campaign=manablow",
+          "mobile_img": "/img/uploads/banner-kit-sites-mobile-60-e-120-dias-padrao-45-off-3-.webp"
+        },
+        {
+          "start": "",
+          "end": "",
+          "img": "/img/uploads/banner-site-kits-padrao-45-off.png",
+          "link": "https://www.blowgummies.com.br/?utm_source=banner&utm_medium=site&utm_campaign=manablow",
+          "mobile_img": "/img/uploads/banner-kit-sites-mobile-padrao-45-off-1-.png"
         }
       ],
       "full_width": true
