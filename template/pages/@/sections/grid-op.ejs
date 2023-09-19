@@ -8,7 +8,7 @@
       </div>
       <div class="title-blow"></div>
     </div>
-    <div class="smartphone"></div>
+    <div class="smartphone lozad"></div>
     <div class="depoimento">
       <img data-src="/img/uploads/depoimentos.jpg" class="lozad">
     </div>
@@ -28,7 +28,7 @@
             <li class="glide__slide brands-carousel__item">
               <a href="<%= link ? `/${link}` : '#' %>">
                 <% if (img) { %>
-                  <img src="<%= img %>" alt="<%= alt %>" class="img-fluid">
+                  <img src="<%= img %>" loading="lazy" alt="<%= alt %>" class="img-fluid">
                 <% } else { %>
                   <h4><%= alt %></h4>
                 <% } %>

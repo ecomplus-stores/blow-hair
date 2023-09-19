@@ -114,9 +114,11 @@ body {
 }
 
 .page--home .vantagens-html {
-    background: url(/img/uploads/bg-beneficios.webp) no-repeat top;
     min-height: 930px;
     display: flex;
+}
+.page--home .vantagens-html[data-loaded] {
+    background: url(/img/uploads/bg-beneficios.webp) no-repeat top;
 }
 
 .product-card {
@@ -346,11 +348,13 @@ body {
 
 
 .smartphone {
-    background: url(/img/uploads/phone.png) no-repeat center top;
     width: 100%;
     height: 587px;
     position: absolute;
     left: 0;
+}
+.smartphone[data-loaded] {
+    background: url(/img/uploads/phone.png) no-repeat center top;
 }
 
 .depoimento {
