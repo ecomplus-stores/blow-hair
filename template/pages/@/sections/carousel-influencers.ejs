@@ -14,7 +14,7 @@
             <li class="glide__slide brands-carousel__item">
               <a href="<%= link ? `/${link}` : '#' %>">
                 <% if (img) { %>
-                  <img data-src="<%= img %>" alt="<%= alt %>" class="img-fluid lozad">
+                  <img src="<%= img %>" loading="lazy" alt="<%= alt %>" class="img-fluid">
                 <% } else { %>
                   <h4><%= alt %></h4>
                 <% } %>
