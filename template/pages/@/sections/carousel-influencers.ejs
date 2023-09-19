@@ -1,5 +1,5 @@
 <% if(Array.isArray(opt.banners) && opt.banners.length) { %>
-  <section id="influencers" class="brands-carousel lozad">
+  <section id="influencers" class="brands-carousel">
     <div
       class="glide"
       data-autoplay="<%= opt.autoplay %>"
@@ -14,7 +14,7 @@
             <li class="glide__slide brands-carousel__item">
               <a href="<%= link ? `/${link}` : '#' %>">
                 <% if (img) { %>
-                  <img src="<%= img %>" loading="lazy" alt="<%= alt %>" class="img-fluid">
+                  <img data-src="<%= img %>" alt="<%= alt %>" class="img-fluid lozad">
                 <% } else { %>
                   <h4><%= alt %></h4>
                 <% } %>
