@@ -9,9 +9,16 @@
         {
           "start": "",
           "end": "",
-          "img": "/img/uploads/banner-site-campanha-transborde-beneficios-como-conquistar.webp",
-          "mobile_img": "/img/uploads/banner-mobile-campanha-transborde-beneficios-como-conquistar.webp",
-          "link": "https://www.blowgummies.com.br/?utm_source=banner&utm_medium=site&utm_campaign=FOLIABLOW"
+          "img": "/img/uploads/dia-do-comercio.webp",
+          "mobile_img": "/img/uploads/remarketing-banner-mobile-campanha-dia-do-comercio.webp",
+          "link": "https://www.blowgummies.com.br/?utm_source=banner&utm_medium=site&utm_campaign=BLOWZINHA"
+        },
+        {
+          "start": "",
+          "end": "",
+          "img": "/img/uploads/banner-site-influenciadora-vivian-padrao-50-off.webp",
+          "mobile_img": "/img/uploads/banner-mobile-influenciadora-vivian-padrao-50-off.webp",
+          "link": "https://www.blowgummies.com.br/?utm_source=banner&utm_medium=site&utm_campaign=BLOWZINHA"
         }
       ],
       "full_width": true
