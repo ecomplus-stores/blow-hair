@@ -24,8 +24,16 @@ import {
 
   const addFreebieItems = (ecomCart, productIds) => {
     if (Array.isArray(productIds)) {
+      ecomCart.data.items.forEach(({ _id, product_id: productId, flags }) => {
+        if (flags && flags.includes('freebie') && !productIds.includes(productId)) {
+          ecomCart.removeItem(_id)
+        }
+      })
       productIds.forEach(productId => {
-        if (!ecomCart.data.items.find(item => item.product_id === productId)) {
+        const canAddFreebie = !ecomCart.data.items.find(item => {
+          return item.product_id === productId && item.flags && item.flags.includes('freebie')
+        })
+        if (canAddFreebie) {
           store({ url: `/products/${productId}.json` })
             .then(({ data }) => {
               if (data.quantity > 0 && (!data.variations || !data.variations.length)) {
@@ -46,6 +54,7 @@ import {
       })
     }
   }
+
   
   export default {
     name: 'CartQuickview',
