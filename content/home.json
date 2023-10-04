@@ -9,9 +9,16 @@
         {
           "start": "",
           "end": "",
-          "img": "/img/uploads/banner-site-campanha-transborde-beneficios-como-conquistar.webp",
-          "mobile_img": "/img/uploads/banner-mobile-campanha-transborde-beneficios-como-conquistar.webp",
-          "link": "https://www.blowgummies.com.br/?utm_source=banner&utm_medium=site&utm_campaign=maisblow"
+          "img": "/img/uploads/banner-site-campanha-mes-das-criancas.webp",
+          "mobile_img": "/img/uploads/banner-mobile-campanha-mes-das-criancas.webp",
+          "link": "https://www.blowgummies.com.br/?utm_source=banner&utm_medium=site&utm_campaign=blowresultado"
+        },
+        {
+          "start": "",
+          "end": "",
+          "img": "/img/uploads/kit-40.jpg",
+          "mobile_img": "/img/uploads/banner-mobile-campanha-mes-das-criancas.webp",
+          "link": "https://www.blowgummies.com.br/?utm_source=banner&utm_medium=site&utm_campaign=blowresultado"
         }
       ],
       "full_width": true
