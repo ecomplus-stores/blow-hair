@@ -12,6 +12,20 @@
           "img": "/img/uploads/banner-site-campanha-mes-das-criancas-copiar-1-.webp",
           "mobile_img": "/img/uploads/banner-mobile-campanha-mes-das-criancas-copiar-2-.webp",
           "link": "https://www.blowgummies.com.br/?utm_source=banner&utm_medium=site&utm_campaign=BLOWFAZ"
+        },
+        {
+          "start": "",
+          "end": "",
+          "img": "/img/uploads/kit-45-pote-extra.png",
+          "mobile_img": "/img/uploads/kit-45-pote-extra-1-.jpg",
+          "link": "https://www.blowgummies.com.br/?utm_source=banner&utm_medium=site&utm_campaign=BLOWFAZ"
+        },
+        {
+          "start": "",
+          "end": "",
+          "img": "/img/uploads/kit-45-pote-extra.png",
+          "link": "https://www.blowgummies.com.br/?utm_source=banner&utm_medium=site&utm_campaign=BLOWFAZ",
+          "mobile_img": "/img/uploads/kit-45-pote-extra.jpg"
         }
       ],
       "full_width": true
