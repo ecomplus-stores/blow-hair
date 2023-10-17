@@ -1,6 +1,5 @@
 import '#template/js/'
 import './custom-js/pages'
-import lozad from 'lozad'
 
 window.__customGTMVariantRegex = /\s[^\s]+( zero a[ç|c][ú|u]car)?$/i
 
@@ -8,14 +7,10 @@ const loadVendaValida = () => {
     const script = document.createElement('script')
     script.src = '//collect.vendavalida.com.br/push.js'
     script.id = 'venda-valida'
+    script.type = 'text/javascript'
     script.async = true
     document.body.appendChild(script)
 }
-
-
-function loadChat() {
-    window.$zopim||(function(d,s){var z=$zopim=function(c){z._.push(c)},$=z.s=d.createElement(s),e=d.getElementsByTagName(s)[0];z.set=function(o){z.set._.push(o)};z._=[];z.set._=[];$.async=!0;$.setAttribute("charset","utf-8");$.src="https://v2.zopim.com/?5a43qD3oeIpnWGfgyCRbdvgaw5wJzJEu";z.t=+new Date;$.type="text/javascript";e.parentNode.insertBefore($,e)})(document,"script");
-  }
 
 function loadMailbiz() {
     (function(m, a, i, l, b, z, j, s) {
@@ -31,7 +26,7 @@ function loadMailbiz() {
       })(window, document, 'script', 'https://d3eq1zq78ux3cv.cloudfront.net/static/scripts/integration.min.js', '63a0a5f3a8aebb115f90b412');
 }
 
-function beeviral () {
+function loadBeeviral () {
     !function (f, b, e, v, n, t, s) {
         t = b.createElement(e); t.async = !0;
         t.src = v; s = b.getElementsByTagName(e)[0];
@@ -45,8 +40,9 @@ function beeviral () {
 }
 
   $(window).one('scroll', () => {
-    loadChat()
     loadVendaValida()
     loadMailbiz()
-    beeviral()
+    if (window.location.pathname === '/') {
+        loadBeeviral()
+    }
   })
