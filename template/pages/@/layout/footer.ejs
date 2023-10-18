@@ -108,7 +108,7 @@ const { path } = _.route
           >
             <%= footer.links_1.title || _.dictionary('pages') %>
           </a>
-          <div class="collapse" id="footer-pages">
+          <div class="collapse" id="footer-institucional">
             <% if (footer.links_1.list_pages) { %>
               <ul class="footer__links">
                 <% (_.cms('pages') || []).forEach(slug => { %>
@@ -263,6 +263,8 @@ const { path } = _.route
       data-src="/img/uploads/fwr.png"
       alt="FWR Agência Digital"
       class="lozad"
+      width="84"
+      height="31"
     >
   </a>
 </div>

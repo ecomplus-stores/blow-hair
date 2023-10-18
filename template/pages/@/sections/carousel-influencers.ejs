@@ -17,8 +17,8 @@
           <% opt.banners.forEach(({ alt, link, img }) => { %>
             <li class="glide__slide brands-carousel__item">
               <a href="<%= link ? `/${link}` : '#' %>">
-                <% if (img) { %>
-                  <img data-src="<%= img %>" alt="<%= alt %>" class="img-fluid lozad">
+                <% if (img) { let { width, height } = _.tryImageSize(img) %>
+                  <img data-src="<%= img %>" width="<%= width %>" height="<%= height %>" alt="<%= alt %>" class="img-fluid lozad">
                 <% } else { %>
                   <h4><%= alt %></h4>
                 <% } %>
