@@ -1,6 +1,7 @@
 // fwr
 @font-face {
   font-family: 'GoldplayRegular';
+  font-display: swap;
   src: url(/img/uploads/GoldplayRegular.eot);
   src: url(/img/uploads/GoldplayRegular.eot?#iefix) format('embedded-opentype'),
        url(/img/uploads/GoldplayRegular.woff2) format('woff2'),
@@ -12,6 +13,7 @@
 
 @font-face {
   font-family: 'GoldplayAltBlack';
+  font-display: swap;
   src: url(/img/uploads/GoldplayAltBlack.eot);
   src: url(/img/uploads/GoldplayAltBlack.eot?#iefix) format('embedded-opentype'),
        url(/img/uploads/GoldplayAltBlack.woff2) format('woff2'),
@@ -23,6 +25,7 @@
 
 @font-face {
   font-family: 'GoldplayAltBold';
+  font-display: swap;
   src: url(/img/uploads/GoldplayAltBold.eot);
   src: url(/img/uploads/GoldplayAltBold.eot?#iefix) format('embedded-opentype'),
        url(/img/uploads/GoldplayAltBold.woff2) format('woff2'),
@@ -34,6 +37,7 @@
 
 @font-face {
   font-family: 'GoldplayMedium';
+  font-display: swap;
   src: url(/img/uploads/GoldplayMedium.eot);
   src: url(/img/uploads/GoldplayMedium.eot?#iefix) format('embedded-opentype'),
        url(/img/uploads/GoldplayMedium.woff2) format('woff2'),
