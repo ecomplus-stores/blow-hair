@@ -1,7 +1,11 @@
 <% if(Array.isArray(opt.banners) && opt.banners.length) { %>
-  <section id="influencers" class="brands-carousel">
-    <div
-      class="glide"
+  <section id="influencerss" class="brands-carousel">
+    <div class="row">
+      <div class="title-influencers col-12 col-md-3">
+        <a href="#search-engine"><img data-src="/img/uploads/influ-new.webp" alt="Influenciadores" class="img-fluid lozad"></a>
+      </div>
+      <div
+      class="glide col-12 col-md-9"
       data-autoplay="<%= opt.autoplay %>"
       data-per-view="3"
       data-per-view-md="3"
@@ -45,6 +49,7 @@
           </div>
         <% } %>
       </div>
+    </div>
     </div>
   </section>
 

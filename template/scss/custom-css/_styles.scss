@@ -129,16 +129,15 @@ body {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding-left: 13%;
 }
 
-.item1 {
+/* .item1 {
     background: url(/img/uploads/bloco1.png) no-repeat top;
 }
 
 .item2 {
     background: url(/img/uploads/bloco2.png) no-repeat top;
-}
+} */
 
 .text-sobre {
     display: flex;
@@ -147,7 +146,7 @@ body {
     font-family: 'GoldplayRegular';
 }
 
-.item3 {
+/* .item3 {
     background: url(/img/uploads/bloco3.png) no-repeat top;
 }
 
@@ -158,12 +157,12 @@ body {
 
 .item5 {
     background: url(/img/uploads/bloco5.png) no-repeat top;
-}
+} */
 
 .box-gummie {
     color: #f11879;
     font-weight: bold;
-    padding: 122px 0px 20px;
+    padding: 20px 0px 20px;
     width: 33%;
     float: left;
     text-align: center;
@@ -595,9 +594,9 @@ body {
     margin: 0px 2px;
 }
 
-.text-porque {
+/* .text-porque {
     padding-left: 31%;
-}
+} */
 
 .box-gummie {
     margin-bottom: 0px;
@@ -1277,4 +1276,35 @@ body {
 #app_cw_widget {
     max-width: 600px;
     margin: 10px auto;
+}
+
+#influencerss {
+    background-color: #c1eaf2;
+    @media(max-width: 767px) {
+        .glide__arrow--left {
+            margin-left: 15px;
+        }
+        .glide__arrow--right {
+            margin-right: 15px;
+        }
+    }
+    
+    @media(min-width: 767px) {
+        .glide {
+            display: flex;
+            align-items: center;
+        }
+        .glide__arrow--left {
+            margin-left: 20px;
+        }
+        #influencerss .glide__arrow--right {
+            margin-right: 50px;
+        }
+    }
+}
+
+@media(min-width: 998px) {
+    .box-gummie.item4, .box-gummie.item5 {
+        width: 50%
+    }
 }

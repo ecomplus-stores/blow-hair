@@ -45,7 +45,7 @@
     },
     {
       "type": "porque-falam",
-      "html": "<div class=\"box-bg-porque\"><div class=\"title-box\"><div class=\"title\"><h2>Porquê </h2></div><div class=\"title-blow\"></div></div><div class=\"text-porque\"><div class=\"box-gummie item1\">Divertida de Mastigar</div><div class=\"box-gummie item2\">Sabores Incríveis</div><div class=\"box-gummie item3\">Produto Cruelty Free</div><div class=\"box-gummie item4\">Feitos com Pectina</div><div class=\"box-gummie item5\">Tratamento de 60 dias</div></div></div>"
+      "html": "<div class=\"box-bg-porque\"><div class=\"title-box\"><div class=\"title\"><h2>Porquê </h2></div><div class=\"title-blow\"></div></div><div class=\"text-porque\"><div class=\"box-gummie item1\"><img class=\"img-fluid lozad\" data-src=\"/img/uploads/bloco1.png\"><h3>Divertida de Mastigar</h3></div><div class=\"box-gummie item2\"><img class=\"img-fluid lozad\" data-src=\"/img/uploads/bloco2.png\"><h3>Sabores Incríveis</h3></div><div class=\"box-gummie item3\"><img class=\"img-fluid lozad\" data-src=\"/img/uploads/bloco3.png\"><h3>Produto Cruelty Free</h3></div><div class=\"box-gummie item4\"><img class=\"img-fluid lozad\" data-src=\"/img/uploads/bloco4.png\"><h3>Feitos com Pectina</h3></div><div class=\"box-gummie item5\"><img class=\"img-fluid lozad\" data-src=\"/img/uploads/bloco5.png\"><h3>Tratamento de 60 dias</h3></div></div></div>"
     },
     {
       "type": "carousel-influencers",
