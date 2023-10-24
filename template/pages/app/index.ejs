@@ -80,21 +80,7 @@ const logo = _.settings.logo
       <%- await include('@/layout/inc/ecom-credits') %>
     </div>
   </footer>
-<script>window.$zopim||(function(d,s){var z=$zopim=function(c){z._.push(c)},$=z.s=d.createElement(s),e=d.getElementsByTagName(s)[0];z.set=function(o){z.set._.push(o)};z._=[];z.set._=[];$.async=!0;$.setAttribute("charset","utf-8");$.src="https://v2.zopim.com/?5a43qD3oeIpnWGfgyCRbdvgaw5wJzJEu";z.t=+new Date;$.type="text/javascript";e.parentNode.insertBefore($,e)})(document,"script");
-</script>
-<script src="//collect.vendavalida.com.br/push.js" async type="text/javascript"></script>
-<script>(function(m, a, i, l, b, z, j, s) {
-  m['MailbizIntegration'] = {
-    id: b,
-    ready: 0
-  };
-  z = a.createElement(i);
-  j = a.getElementsByTagName(i)[0];
-  z.async = 1;
-  z.src = l;
-  j.parentNode.insertBefore(z, j);
-})(window, document, 'script', 'https://d3eq1zq78ux3cv.cloudfront.net/static/scripts/integration.min.js', '63a0a5f3a8aebb115f90b412');
-</script>
+  
   <%- await include('@/json', { _ }) %>
   <%- await include('@/scripts') %>
 </body>
