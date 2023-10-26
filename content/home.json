@@ -9,16 +9,30 @@
         {
           "start": "",
           "end": "",
-          "img": "/img/uploads/banner-site-campanha-semana-da-mana-blow.webp",
-          "mobile_img": "/img/uploads/banner-mobile-campanha-semana-da-mana-blow.webp",
+          "img": "/img/uploads/banner-site-campanha-maxi-bolsa.webp",
+          "mobile_img": "/img/uploads/banner-mobile-campanha-maxi-bolsa.png",
           "link": "https://www.blowgummies.com.br/?utm_source=banner&utm_medium=site&utm_campaign=maisblow"
         },
         {
           "start": "",
           "end": "",
-          "img": "/img/uploads/banner-site-influenciadora-vivian-versao-25-off.webp",
-          "mobile_img": "/img/uploads/banner-mobile-influenciadora-vivian-25-.webp",
+          "img": "/img/uploads/banner-site-campanha-maxi-bolsa-influ.webp",
+          "mobile_img": "/img/uploads/banner-mobile-campanha-maxi-bolsa-gabi-ramos.webp",
           "link": "https://www.blowgummies.com.br/?utm_source=banner&utm_medium=site&utm_campaign=queroblow"
+        },
+        {
+          "start": "",
+          "end": "",
+          "img": "/img/uploads/banner-site-campanha-maxi-bolsa-influ.webp",
+          "mobile_img": "/img/uploads/banner-mobile-campanha-maxi-bolsa-nathalie.webp",
+          "link": "https://www.blowgummies.com.br/?utm_source=banner&utm_medium=site&utm_campaign=queroblow"
+        },
+        {
+          "start": "",
+          "end": "",
+          "img": "/img/uploads/banner-site-campanha-maxi-bolsa-influ.webp",
+          "link": "https://www.blowgummies.com.br/?utm_source=banner&utm_medium=site&utm_campaign=queroblow",
+          "mobile_img": "/img/uploads/banner-mobile-campanha-maxi-bolsa-bia-mustein.webp"
         }
       ],
       "full_width": true
