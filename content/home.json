@@ -9,23 +9,9 @@
         {
           "start": "",
           "end": "",
-          "img": "/img/uploads/banner-site-campanha-blow-week-40-off.webp",
-          "mobile_img": "/img/uploads/banner-site-campanha-blow-week-40-off.webp",
-          "link": "https://www.blowgummies.com.br/?utm_source=banner&utm_medium=site&utm_campaign=BLOWDAY"
-        },
-        {
-          "start": "",
-          "end": "",
-          "img": "/img/uploads/kit-40-4-.jpg",
-          "mobile_img": "/img/uploads/kit-40-6-.jpg",
-          "link": "https://www.blowgummies.com.br/?utm_source=banner&utm_medium=site&utm_campaign=BLOWDAY"
-        },
-        {
-          "start": "",
-          "end": "",
-          "img": "/img/uploads/kit-40-4-.jpg",
-          "mobile_img": "/img/uploads/kit-40-5-.jpg",
-          "link": "https://www.blowgummies.com.br/?utm_source=banner&utm_medium=site&utm_campaign=BLOWDAY"
+          "img": "/img/uploads/banner-site-campanha-comecou-festival-de-promo.webp",
+          "mobile_img": "/img/uploads/banner-mobile-campanha-comecou-festival-de-promo.webp",
+          "link": "https://www.blowgummies.com.br/?utm_source=banner&utm_medium=site&utm_campaign=blowfriday"
         }
       ],
       "full_width": true
