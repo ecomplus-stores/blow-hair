@@ -33,6 +33,27 @@
           "img": "/img/uploads/banner-site-campanha-dentro-do-palco-copiar.webp",
           "mobile_img": "/img/uploads/banner-mobile-campanha-dentro-do-palco-copiar.webp",
           "link": "https://www.blowgummies.com.br/?utm_source=banner&utm_medium=site&utm_campaign=blowfriday"
+        },
+        {
+          "start": "",
+          "end": "",
+          "img": "/img/uploads/kit-50-black.jpg",
+          "link": "https://www.blowgummies.com.br/?utm_source=banner&utm_medium=site&utm_campaign=blowfriday",
+          "mobile_img": "/img/uploads/kit-50-black-mobile.jpg"
+        },
+        {
+          "start": "",
+          "end": "",
+          "img": "/img/uploads/kit-50-black.jpg",
+          "link": "https://www.blowgummies.com.br/?utm_source=banner&utm_medium=site&utm_campaign=blowfriday",
+          "mobile_img": "/img/uploads/kit-50-black-2-mobile.jpg"
+        },
+        {
+          "start": "",
+          "end": "",
+          "img": "/img/uploads/kit-50-black.jpg",
+          "mobile_img": "/img/uploads/kit-50-back-mobile-3.jpg",
+          "link": "https://www.blowgummies.com.br/?utm_source=banner&utm_medium=site&utm_campaign=blowfriday"
         }
       ],
       "full_width": true
