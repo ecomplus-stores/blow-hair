@@ -20,7 +20,7 @@ async function loadAsync () {
     observer.observe()
   }
 
-    //popup
+   /*  //popup
    lozad(document.getElementById('popup-rd'), {
     rootMargin: '350px 0px',
     threshold: 0,
@@ -31,7 +31,7 @@ async function loadAsync () {
       script.async = true
       document.getElementById('popup-rd').appendChild(script)
     }
-  }).observe()
+  }).observe() */
 
 }
 loadAsync()
