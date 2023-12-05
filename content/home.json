@@ -9,16 +9,9 @@
         {
           "start": "",
           "end": "",
-          "img": "/img/uploads/banner-topo-site-beneficios-55-240.webp",
-          "mobile_img": "/img/uploads/banner-topo-mobile-beneficios-55-.webp",
-          "link": "https://www.blowgummies.com.br/?utm_source=banner&utm_medium=site&utm_campaign=maisblow"
-        },
-        {
-          "start": "",
-          "end": "",
-          "img": "/img/uploads/banner-topo-site-valores-240-dias-1-.webp",
-          "link": "https://www.blowgummies.com.br/?utm_source=banner&utm_medium=site&utm_campaign=maisblow",
-          "mobile_img": "/img/uploads/banner-mobile-topo-valores-2-.webp"
+          "img": "/img/uploads/banner-site-black-mega-chance-vivian.webp",
+          "mobile_img": "/img/uploads/banner-mobile-black-mega-chance-vivian.webp",
+          "link": "https://www.blowgummies.com.br/?utm_source=banner&utm_medium=site&utm_campaign=blowextra"
         }
       ],
       "full_width": true
