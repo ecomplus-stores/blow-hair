@@ -9,44 +9,9 @@
         {
           "start": "",
           "end": "",
-          "img": "/img/uploads/banner-site-campanha-match-natal-12.12.webp",
-          "mobile_img": "/img/uploads/mobile-site-campanha-match-natal-12.12.webp",
-          "link": "https://www.blowgummies.com.br/?utm_source=banner&utm_medium=site&utm_campaign=hohoblow"
-        },
-        {
-          "start": "",
-          "end": "",
-          "img": "/img/uploads/banner-site-topo-valores-match-12.12-natal-1-.webp",
-          "mobile_img": "/img/uploads/banner-mobile-topo-valores-match-12.12-natal-1-.webp",
-          "link": "https://www.blowgummies.com.br/?utm_source=banner&utm_medium=site&utm_campaign=hohoblow"
-        },
-        {
-          "start": "",
-          "end": "",
-          "img": "/img/uploads/banner-topo-site-beneficios-match-12.12-1-.webp",
-          "link": "https://www.blowgummies.com.br/?utm_source=banner&utm_medium=site&utm_campaign=hohoblow",
-          "mobile_img": "/img/uploads/banner-topo-mobile-beneficios-match-12.12-1-.webp"
-        },
-        {
-          "start": "",
-          "end": "",
-          "img": "/img/uploads/_kit-55.jpg",
-          "link": "https://www.blowgummies.com.br/?utm_source=banner&utm_medium=site&utm_campaign=hohoblow",
-          "mobile_img": "/img/uploads/_kit-55-2-.jpg"
-        },
-        {
-          "start": "",
-          "end": "",
-          "img": "/img/uploads/_kit-55.jpg",
-          "link": "https://www.blowgummies.com.br/?utm_source=banner&utm_medium=site&utm_campaign=hohoblow",
-          "mobile_img": "/img/uploads/_kit-55-1-.jpg"
-        },
-        {
-          "start": "",
-          "end": "",
-          "img": "/img/uploads/_kit-55.jpg",
-          "link": "https://www.blowgummies.com.br/?utm_source=banner&utm_medium=site&utm_campaign=hohoblow",
-          "mobile_img": "/img/uploads/_kit-55-.jpg"
+          "img": "/img/uploads/banner-site-campanha-flash-de-natal-1-.webp",
+          "mobile_img": "/img/uploads/banner-mobile-campanha-flash-de-natal-1-.webp",
+          "link": "https://www.blowgummies.com.br/?utm_source=banner&utm_medium=site&utm_campaign=natalblow"
         }
       ],
       "full_width": true
