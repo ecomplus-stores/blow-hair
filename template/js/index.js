@@ -4,7 +4,7 @@ import lozad from 'lozad'
 
 async function loadAsync () {
     // RD form
-  if (typeof window.setupRd === 'function') {
+  /* if (typeof window.setupRd === 'function') {
     const observer = lozad(document.getElementById('am-formulario-de-newsletter-b61733cf81abef42e0c4'), {
       rootMargin: '350px 0px',
       threshold: 0,
@@ -18,7 +18,7 @@ async function loadAsync () {
       }
     })
     observer.observe()
-  }
+  } */
 
     //popup
    lozad(document.getElementById('popup-rd'), {
