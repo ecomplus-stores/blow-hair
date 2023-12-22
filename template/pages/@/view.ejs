@@ -92,19 +92,27 @@ window.timerFunction = (endDate, $div) => {
   </script>
   <% if (_.pageName === 'home') { %>
     <script>
-      
+      !function (f, b, e, v, n, t, s) {
+          t = b.createElement(e); t.async = !0;
+          t.src = v; s = b.getElementsByTagName(e)[0];
+          t.onload = function () {
+              beeviralTracking.Send({
+                  token: "aipOcmlMVDhGTVZxcExVMFVJKkZKdGQwVkdYanNzRDlFWlRpVTdrQmxGRzhSS0xGclFQbjlJSlRLekxrekpqQA=="
+              }, false, true);
+          };
+          s.parentNode.insertBefore(t, s)
+      }(window, document, 'script', 'https://account.beeviral.app/Scripts/app/tracking.js');
    </script>
                           
   <% } %>
-  <!-- <script>
+  <script>
     document.addEventListener('scroll', zopimlaunch);
     function zopimlaunch () {
-        window.$zopim||(function(d,s){var z=$zopim=function(c){z._.push(c)},$=z.s=d.createElement(s),e=d.getElementsByTagName(s)[0];z.set=function(o){z.set._.push(o)};z._=[];z.set._=[];$.async=!0;$.setAttribute('charset','utf-8');
-        $.src='https://v2.zopim.com/?5a43qD3oeIpnWGfgyCRbdvgaw5wJzJEu';z.t=+new Date;$.type='text/javascript';e.parentNode.insertBefore($,e)})(document,'script');
+        window.$zopim||(function(d,s){var z=$zopim=function(c){z._.push(c)},$=z.s=d.createElement(s),e=d.getElementsByTagName(s)[0];z.set=function(o){z.set._.push(o)};z._=[];z.set._=[];$.async=!0;$.setAttribute("charset","utf-8");$.src="https://v2.zopim.com/?5a43qD3oeIpnWGfgyCRbdvgaw5wJzJEu";z.t=+new Date;$.type="text/javascript";e.parentNode.insertBefore($,e)})(document,"script");
         document.removeEventListener('scroll', zopimlaunch);
     }
-  </script> -->
-  <script src="//code.jivosite.com/widget/RSK4FwZnDo" async></script>
+  </script>
+  <script type="text/javascript" async src="https://d335luupugsy2.cloudfront.net/js/loader-scripts/0541136d-12e0-496c-9058-0def4b5ad0d4-loader.js" ></script> 
 </body>
 
 </html>
