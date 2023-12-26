@@ -9,9 +9,30 @@
         {
           "start": "",
           "end": "",
-          "img": "/img/uploads/banner-site-campanha-flash-de-natal-1-.webp",
-          "mobile_img": "/img/uploads/banner-mobile-campanha-flash-de-natal-1-.webp",
-          "link": "https://www.blowgummies.com.br/?utm_source=banner&utm_medium=site&utm_campaign=hohoblow"
+          "img": "/img/uploads/retrospectiva-blow-desktop-1-.jpg",
+          "mobile_img": "/img/uploads/retrospectiva-blow-mobile-1.jpg",
+          "link": "https://www.blowgummies.com.br/?utm_source=banner&utm_medium=site&utm_campaign=maisblow"
+        },
+        {
+          "start": "",
+          "end": "",
+          "link": "https://www.blowgummies.com.br/?utm_source=banner&utm_medium=site&utm_campaign=maisblow",
+          "img": "/img/uploads/retrospectiva-kits-desktop-.jpg",
+          "mobile_img": "/img/uploads/_kit-55-retrospectiva-3.jpg"
+        },
+        {
+          "start": "",
+          "end": "",
+          "link": "https://www.blowgummies.com.br/?utm_source=banner&utm_medium=site&utm_campaign=maisblow",
+          "img": "/img/uploads/retrospectiva-kits-desktop-.jpg",
+          "mobile_img": "/img/uploads/_kit-55-retrospectiva-2.jpg"
+        },
+        {
+          "start": "",
+          "end": "",
+          "link": "https://www.blowgummies.com.br/?utm_source=banner&utm_medium=site&utm_campaign=maisblow",
+          "img": "/img/uploads/retrospectiva-kits-desktop-.jpg",
+          "mobile_img": "/img/uploads/_kit-55-retrospectiva-1.jpg"
         }
       ],
       "full_width": true
