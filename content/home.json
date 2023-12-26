@@ -33,6 +33,13 @@
           "link": "https://www.blowgummies.com.br/?utm_source=banner&utm_medium=site&utm_campaign=maisblow",
           "img": "/img/uploads/retrospectiva-kits-desktop-.jpg",
           "mobile_img": "/img/uploads/_kit-55-retrospectiva-1.jpg"
+        },
+        {
+          "start": "",
+          "end": "",
+          "img": "/img/uploads/retrospectiva-blow-desktop-2-.jpg",
+          "link": "https://www.blowgummies.com.br/?utm_source=banner&utm_medium=site&utm_campaign=maisblow",
+          "mobile_img": "/img/uploads/retrospectiva-blow-mobile-2.jpg"
         }
       ],
       "full_width": true
