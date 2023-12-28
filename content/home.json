@@ -9,37 +9,9 @@
         {
           "start": "",
           "end": "",
-          "img": "/img/uploads/retrospectiva-blow-desktop-2-.jpg",
-          "link": "https://www.blowgummies.com.br/?utm_source=banner&utm_medium=site&utm_campaign=maisblow",
-          "mobile_img": "/img/uploads/retrospectiva-blow-mobile-2.jpg"
-        },
-        {
-          "start": "",
-          "end": "",
-          "img": "/img/uploads/retrospectiva-blow-desktop-1-.jpg",
-          "mobile_img": "/img/uploads/retrospectiva-blow-mobile-1.jpg",
-          "link": "https://www.blowgummies.com.br/?utm_source=banner&utm_medium=site&utm_campaign=maisblow"
-        },
-        {
-          "start": "",
-          "end": "",
-          "link": "https://www.blowgummies.com.br/?utm_source=banner&utm_medium=site&utm_campaign=maisblow",
-          "img": "/img/uploads/retrospectiva-kits-desktop-.jpg",
-          "mobile_img": "/img/uploads/_kit-55-retrospectiva-3.jpg"
-        },
-        {
-          "start": "",
-          "end": "",
-          "link": "https://www.blowgummies.com.br/?utm_source=banner&utm_medium=site&utm_campaign=maisblow",
-          "img": "/img/uploads/retrospectiva-kits-desktop-.jpg",
-          "mobile_img": "/img/uploads/_kit-55-retrospectiva-2.jpg"
-        },
-        {
-          "start": "",
-          "end": "",
-          "link": "https://www.blowgummies.com.br/?utm_source=banner&utm_medium=site&utm_campaign=maisblow",
-          "img": "/img/uploads/retrospectiva-kits-desktop-.jpg",
-          "mobile_img": "/img/uploads/_kit-55-retrospectiva-1.jpg"
+          "link": "https://www.blowgummies.com.br/?utm_source=banner&utm_medium=site&utm_campaign=desejoblow",
+          "img": "/img/uploads/banner-site-arvore-dos-desejos-1-.webp",
+          "mobile_img": "/img/uploads/mobile-arvore-dos-desejos-2-.webp"
         }
       ],
       "full_width": true
