@@ -403,6 +403,7 @@ import {
         this.$emit('buy', { product, variationId, customizations })
         if (this.canAddToCart) {
           ecomCart.addProduct({ ...product, customizations }, variationId, this.qntToBuy)
+          window.location = '/app/#/cart/'
         }
         this.isOnCart = true
       },
