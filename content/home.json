@@ -9,16 +9,9 @@
         {
           "start": "",
           "end": "",
-          "img": "/img/uploads/retrospectiva-blow-desktop-2-.jpg",
-          "mobile_img": "/img/uploads/retrospectiva-blow-mobile-2.jpg",
-          "link": "https://www.blowgummies.com.br/?utm_source=banner&utm_medium=site&utm_campaign=maisblow"
-        },
-        {
-          "start": "",
-          "end": "",
-          "img": "/img/uploads/retrospectiva-blow-desktop-1-.jpg",
-          "link": "https://www.blowgummies.com.br/?utm_source=banner&utm_medium=site&utm_campaign=maisblow",
-          "mobile_img": "/img/uploads/retrospectiva-blow-mobile-1.jpg"
+          "img": "/img/uploads/banner-topo-site-beneficios-match-1.1-1-.webp",
+          "link": "https://www.blowgummies.com.br/?utm_source=banner&utm_medium=site&utm_campaign=niverblow",
+          "mobile_img": "/img/uploads/banner-topo-mobile-beneficios-match-12.12-4-.webp"
         }
       ],
       "full_width": true
