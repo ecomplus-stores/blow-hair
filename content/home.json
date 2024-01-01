@@ -12,6 +12,20 @@
           "img": "/img/uploads/banner-topo-site-beneficios-match-1.1-1-.webp",
           "link": "https://www.blowgummies.com.br/?utm_source=banner&utm_medium=site&utm_campaign=niverblow",
           "mobile_img": "/img/uploads/banner-topo-mobile-beneficios-match-12.12-4-.webp"
+        },
+        {
+          "start": "",
+          "end": "",
+          "link": "https://www.blowgummies.com.br/?utm_source=banner&utm_medium=site&utm_campaign=niverblow",
+          "img": "/img/uploads/kit-40-niverblow-2-.jpg",
+          "mobile_img": "/img/uploads/kit-40-niverblow-1-.jpg"
+        },
+        {
+          "start": "",
+          "end": "",
+          "img": "/img/uploads/kit-40-niverblow-2-.jpg",
+          "link": "https://www.blowgummies.com.br/?utm_source=banner&utm_medium=site&utm_campaign=niverblow",
+          "mobile_img": "/img/uploads/kit-40-niverblow.jpg"
         }
       ],
       "full_width": true
