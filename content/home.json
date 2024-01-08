@@ -19,6 +19,20 @@
           "img": "/img/uploads/banner-site-topo-valores-niver-blow.webp",
           "mobile_img": "/img/uploads/banner-mobile-topo-valores-niver-blow.webp",
           "link": "https://www.blowgummies.com.br/?utm_source=banner&utm_medium=site&utm_campaign=niverblow"
+        },
+        {
+          "start": "",
+          "end": "",
+          "img": "/img/uploads/_kit-45-niverblow.jpg",
+          "link": "https://www.blowgummies.com.br/?utm_source=banner&utm_medium=site&utm_campaign=niverblow",
+          "mobile_img": "/img/uploads/kit-45-niverblow-1-.jpg"
+        },
+        {
+          "start": "",
+          "end": "",
+          "img": "/img/uploads/_kit-45-niverblow.jpg",
+          "mobile_img": "/img/uploads/kit-45-niverblow.jpg",
+          "link": "https://www.blowgummies.com.br/?utm_source=banner&utm_medium=site&utm_campaign=niverblow"
         }
       ],
       "full_width": true
