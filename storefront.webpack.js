@@ -18,7 +18,10 @@ module.exports = () => ({
       './js/EcSummary.js': path.resolve(__dirname, 'template/js/custom-js/js/EcSummary.js'),
       './html/TheCart.html': path.resolve(__dirname, 'template/js/custom-js/components/TheCart.html'),
       './js/TheProduct.js': path.resolve(__dirname, 'template/js/custom-js/components/TheProduct.js'),
-      './html/EcCheckout.html': path.resolve(__dirname, 'template/js/custom-js/components/EcCheckout.html')
+      './html/EcCheckout.html': path.resolve(__dirname, 'template/js/custom-js/components/EcCheckout.html'),
+      './js/EcCheckout.js': path.resolve(__dirname, 'template/js/custom-js/components/EcCheckout.js'),
+      './js/Checkout.js': path.resolve(__dirname, 'template/js/custom-js/components/Checkout.js'),
+      './Checkout.vue': path.resolve(__dirname, 'template/js/custom-js/components/Checkout.vue')
     }
   }
 })
