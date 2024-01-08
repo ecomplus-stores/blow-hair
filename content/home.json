@@ -12,6 +12,13 @@
           "img": "/img/uploads/banner-site-niver-blow-bia.webp",
           "link": "https://www.blowgummies.com.br/?utm_source=banner&utm_medium=site&utm_campaign=niverblow",
           "mobile_img": "/img/uploads/banner-mobile-niver-blow-bia.webp"
+        },
+        {
+          "start": "",
+          "end": "",
+          "img": "/img/uploads/banner-site-topo-valores-niver-blow.webp",
+          "mobile_img": "/img/uploads/banner-mobile-topo-valores-niver-blow.webp",
+          "link": "https://www.blowgummies.com.br/?utm_source=banner&utm_medium=site&utm_campaign=niverblow"
         }
       ],
       "full_width": true
