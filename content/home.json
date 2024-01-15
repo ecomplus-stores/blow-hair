@@ -9,30 +9,23 @@
         {
           "start": "",
           "end": "",
-          "img": "/img/uploads/banner-site-niver-blow-bia.webp",
-          "link": "https://www.blowgummies.com.br/?utm_source=banner&utm_medium=site&utm_campaign=niverblow",
-          "mobile_img": "/img/uploads/banner-mobile-niver-blow-bia.webp"
+          "img": "/img/uploads/banner-topo-site-beneficios-niver-blow.webp",
+          "link": "https://www.blowgummies.com.br/?utm_source=banner&utm_medium=site&utm_campaign=surpresablow",
+          "mobile_img": "/img/uploads/banner-topo-mobile-beneficios-beneficios-niver-blow.png"
         },
         {
           "start": "",
           "end": "",
-          "img": "/img/uploads/banner-site-topo-valores-niver-blow.webp",
-          "mobile_img": "/img/uploads/banner-mobile-topo-valores-niver-blow.webp",
-          "link": "https://www.blowgummies.com.br/?utm_source=banner&utm_medium=site&utm_campaign=niverblow"
+          "img": "/img/uploads/banner-site-topo-valores-niver-blow-2.webp",
+          "mobile_img": "/img/uploads/banner-mobile-topo-valores-niver-blow-2.webp",
+          "link": "https://www.blowgummies.com.br/?utm_source=banner&utm_medium=site&utm_campaign=surpresablow"
         },
         {
           "start": "",
           "end": "",
-          "img": "/img/uploads/_kit-45-niverblow.jpg",
-          "link": "https://www.blowgummies.com.br/?utm_source=banner&utm_medium=site&utm_campaign=niverblow",
-          "mobile_img": "/img/uploads/kit-45-niverblow-1-.jpg"
-        },
-        {
-          "start": "",
-          "end": "",
-          "img": "/img/uploads/_kit-45-niverblow.jpg",
-          "mobile_img": "/img/uploads/kit-45-niverblow-2-.jpg",
-          "link": "https://www.blowgummies.com.br/?utm_source=banner&utm_medium=site&utm_campaign=niverblow"
+          "img": "/img/uploads/banner-site-aniversario-da-blow.webp",
+          "mobile_img": "/img/uploads/banner-mobile-aniversario-da-blow.webp",
+          "link": "https://www.blowgummies.com.br/?utm_source=banner&utm_medium=site&utm_campaign=surpresablow"
         }
       ],
       "full_width": true
