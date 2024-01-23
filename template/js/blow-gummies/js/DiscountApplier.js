@@ -94,6 +94,12 @@ const addFreebieItems = (ecomCart, productIds) => {
           .catch(console.error)
       }
     })
+  } else {
+    ecomCart.data.items.forEach(({ _id, flags }) => {
+      if (flags && flags.includes('freebie')) {
+        ecomCart.removeItem(_id)
+      }
+    })
   }
 }
 
@@ -258,6 +264,7 @@ export default {
         listResult.forEach(appResult => {
           const { validated, error, response, app_id } = appResult
           if (validated && !error) {
+            console.log('entrei')
             const appDiscountRule = response.discount_rule
             if (appDiscountRule) {
               const discountRuleValue = appDiscountRule.extra_discount.value
@@ -270,6 +277,7 @@ export default {
               }
             } else if (response.invalid_coupon_message) {
               invalidCouponMsg = response.invalid_coupon_message
+              addFreebieItems(this.ecomCart, [])
             }
             if (this.canAddFreebieItems) {
               if(app_id == 120452){
@@ -307,6 +315,9 @@ export default {
                 addFreebieItems(this.ecomCart, response.freebie_product_ids)
               }           
             }
+          } else {
+            console.log('entrei 2')
+            addFreebieItems(this.ecomCart, [1])
           }
         })
         if (extraDiscountValue) {
