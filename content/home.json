@@ -9,23 +9,9 @@
         {
           "start": "",
           "end": "",
-          "img": "/img/uploads/banner-topo-site-beneficios-niver-blow.webp",
+          "img": "/img/uploads/banner-site-campanha-extravasa-copiar.webp",
           "link": "https://www.blowgummies.com.br/?utm_source=banner&utm_medium=site&utm_campaign=surpresablow",
-          "mobile_img": "/img/uploads/banner-topo-mobile-beneficios-beneficios-niver-blow.png"
-        },
-        {
-          "start": "",
-          "end": "",
-          "img": "/img/uploads/banner-site-topo-valores-niver-blow-2.webp",
-          "mobile_img": "/img/uploads/banner-mobile-topo-valores-niver-blow-2.webp",
-          "link": "https://www.blowgummies.com.br/?utm_source=banner&utm_medium=site&utm_campaign=surpresablow"
-        },
-        {
-          "start": "",
-          "end": "",
-          "img": "/img/uploads/banner-site-aniversario-da-blow.webp",
-          "mobile_img": "/img/uploads/banner-mobile-aniversario-da-blow.webp",
-          "link": "https://www.blowgummies.com.br/?utm_source=banner&utm_medium=site&utm_campaign=surpresablow"
+          "mobile_img": "/img/uploads/banner-mobile-campanha-extravasa.webp"
         }
       ],
       "full_width": true
