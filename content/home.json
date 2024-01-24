@@ -9,9 +9,44 @@
         {
           "start": "",
           "end": "",
+          "img": "/img/uploads/banner-topo-site-beneficios-extravasa.webp",
+          "link": "https://www.blowgummies.com.br/?utm_source=banner&utm_medium=site&utm_campaign=surpresablow",
+          "mobile_img": "/img/uploads/banner-topo-mobile-beneficios-extravasa.webp"
+        },
+        {
+          "start": "",
+          "end": "",
           "img": "/img/uploads/banner-site-campanha-extravasa-copiar.webp",
           "link": "https://www.blowgummies.com.br/?utm_source=banner&utm_medium=site&utm_campaign=surpresablow",
           "mobile_img": "/img/uploads/banner-mobile-campanha-extravasa.webp"
+        },
+        {
+          "start": "",
+          "end": "",
+          "img": "/img/uploads/kit-45.jpg",
+          "mobile_img": "/img/uploads/kit-45-3-.jpg",
+          "link": "https://www.blowgummies.com.br/?utm_source=banner&utm_medium=site&utm_campaign=surpresablow"
+        },
+        {
+          "start": "",
+          "end": "",
+          "img": "/img/uploads/banner-site-topo-valores-extravasa.webp",
+          "link": "https://www.blowgummies.com.br/?utm_source=banner&utm_medium=site&utm_campaign=surpresablow",
+          "mobile_img": "/img/uploads/kit-45-2-.jpg"
+        },
+        {
+          "start": "",
+          "end": "",
+          "img": "/img/uploads/kit-45.jpg",
+          "mobile_img": "/img/uploads/kit-45-4-.jpg",
+          "link": "https://www.blowgummies.com.br/?utm_source=banner&utm_medium=site&utm_campaign=surpresablow"
+        },
+        {
+          "start": "",
+          "end": "",
+          "img": "/img/uploads/banner-site-topo-valores-extravasa.webp",
+          "mobile_img": "/img/uploads/banner-mobile-topo-valores-extravasa.webp",
+          "link": "https://www.blowgummies.com.br/?utm_source=banner&utm_medium=site&utm_campaign=surpresablow"
         }
       ],
       "full_width": true
