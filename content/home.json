@@ -9,9 +9,22 @@
         {
           "start": "",
           "end": "",
-          "img": "/img/uploads/banner-site-match-2.2.webp",
-          "link": "https://www.blowgummies.com.br/?utm_source=banner&utm_medium=site&utm_campaign=maisblow",
-          "mobile_img": "/img/uploads/banner-mobile-match-2.2-copiar.webp"
+          "img": "/img/uploads/banner-topo-site-beneficios-tbt-extravasa.webp",
+          "link": "https://www.blowgummies.com.br/?utm_source=banner&utm_medium=site&utm_campaign=surpresablow",
+          "mobile_img": "/img/uploads/banner-topo-mobile-beneficios-tbt-extravasa.webp"
+        },
+        {
+          "start": "",
+          "end": "",
+          "img": "/img/uploads/banner-site-topo-valores-extravasa-1-.webp",
+          "link": "https://www.blowgummies.com.br/?utm_source=banner&utm_medium=site&utm_campaign=surpresablow",
+          "mobile_img": "/img/uploads/banner-mobile-topo-valores-extravasa-1-.webp"
+        },
+        {
+          "start": "",
+          "end": "",
+          "img": "/img/uploads/banner-site-tbt-campanha-extravasa.webp",
+          "mobile_img": "/img/uploads/banner-mobile-tbt-campanha-extravasa.webp"
         }
       ],
       "full_width": true
