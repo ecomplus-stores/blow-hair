@@ -122,11 +122,6 @@
         "type": 301
       },
       {
-        "source": "/blow-gummies-box-360-dias-de-tratamento",
-        "destination": "/blow-gummies-360-dias-de-tratamento",
-        "type": 301
-      },
-      {
         "source": "/necessaire-blow-hair-rosa-pink",
         "destination": "/compre-agora/",
         "type": 302
@@ -244,11 +239,6 @@
         {
           "source": "/blow-gummies-180-dias-de-tratamento-melancia-copa",
           "destination": "/blow-gummies-180-dias-de-tratamento",
-          "type": 301
-        },
-        {
-          "source": "/blow-gummies-360-dias-de-tratamento--s",
-          "destination": "/blow-gummies-360-dias-de-tratamento",
           "type": 301
         },
         {
