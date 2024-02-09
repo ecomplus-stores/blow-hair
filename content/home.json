@@ -9,23 +9,9 @@
         {
           "start": "",
           "end": "",
-          "img": "/img/uploads/banner-topo-site-beneficios-tbt-extravasa-50.webp",
-          "link": "https://www.blowgummies.com.br/?utm_source=banner&utm_medium=site&utm_campaign=surpresablow",
-          "mobile_img": "/img/uploads/banner-topo-mobile-beneficios-tbt-extravasa-50-.webp"
-        },
-        {
-          "start": "",
-          "end": "",
-          "img": "/img/uploads/banner-site-campanha-extravasa-50-.webp",
-          "mobile_img": "/img/uploads/banner-mobile-campanha-extravasa-50.webp",
-          "link": "https://www.blowgummies.com.br/?utm_source=banner&utm_medium=site&utm_campaign=surpresablow"
-        },
-        {
-          "start": "",
-          "end": "",
-          "img": "/img/uploads/banner-site-topo-valores-extravasa-50.webp",
-          "mobile_img": "/img/uploads/banner-mobile-topo-valores-extravasa-50.webp",
-          "link": "https://www.blowgummies.com.br/?utm_source=banner&utm_medium=site&utm_campaign=surpresablow"
+          "img": "/img/uploads/banner-site-campanha-extravasa-55-preto.jpg",
+          "link": "https://www.blowgummies.com.br/?utm_source=banner&utm_medium=site&utm_campaign=foliablow",
+          "mobile_img": "/img/uploads/banner-mobile-campanha-extravasa-55-off-preto.jpg"
         }
       ],
       "full_width": true
