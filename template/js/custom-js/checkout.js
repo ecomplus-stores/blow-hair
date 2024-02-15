@@ -86,3 +86,12 @@ $('body').on('click', '.freebie-item button', function(oObj){
     setTimeout(() => {window.frontFetchFreebies();}, 1000);
     
 })
+
+const paramsURL = new URLSearchParams(window.location.search)
+const bvId = paramsURL.get('bvid')
+console.log('id beeviral', bvId)
+if (bvId) {
+  const sessionUtm = JSON.parse(window.sessionStorage.getItem('ecomUtm') || '{}') 
+  sessionUtm.term = `bvid:${bvId}`
+  window.sessionStorage.setItem('ecomUtm', JSON.stringify(sessionUtm))
+}

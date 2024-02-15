@@ -54,3 +54,12 @@ if (window.location.pathname === '/') {
     ]
   })
 }
+
+const paramsURL = new URLSearchParams(window.location.search)
+const bvId = paramsURL.get('bvid')
+console.log('id beeviral', bvId)
+if (bvId) {
+  const sessionUtm = JSON.parse(window.sessionStorage.getItem('ecomUtm') || '{}') 
+  sessionUtm.term = `bvid:${bvId}`
+  window.sessionStorage.setItem('ecomUtm', JSON.stringify(sessionUtm))
+}
