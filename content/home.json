@@ -9,9 +9,23 @@
         {
           "start": "",
           "end": "",
-          "img": "/img/uploads/banner-site-campanha-extravasa-50-.webp",
-          "link": "https://www.blowgummies.com.br/?utm_source=banner&utm_medium=site&utm_campaign=foliablow",
-          "mobile_img": "/img/uploads/banner-mobile-campanha-extravasa-50.webp"
+          "img": "/img/uploads/banner-site-campanha-kit-360.webp",
+          "link": "https://www.blowgummies.com.br/?utm_source=banner&utm_medium=site&utm_campaign=maisblow",
+          "mobile_img": "/img/uploads/banner-mobile-campanha-kit-360.webp"
+        },
+        {
+          "start": "",
+          "end": "",
+          "img": "/img/uploads/banner-topo-site-beneficios-kit-360.webp",
+          "mobile_img": "/img/uploads/banner-topo-mobile-beneficios-kit-360.webp",
+          "link": "https://www.blowgummies.com.br/?utm_source=banner&utm_medium=site&utm_campaign=maisblow"
+        },
+        {
+          "start": "",
+          "end": "",
+          "img": "/img/uploads/banner-site-topo-valores-kit-360.webp",
+          "mobile_img": "/img/uploads/banner-mobile-topo-valores-kit-360.webp",
+          "link": "https://www.blowgummies.com.br/?utm_source=banner&utm_medium=site&utm_campaign=maisblow"
         }
       ],
       "full_width": true
