@@ -9,29 +9,15 @@
         {
           "start": "",
           "end": "",
-          "img": "/img/uploads/banner-site-campanha-kit-360.webp",
-          "link": "https://www.blowgummies.com.br/?utm_source=banner&utm_medium=site&utm_campaign=maisblow",
-          "mobile_img": "/img/uploads/banner-mobile-campanha-kit-360.webp"
-        },
-        {
-          "start": "",
-          "end": "",
-          "img": "/img/uploads/banner-topo-site-beneficios-kit-360.webp",
-          "mobile_img": "/img/uploads/banner-topo-mobile-beneficios-kit-360.webp",
-          "link": "https://www.blowgummies.com.br/?utm_source=banner&utm_medium=site&utm_campaign=maisblow"
-        },
-        {
-          "start": "",
-          "end": "",
-          "img": "/img/uploads/banner-site-topo-valores-kit-360.webp",
-          "mobile_img": "/img/uploads/banner-mobile-topo-valores-kit-360.webp",
-          "link": "https://www.blowgummies.com.br/?utm_source=banner&utm_medium=site&utm_campaign=maisblow"
+          "img": "/img/uploads/banner-site-lancamento-blow-beauty.webp",
+          "link": "https://www.blowgummies.com.br/?utm_source=banner&utm_medium=site&utm_campaign=BLOWBEAUTY",
+          "mobile_img": "/img/uploads/banner-mobile-lancamento-blow-beauty.webp"
         },
         {
           "start": "",
           "end": "",
           "img": "/img/uploads/banner-site-labirinto-de-beneficios.webp",
-          "link": "https://www.blowgummies.com.br/?utm_source=banner&utm_medium=site&utm_campaign=maisblow",
+          "link": "https://www.blowgummies.com.br/?utm_source=banner&utm_medium=site&utm_campaign=BLOWBEAUTY",
           "mobile_img": "/img/uploads/banner-mobile-labirinto-de-beneficios-2-.webp"
         }
       ],
