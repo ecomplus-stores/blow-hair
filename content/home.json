@@ -26,6 +26,13 @@
           "img": "/img/uploads/banner-site-topo-valores-kit-360.webp",
           "mobile_img": "/img/uploads/banner-mobile-topo-valores-kit-360.webp",
           "link": "https://www.blowgummies.com.br/?utm_source=banner&utm_medium=site&utm_campaign=maisblow"
+        },
+        {
+          "start": "",
+          "end": "",
+          "img": "/img/uploads/banner-site-labirinto-de-beneficios.webp",
+          "link": "https://www.blowgummies.com.br/?utm_source=banner&utm_medium=site&utm_campaign=maisblow",
+          "mobile_img": "/img/uploads/banner-mobile-labirinto-de-beneficios-2-.webp"
         }
       ],
       "full_width": true
