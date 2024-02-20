@@ -137,6 +137,19 @@
     {
       "type": "custom-html",
       "html": "<meta name=\"p:domain_verify\" content=\"646bef620483d5f571e4897a77731938\"/>"
+    },
+    {
+      "type": "mgnr_faq",
+      "title": "Perguntas Frequentes",
+      "list": "description_first",
+      "questions": [
+        {
+          "question": {
+            "title": "O que é Blow Gummies?",
+            "response": "A Blow Gummies é um suplemento alimentar mastigável, para cabelos e unhas, em forma de ursinho, fácil e divertido de ingerir! Não é apenas uma vitamina para cabelo qualquer, pois além de ter um gostinho IN-CRÍ-VEL, é rico em 12 minerais e vitaminas, que auxiliam no crescimento e fortalecimento dos seus cabelos e unhas, além de melhorar a pele e ajudar a aumentar a imunidade! E você acha que acabou por aqui? Nada disso, mana! A Blowzinha auxilia no processo antiqueda, proporcionando mais brilho aos seus cabelos e unhas, que passam a nascer muuuuito mais fortes. Tudo isso, incluído dentro de um único potinho 60 gominhas, que é equivalente a 60 dias de tratamento, não tem como não se apaixonar!"
+          }
+        }
+      ]
     }
   ]
 }
