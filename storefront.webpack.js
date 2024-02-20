@@ -5,6 +5,7 @@ const path = require('path')
 module.exports = () => ({
   resolve: {
     alias: {
+      './methods/set-search-term': path.resolve(dirSearchAlias, 'set-search-term'),
       './base-config': path.resolve(__dirname, 'template/js/netlify-cms/base-config'),
       './html/CartQuickview.html': path.resolve(__dirname, 'template/js/custom-js/html/CartQuickview.html'),
       './js/CartQuickview.js': path.resolve(__dirname, 'template/js/custom-js/js/CartQuickview.js'),

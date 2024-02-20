@@ -16,6 +16,14 @@
         "link": "/blow-gummies-zero-acucar"
       },
       {
+        "title": "Hair",
+        "link": "/blow-gummies-hair"
+      },
+      {
+        "title": "Beauty",
+        "link": "/blow-gummies-beauty"
+      },
+      {
         "title": "Composição",
         "link": "/pages/ingredientes-que-contem-blow-gummies"
       },
@@ -34,7 +42,7 @@
     "random": 20,
     "full_width": false
   },
-  "search_input": false,
+  "search_input": true,
   "desktop_megamenu": false,
   "alphabetical_order_submenu": false,
   "full_width_submenu": false
