@@ -2,6 +2,8 @@
 
 const path = require('path')
 
+const dirSearchAlias = path.resolve(__dirname, 'template/js/lib/search-engine')
+
 module.exports = () => ({
   resolve: {
     alias: {
