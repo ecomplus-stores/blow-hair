@@ -69,7 +69,7 @@
 
       <slot
         name="unavailable"
-        v-if="false"
+        v-if="!body.available || !body.visible"
       >
         <p class="badge badge-warning mt-auto">
           {{ i19unavailable }}
