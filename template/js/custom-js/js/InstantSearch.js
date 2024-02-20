@@ -9,6 +9,7 @@ import {
   import { i18n } from '@ecomplus/utils'
   import ABackdrop from '@ecomplus/storefront-components/src/ABackdrop.vue'
   import SearchEngine from '@ecomplus/storefront-components/src/SearchEngine.vue'
+  import { isMobile } from '@ecomplus/storefront-twbs'
   
   export default {
     name: 'InstantSearch',
@@ -121,9 +122,11 @@ import {
     },
 
     mounted() {
-      $('#mgnr_search-trigger').click(() => {
-        this.show();
-      });
+        if (!isMobile) {
+            $('#mgnr_search-trigger').click(() => {
+                this.show();
+            });
+        }
     },
     
   
