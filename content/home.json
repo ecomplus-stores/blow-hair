@@ -9,16 +9,9 @@
         {
           "start": "",
           "end": "",
-          "img": "/img/uploads/banner-site-lancamento-blow-beauty.webp",
-          "link": "https://www.blowgummies.com.br/?utm_source=banner&utm_medium=site&utm_campaign=BLOWBEAUTY",
-          "mobile_img": "/img/uploads/banner-mobile-lancamento-blow-beauty.webp"
-        },
-        {
-          "start": "",
-          "end": "",
-          "img": "/img/uploads/banner-topo-site-beneficios-lancamento-blow-beauty.webp",
-          "mobile_img": "/img/uploads/banner-topo-mobile-beneficios-lancamento-blow-beauty.webp",
-          "link": "https://www.blowgummies.com.br/?utm_source=banner&utm_medium=site&utm_campaign=BLOWBEAUTY"
+          "img": "/img/uploads/banner-site-campanha-de-lancamento-blow-beauty-night.webp",
+          "link": "https://www.blowgummies.com.br/?utm_source=banner&utm_medium=site&utm_campaign=BLOWNIGHT",
+          "mobile_img": "/img/uploads/banner-mobile-campanha-de-lancamento-blow-beauty-night.webp"
         },
         {
           "start": "",
@@ -26,13 +19,6 @@
           "img": "/img/uploads/banner-site-labirinto-de-beneficios.webp",
           "link": "https://www.blowgummies.com.br/?utm_source=banner&utm_medium=site&utm_campaign=BLOWBEAUTY",
           "mobile_img": "/img/uploads/banner-mobile-labirinto-de-beneficios-2-.webp"
-        },
-        {
-          "start": "",
-          "end": "",
-          "img": "/img/uploads/banner-site-topo-valores-lancamento-blow-beauty.webp",
-          "mobile_img": "/img/uploads/banner-mobile-topo-valores-lancamento-blow-beauty.webp",
-          "link": "https://www.blowgummies.com.br/?utm_source=banner&utm_medium=site&utm_campaign=BLOWBEAUTY"
         }
       ],
       "full_width": true
