@@ -1,7 +1,6 @@
 <div
   class="product-card"
   :class="{
-    'product-card--inactive': body._id && !isActive,
     'product-card--small': isSmall
   }"
   @mouseover="isHovered = true"
@@ -58,6 +57,7 @@
           </slot>
       </slot>
 
+
       <slot name="rating">
         <div
           v-once
@@ -69,7 +69,7 @@
 
       <slot
         name="unavailable"
-        v-if="!body.available || !body.visible"
+        v-if="false"
       >
         <p class="badge badge-warning mt-auto">
           {{ i19unavailable }}
@@ -128,7 +128,21 @@
     </section>
   </transition>
   </a-link>
-  <template v-if="body.price && body.available && body.visible && isInStock">
+
+  <product-variations
+    :product="body"
+    :selected-id.sync="selectedVariationId"
+    :max-options-btns="2"
+    @select-option="handleGridOption"
+  />
+  <a-alert
+      :can-show="!canAddToCart"
+      variant="info"
+      @dismiss="alertText = null"
+  >
+    Selecione uma opção antes de comprar
+  </a-alert>
+  <template v-if="body.price && isInStock">
     <div
           @click="buy"
           class="product-card__buy fade"
@@ -161,6 +175,8 @@
           </slot>
         </div>
   </template>
+
+  <countdown v-if="endDateT > now" :key="body._id" :product="body" :deadline="endDate" />
 
   <template v-if="isLoading">
     <slot/>

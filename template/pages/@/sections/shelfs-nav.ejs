@@ -74,7 +74,7 @@ if (opt.collection_ids) {
     <% for (let i = 0; i < shelfTabs.length; i++) { %>
       <div class="collection-shelf" data-shelf="<%= i %>"
         style="display: <%= i === 0 ? 'block' : 'none' %>">
-        <%- await include('@/sections/inc/products-carousel', {
+        <%- await include('@/sections/inc/products-carousel-one', {
           _, opt: {
             items: shelfTabs[i].items,
             collection: null,

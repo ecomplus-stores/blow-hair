@@ -11,6 +11,7 @@ module.exports = () => ({
       './html/APrices.html': path.resolve(__dirname, 'template/js/custom-js/html/APrices.html'),
       './html/AccountPoints.html': path.resolve(__dirname, 'template/js/custom-js/html/AccountPoints.html'),
       './html/ProductCard.html': path.resolve(__dirname, 'template/js/custom-js/html/ProductCard.html'),
+      './js/ProductCard.js': path.resolve(__dirname, 'template/js/custom-js/js/ProductCard.js'),
       './html/DiscountApplier.html': path.resolve(__dirname, 'template/js/blow-gummies/html/DiscountApplier.html'),
       './js/DiscountApplier.js': path.resolve(__dirname, 'template/js/blow-gummies/js/DiscountApplier.js'),
       './html/ShippingCalculator.html': path.resolve(__dirname, 'template/js/custom-js/html/ShippingCalculator.html'),
@@ -22,7 +23,8 @@ module.exports = () => ({
       './html/EcCheckout.html': path.resolve(__dirname, 'template/js/custom-js/components/EcCheckout.html'),
       './js/EcCheckout.js': path.resolve(__dirname, 'template/js/custom-js/components/EcCheckout.js'),
       './js/Checkout.js': path.resolve(__dirname, 'template/js/custom-js/components/Checkout.js'),
-      './Checkout.vue': path.resolve(__dirname, 'template/js/custom-js/components/Checkout.vue')
+      './Checkout.vue': path.resolve(__dirname, 'template/js/custom-js/components/Checkout.vue'),
+      './js/InstantSearch.js': path.resolve(__dirname, 'template/js/custom-js/js/InstantSearch.js')
     }
   }
 })

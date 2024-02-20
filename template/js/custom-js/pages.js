@@ -36,24 +36,7 @@ $('#apx_form').submit(function(e){
   $('#conversion-form-am-formulario-de-newsletter [name="email"]').val($(this).find('[name="mail"]').val());
   $('#conversion-form-am-formulario-de-newsletter').submit();
 });
-if (window.location.pathname === '/') {
-  EcomSearch.dslMiddlewares.push((dsl) => {
-    dsl.query.bool.filter = [
-      {
-        term: {
-          visible: true
-        }
-      },
-      {
-          "terms": {
-              "categories.name": [
-                  "comprar-agora"
-              ]
-          }
-      }
-    ]
-  })
-}
+
 
 const paramsURL = new URLSearchParams(window.location.search)
 const bvId = paramsURL.get('bvid')
@@ -64,7 +47,7 @@ if (bvId) {
   window.sessionStorage.setItem('ecomUtm', JSON.stringify(sessionUtm))
 }
 
-/* const toggleButton = document.getElementById('mgnr_search-trigger');
+const toggleButton = document.getElementById('mgnr_search-trigger');
 toggleButton.addEventListener('click', () => {
   const instantSearchComponent = document.querySelector('[name="InstantSearch"]');
   if (instantSearchComponent) {
@@ -78,7 +61,7 @@ setInterval(() => {
   }
   $('#mgnr_search-trigger.collapsed')
 }, 1000)
- */
+
 $('.faq_list button').click(function(){
   $(this).closest('.faq_list-item').toggleClass('visible')
 });
