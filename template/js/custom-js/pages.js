@@ -63,3 +63,22 @@ if (bvId) {
   sessionUtm.term = `bvid:${bvId}`
   window.sessionStorage.setItem('ecomUtm', JSON.stringify(sessionUtm))
 }
+
+const toggleButton = document.getElementById('mgnr_search-trigger');
+toggleButton.addEventListener('click', () => {
+  const instantSearchComponent = document.querySelector('[name="InstantSearch"]');
+  if (instantSearchComponent) {
+    instantSearchComponent.__vue__.toggleVisibility(); // Chama o método do componente Vue
+  }
+});
+
+setInterval(() => {
+  if ($('#mgnr_search-trigger.collapsed') && $('#mgnr_search-trigger.collapsed').length && !document.getElementById('search-bar').classList.contains('show')) {
+    document.getElementById('search-bar').classList.add('show')
+  }
+  $('#mgnr_search-trigger.collapsed')
+}, 1000)
+
+$('.faq_list button').click(function(){
+  $(this).closest('.faq_list-item').toggleClass('visible')
+});
