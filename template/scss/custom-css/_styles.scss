@@ -1462,3 +1462,7 @@
   #c-658d9c432cd6b65959ec6dfc, #c-65c659a187ab487fbfb1356c {
     display: none !important;
   }
+
+  .product-card--small .product-card__name {
+    --max-lines: 5 !important;
+  }
