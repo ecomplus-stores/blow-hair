@@ -22,7 +22,7 @@ import {
   import ALink from '@ecomplus/storefront-components/src/ALink.vue'
   import APicture from '@ecomplus/storefront-components/src/APicture.vue'
   import APrices from '@ecomplus/storefront-components/src/APrices.vue'
-  import ProductVariations from '@ecomplus/storefront-components/src/ProductVariations.vue'
+  //import ProductVariations from '@ecomplus/storefront-components/src/ProductVariations.vue'
   import ecomPassport from '@ecomplus/passport-client'
   import { toggleFavorite, checkFavorite } from '@ecomplus/storefront-components/src/js/helpers/favorite-products'
   import Countdown from '../components/Countdown.vue'
@@ -51,7 +51,7 @@ import {
       APicture,
       APrices,
       Countdown,
-      ProductVariations
+      //ProductVariations
     },
   
     props: {
@@ -231,7 +231,7 @@ import {
         }
       },
   
-      buy () {
+      /* buy () {
         const product = this.body
         if (product.variations && product.variations.length && !this.selectedVariationId) {
             this.canAddToCart = false
@@ -242,7 +242,7 @@ import {
           this.isWaitingBuy = true
           store({ url: `/products/${product._id}.json` })
             .then(({ data }) => {
-              const selectFields = ['customizations', 'kit_composition']
+              const selectFields = ['variations', 'customizations', 'kit_composition']
               for (let i = 0; i < selectFields.length; i++) {
                 const selectOptions = data[selectFields[i]]
                 if (selectOptions && selectOptions.length) {
@@ -260,6 +260,42 @@ import {
               }
               const { quantity, price } = data
               ecomCart.addProduct({ ...product, quantity, price }, variationId)
+            })
+            .catch(err => {
+              console.error(err)
+              window.location = `/${product.slug}`
+            })
+            .finally(() => {
+              this.isWaitingBuy = false
+            })
+        }
+      } */
+
+      buy () {
+        const product = this.body
+        this.$emit('buy', { product })
+        if (this.canAddToCart) {
+          this.isWaitingBuy = true
+          store({ url: `/products/${product._id}.json` })
+            .then(({ data }) => {
+              const selectFields = ['variations', 'customizations', 'kit_composition']
+              for (let i = 0; i < selectFields.length; i++) {
+                const selectOptions = data[selectFields[i]]
+                if (selectOptions && selectOptions.length) {
+                  return import('@ecomplus/storefront-components/src/ProductQuickview.vue')
+                    .then(quickview => {
+                      new Vue({
+                        render: h => h(quickview.default, {
+                          props: {
+                            product: data
+                          }
+                        })
+                      }).$mount(this.$refs.quickview)
+                    })
+                }
+              }
+              const { quantity, price } = data
+              ecomCart.addProduct({ ...product, quantity, price })
             })
             .catch(err => {
               console.error(err)

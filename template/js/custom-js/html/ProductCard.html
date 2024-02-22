@@ -1,6 +1,7 @@
 <div
   class="product-card"
   :class="{
+    'product-card--inactive': body._id && !isActive,
     'product-card--small': isSmall
   }"
   @mouseover="isHovered = true"
@@ -56,7 +57,6 @@
             </component>
           </slot>
       </slot>
-
 
       <slot name="rating">
         <div
@@ -128,21 +128,7 @@
     </section>
   </transition>
   </a-link>
-
-  <product-variations
-    :product="body"
-    :selected-id.sync="selectedVariationId"
-    :max-options-btns="2"
-    @select-option="handleGridOption"
-  />
-  <a-alert
-      :can-show="!canAddToCart"
-      variant="info"
-      @dismiss="alertText = null"
-  >
-    Selecione uma opção antes de comprar
-  </a-alert>
-  <template v-if="body.price && isInStock">
+  <template v-if="body.price && body.available && body.visible && isInStock">
     <div
           @click="buy"
           class="product-card__buy fade"
