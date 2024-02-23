@@ -12,6 +12,20 @@
           "img": "/img/uploads/banner-site-campanha-copos-colecionaveis-1-.webp",
           "link": "https://www.blowgummies.com.br/?utm_source=banner&utm_medium=site&utm_campaign=maisblow",
           "mobile_img": "/img/uploads/banner-mobile-campanha-copos-colecionaveis-1-.webp"
+        },
+        {
+          "start": "",
+          "end": "",
+          "img": "/img/uploads/banner-site-topo-beneficios-campanha-copos-colecionaveis.webp",
+          "mobile_img": "/img/uploads/banner-mobile-topo-beneficios-campanha-copos-colecionaveis.webp",
+          "link": "https://www.blowgummies.com.br/?utm_source=banner&utm_medium=site&utm_campaign=maisblow"
+        },
+        {
+          "start": "",
+          "end": "",
+          "img": "/img/uploads/banner-site-topo-valores-campanha-copos-colecionaveis.webp",
+          "mobile_img": "/img/uploads/banner-mobile-topo-valores-campanha-copos-colecionaveis.webp",
+          "link": "https://www.blowgummies.com.br/?utm_source=banner&utm_medium=site&utm_campaign=maisblow"
         }
       ],
       "full_width": true
