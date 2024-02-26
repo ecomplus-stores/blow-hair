@@ -1,4 +1,5 @@
 import * as merge from 'lodash.merge'
+import query from '@ecomplus/search-engine/src/lib/dsl'
 
 export default (self, term) => {
     if (term) {
