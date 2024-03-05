@@ -16,7 +16,7 @@ if (opt.img) {
     if (source.src.endsWith('.webp')) {
       source.type = 'image/webp'
       sources.push({
-        src: source.src.replace('.webp', '.png'),
+        src: source.src,
         media: source.media,
         type: 'image/png'
       })
