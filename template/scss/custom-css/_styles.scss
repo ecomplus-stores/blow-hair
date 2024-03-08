@@ -1346,12 +1346,12 @@
   
     .shelfs-nav {
       &__tabs {
-          @media(min-width: 767px) {
+          @media(min-width: 992px) {
               display: flex;
               justify-content: center;
           }
       }
-      @media(min-width: 767px) {
+      @media(min-width: 992px) {
           .products-carousel .glide__track, .products-carousel__list {
               align-items: stretch;
               display: flex;
@@ -1361,7 +1361,7 @@
               max-width: 400px;
           }
       }
-      @media(max-width: 767px) {
+      @media(max-width: 992px) {
           .products-carousel .products-carousel__item {
               width: 100% !important;
           }
