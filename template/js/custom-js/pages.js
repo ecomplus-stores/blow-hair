@@ -1,5 +1,6 @@
 // Add your custom JavaScript for storefront pages here.
 import EcomSearch from '@ecomplus/search-engine'
+import { isMobile } from '@ecomplus/storefront-twbs'
 if (storefront && storefront.context && storefront.context.resource === 'products') {
   
 }
@@ -55,12 +56,15 @@ toggleButton.addEventListener('click', () => {
   }
 });
 
-setInterval(() => {
-  if ($('#mgnr_search-trigger.collapsed') && $('#mgnr_search-trigger.collapsed').length && !document.getElementById('search-bar').classList.contains('show')) {
-    document.getElementById('search-bar').classList.add('show')
-  }
-  $('#mgnr_search-trigger.collapsed')
-}, 1000)
+if (!isMobile) {
+  setInterval(() => {
+    if ($('#mgnr_search-trigger.collapsed') && $('#mgnr_search-trigger.collapsed').length && !document.getElementById('search-bar').classList.contains('show')) {
+      document.getElementById('search-bar').classList.add('show')
+    }
+    $('#mgnr_search-trigger.collapsed')
+  }, 1000)
+}
+
 
 $('.faq_list button').click(function(){
   $(this).closest('.faq_list-item').toggleClass('visible')
