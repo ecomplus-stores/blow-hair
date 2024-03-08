@@ -344,9 +344,13 @@
       border: none !important;
   }
   @media(min-width: 767px) {
-    .header__toggler, .top-bar {
+    .header__toggler, .top-bar__nav {
         display:none;
     }
+  }
+
+  .top-bar__countdown {
+    background-color: #000 !important;
   }
   
   
