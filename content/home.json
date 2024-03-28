@@ -9,13 +9,6 @@
         {
           "start": "",
           "end": "",
-          "img": "/img/uploads/banner-site-campanha-shoulder-pascoa.webp",
-          "mobile_img": "/img/uploads/banner-mobile-campanha-shoulder-pascoa.webp",
-          "link": "https://www.blowgummies.com.br/?utm_source=banner&utm_medium=site&utm_campaign=mimoblow"
-        },
-        {
-          "start": "",
-          "end": "",
           "img": "/img/uploads/banner-topo-site-beneficios-campanha-shoulder-pascoa-45-.webp",
           "mobile_img": "/img/uploads/banner-topo-mobile-beneficios-campanha-shoulder-pascoa-45-.webp",
           "link": "https://www.blowgummies.com.br/?utm_source=banner&utm_medium=site&utm_campaign=mimoblow"
@@ -26,6 +19,13 @@
           "img": "/img/uploads/banner-site-topo-valores-campanha-pascoa-sholder-45-.webp",
           "link": "https://www.blowgummies.com.br/?utm_source=banner&utm_medium=site&utm_campaign=mimoblow",
           "mobile_img": "/img/uploads/banner-mobile-topo-valores-campanha-shoulder-pascoa-45-1-.webp"
+        },
+        {
+          "start": "",
+          "end": "",
+          "img": "/img/uploads/banner-site-campanha-shoulder-pascoa.webp",
+          "mobile_img": "/img/uploads/banner-mobile-campanha-shoulder-pascoa.webp",
+          "link": "https://www.blowgummies.com.br/?utm_source=banner&utm_medium=site&utm_campaign=mimoblow"
         }
       ],
       "full_width": true
