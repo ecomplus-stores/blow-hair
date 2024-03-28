@@ -1471,14 +1471,6 @@
     --max-lines: 5 !important;
   }
 
-  .checkout__app .checkout__btn-top.btn.btn-link {
-    display: none !important;
-  }
-
-  .account__nav.nav-tabs li.nav-item:nth-child(4) {
-    display: none !important;
-  }
-
   #cashback {
     padding: 15px;
     //width: 50%;
@@ -1499,4 +1491,8 @@
     color: rgb(40, 167, 69);
     padding: 10px;
     border-radius: 10px;
+}
+
+.minicart__btn-checkout {
+    margin-top: 15px;
 }

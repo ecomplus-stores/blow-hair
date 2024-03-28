@@ -53,6 +53,10 @@
     </slot>
   
     <slot name="more-offers"/>
+
+    <strong id="blow-coins-product" style="font-size: 15px; display: flex; width: 100%; justify-content: center;">
+      COMPRE E GANHE ATÉ {{ formatMoney((fixedPrice - amount.freight) / 20) }} DE CASHBACK
+    </strong>
   
     <slot name="amount">
       <div class="summary__amount">
@@ -119,6 +123,7 @@
             :discount-option="{ value: amount.discount }"
             :is-literal="true"
             :is-amount-total="true"
+            @fix-price="price => fixedPrice = price"
             :can-show-price-options="canShowPriceOptions"
           />
         </div>

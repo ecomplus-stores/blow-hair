@@ -46,6 +46,7 @@
                     :key="item._id"
                     :item="item"
                   />
+
                 </transition-group>
               </slot>
             </div>
@@ -99,9 +100,14 @@
                 <a-prices
                   :product="{ price: total || cart.subtotal }"
                   :is-literal="true"
+                  @fix-price="price => fixedPrice = price"
                 />
               </div>
             </div>
+
+            <strong id="blow-coins-product" style="font-size: 13px; display: flex; width: 100%; justify-content: center;">
+              COMPRE E GANHE ATÉ {{ formatMoney(fixedPrice / 20) }} DE CASHBACK
+            </strong>
   
             <a-link
               class="minicart__btn-checkout btn btn-block btn-primary"

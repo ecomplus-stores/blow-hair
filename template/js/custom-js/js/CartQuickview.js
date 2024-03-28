@@ -107,6 +107,7 @@ import {
       return {
         selectedShippingPrice: 0,
         isLoading: false,
+        fixedPrice: null
       }
     },
   

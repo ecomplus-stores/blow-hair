@@ -51,6 +51,12 @@ import {
         default: 0
       }
     },
+
+    data () {
+      return {
+        fixedPrice: null
+      }
+    },
   
     computed: {
       i19balanceOrPoints: () => i18n(i19balanceOrPoints),
