@@ -93,6 +93,5 @@ console.log('id beeviral', bvId)
 if (bvId) {
   const sessionUtm = JSON.parse(window.sessionStorage.getItem('ecomUtm') || '{}') 
   sessionUtm.term = `bvid:${bvId}`
-  sessionUtm.source = 'beeviral'
   window.sessionStorage.setItem('ecomUtm', JSON.stringify(sessionUtm))
 }
