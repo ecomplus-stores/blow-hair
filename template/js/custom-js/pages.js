@@ -44,7 +44,8 @@ const bvId = paramsURL.get('bvid')
 console.log('id beeviral', bvId)
 if (bvId) {
   const sessionUtm = JSON.parse(window.sessionStorage.getItem('ecomUtm') || '{}') 
-  sessionUtm.term = `bvid:${bvId}`
+  sessionUtm.term = bvId
+  sessionUtm.content = 'beeviral'
   window.sessionStorage.setItem('ecomUtm', JSON.stringify(sessionUtm))
 }
 
