@@ -41,11 +41,17 @@ $('#apx_form').submit(function(e){
 
 const paramsURL = new URLSearchParams(window.location.search)
 const bvId = paramsURL.get('bvid')
+const bid = paramsURL.get('bid')
 console.log('id beeviral', bvId)
 if (bvId) {
   const sessionUtm = JSON.parse(window.sessionStorage.getItem('ecomUtm') || '{}') 
   sessionUtm.term = bvId
   sessionUtm.content = 'beeviral'
+  window.sessionStorage.setItem('ecomUtm', JSON.stringify(sessionUtm))
+} else if (bid) {
+  const sessionUtm = JSON.parse(window.sessionStorage.getItem('ecomUtm') || '{}') 
+  sessionUtm.term = bid
+  sessionUtm.content = 'buzzlead'
   window.sessionStorage.setItem('ecomUtm', JSON.stringify(sessionUtm))
 }
 
