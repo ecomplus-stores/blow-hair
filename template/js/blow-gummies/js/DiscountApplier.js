@@ -159,7 +159,7 @@ export default {
     i19couponAppliedMsg: () => i18n(i19couponAppliedMsg),
     i19discountCoupon: () => i18n(i19discountCoupon),
     i19hasCouponOrVoucherQn: () => i18n(i19hasCouponOrVoucherQn),
-    i19invalidCouponMsg: () => i18n(i19invalidCouponMsg),
+    i19invalidCouponMsg: () => 'O cupom de desconto inserido é inválido. Tente inserir um novo cupom: MEUCARRINHO',
     i19campaignAppliedMsg: () => i18n(i19campaignAppliedMsg),
 
     canAddCoupon () {
@@ -333,6 +333,8 @@ export default {
           if (this.localCouponCode) {
             this.alertText = invalidCouponMsg || this.i19invalidCouponMsg
             this.alertVariant = 'warning'
+            this.localCouponCode = 'MEUCARRINHO'
+            this.submitCoupon()
           } else {
             this.alertText = null
           }
@@ -383,6 +385,11 @@ export default {
     submitCoupon (isForceUpdate) {
       if (isForceUpdate || this.canAddCoupon) {
         const { localCouponCode } = this
+        if (localCouponCode) {
+          const sessionUtm = JSON.parse(window.sessionStorage.getItem('ecomUtm') || '{}') 
+          sessionUtm.campaign = localCouponCode
+          window.sessionStorage.setItem('ecomUtm', JSON.stringify(sessionUtm))
+        }
         const data = {
           discount_coupon: localCouponCode
         }

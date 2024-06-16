@@ -161,7 +161,7 @@
           </div>
 
           <discount-applier
-            v-if="canHideSummary && enabledCheckoutStep > 1"
+            v-show="canHideSummary && enabledCheckoutStep > 1"
             class="checkout__discount mt-4"
             :amount="amount"
             :coupon-code.sync="localDiscountCoupon"

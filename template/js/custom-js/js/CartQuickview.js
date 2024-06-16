@@ -47,6 +47,7 @@ import {
                     return _id === productId ? qnt + 1 : qnt
                   }, 0)
                 )
+                ecomCart.save()
               }
             })
             .catch(console.error)
