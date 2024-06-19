@@ -269,6 +269,9 @@ export default {
             if (appDiscountRule) {
               const discountRuleValue = appDiscountRule.extra_discount.value
               if (!(extraDiscountValue > discountRuleValue)) {
+                const sessionUtm = JSON.parse(window.sessionStorage.getItem('ecomUtm') || '{}') 
+                sessionUtm.campaign = appDiscountRule.label
+                window.sessionStorage.setItem('ecomUtm', JSON.stringify(sessionUtm))
                 extraDiscountValue = discountRuleValue
                 if (extraDiscountValue > 10 && appDiscountRule.extra_discount.flags && appDiscountRule.extra_discount.flags.length && appDiscountRule.extra_discount.flags.includes('UTM')) {
                   this.localCouponCode = appDiscountRule.label
@@ -282,7 +285,7 @@ export default {
               invalidCouponMsg = response.
               this.localCouponCode = 'MEUCARRINHO'
               addFreebieItems(this.ecomCart, [])
-              this.submitCoupon()
+              this.submitCoupon(true)
             }
             if (this.canAddFreebieItems) {
               if(app_id == 120452){
@@ -318,6 +321,10 @@ export default {
               }else{
                 //console.log('app default')
                 addFreebieItems(this.ecomCart, response.freebie_product_ids)
+                if (!discountRule && response.freebie_product_ids) {
+                  this.localCouponCode = 'MEUCARRINHO'
+                  this.submitCoupon(true)
+                }
               }           
             }
           } else {
@@ -339,7 +346,7 @@ export default {
             this.alertText = invalidCouponMsg || this.i19invalidCouponMsg
             this.alertVariant = 'warning'
             this.localCouponCode = 'MEUCARRINHO'
-            this.submitCoupon()
+            this.submitCoupon(true)
           } else {
             this.alertText = null
           }
@@ -359,6 +366,8 @@ export default {
           data.customer.display_name = customer.display_name
         }
       }
+
+      console.log('estou no fetch', data)
 
       modules({
         url: '/apply_discount.json',
@@ -390,14 +399,10 @@ export default {
     submitCoupon (isForceUpdate) {
       if (isForceUpdate || this.canAddCoupon) {
         const { localCouponCode } = this
-        if (localCouponCode) {
-          const sessionUtm = JSON.parse(window.sessionStorage.getItem('ecomUtm') || '{}') 
-          sessionUtm.campaign = localCouponCode
-          window.sessionStorage.setItem('ecomUtm', JSON.stringify(sessionUtm))
-        }
         const data = {
           discount_coupon: localCouponCode
         }
+        console.log('fetch', data)
         this.fetchDiscountOptions(data)
       }
     },
