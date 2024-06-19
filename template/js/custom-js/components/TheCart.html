@@ -67,15 +67,17 @@
             <template v-if="isValidCart">
               <transition enter-active-class="animated fadeInDown">
                 <div
-                  class="cart__summary-row mt-1"
+                  class="cart__summary-row discount mt-1"
                   v-if="amount.discount"
                   :data-discount="amount.discount.toFixed(2)"
                 >
                   <span>
                     <i class="i-tag mr-1"></i>
                     {{ i19discount }}
+
+                    <b>({{ ((amount.discount / amount.subtotal) * 100).toFixed(2) }}%)</b>
                   </span>
-                  <div>{{ formatMoney(amount.discount) }}</div>
+                  <div> {{ formatMoney(amount.discount) }} </div>
                 </div>
               </transition>
 

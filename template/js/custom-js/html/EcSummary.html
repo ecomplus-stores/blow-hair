@@ -88,10 +88,10 @@
   
         <div
           v-if="amount.discount"
-          class="summary__amount__row"
+          class="summary__amount__row discount"
           :data-discount="amount.discount.toFixed(2)"
         >
-          <span>{{ i19discount }}</span>
+          <span>{{ i19discount }} <b>({{ ((amount.discount / amount.subtotal) * 100).toFixed(2) }}%)</b></span>
           <div>{{ formatMoney(amount.discount) }}</div>
         </div>
         <div

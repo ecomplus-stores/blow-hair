@@ -1504,3 +1504,9 @@
 .glide__slides.products-carousel__list, .glide__slide.products-carousel__item {
     width: 100% !important
 }
+
+.cart__summary-row.discount, .summary__amount__row.discount {
+    * {
+        color:#28a745 !important
+    }
+}

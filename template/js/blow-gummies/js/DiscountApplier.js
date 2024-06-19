@@ -270,14 +270,19 @@ export default {
               const discountRuleValue = appDiscountRule.extra_discount.value
               if (!(extraDiscountValue > discountRuleValue)) {
                 extraDiscountValue = discountRuleValue
+                if (extraDiscountValue > 10 && appDiscountRule.extra_discount.flags && appDiscountRule.extra_discount.flags.length && appDiscountRule.extra_discount.flags.includes('UTM')) {
+                  this.localCouponCode = appDiscountRule.label
+                } 
                 discountRule = {
                   app_id: appResult.app_id,
                   ...appDiscountRule
                 }
               }
             } else if (response.invalid_coupon_message) {
-              invalidCouponMsg = response.invalid_coupon_message
+              invalidCouponMsg = response.
+              this.localCouponCode = 'MEUCARRINHO'
               addFreebieItems(this.ecomCart, [])
+              this.submitCoupon()
             }
             if (this.canAddFreebieItems) {
               if(app_id == 120452){
