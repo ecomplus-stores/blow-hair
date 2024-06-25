@@ -148,7 +148,35 @@ export default options => {
           ]
         },        
       ]
-    }
+    },
+    {
+      label: "Faq por categoria",
+      name: "faq",
+      widget: "object",
+      icon: "https://api.iconify.design/bi:grid.svg",
+      fields: [
+          {
+              label: "Faqs",
+              name: "faq-list",
+              widget: "list",
+              fields: [
+                  {
+                      label: "Slug da categoria/marca",
+                      hint: "Será inserido com base no link da página destino ou se no produto tiver a categoria/marca",
+                      name: "slug",
+                      widget: "string",
+                      required: false
+                  },
+                  {
+                      label: "Texto do faq",
+                      required: false,
+                      name: "text",
+                      widget: "markdown"
+                  }
+              ]
+          }
+      ]
+  }
   ])
 
   return {
