@@ -321,7 +321,7 @@ export default {
               }else{
                 //console.log('app default')
                 addFreebieItems(this.ecomCart, response.freebie_product_ids)
-                if (!discountRule && response.freebie_product_ids) {
+                if (!discountRule && response.freebie_product_ids && this.localCouponCode) {
                   this.localCouponCode = 'MEUCARRINHO'
                   this.submitCoupon(true)
                 }
