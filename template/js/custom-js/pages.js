@@ -43,6 +43,7 @@ const paramsURL = new URLSearchParams(window.location.search)
 const bvId = paramsURL.get('bvid')
 const bid = paramsURL.get('bid')
 console.log('id beeviral', bvId)
+console.log('id buzzlead', bid)
 if (bvId) {
   const sessionUtm = JSON.parse(window.sessionStorage.getItem('ecomUtm') || '{}') 
   sessionUtm.term = bvId
