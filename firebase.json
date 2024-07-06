@@ -275,6 +275,126 @@
           "source": "/utm_",
           "destination": "/",
           "type": 301
+        },
+        {
+          "source": "/blow-gummies-180-dias-de-tratamento",
+          "destination": "/blow-gummies-180-dias",
+          "type": 301
+        },
+        {
+          "source": "/blow-gummies-240-dias-de-tratamento-melancia-framboesa-morango-uva",
+          "destination": "/blow-gummies-240-dias-melancia-framboesa-morango-uva",
+          "type": 301
+        },
+        {
+          "source": "/blow-gummies-60-dias-de-tratamento-banana",
+          "destination": "/blow-gummies-60-dias-banana",
+          "type": 301
+        },
+        {
+          "source": "/blow-gummies-60-dias-de-tratamento-laranja-zero-hair",
+          "destination": "/blow-gummies-60-dias-laranja-zero-hair",
+          "type": 301
+        },
+        {
+          "source": "/blow-gummies-120-dias-de-tratamento-melancia",
+          "destination": "/blow-gummies-120-dias-melancia",
+          "type": 301
+        },
+        {
+          "source": "/blow-gummies-180-dias-de-tratamento-mix",
+          "destination": "/blow-gummies-180-dias-mix",
+          "type": 301
+        },
+        {
+          "source": "/blow-gummies-360-dias-de-tratamento",
+          "destination": "/blow-gummies-360-dias",
+          "type": 301
+        },
+        {
+          "source": "/blow-gummies-60-dias-de-tratamento-morango",
+          "destination": "/blow-gummies-60-dias-morango",
+          "type": 301
+        },
+        {
+          "source": "/blow-gummies-120-dias-de-tratamento-uva",
+          "destination": "/blow-gummies-120-dias-uva",
+          "type": 301
+        },
+        {
+          "source": "/blow-gummies-360-dias-de-tratamento-todos-hair-zero-n",
+          "destination": "/blow-gummies-360-dias-todos-hair-zero-n",
+          "type": 301
+        },
+        {
+          "source": "/blow-gummies-300-dias-de-tratamento-mix-n",
+          "destination": "/blow-gummies-300-dias-mix-n",
+          "type": 301
+        },
+        {
+          "source": "/blow-gummies-240-dias-de-tratamento-melancia-banana-morango-laranja",
+          "destination": "/blow-gummies-240-dias-melancia-banana-morango-laranja",
+          "type": 301
+        },
+        {
+          "source": "/blow-gummies-60-dias-de-tratamento-laranja",
+          "destination": "/blow-gummies-60-dias-laranja",
+          "type": 301
+        },
+        {
+          "source": "/blow-gummies-240-dias-de-tratamento-mix-hair",
+          "destination": "/blow-gummies-240-dias-mix-hair",
+          "type": 301
+        },
+        {
+          "source": "/blow-gummies-240-dias-de-tratamento-morango-melancia",
+          "destination": "/blow-gummies-240-dias-morango-melancia",
+          "type": 301
+        },
+        {
+          "source": "/blow-gummies-300-dias-de-tratamento-mix",
+          "destination": "/blow-gummies-300-dias-mix",
+          "type": 301
+        },
+        {
+          "source": "/blow-gummies-120-dias-tratamento",
+          "destination": "/blow-gummies-120-dias",
+          "type": 301
+        },
+        {
+          "source": "/blow-gummies-60-dias-de-tratamento-melancia",
+          "destination": "/blow-gummies-60-dias-melancia",
+          "type": 301
+        },
+        {
+          "source": "/blow-gummies-60-dias-de-tratamento-framboesa",
+          "destination": "/blow-gummies-60-dias-framboesa",
+          "type": 301
+        },
+        {
+          "source": "/blow-gummies-crescimento-capilar-60-dias-tratamento",
+          "destination": "/blow-gummies-crescimento-capilar-60-dias",
+          "type": 301
+        },
+        {
+          "source": "/blow-gummies-240-dias-de-tratamento-hair",
+          "destination": "/blow-gummies-240-dias-hair",
+          "type": 301
+        },
+        {
+          "source": "/blow-gummies-360-dias-de-tratamento-todos-hair",
+          "destination": "/blow-gummies-360-dias-todos-hair",
+          "type": 301
+        },
+        {
+          "source": "/blow-gummies-60-dias-de-tratamento-uva",
+          "destination": "/blow-gummies-60-dias-uva",
+          "type": 301
+        },
+        {
+          "source": "/blow-gummies-120-dias-de-tratamento-morango",
+          "destination": "/blow-gummies-120-dias-morango",
+          "type": 301
         }
     ],
     "public": "dist",
