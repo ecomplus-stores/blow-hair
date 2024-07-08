@@ -630,7 +630,27 @@
           "source": "/blow-gummies-240-dias-de-tratamento-melancia-framboesa-banana-laranja",
           "destination": "/blow-gummies-240-dias-melancia-framboesa-banana-laranja",
           "type": 301
-        }
+        },
+        {
+          "source": "/blow-gummies-360-dias-de-tratamento-mix-beauty-hair-n",
+          "destination": "/blow-gummies-360-dias-mix-beauty-hair-n",
+          "type": 301
+        },
+        {
+          "source": "/blow-gummies-180-dias-de-tratamento-laranja-zero",
+          "destination": "/blow-gummies-180-dias-laranja-zero",
+          "type": 301
+        },
+        {
+          "source": "/blow-gummies-120-dias-tratamento-n",
+          "destination": "/blow-gummies-120-dias-n",
+          "type": 301
+        },
+        {
+          "source": "/blow-gummies-360-dias-de-tratamento-mix-beauty-hair",
+          "destination": "/blow-gummies-360-dias-mix-beauty-hair",
+          "type": 301
+        }  
     ],
     "public": "dist",
     "ignore": [
