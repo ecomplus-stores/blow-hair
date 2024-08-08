@@ -32,7 +32,8 @@ module.exports = () => ({
       './js/Checkout.js': path.resolve(__dirname, 'template/js/custom-js/components/Checkout.js'),
       './Checkout.vue': path.resolve(__dirname, 'template/js/custom-js/components/Checkout.vue'),
       './js/InstantSearch.js': path.resolve(__dirname, 'template/js/custom-js/js/InstantSearch.js'),
-      './js/SearchEngine.js': path.resolve(__dirname, 'template/js/custom-js/js/SearchEngine.js')
+      './js/SearchEngine.js': path.resolve(__dirname, 'template/js/custom-js/js/SearchEngine.js'),
+      './js/persist-utm.js': path.resolve(__dirname, 'template/js/custom-js/js/persist-utm.js')
     }
   }
 })
