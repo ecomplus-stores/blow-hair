@@ -1,11 +1,18 @@
-const { sessionStorage } = window
+const { sessionStorage, localStorage } = window
 const storageKey = 'ecomUtm'
 
 let isCurrentUtm
 const utm = JSON.parse(sessionStorage.getItem(storageKey)) || {}
+const persistentUtm = JSON.parse(localStorage.getItem(storageKey))
+if (persistentUtm) {
+  Object.assign(utm, persistentUtm)
+}
 
 const urlParams = new URLSearchParams(window.location.search)
 ;['source', 'medium', 'campaign', 'term', 'content'].forEach(utmParam => {
+  if (utm.source === 'embaixadoras') {
+    if (utmParam === 'source' || utmParam === 'medium') return
+  }
   const value = urlParams.get(`utm_${utmParam}`)
   if (typeof value === 'string') {
     utm[utmParam] = value
@@ -15,6 +22,10 @@ const urlParams = new URLSearchParams(window.location.search)
 
 if (isCurrentUtm) {
   sessionStorage.setItem(storageKey, JSON.stringify(utm))
+  if (utm.source === 'embaixadoras') {
+    const { source, medium } = utm
+    localStorage.setItem(storageKey, JSON.stringify({ source, medium }))
+  }
 }
 if (urlParams.get('referral') && !sessionStorage.getItem('ecomReferral')) {
   sessionStorage.setItem('ecomReferral', urlParams.get('referral'))
