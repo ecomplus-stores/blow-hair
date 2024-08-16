@@ -10,8 +10,8 @@ if (persistentUtm) {
 
 const urlParams = new URLSearchParams(window.location.search)
 ;['source', 'medium', 'campaign', 'term', 'content'].forEach(utmParam => {
-  if (utm.source === 'embaixadoras') {
-    if (utmParam === 'source' || utmParam === 'medium') return
+  if (utm.source === 'embaixadoras' && utmParam !== 'campaign') {
+    return
   }
   const value = urlParams.get(`utm_${utmParam}`)
   if (typeof value === 'string') {
@@ -19,12 +19,19 @@ const urlParams = new URLSearchParams(window.location.search)
     isCurrentUtm = true
   }
 })
+if (urlParams.get('bid')) {
+  utm.term = urlParams.get('bid')
+  utm.content = 'buzzlead'
+} else if (urlParams.get('bvid')) {
+  utm.term = urlParams.get('bvid')
+  utm.content = 'beeviral'
+}
 
 if (isCurrentUtm) {
   sessionStorage.setItem(storageKey, JSON.stringify(utm))
   if (utm.source === 'embaixadoras') {
-    const { source, medium } = utm
-    localStorage.setItem(storageKey, JSON.stringify({ source, medium }))
+    const { source, medium, term, content } = utm
+    localStorage.setItem(storageKey, JSON.stringify({ source, medium, term, content }))
   }
 }
 if (urlParams.get('referral') && !sessionStorage.getItem('ecomReferral')) {
