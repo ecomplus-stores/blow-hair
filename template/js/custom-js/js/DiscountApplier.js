@@ -127,7 +127,8 @@ export default {
       const amount = this.amount || {
         subtotal: this.ecomCart.data.subtotal
       }
-      this.localAmountTotal = (amount.subtotal || 0) + (amount.freight || 0)
+      this.localAmountTotal = (amount.subtotal || 0) +
+        (amount.freight || 0) - this.paymentGatewayDiscount
     },
 
     parseDiscountOptions (listResult = []) {
