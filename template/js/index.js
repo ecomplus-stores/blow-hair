@@ -3,7 +3,6 @@ import './custom-js/pages'
 import lozad from 'lozad'
 
 async function loadAsync () {
-    // RD form
   if (typeof window.setupRd === 'function') {
     const observer = lozad(document.getElementById('am-formulario-de-newsletter-b61733cf81abef42e0c4'), {
       rootMargin: '350px 0px',
@@ -20,8 +19,7 @@ async function loadAsync () {
     observer.observe()
   }
 
-    //popup
-   lozad(document.getElementById('popup-rd'), {
+  lozad(document.getElementById('popup-rd'), {
     rootMargin: '350px 0px',
     threshold: 0,
     load () {
@@ -33,6 +31,19 @@ async function loadAsync () {
     }
   }).observe()
 
+  lozad('.lightwidget-widget', {
+    rootMargin: '350px 0px',
+    threshold: 0,
+    load () {
+      const src = 'https://cdn.lightwidget.com/widgets/lightwidget.js'
+      if (!document.querySelector(`script[src="${src}"]`)) {
+        const script = document.createElement('script')
+        script.src = src
+        script.async = true
+        document.body.appendChild(script)
+      }
+    }
+  }).observe()
 }
 loadAsync()
 
