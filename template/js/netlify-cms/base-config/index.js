@@ -176,6 +176,59 @@ export default options => {
               ]
           }
       ]
+  },
+  {
+    label: 'HTML por Categoria (Apenas para Produto)',
+    name: 'blockPerCategory',
+    widget: 'object',
+    fields: [
+      {
+        label: 'Título (Apenas identificação)',
+        required: false,
+        name: 'title',
+        widget: 'string'
+      },
+      {
+        label: 'Escolha a categoria',
+        name: 'category',
+        widget: 'select',
+        required: false,
+        options: options.state.routes
+        .filter(el => el.resource === 'categories')
+        .map((el) => ({
+          label: el.name,
+          value: el.slug || el._id
+        }))
+      },
+      {
+        label: 'Lista de Conteúdo',
+        name: 'list',
+        widget: 'list',
+        required:false,
+        fields: [
+          {
+            label: 'Conteúdo',
+            name: 'content',
+            widget: 'object',
+            required:false,
+            fields: [
+              {
+                label: 'Texto',
+                name: 'body',
+                widget: 'markdown',
+                required: false        
+              },
+              {
+                label: 'Imagem',
+                name: 'image',
+                widget: 'image',
+                required:false,          
+              },                
+            ]
+          },          
+        ]
+      },        
+    ]
   }
   ])
 
