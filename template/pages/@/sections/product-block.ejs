@@ -1,5 +1,6 @@
 <%
 const stamps = _.cms('stamps') || {}
+const mgnr_props = _.cms('mgnr_props') || {}
 let stampsList
 if (stamps && Array.isArray(stamps.stamps_list) && stamps.stamps_list.length) {
   stampsList = stamps.stamps_list
@@ -92,17 +93,56 @@ if (stamps && Array.isArray(stamps.stamps_list) && stamps.stamps_list.length) {
           <p class="product__sku">
             COD: <%= _.state.sku %>
           </p>
-          <% if (_.state.categories && _.state.categories.every(category => category._id !== '64930a3b5e6069037042fa0a')) { %>
-            <div class="title-valor">
-              <ul>
-                <li>Suplemento Alimentar em Gomas para Cabelos e Unhas</li>
-                <!--<li>Diga adeus aos cabelos quebrados e danificados </li>-->
-                <li><b>Dose Diária Prática:</b>1 goma ao dia</li>
-                <li><b>Fórmula Completa</b> : Contém Biotina, Zinco e Selênio, que auxiliam na manutenção do cabelo, pele e unhas</li>
-              
-              </ul>
-            </div>
-          <% } %>
+          <div class="title-valor">
+            <ul id="mgnr_props"><% mgnr_props.props.forEach(({ item })=> {
+                
+                let flag = false
+                let categories = item.categories
+                let products = item.products
+
+                if(categories && _.state.categories){
+                  categories.forEach(({ category }) => {
+                    if(_.state.categories.find(el => el.slug.includes(category.title.trim().toLowerCase()))){
+                      console.log('yes')
+                      flag = true
+                      
+                    }
+                  })
+                }
+
+                if(products){
+                  products.forEach(({ product }) => {
+                    if(_.state.sku.trim().toLowerCase() == product.title.trim().toLowerCase()){
+                      flag = true
+                    }
+                  })
+                }
+
+                if(flag){
+              %>
+                  <li>
+                  <% if (item.image) {
+                    let { width, height } = _.tryImageSize(item.image)
+                    %>
+                    <img 
+                      src="<%=  item.image %>" 
+                      alt="<%=  item.title %>"
+                      <% if (width) { %>
+                        width="<%= width %>"
+                        height="<%= height %>"
+                      <% } else { %>
+                        width="31"
+                        height="35"
+                      <% } %>
+                    />
+                  <% } %>
+                  <%- item.title %>      
+                  </li>
+              <% 
+                }
+            }) 
+          %></ul>
+          </div>
 
           <div id="product-actions">
             <div id="product-loading">
