@@ -6,7 +6,155 @@
   "gateway_url": "https://gitgateway.ecomplus.biz/1032/.netlify/git"
 },
 "collections": [
-  {},
+  {
+    "label" : "[ecomplus custom config]",
+    "name": "mgnr",
+    "editor": {
+      "preview": false
+    },
+    "files": [
+      {
+        "name": "mgnr_header",
+        "label": "Cabeçalho Personalizado",
+        "file": "content/mgnr_header.json",
+        "fields": [
+          {
+            "label": "Links do Menu",
+            "name": "links",
+            "widget": "list",
+            "required":false,
+            "fields": [
+              {
+                "label": "Título",
+                "name": "title",
+                "widget": "string"          
+              },
+              {
+                "label": "URL do título",
+                "name": "url",
+                "widget": "string"          
+              },
+              {
+                "label": "Imagem",
+                "name": "image",
+                "widget": "image",
+                "required":false
+              }, 
+              {
+                "label":"Itens do Dropdown",
+                "name":"list",
+                "widget":"list",
+                "required":false,
+                "fields": [
+                  {
+                    "label": "Item do Dropdown",
+                    "name": "item",
+                    "widget": "object",
+                    "required":false,
+                    "fields": [
+                      {
+                        "label": "Texto do Item",
+                        "name": "title",
+                        "widget": "string"          
+                      },
+                      {
+                        "label": "URL do Item",
+                        "name": "url",
+                        "widget": "string"          
+                      },
+                      {
+                        "label": "Imagem",
+                        "name": "image",
+                        "widget": "image",
+                        "required":false
+                      }           
+                    ]
+                  }  
+                ]
+              }
+                     
+            ]
+          },
+          {
+            "label": "Tarja Slider",
+            "name": "stripe_slider",
+            "widget": "list",
+            "required":false,
+            "fields": [
+              {
+                "label": "Texto / HTML",
+                "name": "text",
+                "widget": "string"          
+              },
+              {
+                "label": "URL",
+                "name": "url",
+                "widget": "string"          
+              }      
+            ]
+          }
+        ]
+      },
+      {
+        "name": "mgnr_props",
+        "label": "Propriedades de Produto",
+        "file": "content/mgnr_props.json",
+        "editor": {
+          "preview": false
+        },
+        "fields": [
+          {
+            "label":"Propriedades",
+            "name":"props",
+            "widget":"list",
+            "required":false,
+            "fields": [
+              {
+                "label": "Propriedade",
+                "name": "item",
+                "widget": "object",
+                "required":false,
+                "fields": [
+                  {
+                    "label": "Imagem ou Ícone",
+                    "name": "image",
+                    "widget": "image",
+                    "required":false
+                  },  
+                  {
+                    "label": "Texto do Item",
+                    "name": "title",
+                    "widget": "string"          
+                  },
+                  {
+                    "label":"Categorias",
+                    "name":"categories",
+                    "widget":"list",
+                    "required":false,
+                    "fields": [
+                      {
+                        "label": "Categoria",
+                        "name": "category",
+                        "widget": "object",
+                        "required":false,
+                        "fields": [
+                          {
+                            "label": "SLUG da Categoria",
+                            "name": "title",
+                            "widget": "string"          
+                          }                                                   
+                        ]
+                      } 
+                    ]
+                  }                             
+                ]
+              } 
+            ]
+          }   
+        ]
+      }
+    ]
+  },
   {},
   {
     "name": "pages",
