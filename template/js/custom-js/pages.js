@@ -41,19 +41,24 @@ $('#apx_form').submit(function(e){
 
 const paramsURL = new URLSearchParams(window.location.search)
 const bvId = paramsURL.get('bvid')
-const bid = paramsURL.get('bid')
-console.log('id beeviral', bvId)
-console.log('id buzzlead', bid)
+let bid = paramsURL.get('bid')
+console.log('id beeviral', bvId, bid)
+if (!bid && window.localStorage.getItem('buzzlead')) {
+  bid = window.localStorage.getItem('buzzlead')
+}
 if (bvId) {
   const sessionUtm = JSON.parse(window.sessionStorage.getItem('ecomUtm') || '{}') 
   sessionUtm.term = bvId
   sessionUtm.content = 'beeviral'
   window.sessionStorage.setItem('ecomUtm', JSON.stringify(sessionUtm))
-} else if (bid) {
-  const sessionUtm = JSON.parse(window.sessionStorage.getItem('ecomUtm') || '{}') 
-  sessionUtm.term = bid
-  sessionUtm.content = 'buzzlead'
-  window.sessionStorage.setItem('ecomUtm', JSON.stringify(sessionUtm))
+}
+
+if (bid) {
+    const sessionUtm = JSON.parse(window.sessionStorage.getItem('ecomUtm') || '{}') 
+    sessionUtm.term = bid
+    sessionUtm.content = 'buzzlead'
+    window.sessionStorage.setItem('ecomUtm', JSON.stringify(sessionUtm))
+    window.localStorage.setItem('buzzlead', bid)
 }
 
 const toggleButton = document.getElementById('mgnr_search-trigger');

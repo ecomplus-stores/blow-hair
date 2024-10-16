@@ -89,10 +89,22 @@ $('body').on('click', '.freebie-item button', function(oObj){
 
 const paramsURL = new URLSearchParams(window.location.search)
 const bvId = paramsURL.get('bvid')
-console.log('id beeviral', bvId)
+let bid = paramsURL.get('bid')
+console.log('id beeviral', bvId, bid)
+if (!bid && window.localStorage.getItem('buzzlead')) {
+  bid = window.localStorage.getItem('buzzlead')
+}
 if (bvId) {
   const sessionUtm = JSON.parse(window.sessionStorage.getItem('ecomUtm') || '{}') 
   sessionUtm.term = bvId
   sessionUtm.content = 'beeviral'
   window.sessionStorage.setItem('ecomUtm', JSON.stringify(sessionUtm))
+}
+
+if (bid) {
+    const sessionUtm = JSON.parse(window.sessionStorage.getItem('ecomUtm') || '{}') 
+    sessionUtm.term = bid
+    sessionUtm.content = 'buzzlead'
+    window.sessionStorage.setItem('ecomUtm', JSON.stringify(sessionUtm))
+    window.localStorage.setItem('buzzlead', bid)
 }

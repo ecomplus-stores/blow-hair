@@ -19,8 +19,8 @@ const urlParams = new URLSearchParams(window.location.search)
     isCurrentUtm = true
   }
 })
-if (urlParams.get('bid')) {
-  utm.term = urlParams.get('bid')
+if (urlParams.get('bid') || window.localStorage.getItem('buzzlead')) {
+  utm.term = urlParams.get('bid') || window.localStorage.getItem('buzzlead')
   utm.content = 'buzzlead'
 } else if (urlParams.get('bvid')) {
   utm.term = urlParams.get('bvid')
