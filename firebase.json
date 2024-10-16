@@ -686,7 +686,15 @@
         "headers": [
           {
             "key": "cache-control",
-            "value": "public, max-age=30, must-revalidate"
+            "value": "public, max-age=30, s-maxage=240, stale-while-revalidate=2592000"
+          },
+          {
+            "key": "x-load-took",
+            "value": "0"
+          },
+          {
+            "key": "Link",
+            "value": "<https://s1-blowhair.b-cdn.net/>; rel=preconnect"
           }
         ]
       },
