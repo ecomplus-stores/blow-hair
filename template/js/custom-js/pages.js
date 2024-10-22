@@ -1,11 +1,6 @@
 // Add your custom JavaScript for storefront pages here.
 import EcomSearch from '@ecomplus/search-engine'
 import { isMobile } from '@ecomplus/storefront-twbs'
-if (storefront && storefront.context && storefront.context.resource === 'products') {
-  ecomCart.on('addItem', () => { 
-    window.location = '/app/#/cart/' 
-  })
-}
 
   /* if (storefront && storefront.context && storefront.context.resource === 'products') {
     const pageProduct = storefront.context.body
