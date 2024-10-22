@@ -1518,3 +1518,9 @@
 #c-6692a690f4e6d85ab2d02bf3, #c-6692a726f4e6d85ab2d02c5b {
     display: none !important;
 }
+
+#influencers-banner {
+    @media(max-width: 600px) {
+        width: 100% !important;
+    }
+}
