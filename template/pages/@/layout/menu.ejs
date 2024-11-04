@@ -3,6 +3,8 @@
 const menu = _.cms('menu') || {}
 const contacts = _.cms('contacts') || {}
 const header = _.cms('header') || {}
+const headerMgnr = _.cms('mgnr_header') || {}
+const { links } = headerMgnr
 
 // some social networks handled by contacts
 const networksWithColors = [
@@ -49,7 +51,35 @@ if (mainCategories) {
       <i class="i-times"></i>
     </button>
 
-    <% for (const slug in categoryParents) { %>
+    <% if (Array.isArray(links) && links.length) {  %>
+      <div
+          id="categories-nav"
+          class="collapse show"
+          aria-expanded="true"
+          data-parent="#accordion-menu"
+        >
+        <div class="menu__list">
+      <% for (const index in links) { console.log(index)
+        const { url, title } = links[index] %>
+        <% if (url && title) { %>
+          
+            <a
+
+                  href="/<%= url %>"
+                  id="c-<%= url %>"
+                  class="menu__item"
+                >
+                  <span>
+                    <%= title %>
+                  </span>
+                </a>
+            
+        <% } %>
+      <% } %>
+    </div>
+      </div>
+   <% } else {
+      for (const slug in categoryParents) { %>
       <% if (categoryParents.hasOwnProperty(slug)) { %>
         <% let category, parent %>
         <div
@@ -135,7 +165,10 @@ if (mainCategories) {
           <% } %>
         </div>
       <% } %>
-    <% } %>
+    <% }  } %>
+   
+    
+    
   </nav>
 
   <footer class="menu__footer">
