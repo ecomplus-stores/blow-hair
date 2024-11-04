@@ -15,7 +15,7 @@
     "files": [
       {
         "name": "mgnr_header",
-        "label": "Cabeçalho Personalizado",
+        "label": "Cabeçalho ou Menu Personalizado",
         "file": "content/mgnr_header.json",
         "fields": [
           {
@@ -25,13 +25,15 @@
             "required":false,
             "fields": [
               {
-                "label": "Título",
+                "label": "Nome do link no menu",
+                "hint": "Insira o nome da categoria ou da página extra",
                 "name": "title",
                 "widget": "string"          
-              },
+              }, 
               {
-                "label": "URL do título",
-                "name": "url",
+                "label": "Link do menu",
+                "hint": "Insira o slug da categoria ou da página extra",
+                "name": "link",
                 "widget": "string"          
               },
               {

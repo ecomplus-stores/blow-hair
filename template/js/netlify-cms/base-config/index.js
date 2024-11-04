@@ -208,30 +208,7 @@ export default options => {
       getPages(options),
       getBlogPosts(options),
       getExtraPages(options),
-      getWidgets(options),
-      {
-        name: 'category_list',        
-        label: 'Lista de links no menu',
-        description: 'Configure a lista categorias ou links para menu',
-        folder: `${options.baseDir}content/category_list`,
-        extension: 'json',
-        create: true,
-        slug: '{{slug}}',
-        fields: [
-          {
-            label: "Nome do link no menu",
-            hint: "Insira o nome da categoria ou da página extra",
-            name: "title",
-            widget: "string"          
-          }, 
-          {
-            label: "Link do menu",
-            hint: "Insira o slug da categoria ou da página extra",
-            name: "link",
-            widget: "string"          
-          },
-        ]
-      }
+      getWidgets(options)
     ]
   }
 }
