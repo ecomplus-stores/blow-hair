@@ -19,6 +19,13 @@
           "img": "/img/uploads/copia-de-design-sem-nome.jpg",
           "mobile_img": "/img/uploads/design-sem-nome-38-.jpg",
           "link": "https://www.blowgummies.com.br/?utm_source=banner_site&utm_medium=banner&utm_campaign=maisblow"
+        },
+        {
+          "start": "",
+          "end": "",
+          "img": "/img/uploads/banner-site-blow-week-shoulder.webp",
+          "mobile_img": "/img/uploads/banner-mobile-blow-week-shoulder.webp",
+          "link": "https://www.blowgummies.com.br/?utm_source=banner_site&utm_medium=banner&utm_campaign=maisblow"
         }
       ],
       "full_width": true
