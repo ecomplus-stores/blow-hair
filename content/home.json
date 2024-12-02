@@ -9,16 +9,16 @@
         {
           "start": "",
           "end": "",
-          "img": "/img/uploads/banner-site-cyber-blow-pote-extra-1-.webp",
-          "link": "https://www.blowgummies.com.br/?utm_source=banner_site&utm_medium=banner&utm_campaign=maisblow",
-          "mobile_img": "/img/uploads/mobile-cyber-blow-pote-extra-1-.webp"
+          "img": "/img/uploads/banner-topo-site-beneficios-cyber-blow.webp",
+          "mobile_img": "/img/uploads/banner-topo-mobile-cyber-blow-beneficios.webp",
+          "link": "https://www.blowgummies.com.br/?utm_source=banner_site&utm_medium=banner&utm_campaign=maisblow"
         },
         {
           "start": "",
           "end": "",
-          "img": "/img/uploads/banner-topo-site-beneficios-cyber-blow.webp",
-          "mobile_img": "/img/uploads/banner-topo-mobile-cyber-blow-beneficios.webp",
-          "link": "https://www.blowgummies.com.br/?utm_source=banner_site&utm_medium=banner&utm_campaign=maisblow"
+          "img": "/img/uploads/banner-site-cyber-blow-pote-extra-1-.webp",
+          "link": "https://www.blowgummies.com.br/?utm_source=banner_site&utm_medium=banner&utm_campaign=maisblow",
+          "mobile_img": "/img/uploads/mobile-cyber-blow-pote-extra-1-.webp"
         }
       ],
       "full_width": true
