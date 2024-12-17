@@ -79,3 +79,13 @@ if (!isMobile) {
 $('.faq_list button').click(function(){
   $(this).closest('.faq_list-item').toggleClass('visible')
 });
+
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+  anchor.addEventListener('click', function (e) {
+      e.preventDefault();
+
+      document.querySelector(this.getAttribute('href')).scrollIntoView({
+          behavior: 'smooth'
+      });
+  });
+});
