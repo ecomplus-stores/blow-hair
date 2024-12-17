@@ -1537,3 +1537,15 @@
 #c-66ff1ff09e4b2e07f5257d2c {
     order: -1;
 }
+
+#blow-sections {
+    .container {
+        max-width: 100% !important;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .custom-html.my-4.my-lg-5, .html-clearfix {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+}

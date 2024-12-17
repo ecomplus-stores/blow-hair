@@ -7,7 +7,7 @@ export default ({ baseDir, sections }) => ({
     slug: '{{slug}}',
     fields: [
       {
-        label: 'Encontre capa',
+        label: 'LP',
         name: 'title',
         widget: 'string'
       },       

@@ -1,5 +1,5 @@
 <%
-const blogPage = _.cms('capas')
+const blogPage = _.cms('lps')
 const { slug, content } = await _.resolveRoute()
 _.breadcrumbs = [{
   name: 'Blow Gummies',
@@ -10,7 +10,7 @@ if (!content.sections || !content.sections.length) {
   content.sections = [
     { type: 'breadcrumbs' },
     { type: 'page-title' },
-    { type: 'encontre-sua-capa' }
+    { type: 'blow-gummies-teste' }
   ]
 } else if (!content.sections.find(({ type }) => type === 'blow-gummies-teste')) {
   content.sections.push({ type: 'blow-gummies-teste' })
