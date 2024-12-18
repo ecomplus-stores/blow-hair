@@ -1,0 +1,18 @@
+<% if (opt.cta_text) { %>
+    <div class="elementor-element elementor-element-57352dc e-flex e-con-boxed wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no e-con e-parent e-lazyloaded" data-id="57352dc" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+        <div class="e-con-inner">
+           <div class="elementor-element elementor-element-7e55459 elementor-align-center elementor-widget elementor-widget-button" data-id="7e55459" data-element_type="widget" data-widget_type="button.default">
+              <div class="elementor-widget-container">
+                 <div class="elementor-button-wrapper">
+                    <a style="background-color: <%= opt.cta_background || '#01ffe6' %>;" class="elementor-button elementor-button-link elementor-size-sm" href="<%= opt.cta_anchor || '#oferta' %>">
+                    <span class="elementor-button-content-wrapper">
+                    <span style="color: <%= opt.cta_color || '##FF3C8C' %>;" class="elementor-button-text"><%= opt.cta_text || 'COMPRAR AGORA' %></span>
+                    </span>
+                    </a>
+                 </div>
+              </div>
+           </div>
+        </div>
+     </div>
+
+<% } %>

@@ -1553,8 +1553,12 @@
         background-color: transparent;
         background-image: linear-gradient(180deg,#f2295b 0%,#F34A80 100%);
     }
-    .elementor-element-256c6f9 {
+    .elementor-element-256c6f9, .elementor-element.elementor-element-392292e, .elementor-element-44982c7, .elementor-element-7e9150b {
         background-color: #f2295b;
+    }
+
+    #mgnr_search-trigger {
+        border: none !important;
     }
 }
 

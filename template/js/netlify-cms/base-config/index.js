@@ -179,6 +179,43 @@ export default options => {
               ]
           }
       ]
+  },
+  {
+    label: 'CTA Direcionamento',
+    name: 'cta-comprar',
+    widget: 'object',
+    fields: [
+      {
+        label: 'Título do Cta',
+        required: false,
+        name: 'title',
+        widget: 'string'
+      },
+      {
+        label: 'Nome do CTA',
+        required: false,
+        name: 'cta_text',
+        widget: 'string'
+      },
+      {
+        label: 'Link do CTA',
+        required: false,
+        name: 'cta_anchor',
+        widget: 'string'
+      },
+      {
+        label: 'Cor de fundo do CTA',
+        required: false,
+        name: 'cta_background',
+        widget: 'color'
+      },
+      {
+        label: 'Cor do texto do CTA',
+        required: false,
+        name: 'cta_color',
+        widget: 'color'
+      },          
+    ]
   }
   ])
 
