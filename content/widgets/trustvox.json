@@ -5,8 +5,7 @@
   "enableCheckout": false,
   "disablePages": true,
   "options": {
-    "trustvoxStoreId": 105365,
-    "widgetSrc": "https://static.trustvox.com.br/sincero/sincero.js"
+    "trustvoxStoreId": 105365
   },
   "bodyAppend": "src/append/body",
   "productDescriptionAppend": "src/append/product-block",
