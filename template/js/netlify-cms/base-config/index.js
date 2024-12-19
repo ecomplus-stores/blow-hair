@@ -17,13 +17,13 @@ export default options => {
       widget: 'object',
       fields: [
         {
-          label: 'Título do Cta',
+          label: 'Titulo do Cta',
           required: false,
           name: 'title',
           widget: 'string'
         },
         {
-          label: 'Subtítulo do CTA',
+          label: 'Subtitulo do CTA',
           required: false,
           name: 'subtitle',
           widget: 'string'
