@@ -4,7 +4,7 @@
   "meta_description": "Blow gummies",
   "sections": [
     {
-      "type": "cta-primeiro-bloco",
+      "type": "lpblock",
       "cta_image_show": "/img/uploads/tss.webp",
       "cta_buy": "COMPRAR AGORA",
       "title_block_1": "COM",
