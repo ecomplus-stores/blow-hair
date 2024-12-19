@@ -216,6 +216,80 @@ export default options => {
         widget: 'color'
       },          
     ]
+  },
+  {
+    label: 'CTA Primeiro Bloco',
+    name: 'cta-first-block',
+    widget: 'object',
+    fields: [
+      {
+        label: 'Título do Cta',
+        required: false,
+        name: 'title',
+        widget: 'string'
+      },
+      {
+        label: 'Subtítulo do CTA',
+        required: false,
+        name: 'subtitle',
+        widget: 'string'
+      },
+      {
+        label: 'Imagem de fundo CTA',
+        required: false,
+        name: 'cta_background',
+        widget: 'image'
+      },
+      {
+        label: 'Imagem de destaque CTA',
+        required: false,
+        name: 'cta_image_show',
+        widget: 'image'
+      },
+      {
+        label: 'Título do bloco 1',
+        required: false,
+        name: 'title_block_1',
+        widget: 'string'
+      },
+      {
+        label: 'Subtítulo do bloco 1',
+        required: false,
+        name: 'subtitle_block_1',
+        widget: 'string'
+      },
+      {
+        label: 'Título do bloco 2',
+        required: false,
+        name: 'title_block_2',
+        widget: 'string'
+      },
+      {
+        label: 'Subtítulo do bloco 2',
+        required: false,
+        name: 'subtitle_block_2',
+        widget: 'string'
+      },
+      {
+        label: 'Título do bloco 3',
+        required: false,
+        name: 'title_block_3',
+        widget: 'string'
+      },
+      {
+        label: 'Subtítulo do bloco 3',
+        required: false,
+        name: 'subtitle_block_3',
+        widget: 'string'
+      },
+      {
+        label: 'Título comprar',
+        required: false,
+        name: 'cta_buy',
+        widget: 'string'
+      }
+             
+    ]
   }
   ])
 
