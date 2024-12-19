@@ -4,6 +4,7 @@
   "meta_description": "Blow gummies",
   "sections": [
     {
+      "type": "cta-primeiro-bloco",
       "cta_image_show": "/img/uploads/tss.webp",
       "cta_buy": "COMPRAR AGORA",
       "title_block_1": "COM",
@@ -12,7 +13,6 @@
       "title_block_2": "PARA",
       "subtitle_block_2": "Crescimento acelerado dos fios",
       "title_block_3": "MAIS",
-      "type": "cta-first-block",
       "subtitle_block_3": "Força para os cabelos",
       "cta_background": "/img/uploads/background-block-image.webp"
     },

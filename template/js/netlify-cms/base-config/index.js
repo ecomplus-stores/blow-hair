@@ -219,7 +219,7 @@ export default options => {
   },
   {
     label: 'CTA Primeiro Bloco',
-    name: 'cta-first-block',
+    name: 'cta-primeiro-bloco',
     widget: 'object',
     fields: [
       {
