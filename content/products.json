@@ -9,6 +9,10 @@
       "enabled": true
     },
     {
+      "type": "product-description",
+      "enabled": true
+    },
+    {
       "type": "faq",
       "faq-list": [
         {
