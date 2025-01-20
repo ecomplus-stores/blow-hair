@@ -9,16 +9,16 @@
         {
           "start": "",
           "end": "",
-          "link": "https://www.blowgummies.com.br/?utm_source=banner_site&utm_medium=banner&utm_campaign=niverblow",
-          "img": "/img/uploads/banner-site-happy-blow-diversao.webp",
-          "mobile_img": "/img/uploads/banner-mobile-happy-blow-diversao.webp"
+          "img": "/img/uploads/banner-site-niver-blow-bia.webp",
+          "mobile_img": "/img/uploads/banner-mobile-niver-blow-bia-1-.webp",
+          "link": "https://www.blowgummies.com.br/?utm_source=banner_site&utm_medium=banner&utm_campaign=niverblow"
         },
         {
           "start": "",
           "end": "",
-          "img": "/img/uploads/banner-site-niver-blow-bia.webp",
-          "mobile_img": "/img/uploads/banner-mobile-niver-blow-bia-1-.webp",
-          "link": "https://www.blowgummies.com.br/?utm_source=banner_site&utm_medium=banner&utm_campaign=niverblow"
+          "link": "https://www.blowgummies.com.br/?utm_source=banner_site&utm_medium=banner&utm_campaign=niverblow",
+          "img": "/img/uploads/banner-site-happy-blow-diversao.webp",
+          "mobile_img": "/img/uploads/banner-mobile-happy-blow-diversao.webp"
         }
       ],
       "full_width": true
