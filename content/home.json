@@ -9,16 +9,9 @@
         {
           "start": "",
           "end": "",
-          "img": "/img/uploads/banner-site-2.2-da-blow-45.webp",
-          "mobile_img": "/img/uploads/minhablow-45.png",
-          "link": "https://www.blowgummies.com.br/?utm_source=banner_site&utm_medium=banner&utm_campaign=maisblow&bid=BRGBVMJ"
-        },
-        {
-          "start": "",
-          "end": "",
-          "img": "/img/uploads/banner-topo-site-beneficios-extra.webp",
-          "mobile_img": "/img/uploads/banner-topo-mobile-beneficios-extra.webp",
-          "link": "https://www.blowgummies.com.br/?utm_source=banner_site&utm_medium=banner&utm_campaign=maisblow&bid=BRGBVMJ"
+          "img": "/img/uploads/banner-site-campanha-bolsa-tote-1-.webp",
+          "mobile_img": "/img/uploads/banner-mobile-campanha-bolsa-tote-2-.webp",
+          "link": "https://www.blowgummies.com.br/?utm_source=banner_site&utm_medium=banner&utm_campaign=maisblow"
         }
       ],
       "full_width": true
