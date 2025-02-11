@@ -12,6 +12,13 @@
           "img": "/img/uploads/banner-site-campanha-bolsa-tote-1-.webp",
           "mobile_img": "/img/uploads/banner-mobile-campanha-bolsa-tote-2-.webp",
           "link": "https://www.blowgummies.com.br/?utm_source=banner_site&utm_medium=banner&utm_campaign=maisblow"
+        },
+        {
+          "start": "",
+          "end": "",
+          "img": "/img/uploads/banner-topo-site-beneficios-bolsa-tote.webp",
+          "link": "https://www.blowgummies.com.br/?utm_source=banner_site&utm_medium=banner&utm_campaign=maisblow",
+          "mobile_img": "/img/uploads/banner-topo-mobile-beneficios-bolsa-tote-1-.webp"
         }
       ],
       "full_width": true
