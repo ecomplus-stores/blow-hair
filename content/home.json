@@ -118,20 +118,16 @@
       "html": "<h2>O que falam<span>sobre as</span></h2>"
     },
     {
-      "type": "resultados",
-      "html": "<div class=\"box-bg-resultados\">\n  <div class=\"title-box\">\n    <div class=\"title\"><h2>É possivel notar<span>resultados usando as</span></h2></div>\n    <div class=\"title-blow\"></div>\n  </div>\n  <div class=\"resultados\"><!-- LightWidget WIDGET --><iframe src=\"https://cdn.lightwidget.com/widgets/fb99c0232e5c54aa8aad124cb00246b8.html\" scrolling=\"no\" allowtransparency=\"true\" class=\"lightwidget-widget\" style=\"width:100%;border:0;overflow:hidden;\"></iframe></div>\n</div>"
-    },
-    {
       "type": "banners-grid",
       "banners": []
     },
     {
       "type": "famosos",
-      "html": "<div class=\"eu-quero\">\n  <div class=\"title-box\">\n    <a href=\"#search-engine\">\n    <div class=\"title\"><h2>Agora eu<span>queroooo!</span></h2></div>\n    <div class=\"title-blow-comprar\"></div>\n    </a>\n  </div>\n</div>"
+      "html": "<div class=\"eu-quero mt-5\">\n  <div class=\"title-box\">\n    <a href=\"#search-engine\">\n    <div class=\"title\"><h2>Agora eu<span>queroooo!</span></h2></div>\n    <div class=\"title-blow-comprar\"></div>\n    </a>\n  </div>\n</div>"
     },
     {
       "type": "falam",
-      "html": "<div class=\"instafeed-footer\">\n<!-- LightWidget WIDGET --><iframe src=\"https://cdn.lightwidget.com/widgets/ef70a8b393a358f88c0679e84a75a20d.html\" scrolling=\"no\" allowtransparency=\"true\" class=\"lightwidget-widget\" style=\"width:100%;border:0;overflow:hidden;\"></iframe>\n</div>"
+      "html": "<div class=\"instafeed-footer\">\n<!-- LightWidget WIDGET --><iframe loading=\"lazy\" src=\"https://cdn.lightwidget.com/widgets/ef70a8b393a358f88c0679e84a75a20d.html\" scrolling=\"no\" allowtransparency=\"true\" class=\"lightwidget-widget\" style=\"width:100%;border:0;overflow:hidden;\"></iframe>\n</div>"
     },
     {
       "type": "banners-grid",
