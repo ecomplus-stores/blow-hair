@@ -25,18 +25,6 @@ import './tags'
 // comente a linha abaixo para buscar regras de frete grátis
 window.modulesToFetch = [{ endpoint: 'list_payments' }]
 
-$(document).ready(function(){
-  $('#apx_form').closest('.custom-html').toggleClass('my-4 my-0');
-  $('#apx_form').closest('.custom-html').toggleClass('my-lg-5 my-lg-0');
-});
-
-$('#apx_form').submit(function(e){
-  e.preventDefault();
-  $('#conversion-form-am-formulario-de-newsletter [name="email"]').val($(this).find('[name="mail"]').val());
-  $('#conversion-form-am-formulario-de-newsletter').submit();
-});
-
-
 const paramsURL = new URLSearchParams(window.location.search)
 const bvId = paramsURL.get('bvid')
 let bid = paramsURL.get('bid')

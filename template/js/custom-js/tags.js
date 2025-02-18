@@ -20,6 +20,7 @@ const addScript = (src, onLoad) => {
   }
 }
 
+let firstScrollTimer
 const onFirstScroll = function () {
   requestIdleCallback(() => {
     /* eslint-disable */
@@ -27,35 +28,31 @@ const onFirstScroll = function () {
     // Mailchimp
     !function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/968db0f265c7f5d743fc60a6a/a5bc8e4c0d80694b176da8a6b.js");
 
-    // RDStation
-    addScript('https://d335luupugsy2.cloudfront.net/js/loader-scripts/0541136d-12e0-496c-9058-0def4b5ad0d4-loader.js')
+    // Mailchimp
+    addScript('https://s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js', () => {
+      (function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[3]='ADDRESS';ftypes[3]='address';fnames[4]='PHONE';ftypes[4]='phone';}(jQuery));var $mcj = jQuery.noConflict(true);
+      $('.apx_form form').submit(function (e) {
+        e.preventDefault()
+        $('#mce-EMAIL').val($(this).find('[name="mail"]').val()).trigger('change')
+        $('#mc-embedded-subscribe').click()
+      });
+    })
 
     /* eslint-enable */
   })
   window.removeEventListener('scroll', onFirstScroll, false)
+  if (firstScrollTimer) clearTimeout(firstScrollTimer)
 }
 
 requestIdleCallback(() => {
   window.addEventListener('scroll', onFirstScroll, false)
+  firstScrollTimer = setTimeout(onFirstScroll, 3000)
 
   lozad('.lightwidget-widget', {
     rootMargin: '350px 0px',
     threshold: 0,
     load () {
       addScript('https://cdn.lightwidget.com/widgets/lightwidget.js')
-    }
-  }).observe()
-
-  lozad('#am-formulario-de-newsletter-b61733cf81abef42e0c4', {
-    rootMargin: '150px 0px',
-    threshold: 0,
-    load () {
-      const src = 'https://d335luupugsy2.cloudfront.net/js/rdstation-forms/stable/rdstation-forms.min.js'
-      addScript(src, () => {
-        /* eslint-disable */
-        new RDStationForms('am-formulario-de-newsletter-b61733cf81abef42e0c4', 'UA-114913832-1').createForm()
-        /* eslint-enable */
-      })
     }
   }).observe()
 })
