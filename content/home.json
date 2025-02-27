@@ -9,16 +9,16 @@
         {
           "start": "",
           "end": "",
-          "img": "/img/uploads/banner-topo-site-beneficios-candy-blow.webp",
-          "mobile_img": "/img/uploads/banner-topo-mobile-beneficios-candy-blow.webp",
-          "link": "https://www.blowgummies.com.br/?utm_source=banner_site&utm_medium=banner&utm_campaign=maisblow&bid=OEKVMZE"
+          "img": "/img/uploads/banner-site-mala-candy-blow.webp",
+          "mobile_img": "/img/uploads/banner-mobile-mala-candy-blow.webp",
+          "link": "https://www.blowgummies.com.br/?utm_source=banner_site&utm_medium=banner&utm_campaign=maisblow"
         },
         {
           "start": "",
           "end": "",
-          "img": "/img/uploads/banner-site-mala-candy-blow.webp",
-          "mobile_img": "/img/uploads/banner-mobile-mala-candy-blow.webp",
-          "link": "https://www.blowgummies.com.br/?utm_source=banner_site&utm_medium=banner&utm_campaign=maisblow"
+          "img": "/img/uploads/banner-topo-site-beneficios-candy-blow.webp",
+          "mobile_img": "/img/uploads/banner-topo-mobile-beneficios-candy-blow.webp",
+          "link": "https://www.blowgummies.com.br/?utm_source=banner_site&utm_medium=banner&utm_campaign=maisblow&bid=OEKVMZE"
         }
       ],
       "full_width": true
