@@ -4,7 +4,7 @@ let shelfTabs
 if (opt.collection_ids) {
   const collections = opt.collection_ids
   const promises = collections.map((collectionInfo) => new Promise(async (resolve) => {
-    let search, title
+    let search, title, productIds
     if (collectionInfo) {
       const [_id, resource, name] = collectionInfo.split(':')
       title = name
@@ -23,7 +23,7 @@ if (opt.collection_ids) {
         }
         if (res) {
           const collection = res.data
-          const productIds = collection.products
+          productIds = collection.products
           if (Array.isArray(productIds) && productIds.length) {
             search = new _.EcomSearch().setProductIds(productIds.slice(0, 8))
           }
@@ -44,10 +44,13 @@ if (opt.collection_ids) {
         search.setPageNumber(opt.page)
       }
       return search.fetch().then(() => {
-        resolve({
-          title,
-          items: search.getItems()
-        })
+        let items = search.getItems()
+        if (items && productIds && !opt.sort && !shuffle) {
+          items = items.sort((a, b) => {
+            return productIds.indexOf(a._id) < productIds.indexOf(b._id) ? -1 : 1
+          })
+        }
+        resolve({ title, items })
       })
     }
     resolve(null)
