@@ -29,7 +29,7 @@
     },
     {
       "type": "shelfs-nav",
-      "shuffle": true,
+      "shuffle": false,
       "limit": 12,
       "page": 1,
       "collection_ids": [
