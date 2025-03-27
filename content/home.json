@@ -26,13 +26,13 @@
       "limit": 12,
       "page": 1,
       "collection_ids": [
-        "673f96dcb779d7717959f1fd:collections:30 Dias:/30-dias",
-        "65b152e02cd6b659591147a0:collections:60 Dias:/60-dias",
-        "65b152ee2cd6b659591147b1:collections:120 Dias:/120-dias",
-        "65b153882cd6b659591148ba:collections:180 Dias:/180-dias",
-        "65b1549b2cd6b65959114a8a:collections:240 Dias:/240-dias",
-        "65b158312cd6b65959115068:collections:300 Dias:/300-dias",
-        "65b158672cd6b659591150ef:collections:360 Dias:/360-dias"
+        "673f96dcb779d7717959f1fd:collections:30 Dias:/lista-blow-gummies-30-dias",
+        "65b152e02cd6b659591147a0:collections:60 Dias:/lista-blow-gummies-60-dias",
+        "65b152ee2cd6b659591147b1:collections:120 Dias:/lista-blow-gummies-120-dias",
+        "65b153882cd6b659591148ba:collections:180 Dias:/lista-blow-gummies-180-dias",
+        "65b1549b2cd6b65959114a8a:collections:240 Dias:/lista-blow-gummies-240-dias",
+        "65b158312cd6b65959115068:collections:300 Dias:/lista-blow-gummies-300-dias",
+        "65b158672cd6b659591150ef:collections:360 Dias:/lista-blow-gummies-360-dias"
       ],
       "shelfs_title": "Queridinhos"
     },
