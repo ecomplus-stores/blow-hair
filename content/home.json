@@ -1,6 +1,6 @@
 {
   "meta_title": "Blow Gummies Hair Crescimento Capilar",
-  "meta_description": "Blow Gummies Hair Chicle",
+  "meta_description": "Blow Gummies Siper Tônico",
   "sections": [
     {
       "type": "banner-slider",
@@ -58,6 +58,13 @@
       "page": 1,
       "title": "NOVIDADES",
       "collection_id": null
+    },
+    {
+      "type": "collection-shelf",
+      "shuffle": false,
+      "limit": 12,
+      "page": 1,
+      "title": "OS MELHORES KITS"
     },
     {
       "type": "dynamic-showcase",
