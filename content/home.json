@@ -1,6 +1,6 @@
 {
-  "meta_title": "Blow Gummies Hair Crescimento Capilar ",
-  "meta_description": "Blow Gummies Suplemento Alimentar em Gomas.",
+  "meta_title": "Blow Gummies Hair Crescimento Capilar",
+  "meta_description": "Blow Gummies Super Tônico Capila",
   "sections": [
     {
       "type": "banner-slider",
@@ -50,6 +50,14 @@
       "page": 1,
       "collection_id": "65cfffa287ab487fbfbb4c4c:collections:LANÇAMENTO:/lancamento",
       "title": "HAIR CHICLE"
+    },
+    {
+      "type": "collection-shelf",
+      "shuffle": false,
+      "limit": 12,
+      "page": 1,
+      "title": "NOVIDADES",
+      "collection_id": null
     },
     {
       "type": "dynamic-showcase",
