@@ -49,14 +49,16 @@
       "limit": 12,
       "page": 1,
       "title": "NOVIDADES",
-      "collection_id": null
+      "collection_id": null,
+      "sort": "views"
     },
     {
       "type": "collection-shelf",
       "shuffle": false,
       "limit": 12,
       "page": 1,
-      "title": "OS MELHORES KITS"
+      "title": "OS MELHORES KITS",
+      "sort": "lowest_price"
     },
     {
       "type": "collection-shelf",
