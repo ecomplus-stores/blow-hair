@@ -10,8 +10,9 @@
           "start": "",
           "end": "",
           "img": "/img/uploads/banner-site-campanha-lancamento-super-tonico.webp",
-          "alt": "https://www.blowgummies.com.br/?utm_source=banner_site&utm_medium=banner&utm_campaign=queroblow",
-          "mobile_img": "/img/uploads/banner-mobile-campanha-comprou-ganhou-mochila.webp"
+          "alt": "",
+          "mobile_img": "/img/uploads/banner-mobile-campanha-comprou-ganhou-mochila.webp",
+          "link": "https://www.blowgummies.com.br/?utm_source=banner_site&utm_medium=banner&utm_campaign=queroblow"
         },
         {
           "start": "",
