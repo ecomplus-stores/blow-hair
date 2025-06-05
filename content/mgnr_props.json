@@ -1,7 +1,7 @@
 {
   "props": [
     {
-      "title":"Suplemento Alimentar em Gomas para Cabelos e Unhas",
+      "title": "Suplemento Alimentar em Gomas para Cabelos e Unhas",
       "item": {
         "categories": [
           {
@@ -10,11 +10,11 @@
             }
           }
         ],
-        "title": "Suplemento Alimentar em Gomas para Cabelos e Unhas"
+        "title": "Suplemento Alimentar em Gomas para Cabelos e Unhas "
       }
     },
     {
-      "title":"Dose diária",
+      "title": "Dose diária",
       "item": {
         "categories": [
           {
