@@ -12,7 +12,7 @@ import {
 
 import ecomCart from '@ecomplus/shopping-cart'
 import APrices from '@ecomplus/storefront-components/src/APrices.vue'
-import CartItem from '@ecomplus/storefront-components/src/CartItem.vue'
+import CustomCartItem from './CustomCartItem.vue'
 import DiscountApplier from '@ecomplus/storefront-components/src/DiscountApplier.vue'
 import ShippingCalculator from '@ecomplus/storefront-components/src/ShippingCalculator.vue'
 import EarnPointsProgress from '@ecomplus/storefront-components/src/EarnPointsProgress.vue'
@@ -23,7 +23,7 @@ export default {
 
   components: {
     APrices,
-    CartItem,
+    CustomCartItem,
     DiscountApplier,
     ShippingCalculator,
     EarnPointsProgress,
