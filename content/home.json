@@ -17,13 +17,6 @@
         {
           "start": "",
           "end": "",
-          "img": "/img/uploads/banner-site-campanha-lancamento-super-tonico-teste-lanca-1-.webp",
-          "mobile_img": "/img/uploads/banner-mobile-campanha-lancamento-super-tonico-4-icones-v2.webp",
-          "link": "https://www.blowgummies.com.br/?utm_source=banner_site&utm_medium=banner&utm_campaign=queroblow"
-        },
-        {
-          "start": "",
-          "end": "",
           "img": "/img/uploads/banner-topo-site-beneficios-6.6-imbativel-copiar.webp",
           "mobile_img": "/img/uploads/banner-topo-mobile-beneficios-6.6-imbativel-1-.webp",
           "link": "https://www.blowgummies.com.br/?utm_source=cpc&utm_medium=influencer&utm_campaign=meudia&bid=OBWBJJX"
@@ -41,6 +34,13 @@
           "img": "/img/uploads/banner-site-topo-valores-super-tonico.webp",
           "link": "https://www.blowgummies.com.br?utm_source=cpc&utm_medium=influencer&utm_campaign=meudia&bid=LOYORQX",
           "mobile_img": "/img/uploads/banner-mobile-topo-valores-super-tonico.webp"
+        },
+        {
+          "start": "",
+          "end": "",
+          "img": "/img/uploads/banner-site-campanha-lancamento-super-tonico-teste-lanca-1-.webp",
+          "mobile_img": "/img/uploads/banner-mobile-campanha-lancamento-super-tonico-4-icones-v2.webp",
+          "link": "https://www.blowgummies.com.br/?utm_source=banner_site&utm_medium=banner&utm_campaign=queroblow"
         }
       ],
       "full_width": true
