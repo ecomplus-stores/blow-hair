@@ -9,6 +9,10 @@
       "enabled": true
     },
     {
+      "type": "buy-together",
+      "enabled": false
+    },
+    {
       "type": "product-description",
       "enabled": true
     },
