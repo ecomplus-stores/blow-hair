@@ -21,6 +21,7 @@ import {
   import CartItem from '@ecomplus/storefront-components/src/CartItem.vue'
   import ecomPassport from '@ecomplus/passport-client'
   import ShippingCalculator from '@ecomplus/storefront-components/src/ShippingCalculator.vue'
+  import FreebieCountdown from '../components/FreebieCountdown.vue'
 
   const addFreebieItems = (ecomCart, productIds) => {
     if (Array.isArray(productIds)) {
@@ -65,7 +66,8 @@ import {
       ABackdrop,
       APrices,
       CartItem,
-      ShippingCalculator
+      ShippingCalculator,
+      FreebieCountdown
     },
   
     props: {
@@ -216,4 +218,17 @@ import {
         ecomCart.on('change', this.fetchDiscountOptions)
     }
   }
+  
+// Add styles
+const style = document.createElement('style')
+style.textContent = `
+  .cart-item-wrapper {
+    position: relative;
+    margin-bottom: 10px;
+  }
+  .cart-item-wrapper:last-child {
+    margin-bottom: 0;
+  }
+`
+document.head.appendChild(style)
   

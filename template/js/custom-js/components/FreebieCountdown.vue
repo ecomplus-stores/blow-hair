@@ -1,10 +1,10 @@
 <template>
   <div class="freebie-countdown" v-if="isFreebie && diff > 0">
-    <span class="countdown-label">Brinde por tempo limitado:</span>
+    <span class="pl-3 countdown-label"><strong>SEU BRINDE EXPIRA EM:</strong></span>
     <div class="countdown-timer">
-      <span class="countdown-item">{{ twoDigits(hours) }}</span>:
-      <span class="countdown-item">{{ twoDigits(minutes) }}</span>:
-      <span class="countdown-item">{{ twoDigits(seconds) }}</span>
+      <span class="countdown-item"><strong>{{ twoDigits(hours) }}</strong></span>:
+      <span class="countdown-item"><strong>{{ twoDigits(minutes) }}</strong></span>:
+      <span class="countdown-item"><strong>{{ twoDigits(seconds) }}</strong></span>
     </div>
   </div>
 </template>
@@ -75,10 +75,13 @@ export default {
   display: flex;
   align-items: center;
   font-size: 0.9em;
+  background-color: #f21877;
+  border-radius: 10px;
+  padding: 10px;
 }
 .countdown-label {
   margin-right: 4px;
-  color: #666;
+  color: #fef200;
 }
 .countdown-timer {
   display: inline-flex;
@@ -88,6 +91,6 @@ export default {
   padding: 2px 4px;
   border-radius: 3px;
   font-weight: bold;
-  color: #dc3545;
+  color: #FFF;
 }
 </style>

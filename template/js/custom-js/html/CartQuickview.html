@@ -41,12 +41,18 @@
                   enter-active-class="animated fadeInDown"
                   leave-active-class="animated fadeOutUp faster position-absolute"
                 >
-                  <cart-item
+                  <div
                     v-for="item in cart.items"
                     :key="item._id"
-                    :item="item"
-                  />
-
+                    class="cart-item-wrapper"
+                  >
+                    <cart-item
+                      :item="item"
+                    />
+                    <freebie-countdown
+                      :item="item"
+                    />
+                  </div>
                 </transition-group>
               </slot>
             </div>
