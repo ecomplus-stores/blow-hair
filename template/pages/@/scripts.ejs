@@ -59,3 +59,14 @@ if (customCode) {
 <script>
   window.addEventListener("load",(function(){var t=document.getElementById("ni-wpp-button"),i=window.location.search,e=t.getAttribute("href");e.hostname=/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)?"api.whatsapp.com":"web.whatsapp.com";var o=["t_gid","_fbp","_ga","bcookie","_ttp","MUID","personalization_id"];if(document.cookie)for(var n=document.cookie.split(";"),r=0;r<n.length;r++)for(var a=n[r].trim().split("="),s=a[0].trim(),p=a[1]?a[1].trim():"",c=0;c<o.length;c++)o[c]===s&&(e+="&"+s+"="+p);d(),t.setAttribute("href",e);const l=history.pushState,h=history.replaceState;function d(){for(var t=i?i.substring(1).split("&"):[],o=e.includes("?")?e.split("?")[1].substring(0).split("&"):[],n=0;n<t.length;n++){var r=t[n].split("=")[0],a=(t[n].split("=")[1],o.findIndex((t=>t.split("=")[0]===r)));-1!==a||o.push(t[n])}e=e.split("?")[0]+"?"+o.join("&")}history.pushState=function(){l.apply(this,arguments),i!==window.location.search&&(i=window.location.search,d()),t.setAttribute("href",e)},history.replaceState=function(){h.apply(this,arguments),i!==window.location.search&&(i=window.location.search,d()),t.setAttribute("href",e)}}));
 </script>
+
+<%
+const { countdown } = _.cms('mgnr_header') || {}
+if (countdown) {
+  %>
+  <script>
+    window.COUNTDOWN_INTERVAL_MINUTES = <%= countdown.active === false ? 0 : countdown.minutes %>
+  </script>
+  <%
+}
+%>

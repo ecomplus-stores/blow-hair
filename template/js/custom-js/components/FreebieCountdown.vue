@@ -1,5 +1,5 @@
 <template>
-  <div class="freebie-countdown" v-if="isFreebie">
+  <div class="freebie-countdown" v-if="isFreebie && diff > 0">
     <span class="countdown-label">Brinde por tempo limitado:</span>
     <div class="countdown-timer">
       <span class="countdown-item">{{ twoDigits(hours) }}</span>:
@@ -32,6 +32,7 @@ export default {
     hours() { return Math.trunc(this.diff / 60 / 60) % 24 },
     nextInterval() {
       const intervalMinutes = window.COUNTDOWN_INTERVAL_MINUTES || 60;
+      if (!intervalMinutes) return null;
       const now = new Date();
       let next = new Date(now);
       const currentMinutes = now.getMinutes();
@@ -50,6 +51,7 @@ export default {
       return value < 10 ? '0' + value : value.toString()
     },
     updateDiff() {
+      if (!this.nextInterval) return;
       this.date = Math.trunc(this.nextInterval.getTime() / 1000);
       this.diff = this.date - this.now;
       if (this.diff < 0) this.diff = 0;

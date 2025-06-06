@@ -26,5 +26,9 @@
       "url": "pages/resultados-reais-blow-gummies",
       "title": "Resultados"
     }
-  ]
+  ],
+  "countdown": {
+    "active": true,
+    "minutes": 60
+  }
 }
