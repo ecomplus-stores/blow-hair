@@ -1,14 +1,10 @@
 <template>
-  <div class="custom-cart-item">
+  <div>
     <cart-item
       v-bind="$props"
       v-on="$listeners"
     />
-    <freebie-countdown
-      v-if="item"
-      :product="item"
-      :deadline="endDate"
-    />
+    <freebie-countdown :item="item" />
   </div>
 </template>
 
@@ -22,17 +18,6 @@ export default {
     CartItem,
     FreebieCountdown
   },
-  extends: CartItem,
-  data() {
-    return {
-      endDate: new Date(Date.now() + 30 * 60 * 1000).toISOString() // 30 minutes from now
-    }
-  }
+  extends: CartItem
 }
 </script>
-
-<style scoped>
-.custom-cart-item {
-  position: relative;
-}
-</style> 

@@ -13,7 +13,7 @@
 export default {
   name: 'FreebieCountdown',
   props: {
-    product: Object
+    item: Object
   },
   data() {
     return {
@@ -25,19 +25,21 @@ export default {
   },
   computed: {
     isFreebie() {
-      return Array.isArray(this.product.flags) && this.product.flags.includes('freebie')
+      return Array.isArray(this.item.flags) && this.item.flags.includes('freebie')
     },
     seconds() { return Math.trunc(this.diff) % 60 },
     minutes() { return Math.trunc(this.diff / 60) % 60 },
     hours() { return Math.trunc(this.diff / 60 / 60) % 24 },
-    // Calculate the next half-hour mark from now
-    nextHalfHour() {
+    nextInterval() {
+      const intervalMinutes = window.COUNTDOWN_INTERVAL_MINUTES || 60;
       const now = new Date();
       let next = new Date(now);
-      if (now.getMinutes() < 30) {
-        next.setMinutes(30, 0, 0);
-      } else {
+      const currentMinutes = now.getMinutes();
+      const nextMark = Math.ceil(currentMinutes / intervalMinutes) * intervalMinutes;
+      if (nextMark === 60) {
         next.setHours(now.getHours() + 1, 0, 0, 0);
+      } else {
+        next.setMinutes(nextMark, 0, 0);
       }
       return next;
     }
@@ -48,7 +50,7 @@ export default {
       return value < 10 ? '0' + value : value.toString()
     },
     updateDiff() {
-      this.date = Math.trunc(this.nextHalfHour.getTime() / 1000);
+      this.date = Math.trunc(this.nextInterval.getTime() / 1000);
       this.diff = this.date - this.now;
       if (this.diff < 0) this.diff = 0;
     }
@@ -66,11 +68,10 @@ export default {
 }
 </script>
 
-<style scoped>
+<style>
 .freebie-countdown {
-  display: inline-flex;
+  display: flex;
   align-items: center;
-  margin-left: 8px;
   font-size: 0.9em;
 }
 .countdown-label {
@@ -82,10 +83,9 @@ export default {
   align-items: center;
 }
 .countdown-item {
-  background: #f8f9fa;
   padding: 2px 4px;
   border-radius: 3px;
   font-weight: bold;
   color: #dc3545;
 }
-</style> 
+</style>

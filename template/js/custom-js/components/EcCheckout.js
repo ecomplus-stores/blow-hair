@@ -28,7 +28,7 @@ import RecommendedItems from '#components/RecommendedItems.vue'
 import PaymentMethods from '@ecomplus/storefront-app/src/components/PaymentMethods.vue'
 import AccountForm from '#components/AccountForm.vue'
 import AccountAddresses from '#components/AccountAddresses.vue'
-import CustomEcSummary from './CustomEcSummary.vue'
+import EcSummary from '@ecomplus/storefront-app/src/components/EcSummary.vue'
 
 import {
   Bag,
@@ -61,7 +61,7 @@ export default {
     PaymentMethods,
     AccountForm,
     AccountAddresses,
-    CustomEcSummary
+    EcSummary
   },
 
   props: {
