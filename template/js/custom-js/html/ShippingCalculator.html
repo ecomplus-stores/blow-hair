@@ -80,6 +80,17 @@
         </div>
       </transition-group>
   
+      <div
+        v-if="!isWaiting && !isInvalidZip && hasCalculated && shippingServices.length === 0"
+        class="alert alert-warning my-2"
+        role="alert"
+      >
+        Não temos serviço de entrega disponível para seu CEP. Entre em contato conosco clicando
+        <a href="https://wa.me/5521980987748?text=Gostaria%20de%20comprar%20um%20produto%20mas%20n%C3%A3o%20tem%20frete%20dispon%C3%ADvel%20para%20meu%20frete." target="_blank">
+        aqui.
+        </a>
+      </div>
+  
       <transition
         enter-active-class="animated fadeInUp"
         leave-active-class="animated fadeOutDown"
