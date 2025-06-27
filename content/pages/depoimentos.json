@@ -1,0 +1,17 @@
+{
+  "title": "Depoimentos",
+  "body": "<div style=\"max-width: 600px; margin: 40px auto; padding: 20px; background: #fff0f5; border-radius: 16px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); font-family: 'Poppins', sans-serif; color: #4a4a4a;\">\n  <div style=\"display: flex; align-items: center; gap: 16px;\">\n    <img src=\"https://i.imgur.com/YXU8zFG.png\" alt=\"Foto de Daniele\" style=\"width: 80px; height: 80px; border-radius: 50%; object-fit: cover;\">\n    <div>\n      <h3 style=\"margin: 0; color: #d63384;\">Daniele Romeiro</h3>\n      <div style=\"color: #f5b301; font-size: 18px;\">\n        ★★★★★\n      </div>\n    </div>\n  </div>\n  <p style=\"margin-top: 20px; font-size: 16px; line-height: 1.6;\">\n    “Meu cabelo cresceu de 2 a 3 cm por mês! As unhas ficaram mais fortes. Muito obrigada!”\n  </p>\n</div>",
+  "meta_title": "Depoimentos Reais Clientes Reais",
+  "sections": [
+    {
+      "type": "page-title",
+      "title": "Depoimentos de Clientes Blow Gummies"
+    },
+    {
+      "type": "dynamic-showcase",
+      "load_more": true,
+      "sort": "sales"
+    }
+  ],
+  "meta_description": "Depoimentos Reais Clientes Reais"
+}
