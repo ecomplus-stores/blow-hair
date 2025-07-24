@@ -4,7 +4,6 @@
   "meta_description": "Blow gummies",
   "sections": [
     {
-      "type": "lpblock",
       "cta_image_show": "/img/uploads/tss.webp",
       "cta_buy": "COMPRAR AGORA",
       "title_block_1": "COM",
@@ -13,6 +12,7 @@
       "title_block_2": "PARA",
       "subtitle_block_2": "Crescimento acelerado dos fios",
       "title_block_3": "MAIS",
+      "type": "lpblock",
       "subtitle_block_3": "Força para os cabelos",
       "cta_background": "/img/uploads/background-block-image.webp"
     },
@@ -57,7 +57,7 @@
         "65b158312cd6b65959115068:collections:300 Dias:/300-dias",
         "65b158672cd6b659591150ef:collections:360 Dias:/360-dias"
       ],
-      "shelfs_title": "Queridinhos",
+      "shelfs_title": "FRETE GRÁTIS A PARTIR DE 180 DIAS!",
       "sort": "sales"
     },
     {
