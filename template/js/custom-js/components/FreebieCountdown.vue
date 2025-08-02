@@ -1,5 +1,5 @@
 <template>
-  <div class="freebie-countdown" v-if="isFreebie && diff > 0">
+  <div class="freebie-countdown" v-if="isFreebie && diff > 0 && show">
     <span class="pl-3 countdown-label"><strong>SEU BRINDE EXPIRA EM:</strong></span>
     <div class="countdown-timer">
       <span class="countdown-item"><strong>{{ twoDigits(hours) }}</strong></span>:
@@ -43,6 +43,13 @@ export default {
         next.setMinutes(nextMark, 0, 0);
       }
       return next;
+    },
+    show() {
+      const routerName = window.storefrontApp 
+        && window.storefrontApp.router 
+        && window.storefrontApp.router.currentRoute 
+        && window.storefrontApp.router.currentRoute.name;
+      return routerName !== 'order' && routerName !== 'confirmation';
     }
   },
   methods: {
