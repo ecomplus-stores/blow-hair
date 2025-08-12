@@ -84,45 +84,8 @@
       "html": "<div class=\"box-bg-porque\"><div class=\"title-box\"><div class=\"title\"><h2>Porquê </h2></div><div class=\"title-blow\"></div></div><div class=\"text-porque\"><div class=\"box-gummie item1\"><img class=\"img-fluid lozad\" data-src=\"/img/uploads/bloco1.png\"><h3>Divertida de Mastigar</h3></div><div class=\"box-gummie item2\"><img class=\"img-fluid lozad\" data-src=\"/img/uploads/bloco2.png\"><h3>Sabores Incríveis</h3></div><div class=\"box-gummie item3\"><img class=\"img-fluid lozad\" data-src=\"/img/uploads/bloco3.png\"><h3>Produto Cruelty Free</h3></div><div class=\"box-gummie item4\"><img class=\"img-fluid lozad\" data-src=\"/img/uploads/bloco4.png\"><h3>Feitos com Pectina</h3></div><div class=\"box-gummie item5\"><img class=\"img-fluid lozad\" data-src=\"/img/uploads/bloco5.png\"><h3>Tratamento de 60 dias</h3></div></div></div>"
     },
     {
-      "type": "carousel-influencers",
-      "autoplay": 10000,
-      "banners": [
-        {
-          "img": "/img/uploads/bia-siqueira-blow-gummies.webp",
-          "alt": "Bia Siqueira",
-          "link": "#search-engine"
-        },
-        {
-          "img": "/img/uploads/julia-doorman-blow-gummies.webp",
-          "alt": "Júlia Doorman",
-          "link": "#search-engine"
-        },
-        {
-          "img": "/img/uploads/farkile-blow-gummies.webp",
-          "alt": "Farkile",
-          "link": "#search-engine"
-        },
-        {
-          "img": "/img/uploads/pamela-drudi-blow-gummies.webp",
-          "alt": "Pamela Drudi",
-          "link": "#search-engine"
-        },
-        {
-          "img": "/img/uploads/vivian-amorim-blow-gummies.webp",
-          "alt": "Vivian Amorim",
-          "link": "#search-engine"
-        },
-        {
-          "alt": "Evelyn Regly",
-          "img": "/img/uploads/evelyn-regly-blow-gummies.webp",
-          "link": "#search-engine"
-        },
-        {
-          "link": "#search-engine",
-          "img": "/img/uploads/ana-lidia-blow-gummies.webp",
-          "alt": "Ana Lídia Lopes"
-        }
-      ]
+      "type": "custom-html",
+      "html": "<meta name=\"p:domain_verify\" content=\"646bef620483d5f571e4897a77731938\"/>"
     },
     {
       "type": "grid-op",
@@ -172,8 +135,45 @@
       "banners": []
     },
     {
-      "type": "custom-html",
-      "html": "<meta name=\"p:domain_verify\" content=\"646bef620483d5f571e4897a77731938\"/>"
+      "type": "carousel-influencers",
+      "autoplay": 10000,
+      "banners": [
+        {
+          "img": "/img/uploads/bia-siqueira-blow-gummies.webp",
+          "alt": "Bia Siqueira",
+          "link": "#search-engine"
+        },
+        {
+          "img": "/img/uploads/julia-doorman-blow-gummies.webp",
+          "alt": "Júlia Doorman",
+          "link": "#search-engine"
+        },
+        {
+          "img": "/img/uploads/farkile-blow-gummies.webp",
+          "alt": "Farkile",
+          "link": "#search-engine"
+        },
+        {
+          "img": "/img/uploads/pamela-drudi-blow-gummies.webp",
+          "alt": "Pamela Drudi",
+          "link": "#search-engine"
+        },
+        {
+          "img": "/img/uploads/vivian-amorim-blow-gummies.webp",
+          "alt": "Vivian Amorim",
+          "link": "#search-engine"
+        },
+        {
+          "alt": "Evelyn Regly",
+          "img": "/img/uploads/evelyn-regly-blow-gummies.webp",
+          "link": "#search-engine"
+        },
+        {
+          "link": "#search-engine",
+          "img": "/img/uploads/ana-lidia-blow-gummies.webp",
+          "alt": "Ana Lídia Lopes"
+        }
+      ]
     },
     {
       "type": "mgnr_faq",
