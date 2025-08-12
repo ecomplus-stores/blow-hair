@@ -49,6 +49,10 @@
           "mobile_img": "/img/uploads/ju-oama-viana.png"
         }
       ]
+    },
+    {
+      "type": "custom-html",
+      "html": "<div class='sk-ww-google-reviews' data-embed-id='25587705'></div><script src='https://widgets.sociablekit.com/google-reviews/widget.js' defer></script>"
     }
   ]
 }
