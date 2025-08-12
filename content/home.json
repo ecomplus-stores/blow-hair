@@ -156,6 +156,10 @@
       "banners": []
     },
     {
+      "type": "custom-html",
+      "html": "<div class='sk-ww-google-reviews' data-embed-id='25587705'></div><script src='https://widgets.sociablekit.com/google-reviews/widget.js' defer></script>"
+    },
+    {
       "type": "famosos",
       "html": "<div class=\"eu-quero mt-5\">\n  <div class=\"title-box\">\n    <a href=\"#search-engine\">\n    <div class=\"title\"><h2>Agora eu<span>queroooo!</span></h2></div>\n    <div class=\"title-blow-comprar\"></div>\n    </a>\n  </div>\n</div>"
     },
