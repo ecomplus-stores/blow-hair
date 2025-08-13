@@ -17,6 +17,10 @@
       "enabled": true
     },
     {
+      "type": "custom-html",
+      "html": "<div class='sk-ww-google-reviews' data-embed-id='25587705'></div><script src='https://widgets.sociablekit.com/google-reviews/widget.js' defer></script>"
+    },
+    {
       "type": "faq",
       "faq-list": [
         {
@@ -36,10 +40,6 @@
           "text": "![Super Tônico Blow Gummies](/img/uploads/arte-para-site-super-tonico.webp \"Blow Gummies Super Tônico Capilar 240ml\")\n\n![Super Tônico Blow Gummies](/img/uploads/arte-para-site-descubra-os-beneficios-super-tonico-1-.webp \"Super Tônico Benefícios\")\n\n![](/img/uploads/arte-para-site-super-tonico-30-ativos.webp)\n\n![](/img/uploads/arte-para-site-super-tonico-modo-de-uso.webp)\n\n![](/img/uploads/arte-para-site-super-tonico-duvidas-1.png)\n\n![](/img/uploads/arte-para-site-super-tonico-duvidas-2.png)\n\n![](/img/uploads/arte-para-site-super-tonico-duvidas-3.png)"
         }
       ]
-    },
-    {
-      "type": "custom-html",
-      "html": "<div class='sk-ww-google-reviews' data-embed-id='25587705'></div><script src='https://widgets.sociablekit.com/google-reviews/widget.js' defer></script>"
     }
   ]
 }
