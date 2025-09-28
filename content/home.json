@@ -9,9 +9,16 @@
         {
           "start": "",
           "end": "",
-          "img": "/img/uploads/banner-site-transforme-seus-cabelos-e-acelere-os-resultados.webp",
+          "img": "/img/uploads/dia-imbativel-45-desktop-2-.jpg",
           "link": " https://www.blowgummies.com.br?utm_source=cpc&utm_medium=influencer&utm_campaign=maisblow",
-          "mobile_img": "/img/uploads/banner-mobile-transforme-seus-cabelos-e-acelere-os-resultados-1-.webp"
+          "mobile_img": "/img/uploads/dia-imbative-45-mobile.jpg"
+        },
+        {
+          "start": "",
+          "end": "",
+          "img": "/img/uploads/banner-site-transforme-seus-cabelos-e-acelere-os-resultados.webp",
+          "mobile_img": "/img/uploads/banner-mobile-transforme-seus-cabelos-e-acelere-os-resultados-1-.webp",
+          "link": " https://www.blowgummies.com.br?utm_source=cpc&utm_medium=influencer&utm_campaign=maisblow"
         }
       ],
       "full_width": true
