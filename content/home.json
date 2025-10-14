@@ -5,8 +5,15 @@
     {
       "type": "banner-slider",
       "autoplay": 9000,
-      "full_width": false,
+      "full_width": true,
       "slides": [
+        {
+          "start": "",
+          "end": "",
+          "img": "/img/uploads/campanha-mobile-alto-astral-1-.jpg",
+          "mobile_img": "/img/uploads/campanha-mobile-alto-astral.jpg",
+          "link": "https://www.blowgummies.com.br?utm_source=banner&utm_medium=siter&utm_campaign=maisblow"
+        },
         {
           "start": "",
           "end": "",
