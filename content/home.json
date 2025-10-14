@@ -3,6 +3,20 @@
   "meta_description": "Blow Gummies Hair",
   "sections": [
     {
+      "type": "banner-slider",
+      "autoplay": 9000,
+      "full_width": false,
+      "slides": [
+        {
+          "start": "",
+          "end": "",
+          "img": "/img/uploads/banner-site-transforme-seus-cabelos-e-acelere-os-resultados.webp",
+          "mobile_img": "/img/uploads/banner-mobile-transforme-seus-cabelos-e-acelere-os-resultados-1-.webp",
+          "link": "https://www.blowgummies.com.br?utm_source=banner&utm_medium=siter&utm_campaign=maisblow"
+        }
+      ]
+    },
+    {
       "type": "custom-html",
       "html": "<div class=\"apx_form\"> <div class=\"\" style=\"text-align: center;justify-content: center;align-items: center; display:flex;flex-wrap:wrap;\"> <div class=\"col-12  px-0 col-md-5\"> <b>Inscreva-se agora<small></small></b> <small>Seja a primeira a receber descontos e conteúdos exclusivos.</small> </div><div class=\"col-12  px-0 col-md-5\"> <form> <input type=\"email\" required name=\"mail\" placeholder=\"Digite seu e-mail\"> <button type=\"submit\" class=\"btn\">Cadastrar</button> </form> </div></div></div>"
     },
