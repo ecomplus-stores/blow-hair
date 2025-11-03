@@ -45,6 +45,15 @@
       "shuffle": false,
       "limit": 12,
       "page": 1,
+      "sort": "views",
+      "title": "Blow Friday ",
+      "collection_id": "6908d3da578b5f7954e5a422:categories:Blow Friday:/blow-friday"
+    },
+    {
+      "type": "collection-shelf",
+      "shuffle": false,
+      "limit": 12,
+      "page": 1,
       "title": "NOVIDADES",
       "collection_id": "68373df8578b5f795428ef6f:categories:Novidades:/novidades",
       "sort": null
@@ -180,15 +189,6 @@
           }
         }
       ]
-    },
-    {
-      "type": "collection-shelf",
-      "shuffle": false,
-      "limit": 12,
-      "page": 1,
-      "sort": "views",
-      "title": "Blow Friday ",
-      "collection_id": "6908d3da578b5f7954e5a422:categories:Blow Friday:/blow-friday"
     }
   ]
 }
