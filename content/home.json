@@ -37,7 +37,8 @@
         "68373df8578b5f795428ef6f:categories:Novidades:/novidades",
         "6837c236578b5f795429901d:categories:Os Melhores Kits:/os-mellhores-kits"
       ],
-      "shelfs_title": "QUERIDINHOS"
+      "shelfs_title": "QUERIDINHOS",
+      "sort": "slug"
     },
     {
       "type": "collection-shelf",
