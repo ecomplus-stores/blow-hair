@@ -31,15 +31,11 @@
       "type": "shelfs-nav",
       "shuffle": false,
       "limit": 12,
-      "page": 1,
+      "page": 3,
       "collection_ids": [
-        "673f96dcb779d7717959f1fd:collections:30 Dias:/lista-blow-gummies-30-dias",
-        "65b152e02cd6b659591147a0:collections:60 Dias:/lista-blow-gummies-60-dias",
-        "65b152ee2cd6b659591147b1:collections:120 Dias:/lista-blow-gummies-120-dias",
-        "65b153882cd6b659591148ba:collections:180 Dias:/lista-blow-gummies-180-dias",
-        "65b1549b2cd6b65959114a8a:collections:240 Dias:/lista-blow-gummies-240-dias",
-        "65b158312cd6b65959115068:collections:300 Dias:/lista-blow-gummies-300-dias",
-        "65b158672cd6b659591150ef:collections:360 Dias:/lista-blow-gummies-360-dias"
+        "6908d3da578b5f7954e5a422:categories:Blow Friday:/blow-friday",
+        "68373df8578b5f795428ef6f:categories:Novidades:/novidades",
+        "6837c236578b5f795429901d:categories:Os Melhores Kits:/os-mellhores-kits"
       ],
       "shelfs_title": "QUERIDINHOS"
     },
