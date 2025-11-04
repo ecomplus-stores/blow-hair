@@ -52,15 +52,6 @@
     {
       "type": "collection-shelf",
       "shuffle": false,
-      "limit": 12,
-      "page": 1,
-      "title": "BLOW FRIDAY",
-      "collection_id": "6908d3da578b5f7954e5a422:categories:Blow Friday:/blow-friday",
-      "sort": null
-    },
-    {
-      "type": "collection-shelf",
-      "shuffle": false,
       "limit": 8,
       "page": 1,
       "collection_id": "684702bc578b5f795437bc10:categories:Ofertas Do Dia:/ofertas-do-dia",
