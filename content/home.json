@@ -57,6 +57,15 @@
       "sort": "views"
     },
     {
+      "type": "collection-shelf",
+      "shuffle": false,
+      "limit": 12,
+      "page": 1,
+      "sort": "sales",
+      "title": "OS MAIS VENDIDOS",
+      "autoplay": 300
+    },
+    {
       "type": "dynamic-showcase",
       "load_more": true,
       "sort": "views"
