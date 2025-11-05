@@ -43,14 +43,6 @@
       "shuffle": false,
       "limit": 12,
       "page": 1,
-      "title": "QUERIDINHOS",
-      "sort": null
-    },
-    {
-      "type": "collection-shelf",
-      "shuffle": false,
-      "limit": 12,
-      "page": 1,
       "sort": "views",
       "title": "Blow Friday ",
       "collection_id": "6908d3da578b5f7954e5a422:categories:Blow Friday:/blow-friday"
