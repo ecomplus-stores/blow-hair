@@ -49,15 +49,6 @@
     },
     {
       "type": "collection-shelf",
-      "shuffle": false,
-      "limit": 8,
-      "page": 1,
-      "collection_id": "684702bc578b5f795437bc10:categories:Ofertas Do Dia:/ofertas-do-dia",
-      "title": "OFERTAS DO DIA",
-      "sort": "views"
-    },
-    {
-      "type": "collection-shelf",
       "shuffle": true,
       "limit": 12,
       "page": 1,
