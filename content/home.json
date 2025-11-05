@@ -63,7 +63,7 @@
       "page": 1,
       "sort": "sales",
       "title": "OS MAIS VENDIDOS",
-      "autoplay": 300
+      "autoplay": ""
     },
     {
       "type": "dynamic-showcase",
