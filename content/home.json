@@ -49,10 +49,10 @@
     },
     {
       "type": "collection-shelf",
-      "shuffle": true,
+      "shuffle": false,
       "limit": 12,
       "page": 1,
-      "sort": "sales",
+      "sort": null,
       "title": "OS MAIS VENDIDOS",
       "autoplay": ""
     },
