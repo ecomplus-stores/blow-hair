@@ -52,7 +52,7 @@
       "shuffle": false,
       "limit": 12,
       "page": 1,
-      "sort": null,
+      "sort": "lowest_price",
       "title": "OS MAIS VENDIDOS",
       "autoplay": ""
     },
