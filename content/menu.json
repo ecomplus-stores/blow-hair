@@ -1,5 +1,8 @@
 {
-  "sort_categories": ['mais-vendidos', 'blow-hair-chicle'],
+  "sort_categories": [
+    "compre-agora/"
+  ],
+  "alphabetical_order": true,
   "phone_wpp": true,
   "socials": true
 }
