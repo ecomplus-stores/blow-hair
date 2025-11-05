@@ -17,10 +17,6 @@
       "enabled": true
     },
     {
-      "type": "custom-html",
-      "html": "<div class='sk-ww-google-reviews' data-embed-id='25587705'></div><script src='https://widgets.sociablekit.com/google-reviews/widget.js' defer></script>"
-    },
-    {
       "type": "faq",
       "faq-list": [
         {
@@ -40,6 +36,10 @@
           "text": "![Super Shampoo Crescimento Capilar](/img/uploads/super-shampoo-1.png \"Super Shampoo Blow Gummies\")\n\n![Super Shampoo Blow Gummies](/img/uploads/super-shampoo-2.png \"Super Shampoo Blow Gummies\")\n\n![Super Shampoo Blow Gummies](/img/uploads/super-shampoo-3.png \"Como Usar o Super Shampoo\")\n\n![Super Shampoo Blow Gummies](/img/uploads/super-shampoo-4.png \"Super Shampoo Blow Gummies - Principais Ativos\")"
         }
       ]
+    },
+    {
+      "type": "custom-html",
+      "html": "<div class='sk-ww-google-reviews' data-embed-id='25587705'></div><script src='https://widgets.sociablekit.com/google-reviews/widget.js' defer></script>"
     }
   ]
 }
