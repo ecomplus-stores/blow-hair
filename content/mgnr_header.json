@@ -1,39 +1,34 @@
 {
   "stripe_slider": [
     {
-      "text": "<p>⭐⭐⭐⭐⭐ 4.9/5 (+498.000 satisfeitos)</p>",
+      "text": "<p>⭐⭐⭐⭐⭐ 4.8/5 (+258.000 satisfeitos)</p>",
       "url": "https://www.blowgummies.com.br/pages/resultados-reais-blow-gummies?utm_source=tarja_site_avaliacoes"
     }
   ],
   "links": [
     {
       "url": "compre-agora/",
-      "title": "Comprar",
-      "link": "https://www.blowgummies.com.br/compre-agora/?utm_source=menu&utm_medium=organic&utm_campaign=maisblow"
+      "title": "Comprar"
     },
     {
-      "title": "Blow Gummies Hair",
-      "link": "https://www.blowgummies.com.br/blow-gummies-hair?utm_source=menu&utm_medium=organic&utm_campaign=maisblow"
+      "url": "blow-hair-chicle",
+      "title": "Hair Chicle"
     },
     {
-      "title": "Hair Chicle",
-      "link": "https://www.blowgummies.com.br/blow-hair-chicle?utm_source=menu&utm_medium=organic&utm_campaign=maisblow"
+      "url": "blow-gummies-hair",
+      "title": "Hair"
     },
     {
-      "title": "Super Tônico ",
-      "link": "https://www.blowgummies.com.br/blow-gummies-super-tonico-capilar?utm_source=menu&utm_medium=organic&utm_campaign=maisblow"
+      "url": "blow-gummies-beauty",
+      "title": "Beauty"
     },
     {
-      "title": "Super Shampoo ",
-      "link": "https://www.blowgummies.com.br/blow-gummies-super-shampoo?utm_source=menu&utm_medium=organic&utm_campaign=maisblow"
-    },
-    {
-      "title": "Blow Friday",
-      "link": "https://www.blowgummies.com.br/blow-friday?utm_source=menu&utm_medium=organic&utm_campaign=maisblow"
+      "url": "pages/resultados-reais-blow-gummies",
+      "title": "Resultados"
     }
   ],
   "countdown": {
     "active": true,
     "minutes": 60
-  } 
+  }
 }
