@@ -1,11 +1,5 @@
 {
-  "sort_categories": [
-    "compre-agora/",
-    "blow-gummies-super-tonico-capilar",
-    "blow-gummies-hair",
-    "blow-gummies-super-shampoo"
-  ],
-  "alphabetical_order": true,
+  "sort_categories": ['mais-vendidos', 'blow-hair-chicle'],
   "phone_wpp": true,
   "socials": true
 }
