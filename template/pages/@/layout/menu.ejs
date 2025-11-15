@@ -51,7 +51,7 @@ if (mainCategories) {
       <i class="i-times"></i>
     </button>
 
-    <% if (Array.isArray(links) && links.length) {  %>
+    <% if (header && header.contacts_stripe && Array.isArray(header.contacts_stripe.pages) && header.contacts_stripe.pages.length) {  %>
       <div
           id="categories-nav"
           class="collapse show"
@@ -59,14 +59,14 @@ if (mainCategories) {
           data-parent="#accordion-menu"
         >
         <div class="menu__list">
-      <% for (const index in links) { console.log(index)
-        const { url, title } = links[index] %>
-        <% if (url && title) { %>
+      <% for (const index in header.contacts_stripe.pages) { console.log(index)
+        const { link, title } = header.contacts_stripe.pages[index] %>
+        <% if (link && title) { %>
           
             <a
 
-                  href="/<%= url %>"
-                  id="c-<%= url %>"
+                  href="/<%= link %>"
+                  id="c-<%= link %>"
                   class="menu__item"
                 >
                   <span>
