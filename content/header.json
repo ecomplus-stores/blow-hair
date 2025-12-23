@@ -34,11 +34,20 @@
       {
         "title": "Minha Conta",
         "link": "https://www.blowgummies.com.br/app/#/account/"
+      },
+      {
+        "title": "Linha de Crescimento",
+        "link": ""
       }
     ]
   },
   "categories_list": {
-    "featured": [],
+    "featured": [
+      "/blow-gummies-hair?Gummies Hair",
+      "/blow-gummies-super-tonico-capilar?Super Tônico Crescimento Capilar Blow Gummies",
+      "/blow-gummies-super-tonico-capilar?Super Tônico Crescimento Capilar Blow Gummies",
+      "/super-mask-blow-gummies?Super Mask Blow Gummies"
+    ],
     "random": 20,
     "full_width": false
   },
