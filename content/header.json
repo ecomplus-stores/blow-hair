@@ -12,14 +12,6 @@
         "link": "/compre-agora/"
       },
       {
-        "title": "Super Tônico",
-        "link": "/blow-gummies-super-tonico-capilar"
-      },
-      {
-        "title": "Super Shampoo ",
-        "link": "https://www.blowgummies.com.br/blow-gummies-super-shampoo"
-      },
-      {
         "title": "Gummies Hair",
         "link": "/blow-gummies-hair"
       },
@@ -28,12 +20,20 @@
         "link": "/blow-hair-chicle"
       },
       {
-        "title": "Resultados",
-        "link": "/pages/resultados-reais-blow-gummies"
+        "title": "Super Tônico",
+        "link": "/blow-gummies-super-tonico-capilar"
+      },
+      {
+        "title": "Super Shampoo ",
+        "link": "https://www.blowgummies.com.br/blow-gummies-super-shampoo"
       },
       {
         "title": "Super Máscara ",
         "link": "https://www.blowgummies.com.br/super-mask-blow-gummies"
+      },
+      {
+        "title": "Resultados Reais",
+        "link": "/pages/resultados-reais-blow-gummies"
       }
     ]
   },
