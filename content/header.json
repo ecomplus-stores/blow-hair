@@ -12,10 +12,6 @@
         "link": "/compre-agora/"
       },
       {
-        "title": "Linha de Crescimento",
-        "link": ""
-      },
-      {
         "title": "Super Tônico",
         "link": "/blow-gummies-super-tonico-capilar"
       },
@@ -34,16 +30,15 @@
       {
         "title": "Resultados",
         "link": "/pages/resultados-reais-blow-gummies"
+      },
+      {
+        "title": "Super Máscara ",
+        "link": "https://www.blowgummies.com.br/super-mask-blow-gummies"
       }
     ]
   },
   "categories_list": {
-    "featured": [
-      "/blow-gummies-hair?Gummies Hair",
-      "/blow-gummies-super-tonico-capilar?Super Tônico Crescimento Capilar Blow Gummies",
-      "/blow-gummies-super-tonico-capilar?Super Tônico Crescimento Capilar Blow Gummies",
-      "/super-mask-blow-gummies?Super Mask Blow Gummies"
-    ],
+    "featured": [],
     "random": 20,
     "full_width": false
   },
