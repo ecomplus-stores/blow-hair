@@ -2,5 +2,11 @@
   "title": "Contato",
   "meta_title": "Contato - Blow Gummies",
   "meta_description": "Alguma dúvida, sugestão ou elogio? Fale conosco.",
-  "body": "<iframe width=\"100%\" height=\"1000\" frameborder=\"0\" style=\"border-radius: 20px; margin-bottom: 20px;\" src=\"https://blowgummies.us7.list-manage.com/subscribe?u=968db0f265c7f5d743fc60a6a&id=04d591b11e\"></iframe>\n\n<p style=\"margin-top: 10px; font-size: 1.5rem\">Você também pode falar com nossa consultoria de vendas clicando abaixo</p><a style=\"font-size: 2rem; padding: 7px; margin-top: 10px; border-radius: 50px; background-color: #25d366\" id=\"whatsapp\" href=\"https://api.whatsapp.com/send/?phone=5521 978958823&text&app_absent=0 \"><span style=\"padding: 10px\"><i style=\"color: #fff\" class=\"fab fa-whatsapp\"></i> <strong style=\"color:#fff\">FALE COM A BLOW</strong></span></a>"
+  "body": "<iframe width=\"100%\" height=\"1000\" frameborder=\"0\" style=\"border-radius: 20px; margin-bottom: 20px;\" src=\"https://blowgummies.us7.list-manage.com/subscribe?u=968db0f265c7f5d743fc60a6a&id=04d591b11e\"></iframe>\n\n<p style=\"margin-top: 10px; font-size: 1.5rem\">Você também pode falar com nossa consultoria de vendas clicando abaixo</p><a style=\"font-size: 2rem; padding: 7px; margin-top: 10px; border-radius: 50px; background-color: #25d366\" id=\"whatsapp\" href=\"https://api.whatsapp.com/send/?phone=5521 978958823&text&app_absent=0 \"><span style=\"padding: 10px\"><i style=\"color: #fff\" class=\"fab fa-whatsapp\"></i> <strong style=\"color:#fff\">FALE COM A BLOW</strong></span></a>",
+  "sections": [
+    {
+      "type": "custom-html",
+      "html": "<div class='sk-ww-google-reviews' data-embed-id='25587705'></div><script src='https://widgets.sociablekit.com/google-reviews/widget.js' defer></script>"
+    }
+  ]
 }
