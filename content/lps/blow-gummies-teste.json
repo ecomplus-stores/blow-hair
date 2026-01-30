@@ -70,6 +70,10 @@
     },
     {
       "type": "cta-comprar"
+    },
+    {
+      "type": "custom-html",
+      "html": "<div class='sk-ww-google-reviews' data-embed-id='25587705'></div><script src='https://widgets.sociablekit.com/google-reviews/widget.js' defer></script>"
     }
   ],
   "imagem": "https://d335luupugsy2.cloudfront.net/cms/files/60322/1703857051/$yaqahr1xvqm"
