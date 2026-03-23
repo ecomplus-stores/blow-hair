@@ -53,15 +53,6 @@
       "autoplay": ""
     },
     {
-      "type": "collection-shelf",
-      "shuffle": false,
-      "limit": 12,
-      "page": 1,
-      "sort": "views",
-      "title": "LANÇAMENTOS",
-      "collection_id": "6837c236578b5f795429901d:categories:Os Melhores Kits:/os-mellhores-kits"
-    },
-    {
       "type": "dynamic-showcase",
       "load_more": true,
       "sort": "views"
