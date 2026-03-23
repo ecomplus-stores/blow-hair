@@ -46,7 +46,7 @@
     {
       "type": "collection-shelf",
       "shuffle": false,
-      "limit": 1,
+      "limit": 4,
       "page": 1,
       "sort": "sales",
       "title": "OS MAIS VENDIDOS",
