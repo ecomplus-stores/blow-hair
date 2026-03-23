@@ -48,7 +48,7 @@
       "shuffle": false,
       "limit": 4,
       "page": 1,
-      "sort": "sales",
+      "sort": "views",
       "title": "OS MAIS VENDIDOS",
       "autoplay": ""
     },
