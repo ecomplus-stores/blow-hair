@@ -158,6 +158,10 @@
           }
         }
       ]
+    },
+    {
+      "type": "custom-html",
+      "html": "<div class=\"apx_form\">\n  <div style=\"text-align: center; display:flex; flex-wrap:wrap; justify-content:center; align-items:center;\">\n    \n    <div class=\"col-12 px-0 col-md-5\">\n      <b>Entre no grupo exclusivo 🔥</b><br>\n      <small>Receba ofertas, descontos e novidades antes de todo mundo.</small>\n    </div>\n\n    <div class=\"col-12 px-0 col-md-5\" style=\"margin-top:10px;\">\n      <a href=\"https://chat.whatsapp.com/HjMw60nEXVZ7gz8kkPV51Y\" target=\"_blank\" style=\"\n        display:inline-block;\n        background-color:#25D366;\n        color:#fff;\n        padding:12px 24px;\n        border-radius:8px;\n        text-decoration:none;\n        font-weight:bold;\n        font-size:16px;\n      \">\n        👉 Entrar no grupo do WhatsApp\n      </a>\n    </div>\n\n  </div>\n</div>"
     }
   ]
 }
