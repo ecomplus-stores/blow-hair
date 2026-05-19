@@ -158,6 +158,10 @@
           }
         }
       ]
+    },
+    {
+      "type": "custom-html",
+      "html": "<script id=\"mcjs\">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,\"script\",\"https://chimpstatic.com/mcjs-connected/js/users/dedac60a2c52d4f692c5ab644/dcda3cda8409ba8bafa72c842.js\");</script>"
     }
   ]
 }
