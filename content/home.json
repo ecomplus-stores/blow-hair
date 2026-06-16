@@ -109,47 +109,6 @@
       "banners": []
     },
     {
-      "type": "carousel-influencers",
-      "autoplay": 10000,
-      "banners": [
-        {
-          "img": "/img/uploads/bia-siqueira-blow-gummies.webp",
-          "alt": "Bia Siqueira",
-          "link": "#search-engine"
-        },
-        {
-          "img": "/img/uploads/julia-doorman-blow-gummies.webp",
-          "alt": "Júlia Doorman",
-          "link": "#search-engine"
-        },
-        {
-          "img": "/img/uploads/farkile-blow-gummies.webp",
-          "alt": "Farkile",
-          "link": "#search-engine"
-        },
-        {
-          "img": "/img/uploads/pamela-drudi-blow-gummies.webp",
-          "alt": "Pamela Drudi",
-          "link": "#search-engine"
-        },
-        {
-          "img": "/img/uploads/vivian-amorim-blow-gummies.webp",
-          "alt": "Vivian Amorim",
-          "link": "#search-engine"
-        },
-        {
-          "alt": "Evelyn Regly",
-          "img": "/img/uploads/evelyn-regly-blow-gummies.webp",
-          "link": "#search-engine"
-        },
-        {
-          "link": "#search-engine",
-          "img": "/img/uploads/ana-lidia-blow-gummies.webp",
-          "alt": "Ana Lídia Lopes"
-        }
-      ]
-    },
-    {
       "type": "mgnr_faq",
       "title": "Perguntas Frequentes",
       "list": "description_first",
