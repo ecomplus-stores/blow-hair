@@ -24,10 +24,6 @@
       ]
     },
     {
-      "type": "custom-html",
-      "html": "<div class=\"apx_form\"> <div class=\"\" style=\"text-align: center;justify-content: center;align-items: center; display:flex;flex-wrap:wrap;\"> <div class=\"col-12  px-0 col-md-5\"> <b>Inscreva-se agora<small></small></b> <small>Seja a primeira a receber descontos e conteúdos exclusivos.</small> </div><div class=\"col-12  px-0 col-md-5\"> <form> <input type=\"email\" required name=\"mail\" placeholder=\"Digite seu e-mail\"> <button type=\"submit\" class=\"btn\">Cadastrar</button> </form> </div></div></div>"
-    },
-    {
       "type": "shelfs-nav",
       "shuffle": false,
       "limit": 12,
@@ -169,6 +165,12 @@
     {
       "type": "custom-html",
       "html": "<script id=\"mcjs\">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,\"script\",\"https://chimpstatic.com/mcjs-connected/js/users/dedac60a2c52d4f692c5ab644/dcda3cda8409ba8bafa72c842.js\");</script>"
+    },
+    {
+      "type": "responsive-banner",
+      "img": "/img/uploads/chatgpt-image-16-de-jun.-de-2026-16_36_28-1-.png",
+      "link": "https://chat.whatsapp.com/HjMw60nEXVZ7gz8kkPV51Y",
+      "mobile_img": "/img/uploads/chatgpt-image-16-de-jun.-de-2026-16_43_33.png"
     }
   ]
 }
