@@ -52,6 +52,15 @@
       "title": "Gummies Hair"
     },
     {
+      "type": "collection-shelf",
+      "shuffle": false,
+      "limit": 12,
+      "page": 1,
+      "collection_id": "66ff1ff09e4b2e07f5257d2c:categories:Hair Chicle:/blow-hair-chicle",
+      "sort": "views",
+      "title": "Hair Chicle"
+    },
+    {
       "type": "responsive-banner",
       "img": "/img/uploads/chatgpt-image-16-de-jun.-de-2026-16_36_28-1-.png",
       "link": "https://chat.whatsapp.com/HjMw60nEXVZ7gz8kkPV51Y",
