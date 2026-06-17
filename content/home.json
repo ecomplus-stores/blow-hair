@@ -84,10 +84,6 @@
       "html": "<h2>O que falam<span>sobre as</span></h2>"
     },
     {
-      "type": "banners-grid",
-      "banners": []
-    },
-    {
       "type": "famosos",
       "html": "<div class=\"eu-quero mt-5\">\n  <div class=\"title-box\">\n    <a href=\"#search-engine\">\n    <div class=\"title\"><h2>Agora eu<span>queroooo!</span></h2></div>\n    <div class=\"title-blow-comprar\"></div>\n    </a>\n  </div>\n</div>"
     },
