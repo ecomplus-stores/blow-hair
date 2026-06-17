@@ -131,10 +131,10 @@
   "payment_methods": {
     "bb": false,
     "visa": true,
-    "boleto": true,
+    "boleto": false,
     "aura": false,
     "banrisul": false,
-    "elo": true,
+    "elo": false,
     "hipercard": false,
     "hsbc": false,
     "bradesco": false,
