@@ -43,6 +43,15 @@
       "collection_id": "681bb1e3578b5f79540f9a4b:categories:Gummies Hair:/blow-gummies-hair"
     },
     {
+      "type": "collection-shelf",
+      "shuffle": false,
+      "limit": 12,
+      "page": 1,
+      "collection_id": "681bb1e3578b5f79540f9a4b:categories:Gummies Hair:/blow-gummies-hair",
+      "sort": "views",
+      "title": "Gummies Hair"
+    },
+    {
       "type": "responsive-banner",
       "img": "/img/uploads/chatgpt-image-16-de-jun.-de-2026-16_36_28-1-.png",
       "link": "https://chat.whatsapp.com/HjMw60nEXVZ7gz8kkPV51Y",
