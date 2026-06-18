@@ -17,12 +17,6 @@
       ]
     },
     {
-      "type": "responsive-banner",
-      "img": "/img/uploads/banner_resultados_reais.webp",
-      "link": "",
-      "alt": "Resultados Reais de Clientes Reais"
-    },
-    {
       "type": "shelfs-nav",
       "shuffle": false,
       "limit": 12,
