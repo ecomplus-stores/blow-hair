@@ -65,6 +65,15 @@
       "shuffle": false,
       "limit": 12,
       "page": 1,
+      "collection_id": "694a7a60c650040a8c680caf:categories:Cosméticos Capilares:/cosmeticos-capilares",
+      "sort": "views",
+      "title": "Super Shampoo"
+    },
+    {
+      "type": "collection-shelf",
+      "shuffle": false,
+      "limit": 12,
+      "page": 1,
       "collection_id": "66ff1ff09e4b2e07f5257d2c:categories:Hair Chicle:/blow-hair-chicle",
       "sort": "views",
       "title": "Hair Chicle"
