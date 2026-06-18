@@ -33,6 +33,11 @@
       "autoplay": 0
     },
     {
+      "type": "responsive-banner",
+      "img": "/img/uploads/banner-desktop-resultados-2-.jpg.jpeg",
+      "mobile_img": "/img/uploads/banner-mobile-resultados-4-.jpg.jpeg"
+    },
+    {
       "type": "collection-shelf",
       "shuffle": false,
       "limit": 4,
