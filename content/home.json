@@ -33,11 +33,6 @@
       "autoplay": 0
     },
     {
-      "type": "responsive-banner",
-      "img": "/img/uploads/banner-desktop-resultados-2-.jpg.jpeg",
-      "mobile_img": "/img/uploads/banner-mobile-resultados-4-.jpg.jpeg"
-    },
-    {
       "type": "collection-shelf",
       "shuffle": false,
       "limit": 4,
@@ -46,6 +41,11 @@
       "title": "OS MAIS VENDIDOS",
       "autoplay": "",
       "collection_id": "681bb1e3578b5f79540f9a4b:categories:Gummies Hair:/blow-gummies-hair"
+    },
+    {
+      "type": "responsive-banner",
+      "img": "/img/uploads/banner-desktop-resultados-2-.jpg.jpeg",
+      "mobile_img": "/img/uploads/banner-mobile-resultados-4-.jpg.jpeg"
     },
     {
       "type": "collection-shelf",
