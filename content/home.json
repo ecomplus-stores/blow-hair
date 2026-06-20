@@ -42,6 +42,11 @@
       "sort": "views"
     },
     {
+      "type": "responsive-banner",
+      "img": "/img/uploads/banner-desktop-resultadoss.jpg",
+      "mobile_img": "/img/uploads/banner-resultados-mobile.jpg"
+    },
+    {
       "type": "collection-shelf",
       "shuffle": false,
       "limit": 4,
@@ -50,11 +55,6 @@
       "title": "🔥 As escolhas favoritas das manas",
       "autoplay": "",
       "collection_id": "681bb1e3578b5f79540f9a4b:categories:Gummies Hair:/blow-gummies-hair"
-    },
-    {
-      "type": "responsive-banner",
-      "img": "/img/uploads/banner-desktop-resultadoss.jpg",
-      "mobile_img": "/img/uploads/banner-resultados-mobile.jpg"
     },
     {
       "type": "collection-shelf",
