@@ -17,14 +17,6 @@
       ]
     },
     {
-      "type": "collection-shelf",
-      "shuffle": false,
-      "limit": 12,
-      "page": 1,
-      "collection_id": "65cfffa287ab487fbfbb4c4c:collections:Lançamento:/lancamentos",
-      "title": "✨ COMECE COM BLOW"
-    },
-    {
       "type": "shelfs-nav",
       "shuffle": false,
       "limit": 12,
@@ -39,6 +31,14 @@
       "shelfs_title": "ESCOLHA SEU KIT IDEAL",
       "sort": "views",
       "autoplay": 0
+    },
+    {
+      "type": "collection-shelf",
+      "shuffle": false,
+      "limit": 12,
+      "page": 1,
+      "collection_id": "65cfffa287ab487fbfbb4c4c:collections:Lançamento:/lancamentos",
+      "title": "✨ COMECE COM BLOW"
     },
     {
       "type": "collection-shelf",
