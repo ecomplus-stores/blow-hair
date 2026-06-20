@@ -35,10 +35,11 @@
     {
       "type": "collection-shelf",
       "shuffle": false,
-      "limit": 12,
+      "limit": 13,
       "page": 1,
-      "collection_id": "65cfffa287ab487fbfbb4c4c:collections:Lançamento:/lancamentos",
-      "title": "✨ Primeiro tratamento? Comece por aqui"
+      "collection_id": "65b152e02cd6b659591147a0:collections:60 Dias:/lista-blow-gummies-60-dias",
+      "title": "✨ Primeira Vez? Comece por aqui",
+      "sort": "views"
     },
     {
       "type": "collection-shelf",
