@@ -61,15 +61,6 @@
       "shuffle": false,
       "limit": 12,
       "page": 1,
-      "collection_id": "681bb1e3578b5f79540f9a4b:categories:Gummies Hair:/blow-gummies-hair",
-      "sort": "views",
-      "title": "Gummies Hair"
-    },
-    {
-      "type": "collection-shelf",
-      "shuffle": false,
-      "limit": 12,
-      "page": 1,
       "collection_id": "682d1978578b5f79541f6d50:categories:Super Tônico Crescimento Capilar Blow Gummies:/blow-gummies-super-tonico-capilar",
       "sort": "views",
       "title": "Super Tônico Capilar"
@@ -91,6 +82,15 @@
       "collection_id": "66ff1ff09e4b2e07f5257d2c:categories:Hair Chicle:/blow-hair-chicle",
       "sort": "views",
       "title": "Hair Chicle"
+    },
+    {
+      "type": "collection-shelf",
+      "shuffle": false,
+      "limit": 12,
+      "page": 1,
+      "collection_id": "681bb1e3578b5f79540f9a4b:categories:Gummies Hair:/blow-gummies-hair",
+      "sort": "views",
+      "title": "Gummies Hair"
     },
     {
       "type": "responsive-banner",
