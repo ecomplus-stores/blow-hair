@@ -161,7 +161,7 @@
     },
     {
       "type": "custom-html",
-      "html": "/* Destacar produto específico pelo SKU */\n[data-sku=\"Q2HNM5G9U-180-HAIR\"] {\n    transform: scale(1.08);\n    border: 3px solid #ff0080;\n    box-shadow: 0 0 25px rgba(255,0,128,0.35);\n    border-radius: 20px;\n    position: relative;\n    z-index: 9;\n    background: #fff;\n}\n\n/* Criar selo */\n[data-sku=\"Q2HNM5G9U-180-HAIR\"]::before {\n    content: \"MAIS ESCOLHIDO\";\n    position: absolute;\n    top: -12px;\n    right: -10px;\n    background: #ff0080;\n    color: #fff;\n    padding: 6px 12px;\n    border-radius: 30px;\n    font-size: 11px;\n    font-weight: bold;\n}"
+      "html": "/* Destacar o kit 180 dias */\nbody._blow-gummies-180-dias #product-block {\n    transform: scale(1.03);\n    border: 3px solid #ff0080;\n    box-shadow: 0 0 30px rgba(255, 0, 128, 0.25);\n    border-radius: 20px;\n    padding: 15px;\n    background: #fff;\n    position: relative;\n}\n\n/* Selo */\nbody._blow-gummies-180-dias #product-block::before {\n    content: \"🔥 KIT MAIS ESCOLHIDO\";\n    position: absolute;\n    top: -15px;\n    right: 10px;\n    background: #ff0080;\n    color: white;\n    font-size: 12px;\n    font-weight: bold;\n    padding: 8px 14px;\n    border-radius: 30px;\n    z-index: 10;\n}"
     }
   ]
 }
