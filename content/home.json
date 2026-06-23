@@ -158,6 +158,10 @@
     {
       "type": "custom-html",
       "html": "<script id=\"mcjs\">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,\"script\",\"https://chimpstatic.com/mcjs-connected/js/users/dedac60a2c52d4f692c5ab644/dcda3cda8409ba8bafa72c842.js\");</script>"
+    },
+    {
+      "type": "custom-html",
+      "html": "/* Destacar produto específico pelo SKU */\n[data-sku=\"Q2HNM5G9U-180-HAIR\"] {\n    transform: scale(1.08);\n    border: 3px solid #ff0080;\n    box-shadow: 0 0 25px rgba(255,0,128,0.35);\n    border-radius: 20px;\n    position: relative;\n    z-index: 9;\n    background: #fff;\n}\n\n/* Criar selo */\n[data-sku=\"Q2HNM5G9U-180-HAIR\"]::before {\n    content: \"MAIS ESCOLHIDO\";\n    position: absolute;\n    top: -12px;\n    right: -10px;\n    background: #ff0080;\n    color: #fff;\n    padding: 6px 12px;\n    border-radius: 30px;\n    font-size: 11px;\n    font-weight: bold;\n}"
     }
   ]
 }
