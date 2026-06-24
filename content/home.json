@@ -158,10 +158,6 @@
     {
       "type": "custom-html",
       "html": "<script id=\"mcjs\">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,\"script\",\"https://chimpstatic.com/mcjs-connected/js/users/dedac60a2c52d4f692c5ab644/dcda3cda8409ba8bafa72c842.js\");</script>"
-    },
-    {
-      "type": "custom-html",
-      "html": "/* Destacar o kit 180 dias */\nbody._blow-gummies-180-dias #product-block {\n    transform: scale(1.03);\n    border: 3px solid #ff0080;\n    box-shadow: 0 0 30px rgba(255, 0, 128, 0.25);\n    border-radius: 20px;\n    padding: 15px;\n    background: #fff;\n    position: relative;\n}\n\n/* Selo */\nbody._blow-gummies-180-dias #product-block::before {\n    content: \"🔥 KIT MAIS ESCOLHIDO\";\n    position: absolute;\n    top: -15px;\n    right: 10px;\n    background: #ff0080;\n    color: white;\n    font-size: 12px;\n    font-weight: bold;\n    padding: 8px 14px;\n    border-radius: 30px;\n    z-index: 10;\n}"
     }
   ]
 }
