@@ -42,6 +42,14 @@
     {
       "type": "custom-html",
       "html": "<div style=\"background:#fff2fb; border:1px solid #f0d9ff; border-radius:28px; padding:36px 20px; margin:25px 0 40px; font-family:Arial, sans-serif; text-align:center;\">\n\n  <h2 style=\"color:#7b1bb1; font-size:34px; line-height:1.15; margin:0 0 12px; font-weight:900;\">\n    Quer receber tudo primeiro?\n  </h2>\n\n  <p style=\"color:#4b2557; font-size:17px; line-height:1.5; max-width:720px; margin:0 auto 24px;\">\n    Entre agora na Lista VIP da Super Live Blow e fique de olho nos avisos dos cupons, mimos e lotes especiais.\n  </p>\n\n  <a href=\"https://docs.google.com/forms/d/e/1FAIpQLSd8r0camX6Vx_rX87s9SYddtakRajpMgRla_g5lRK7WTjoCgQ/viewform\" target=\"_blank\" style=\"background:#ff2fa7; color:#ffffff; padding:17px 30px; border-radius:16px; text-decoration:none; font-weight:bold; font-size:18px; display:inline-block;\">\n    ENTRAR NA LISTA VIP AGORA\n  </a>\n\n  <p style=\"font-size:13px; color:#7b5b83; margin:16px 0 0;\">\n    Condições, brindes e lotes podem variar conforme disponibilidade de estoque durante a campanha.\n  </p>\n\n</div>"
+    },
+    {
+      "type": "cta-comprar",
+      "cta_text": "Quero Ser VIP",
+      "cta_anchor": "https://docs.google.com/forms/d/e/1FAIpQLSd8r0camX6Vx_rX87s9SYddtakRajpMgRla_g5lRK7WTjoCgQ/viewform",
+      "title": "Entre na Lista VIP da Super Live Blow e receba primeiro o cupom, os mimos misteriosos e o aviso dos lotes secretos.",
+      "cta_background": "#5100f0",
+      "cta_color": "#fffefe"
     }
   ],
   "body": "<p style=\"text-align:center;\">\n  Entre na Lista VIP da Super Live Blow e receba primeiro o cupom, os mimos misteriosos e os lotes secretos.\n</p>"
