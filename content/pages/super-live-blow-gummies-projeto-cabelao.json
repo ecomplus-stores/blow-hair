@@ -32,6 +32,15 @@
       "html": "<div style=\"background:linear-gradient(135deg,#151515 0%,#2a1433 100%); color:#ffffff; font-family:Arial, sans-serif; padding:46px 20px; text-align:center;\">\n\n  <div style=\"max-width:850px; margin:0 auto;\">\n\n    <h2 style=\"color:#ffffff; font-size:32px; line-height:1.15; margin:0 0 12px; font-weight:900;\">\n      Quer comprar na live com mais segurança?\n    </h2>\n\n    <p style=\"color:#f7dff2; font-size:16px; line-height:1.5; max-width:700px; margin:0 auto 24px;\">\n      Entre agora na Lista VIP, receba os avisos e chegue na Super Live Blow já sabendo qual kit quer aproveitar.\n    </p>\n\n    <a href=\"https://docs.google.com/forms/d/e/1FAIpQLSd8r0camX6Vx_rX87s9SYddtakRajpMgRla_g5lRK7WTjoCgQ/viewform\" target=\"_blank\" style=\"background:#ff2fa7; color:#ffffff; padding:16px 30px; border-radius:14px; text-decoration:none; font-weight:bold; font-size:17px; display:inline-block;\">\n      ENTRAR NA LISTA VIP PARA COMPRAR NA LIVE\n    </a>\n\n    <div style=\"margin:28px auto 0; max-width:760px; text-align:left;\">\n\n      <div style=\"border-top:1px solid rgba(255,255,255,0.15); padding:14px 0;\">\n        <strong style=\"color:#ff2fa7;\">Preciso comprar agora?</strong>\n        <p style=\"color:#f7dff2; margin:6px 0 0; line-height:1.5;\">Não. Essa página é para você entrar na Lista VIP e se preparar para comprar na live.</p>\n      </div>\n\n      <div style=\"border-top:1px solid rgba(255,255,255,0.15); padding:14px 0;\">\n        <strong style=\"color:#ff2fa7;\">Qual kit vale mais a pena?</strong>\n        <p style=\"color:#f7dff2; margin:6px 0 0; line-height:1.5;\">Para muitas manas, o 180 dias é o mais estratégico por equilibrar tempo de rotina e benefícios da campanha.</p>\n      </div>\n\n      <div style=\"border-top:1px solid rgba(255,255,255,0.15); padding:14px 0 0;\">\n        <strong style=\"color:#ff2fa7;\">Como garanto meu mimo?</strong>\n        <p style=\"color:#f7dff2; margin:6px 0 0; line-height:1.5;\">Depois da compra, envie o número do pedido para a Ester conferir, conforme as regras da campanha.</p>\n      </div>\n\n    </div>\n\n    <p style=\"font-size:12px; color:#d8d8d8; margin:22px 0 0;\">\n      Condições, brindes, kits e benefícios podem variar conforme disponibilidade de estoque durante a campanha.\n    </p>\n\n  </div>\n\n</div>"
     },
     {
+      "type": "offers-timer",
+      "max_hours": 24,
+      "start": "2026-07-05T00:19:48.239Z",
+      "end": "2026-07-05T00:19:48.260Z",
+      "offers": [
+        "627bcf7e3da6d37bc22e0c1b"
+      ]
+    },
+    {
       "type": "shelfs-nav",
       "shuffle": false,
       "limit": 8,
