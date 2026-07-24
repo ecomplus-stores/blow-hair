@@ -1,15 +1,18 @@
 {
   "shipping": {
     "show": false,
-    "text": "Entregamos para todo o Brasil"
+    "text": "Entregamos para todo o Brasil",
+    "title": "Frete"
   },
   "installments": {
     "show": true,
-    "text": "Parcele Em Até 6 x Sem Juros"
+    "text": "Parcele Em Até 10 x Sem Juros",
+    "title": "Parcelamento"
   },
   "exchange": {
     "show": false,
-    "text": "Não gostou? A primeira troca é gratuita"
+    "text": "Não gostou? A primeira troca é gratuita",
+    "title": "Política de Troca"
   },
   "promo": {
     "show": false,
