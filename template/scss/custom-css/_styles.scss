@@ -1618,14 +1618,20 @@
     }
   }
 }
-.product__stamps img,
+.product__stamps img {
+  max-width: 160px;
+}
+
 .product-card__stamps img {
-  max-width: 101px;
+  max-width: 133px;
 }
 
 @media (max-width: 768px) {
-  .product__stamps img,
+  .product__stamps img {
+    max-width: 131px;
+  }
+
   .product-card__stamps img {
-    max-width: 82.5px;
+    max-width: 109px;
   }
 }
