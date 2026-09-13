@@ -1,18 +1,3 @@
 {
-  "stamps_list": [
-    {
-      "img": "/img/uploads/design-sem-nome-1-.png",
-      "skus": [
-        "Q2HNM5120-HAIR",
-        "Q2HNM5G9U-40-120-HAIR",
-        "Q2HNM5G9U-83-120-HAIR",
-        "Q2HNM5G9U-70-120-HAIR",
-        "Q2HNM5G9U-80-120-HAIR",
-        "Q2HNM5120-HAIR-MIX",
-        "Q2HNM5G9U-40-60-120-HAIR",
-        "Q2HNM5G9U-40-70-120-HAIR",
-        "Q2HNM5G9U-83-60-120-HAIR"
-      ]
-    }
-  ]
+  "stamps_list": []
 }
