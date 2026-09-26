@@ -36,10 +36,10 @@
     },
     {
       "type": "collection-shelf",
-      "shuffle": false,
+      "shuffle": true,
       "limit": 13,
       "page": 1,
-      "collection_id": "6a37057b568e833125fec3d8:categories:Primeira Vez:/kits-primeira-vez",
+      "collection_id": null,
       "title": "⚡ OFERTA RELÂMPAGO — SÓ HOJE",
       "sort": "views"
     },
