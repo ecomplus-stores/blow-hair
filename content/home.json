@@ -17,6 +17,19 @@
       ]
     },
     {
+      "type": "banner-slider",
+      "autoplay": 9000,
+      "full_width": true,
+      "slides": [
+        {
+          "start": "",
+          "end": "",
+          "img": "/img/uploads/blow-na-midia-desktop-851-x-70-px-.jpg",
+          "mobile_img": "/img/uploads/banner-blow-na-midia.jpg"
+        }
+      ]
+    },
+    {
       "type": "shelfs-nav",
       "shuffle": false,
       "limit": 12,
